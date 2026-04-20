@@ -1,0 +1,49 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Data and outputs
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+analysis/r/power_analysis/output/*.csv
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/tables/*
+!outputs/tables/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+
+# Office lock files
+~$*.docx
