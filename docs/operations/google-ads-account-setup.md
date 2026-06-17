@@ -123,6 +123,92 @@ communications/marketing office already has a Google Ads account or an MCC (mana
 structure. They may be able to create a sub-account for the study, which sidesteps your
 personal verification entirely. Slower to arrange but zero suspension risk.
 
+## "Purpose of use": choose Business
+
+During billing signup Google asks for a permanent **Purpose of use**: **Business** or
+**Eligible non-business**. For this study, **select Business.**
+
+- Google defines business use as wanting "an economic benefit from your advertising,
+  such as increased revenue, sales, or **signups**." Driving signups to the
+  citizen-science app is business use in Google's framing — the lack of profit does not
+  matter.
+- **Eligible non-business** is reserved for *political, charitable, or non-profit*
+  activity only. Selecting it effectively asserts non-profit/charitable status, which is
+  the option most likely to trigger Google requests for **proof** of that status — the
+  documentation burden we want to avoid.
+- **Business does not require you to prove you are a company.** This setting is separate
+  from Account type (Organization vs Individual) and from advertiser identity
+  verification; it only affects VAT treatment.
+- **VAT effect:** with **Business**, Google does not add VAT (reverse-charge; you give a
+  VAT ID and self-assess) — or, if you sign up as an **Individual** in Spain, you are
+  charged the small Spanish indirect tax (~7% + 0.5%). With **Eligible non-business**,
+  Google charges VAT at your local rate. Either is a normal reimbursable line.
+- The setting is **permanent**, so pick Business and do not rely on changing it later.
+
+Note: Google cannot give tax advice and this memo is not legal/tax advice. If finance has
+a specific VAT-handling preference, confirm it, but it does not change the Business choice.
+
+## Ad disclosure name and "who pays": use your own name
+
+Google's signup and verification flow asks two related identity questions — the **legal
+name for the ad disclosure** and **who pays for / funds the ads**. For both, the answer
+must be **you, in your own legal name.** This is the same principle that caused the prior
+suspension: every identity field must match an identity you can actually verify, and you
+can only verify *yourself*, not the university or the EC.
+
+### Legal name for ad disclosure
+
+- List **your own legal name**, matching your payments profile and the ID document you
+  will submit for verification. Google explicitly suspends accounts when the disclosed
+  name does not match submitted documents.
+- Do **not** put the university or research group here — that would force organization
+  verification (authorization + registration documents) you cannot satisfy alone.
+
+**Public consequence — be clear-eyed about this.** Once verified, Google publishes an
+**ad disclosure** and lists you in the public **Ads Transparency Center**
+(adstransparency.google.com), searchable by anyone. Per Google's policy, the publicly
+available information includes:
+
+- Your **name** and a general **location** (country/region from billing — not your home
+  address) shown as the advertiser on each ad.
+- **Name change history**.
+- **Ad creatives** (the actual ads).
+- **Dates and locations** ads served.
+- Any ads removed or account suspensions for legal/policy reasons.
+
+Net effect: **your personal name (not the university's) becomes the public face of these
+ads.** For a citizen-science recruitment campaign this is normally fine, but if your
+ethics protocol or transparency commitments assume the *institution* is the visible
+sponsor, that is an argument for the institutional route (Route B) — only viable with
+university authorization. There is no compliant way to hide the advertiser entirely;
+transparency is mandatory for EU advertisers.
+
+### "Who pays for the ads"
+
+- The **payer of record is the cardholder = you.** You pay with your personal card, so
+  list **yourself**.
+- Do **not** list the university or the **European Commission / EC grant** as the funder.
+  The grant reimbursing you afterwards is an internal arrangement between you and the
+  university; naming a third-party funder makes Google treat that entity as the
+  advertiser and demands verification of it — repeating the suspension.
+
+| If you list as payer/funder... | Verification Google will require | Feasible alone? |
+| --- | --- | --- |
+| **Yourself** (recommended) | Your personal photo ID matching profile + disclosure name | Yes |
+| **University** | University registration docs + authorization letter | Only with university cooperation (Route B) |
+| **EC / "EC grant"** | Proof of that entity's identity and your authority for it | No — would get you suspended |
+
+**Reimbursement is unaffected.** Listing yourself as payer does not jeopardize the claim:
+you incurred a legitimate research expense and hold the invoice + card statement, exactly
+as with cloud/compute. The EC being the ultimate funding *source* lives in the
+university's accounting, not on the Google account.
+
+**One EC-specific caveat:** EC grants typically require **acknowledging EU funding** in
+communication/dissemination materials (funding statement and/or EU emblem). That
+obligation attaches to the **ad creative and landing page**, not to the Google payer
+field. Keep the payer as yourself, but check your grant agreement and add any required EU
+funding acknowledgement to the *ad content or its destination page*.
+
 ## VAT / invoicing note (Spain / EU)
 
 This is often *why* a finance office wants the NIF, so it is worth understanding:
