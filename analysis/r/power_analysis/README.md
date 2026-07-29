@@ -1,53 +1,334 @@
 # Areal-Unit Power Analysis
 
-This directory contains first-pass R code for power analysis of the areal-unit messaging experiment.
+## Finalized design
 
-## Current design assumptions
+1. Country: Spain only.
+2. Areal units: the 50 GADM province-level units (`TYPE_2 == "Provincia"`).
+3. Randomization: one point in time, 15 August 2026. Provinces are assigned to
+   arms once; there is no re-randomization.
+4. Arms: `neutral`, `prevention_focus`, `promotion_focus`, balanced across
+   provinces (17/17/16).
+5. Outcome: province-level Mosquito Alert report counts in the 3 months before
+   15 August 2026 versus the 3 months after (91-day windows).
 
-1. Countries included: Spain and Greece.
-2. Unit of randomization: provinces in Spain and regional units in Greece.
-3. Unit counts used here: 50 provinces in Spain and 74 regional units in Greece.
-4. Messaging arms: `neutral`, `prevention_focus`, and `promotion_focus`.
-5. Treatments are assigned every 14 days from 1 June through 1 November, re-randomizing at each treatment date.
-6. Outcomes are 7-day report counts before treatment and 7-day report counts after treatment.
-7. Initial baseline counts are assumed to average roughly 5 to 10 reports per 7-day period.
-8. The default simulated effect size is a 10% increase for both non-neutral messaging arms relative to neutral.
+## Headline result
 
-## Current modeling approach
+The design as specified cannot detect a 10% effect. Simulated power for a 10%
+increase in reporting, calibrated to observed Spanish province data, is roughly
+**0.05 to 0.07** — that is, at or barely above the false-positive rate. The
+minimum detectable effect at 80% power is an increase of roughly **90% to 160%**
+per arm relative to neutral.
 
-The script simulates repeated pre/post counts for each areal unit and treatment wave, then fits a Poisson difference-in-differences style model:
+This is a sample-size limit, not a modelling artifact. It comes from `tau`.
 
-```r
-count ~ unit + wave + post * arm
+## What `tau` is and why it dominates
+
+For each province, write the outcome as the log ratio of post-window to
+pre-window counts. Two things move that ratio:
+
+1. Poisson counting noise, which shrinks as a province's report volume grows.
+2. A province-specific shock to the seasonal trajectory — some provinces' seasons
+   fall off faster after mid-August than others, and which provinces those are
+   changes from year to year.
+
+`tau` is the standard deviation of (2) on the log scale. A method-of-moments
+split of the observed log-ratio variance into (1) and (2), using the 2021-2024
+seasons, gives:
+
+| Window | 2021 | 2022 | 2023 | 2024 |
+|---|---|---|---|---|
+| 30 days | 0.00 | 0.00 | 0.62 | 0.85 |
+| 45 days | 0.24 | 0.66 | 0.61 | 0.89 |
+| 60 days | 0.49 | 0.68 | 0.63 | 0.89 |
+| 91 days | 0.99 | 1.18 | 0.69 | 0.87 |
+
+Three points matter:
+
+1. `tau` is roughly 0.6-0.9 and does not shrink with window length, so it cannot
+   be reduced by choosing a better pre/post window.
+2. `tau` does not shrink with report volume either, so concentrating on
+   high-volume provinces does not help much.
+3. The 2021 and 2022 zeros at short windows are an artifact: the estimator is
+   truncated at zero, and at those volumes Poisson noise alone exceeds the total
+   observed variance. Treat 2023-2024 as the reliable years.
+
+With 50 provinces in 3 arms, the standard error of one arm-versus-neutral
+contrast is about `tau * sqrt(2 / 16.7)`, or 0.21 to 0.33 on the log scale. A
+10% effect is 0.095 on that scale. There is no estimator that fixes this.
+
+## Correction to earlier results
+
+Earlier versions of this analysis (`power_simulation.R`,
+`docs/operations/hurdle-power-analysis-spain-greece.md`) reported per-arm power
+around 0.85 for a 10% effect. Those numbers should not be used. Two problems:
+
+1. **The analysis model was invalid under realistic data.** The fixed-effects
+   Poisson GLM assumes counting noise is the only residual variation, i.e.
+   `tau = 0`. Simulating with the empirically estimated `tau` and testing with
+   that model yields a Type I error rate of **0.89-0.90** at a nominal 0.05, and
+   0.99 for the omnibus test. The reported "power" was largely its
+   false-positive rate. A quasi-Poisson version is still badly oversized (0.41).
+
+2. **The simulated effect was larger than stated.** The hurdle DGP applied the
+   arm multiplier to both the activation probability and the conditional count,
+   so a nominal 10% effect was closer to 21% in expected counts.
+
+Type I error at a nominal 0.05, 2000 simulations, `tau` = 0.95:
+
+| Estimator | Prevention | Promotion | Joint |
+|---|---|---|---|
+| Randomization inference, weighted | 0.041 | 0.050 | 0.047 |
+| Randomization inference, unweighted | 0.040 | 0.048 | 0.046 |
+| Log-ratio OLS, HC3 | 0.040 | 0.042 | 0.046 |
+| Poisson DiD (earlier model) | 0.895 | 0.903 | 0.990 |
+| Quasi-Poisson DiD | 0.412 | 0.403 | 0.596 |
+
+## Method
+
+`power_single_wave_spain.R` implements the finalized analysis.
+
+**Calibration.** Province pre/post window totals are built from
+`spain_province_daily_counts.csv` for each season 2021-2024. A province's
+expected pre-window count is its observed 2024 level. Its expected post-window
+count is that level times a single Spain-wide seasonal ratio — deliberately
+*not* its own observed post count, which already contains one realization of the
+province shock and would double-count the heterogeneity.
+
+**Data-generating process.** For province `i`:
+
+```
+pre_i  ~ Poisson(lambda_pre_i)
+post_i ~ Poisson(lambda_pre_i * seasonal_ratio * exp(u_i) * effect_arm(i))
+u_i    ~ Normal(-tau^2 / 2, tau^2)
 ```
 
-This yields:
+**Inference.** Randomization inference is the primary test: the reference
+distribution is generated by re-running the actual assignment mechanism, so the
+test is valid by construction. With 50 units and a heavy-tailed outcome this
+matters — robust-SE approximations were noticeably liberal before the
+calibration was corrected. A precision-weighted and an unweighted contrast are
+both reported; weighting buys very little because `tau`, not counting noise,
+is the binding constraint.
 
-1. Per-arm power for detecting `prevention_focus` versus `neutral`.
-2. Per-arm power for detecting `promotion_focus` versus `neutral`.
-3. Joint power for detecting any post-treatment arm effect.
+## What would change the answer
+
+Province shocks are essentially uncorrelated across waves within a season (mean
+cross-wave correlation of province log-ratios is about -0.08 in both 2023 and
+2024), so each re-randomized wave adds close to a full set of independent
+observations. `run_wave_comparison_spain.R` quantifies this. Approximate minimum
+detectable effect at 80% power, `tau` = 0.69:
+
+| Waves | Unit-waves | MDE |
+|---|---|---|
+| 1 (finalized design) | 50 | ~+90% to +160% |
+| 6 | 300 | ~+35% |
+| 11 | 550 | ~+25% |
+| 22 | 1100 | ~+17% |
+
+Options that do *not* help:
+
+1. **Municipalities, under a multiplicative effect.** `tau` at municipality level
+   is *higher* (0.85-1.46), and only ~600 Spanish municipalities record 10 or
+   more reports in a 3-month window. But this holds only because a multiplicative
+   effect leaves zero-baseline units unable to respond (0 x 1.1 = 0). Redefining
+   the effect on the extensive margin turns those same units into the
+   informative ones — see below.
+2. **Narrowing the report type.** Albopictus-only cuts usable provinces from 50
+   to 18 and worsens the MDE to +250%. Bite-only has the lowest per-unit
+   heterogeneity of any count outcome (`tau` = 0.467) but costs 8 provinces, so
+   it lands at about the same MDE as participant counts.
+3. **Sampling effort as a denominator.** Dividing reports by effort adds the
+   denominator's noise and would difference away any effect operating through
+   participation.
+4. **Adding Greece.** Worth about 10% on the MDE, and only for participant
+   counts (21 of 52 Greek units are informative). For report-based outcomes
+   Greece contributes 0-4 usable units.
+
+Two things do help:
+
+1. **Switching the aggregate outcome to participant counts and re-including
+   Greece**: MDE +104%, against roughly +130% to +160% for the original
+   all-report measure.
+2. **Moving to participant (user) level** — the largest single gain. Form a
+   closed cohort of pre-window reporters, assign each to their modal pre-window
+   province, and use the province mean of the per-user log ratio. Over the top
+   30 provinces with 60-day windows this gives **MDE ≈ +57%** and power 0.09 at
+   a 10% effect.
+
+   The gain does *not* come from the closed cohort removing turnover — the
+   closed-cohort aggregate ratio is far worse (+281% to +622%). It comes from
+   averaging a **bounded per-user statistic**, so a handful of heavy reporters
+   cannot dominate a province summary.
+
+   Two costs: the per-user log ratio has a sensitivity of only ~0.54 to a
+   multiplicative effect (accounted for in every figure above), and a closed
+   cohort cannot see recruitment of new participants. It also introduces
+   user-level linkage, which affects the ethics framing.
+3. **Moving to municipalities with a two-margin (hurdle) analysis** — the best
+   single-wave design found, **MDE ~+24%**. It has two parts:
+   - *intensive margin*, the ~850 municipalities with at least one pre-window
+     report, analysed by log ratio: **~+27% alone**, and where nearly all the
+     information is;
+   - *extensive margin*, the ~7,400 silent municipalities, analysed as the
+     probability of recording a first report (natural rate 2.3-3.6% per season):
+     **~+53% alone**, weight 0.16 in the combination.
+
+   Note that turn-2 of this analysis rejected municipalities by comparing `tau`
+   (higher at municipality level) without computing the MDE. That was wrong:
+   `tau` is ~1.4x larger but there are ~17x more units, and `sqrt(847/50)`
+   wins comfortably. Lower thresholds are monotonically better — take every
+   municipality with at least one pre-window report.
+
+   At province level this buys nothing: 0-1 Spanish provinces are silent in the
+   relevant seasons, so the hurdle design degenerates to the original one.
+
+   This design has two structural advantages: `tau` disappears (a binary outcome
+   has variance `p(1-p)` with no extra between-unit component — verified by
+   permutation against real data, where the randomization SE matches binomial
+   theory to three decimals), and sensitivity is ~0.98 rather than 0.54.
+
+   Caveats: it assumes each targeted municipality gets a campaign capable of
+   producing the effect. With a fixed total budget the z-statistic goes as
+   `B/sqrt(n)`, so concentrating spend on fewer municipalities may beat
+   spreading it. Municipality-level ad targetability and spillover between
+   adjacent small municipalities both need validation.
+
+See `docs/operations/power-analysis-spain-provinces-2026.md` for the full
+tables and caveats.
+
+## Sensitivity, not just variance
+
+When comparing province-level summaries, a small residual SD means nothing on
+its own. What matters is SD divided by how far the summary moves for a given
+multiplicative effect on reporting:
+
+| Summary | Sensitivity |
+|---|---|
+| log(sum post / sum pre) | 1.00 |
+| log(mean post per cohort member) | 1.00 |
+| mean of per-user log((post+.5)/(pre+.5)) | 0.47-0.59 |
+| log(share of cohort still reporting) | 0.55-0.61 |
+
+`run_user_level_comparison.R` estimates these by simulation and divides through,
+so its MDE column is comparable across measures. Without that correction the
+mean per-user log ratio looks about twice as good as it is.
+
+## A recurring trap: structural zeros
+
+Three separate results in this project looked good only because zero-heavy data
+made a statistic look stable:
+
+1. The original Poisson DiD reported power 0.85 while having 0.90 Type I error.
+2. Albopictus reporters looked like the best Spanish outcome (SD 0.679 across
+   50 provinces) when albopictus is established in only 18 of them.
+3. Adding Greece appeared to cut the albopictus MDE from +93% to +53%, on the
+   strength of 59 validated reports across 52 units and 5 seasons.
+
+A unit whose baseline is ~0 has a log-ratio pinned at 0 under both the null and
+the alternative. It adds to *n* without adding signal. Any comparison of
+outcomes or geographies here must count only units that could actually respond,
+and must use a log offset on the same scale as the outcome — `run_outcome_
+comparison.R` does both.
 
 ## Files
 
-1. `power_simulation.R`: core simulation functions and a runnable default analysis.
-2. `build_empirical_weekly_counts.R`: builds empirical weekly counts and unit baselines from raw report data.
-3. `run_power_scenarios.R`: compares alternative cadence and window scenarios when the richer empirical simulation API is available.
-4. `run_municipality_coverage_sensitivity.R`: explores how municipality-only power changes as targetable municipality coverage changes.
-5. `run_hybrid_unit_scenarios.R`: explores mixed designs that combine Spain provinces and Greece regional-unit proxies with top-reporting municipalities.
+Finalized analysis:
+
+1. `build_spain_province_daily_counts.R` — province-by-day counts from raw
+   reports (run first; writes `output/spain_province_daily_counts.csv`).
+2. `power_single_wave_spain.R` — calibration, DGP, estimators, MDE.
+3. `run_final_design_spain.R` — produces the finalized result tables.
+4. `run_wave_comparison_spain.R` — repeated-wave alternative.
+
+Alternative outcomes and country sets:
+
+5. `build_province_outcome_panel.R` — province-by-day panel of participants,
+   sampling effort, validated species counts and unique-reporter counts, from
+   the Zenodo sampling-effort dataset (record 21466159). Takes the unzipped
+   `sampling_effort_daily_cellres_05.csv` and a country.
+6. `run_outcome_comparison.R` — compares candidate outcomes and Spain / Greece /
+   both, counting only informative units.
+
+Participant-level design:
+
+7. `build_user_province_reports.R` — report-level table of user UUID, date and
+   province (writes `output/spain_user_province_reports.csv`).
+8. `run_user_level_comparison.R` — closed-cohort construction, sensitivity
+   estimation, like-for-like comparison against the aggregate design, and a
+   direct power simulation of the best configuration.
+
+Extensive-margin (activation) design:
+
+9. `build_municipality_window_counts.R` — municipality-level daily counts plus a
+   complete municipality index, so silent units are represented.
+10. `run_extensive_margin_municipalities.R` — activation rates, the permutation
+    check that a binary outcome carries no `tau`, MDE by number of
+    municipalities targeted, and stratification by prior-year history.
+11. `run_hurdle_combined_design.R` — the two-margin design over all
+    municipalities, with Type I error verification.
+
+Operational targeting:
+
+12. `build_google_ads_crosswalk.R` — matches GADM municipalities to Google Ads
+    geo targets (takes the published `geotargets-*.csv`).
+13. `build_targeting_plan.R` — campaign-ready file with Criteria IDs, centroids
+    and radii, plus the power cost of Google's coverage limit.
+14. `measure_spillover_scale.R` — participant displacement and
+    cross-municipality leakage, the measurable half of the contamination problem.
+15. `run_buffer_design_tradeoff.R` — the separation-versus-power curve that sets
+    the buffer between differently-armed units.
+16. `run_free_circle_placement.R` — freely placed circles on audience-defined
+    candidate locations; the recommended design.
+17. `run_postal_code_design.R` — postal codes as units, and why Google's 10%
+    coverage rules them out.
+
+Spillover is the binding practical constraint: 10.2% of Spanish reports fall
+outside their reporter's modal municipality, and Jones et al. 2012 found only
+~21-25% of ad-recruited visitors were inside the targeted area. Thinning units
+to 5 km minimum separation is optimal under every leakage assumption tested.
+See `docs/operations/radius-targeting-design.md`.
+
+Google Ads names only **970** of Spain's 8,240 municipalities, covering 78% of
+reports. Named-only gives MDE +40%; reaching +23% requires proximity (radius)
+targeting for the rest. See `docs/operations/google-ads-municipality-targeting.md`.
+
+Superseded, kept for reference:
+
+18. `power_simulation.R` — earlier Spain+Greece multi-wave code. See the warning
+   header; its Poisson DiD inference is not valid.
+19. `build_empirical_weekly_counts.R` — weekly counts for Spain/Greece/Germany/
+   Netherlands at province and municipality level.
+20. `run_power_scenarios.R`, `run_municipality_coverage_sensitivity.R`,
+   `run_hybrid_unit_scenarios.R` — earlier scenario runners.
 
 ## Run
 
 From the repository root:
 
 ```bash
-Rscript analysis/r/power_analysis/power_simulation.R
+Rscript analysis/r/power_analysis/build_spain_province_daily_counts.R
+Rscript analysis/r/power_analysis/run_final_design_spain.R 2000
+Rscript analysis/r/power_analysis/run_wave_comparison_spain.R 1000
 ```
 
-The script writes a summary CSV to `analysis/r/power_analysis/output/power_summary.csv`.
+Outputs are written to `analysis/r/power_analysis/output/final_spain_*.csv`.
 
-## Updating with observed counts later
+## Data note
 
-When real 7-day counts are available, the easiest next step will be to replace the synthetic unit-level baseline means with observed province and regional-unit means. The script already includes a helper for reading those values from a CSV.
+Two sources with different coverage are used here.
 
-In practice, this repository now already includes empirical baseline builders and saved outputs derived from the historical Mosquito Alert counts, including 2023-2025 restricted files in `analysis/r/power_analysis/output/`.
+`data/raw/mosquito_alert_raw_reports.Rds` ends on **2025-08-14**, despite some
+output filenames carrying a `_to_20251231` suffix. So the scripts built on it
+(`build_spain_province_daily_counts.R` and everything downstream) have complete
+3-month post-15-August windows for 2021-2024 only; 2025 contributes a pre-window
+only. It also has no species or validation field, so albopictus-level counts
+cannot be derived from it.
 
+The Zenodo sampling-effort dataset (record 21466159, v2026.07.21) runs to
+**2026-07-20** and does carry validated species counts, so
+`run_outcome_comparison.R` calibrates on five complete seasons, 2021-2025.
+
+In both sources, 2023 is an outlier season: 22,160 Spanish reports in June 2023
+against 2,623 in June 2024, and 71,161 pre-window participants against roughly
+6,000-13,000 in every other year. 2025 is a typical recent season and is used as
+the simulation reference.

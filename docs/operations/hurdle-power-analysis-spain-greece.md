@@ -1,5 +1,35 @@
 # Hurdle-Style Power Analysis for Spain and Greece: Final Design Options
 
+> **SUPERSEDED — do not cite the power figures in this document.**
+>
+> Replaced by `power-analysis-spain-provinces-2026.md`. Two problems invalidate
+> the results below:
+>
+> 1. **The analysis model is not valid for these data.** The fixed-effects
+>    Poisson model used to evaluate power assumes that, beyond unit and wave
+>    effects, the only residual variation is Poisson counting noise. Spanish
+>    province data violate this: the province-level log-scale shock to the
+>    post/pre report ratio has SD of roughly 0.6-0.95 after counting noise is
+>    removed. Simulating with that heterogeneity and testing with this model
+>    produces a Type I error rate of about **0.90** for the per-arm tests and
+>    **0.99** for the omnibus test, at a nominal 0.05. The per-arm "power" of
+>    0.85-0.89 reported here is therefore approximately the model's
+>    false-positive rate, not power.
+>
+> 2. **The simulated effect is larger than stated.** As noted in the
+>    "Hurdle-Style Simulation Specification" section below, the arm multiplier is
+>    applied to both the activation probability and the conditional count, so the
+>    nominal 10% scenario corresponds to roughly a 21% increase in expected
+>    counts.
+>
+> Corrected result: under the finalized Spain-only province design, power to
+> detect a 10% effect is approximately 0.05, and the minimum detectable effect at
+> 80% power is an increase of roughly 95% to 170%. Even an 11-wave season-long
+> design reaches only about 0.14 power at a 10% effect.
+>
+> The design description and the empirical data summaries below remain accurate
+> and are still useful as a record of the earlier design options.
+
 ## Purpose
 
 This note documents the final two retained study-design options for the Spain and Greece areal-unit messaging experiment, using empirical Mosquito Alert reporting data restricted to 2023-2025.
