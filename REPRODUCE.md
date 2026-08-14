@@ -137,7 +137,8 @@ manifest against the one in this repository's committed manifest.
 After building campaigns in Google Ads, verify what was actually configured:
 
 ```bash
-Rscript analysis/r/03_randomization/verify_campaign_locations.R <locations export.csv>
+Rscript analysis/r/03_randomization/verify_campaign_locations.R \
+  data/google_ads/campaign_locations_2026-08-14.csv
 ```
 
 This diffs every configured Criteria ID against the frozen assignment (Google's

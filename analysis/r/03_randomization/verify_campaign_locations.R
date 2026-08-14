@@ -19,7 +19,13 @@
 # gate a launch checklist.
 #
 # Usage:
-#   Rscript analysis/r/03_randomization/verify_campaign_locations.R export.csv
+#   Rscript analysis/r/03_randomization/verify_campaign_locations.R \
+#     data/google_ads/campaign_locations_2026-08-14.csv
+#
+# Exports live in data/google_ads/ (gitignored -- they are operational account
+# data). The verified pre-launch export is campaign_locations_2026-08-14.csv;
+# its result and checksum are recorded in
+# analysis/r/output/campaign_criteria_ids/VERIFIED.md.
 # =============================================================================
 
 suppressWarnings({
