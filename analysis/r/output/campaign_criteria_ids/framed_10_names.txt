@@ -1,0 +1,42 @@
+Santpedor,Catalonia,Spain
+Sayalonga,Andalusia,Spain
+Seron,Andalusia,Spain
+Sestao,Basque Country,Spain
+Silleda,Galicia,Spain
+Simancas,Castile and Leon,Spain
+Sineu,Balearic Islands,Spain
+Sotalbo,Castile and Leon,Spain
+Suria,Catalonia,Spain
+Taboada,Galicia,Spain
+Tarancon,Castile-La Mancha,Spain
+Teia,Catalonia,Spain
+Tocina,Andalusia,Spain
+Tolosa,Basque Country,Spain
+Tomelloso,Castile-La Mancha,Spain
+Tordoia,Galicia,Spain
+Torre-Pacheco,Region of Murcia,Spain
+Torrejon de la Calzada,Community of Madrid,Spain
+Municipality of Torrelodones,Community of Madrid,Spain
+Torres de la Alameda,Community of Madrid,Spain
+Tudela de Duero,Castile and Leon,Spain
+Umbrete,Andalusia,Spain
+Val do Dubra,Galicia,Spain
+Valdaliga,Cantabria,Spain
+Valdepenas,Castile-La Mancha,Spain
+Valderredible,Cantabria,Spain
+Valldemossa,Balearic Islands,Spain
+Valle de Mena,Castile and Leon,Spain
+Vallmoll,Catalonia,Spain
+Velez-Blanco,Andalusia,Spain
+Verin,Galicia,Spain
+Vilalba,Galicia,Spain
+Vilallonga de Ter,Catalonia,Spain
+Vilanova de Arousa,Galicia,Spain
+Villamanta,Community of Madrid,Spain
+Villamayor,Castile and Leon,Spain
+Villanueva de Gallego,Aragon,Spain
+Villanueva de la Torre,Castile-La Mancha,Spain
+Villarrobledo,Castile-La Mancha,Spain
+Villarta-Quintana,La Rioja,Spain
+Villayon,Asturias,Spain
+Xove,Galicia,Spain

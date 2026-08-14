@@ -1,0 +1,841 @@
+"Campaign","Location ID","Location","unit_name","province","median_pre_participants"
+"MA2026_framed_01","9220037","Municipality of Seville,Andalusia,Spain","Sevilla, Sevilla","Sevilla",17
+"MA2026_framed_01","9218777","Municipality of Zaragoza,Aragon,Spain","Zaragoza, Zaragoza","Zaragoza",15
+"MA2026_framed_01","9221630","Municipality of Alicante,Valencian Community,Spain","Alicante, Alicante","Alicante",13
+"MA2026_framed_01","9221687","Bilbao,Basque Country,Spain","Bilbao, Vizcaya","Vizcaya",11
+"MA2026_framed_01","9215403","Vitoria-Gasteiz,Basque Country,Spain","Vitoria-Gasteiz, Álava","Álava",9
+"MA2026_framed_01","1005403","Benidorm,Valencian Community,Spain","Benidorm, Alicante","Alicante",8
+"MA2026_framed_01","9211959","Cordoba,Andalusia,Spain","Córdoba, Córdoba","Córdoba",8
+"MA2026_framed_01","1005413","Elx,Valencian Community,Spain","Elche, Alicante","Alicante",8
+"MA2026_framed_01","9210045","Sabadell,Catalonia,Spain","Sabadell, Barcelona","Barcelona",8
+"MA2026_framed_01","9214022","Municipality of Almeria,Andalusia,Spain","Almería, Almería","Almería",7
+"MA2026_framed_01","9208717","Gijon,Asturias,Spain","Gijón, Asturias","Asturias",7
+"MA2026_framed_01","9241443","Torrevieja,Valencian Community,Spain","Torrevieja, Alicante","Alicante",7
+"MA2026_framed_01","9211235","Barakaldo,Basque Country,Spain","Barakaldo, Vizcaya","Vizcaya",6
+"MA2026_framed_01","9197355","Blanes,Catalonia,Spain","Blanes, Girona","Girona",6
+"MA2026_framed_01","1005467","Girona,Girona,Catalonia,Spain","Girona, Girona","Girona",6
+"MA2026_framed_01","9235721","Moguer,Andalusia,Spain","Moguer, Huelva","Huelva",6
+"MA2026_framed_01","9249465","Algemesi,Valencian Community,Spain","Algemesí, Valencia","Valencia",5
+"MA2026_framed_01","1005491","Getafe,Community of Madrid,Spain","Getafe, Madrid","Madrid",5
+"MA2026_framed_01","9260878","L'Hospitalet de Llobregat,Catalonia,Spain","L'Hospitalet de Llobregat, Barcelona","Barcelona",5
+"MA2026_framed_01","1005483","Santiago de Compostela,Galicia,Spain","Santiago de Compostela, A Coruña","A Coruña",5
+"MA2026_framed_01","1005437","Vilanova i la Geltru,Catalonia,Spain","Vilanova i la Geltrú, Barcelona","Barcelona",5
+"MA2026_framed_01","1005487","Alcala de Henares,Community of Madrid,Spain","Alcalá de Henares, Madrid","Madrid",4
+"MA2026_framed_01","9215308","Badajoz,Extremadura,Spain","Badajoz, Badajoz","Badajoz",4
+"MA2026_framed_01","9218585","Municipality of Burgos,Castile and Leon,Spain","Burgos, Burgos","Burgos",4
+"MA2026_framed_01","9217269","Lleida,Catalonia,Spain","Lleida, Lleida","Lleida",4
+"MA2026_framed_01","9232921","Orihuela,Valencian Community,Spain","Orihuela, Alicante","Alicante",4
+"MA2026_framed_01","9049163","Parla,Community of Madrid,Spain","Parla, Madrid","Madrid",4
+"MA2026_framed_01","9208202","Pontevedra,Galicia,Spain","Pontevedra, Pontevedra","Pontevedra",4
+"MA2026_framed_01","9236628","Aspe,Valencian Community,Spain","Aspe, Alicante","Alicante",3
+"MA2026_framed_01","9211934","Caceres,Extremadura,Spain","Cáceres, Cáceres","Cáceres",3
+"MA2026_framed_01","9215170","El Vendrell,Catalonia,Spain","El Vendrell, Tarragona","Tarragona",3
+"MA2026_framed_01","9248572","Las Palmas de Gran Canaria,Canary Islands,Spain","Las Palmas de Gran Canaria, Las Palmas","Las Palmas",3
+"MA2026_framed_01","1005492","Leganes,Community of Madrid,Spain","Leganés, Madrid","Madrid",3
+"MA2026_framed_01","9212643","Llanes,Asturias,Spain","Llanes, Asturias","Asturias",3
+"MA2026_framed_01","9049135","Molina de Segura,Region of Murcia,Spain","Molina de Segura, Murcia","Murcia",3
+"MA2026_framed_01","9222941","Municipality of Montcada i Reixac,Catalonia,Spain","Montcada i Reixac, Barcelona","Barcelona",3
+"MA2026_framed_01","9049179","Puerto Real,Andalusia,Spain","Puerto Real, Cádiz","Cádiz",3
+"MA2026_framed_01","9049189","Sagunt,Valencian Community,Spain","Sagunto, Valencia","Valencia",3
+"MA2026_framed_01","9209053","Sant Quirze del Valles,Catalonia,Spain","Sant Quirze del Vallès, Barcelona","Barcelona",3
+"MA2026_framed_01","9229530","Santa Coloma de Gramenet,Catalonia,Spain","Santa Coloma de Gramenet, Barcelona","Barcelona",3
+"MA2026_framed_01","1005496","Torrejon de Ardoz,Community of Madrid,Spain","Torrejón de Ardoz, Madrid","Madrid",3
+"MA2026_framed_01","9221698","Velez-Malaga,Andalusia,Spain","Vélez-Málaga, Málaga","Málaga",3
+"MA2026_framed_02","1005443","Algeciras,Andalusia,Spain","Algeciras, Cádiz","Cádiz",2
+"MA2026_framed_02","9048987","Aranjuez,Community of Madrid,Spain","Aranjuez, Madrid","Madrid",2
+"MA2026_framed_02","9048991","Arganda del Rey,Community of Madrid,Spain","Arganda del Rey, Madrid","Madrid",2
+"MA2026_framed_02","9218947","Banyoles,Catalonia,Spain","Banyoles, Girona","Girona",2
+"MA2026_framed_02","9221126","Municipality of Betera,Valencian Community,Spain","Bétera, Valencia","Valencia",2
+"MA2026_framed_02","9197598","Cambrils,Catalonia,Spain","Cambrils, Tarragona","Tarragona",2
+"MA2026_framed_02","9256314","Cardedeu,Catalonia,Spain","Cardedeu, Barcelona","Barcelona",2
+"MA2026_framed_02","9246276","Castell-Platja d'Aro,Catalonia,Spain","Castell-Platja d'Aro, Girona","Girona",2
+"MA2026_framed_02","9207479","Ciutadella de Menorca,Balearic Islands,Spain","Ciutadella de Menorca, Baleares","Baleares",2
+"MA2026_framed_02","1005457","Cuenca,Castile-La Mancha,Spain","Cuenca, Cuenca","Cuenca",2
+"MA2026_framed_02","9049053","Denia,Valencian Community,Spain","Dénia, Alicante","Alicante",2
+"MA2026_framed_02","9239019","El Masnou,Catalonia,Spain","El Masnou, Barcelona","Barcelona",2
+"MA2026_framed_02","9221222","El Prat de Llobregat,Catalonia,Spain","El Prat de Llobregat, Barcelona","Barcelona",2
+"MA2026_framed_02","9214803","Es Mercadal,Balearic Islands,Spain","Es Mercadal, Baleares","Baleares",2
+"MA2026_framed_02","9049069","Estepona,Andalusia,Spain","Estepona, Málaga","Málaga",2
+"MA2026_framed_02","9221900","Ferrol,Galicia,Spain","Ferrol, A Coruña","A Coruña",2
+"MA2026_framed_02","9207664","Langreo,Asturias,Spain","Langreo, Asturias","Asturias",2
+"MA2026_framed_02","9210404","Linares,Andalusia,Spain","Linares, Jaén","Jaén",2
+"MA2026_framed_02","9251534","Llagostera,Catalonia,Spain","Llagostera, Girona","Girona",2
+"MA2026_framed_02","9208999","Lliria,Valencian Community,Spain","Llíria, Valencia","Valencia",2
+"MA2026_framed_02","9049123","Mairena del Aljarafe,Andalusia,Spain","Mairena del Aljarafe, Sevilla","Sevilla",2
+"MA2026_framed_02","9217439","Manacor,Balearic Islands,Spain","Manacor, Baleares","Baleares",2
+"MA2026_framed_02","9049144","Motril,Andalusia,Spain","Motril, Granada","Granada",2
+"MA2026_framed_02","9197648","Olot,Catalonia,Spain","Olot, Girona","Girona",2
+"MA2026_framed_02","9208654","Ourense,Galicia,Spain","Ourense, Ourense","Ourense",2
+"MA2026_framed_02","1005544","Paterna,Valencian Community,Spain","Paterna, Valencia","Valencia",2
+"MA2026_framed_02","9049170","Pinto,Community of Madrid,Spain","Pinto, Madrid","Madrid",2
+"MA2026_framed_02","1005453","Ponferrada,Castile and Leon,Spain","Ponferrada, León","León",2
+"MA2026_framed_02","1005433","Rubi,Catalonia,Spain","Rubí, Barcelona","Barcelona",2
+"MA2026_framed_02","9252385","Municipality of San Fernando,Andalusia,Spain","San Fernando, Cádiz","Cádiz",2
+"MA2026_framed_02","9240255","San Juan de Aznalfarache,Andalusia,Spain","San Juan de Aznalfarache, Sevilla","Sevilla",2
+"MA2026_framed_02","9207329","San Roque,Andalusia,Spain","San Roque, Cádiz","Cádiz",2
+"MA2026_framed_02","1005528","Segovia,Castile and Leon,Spain","Segovia, Segovia","Segovia",2
+"MA2026_framed_02","9215056","Municipality of Telde,Canary Islands,Spain","Telde, Las Palmas","Las Palmas",2
+"MA2026_framed_02","9049218","Teruel,Aragon,Spain","Teruel, Teruel","Teruel",2
+"MA2026_framed_02","9049248","Xativa,Valencian Community,Spain","Xàtiva, Valencia","Valencia",2
+"MA2026_framed_02","1005461","Arona,Canary Islands,Spain","Arona, Santa Cruz de Tenerife","Santa Cruz de Tenerife",1
+"MA2026_framed_02","9220439","Lugo,Galicia,Spain","Lugo, Lugo","Lugo",1
+"MA2026_framed_02","9211996","Mahon,Balearic Islands,Spain","Mahón, Baleares","Baleares",1
+"MA2026_framed_02","9250548","Redondela,Galicia,Spain","Redondela, Pontevedra","Pontevedra",1
+"MA2026_framed_02","9261662","Roquetas de Mar,Andalusia,Spain","Roquetas de Mar, Almería","Almería",1
+"MA2026_framed_02","9210403","Villaviciosa,Asturias,Spain","Villaviciosa, Asturias","Asturias",1
+"MA2026_framed_03","9048978","Almonte,Andalusia,Spain","Almonte, Huelva","Huelva",1
+"MA2026_framed_03","9253181","Alpedrete,Community of Madrid,Spain","Alpedrete, Madrid","Madrid",1
+"MA2026_framed_03","9048981","Alzira,Valencian Community,Spain","Alzira, Valencia","Valencia",1
+"MA2026_framed_03","9258100","Andoain,Basque Country,Spain","Andoain, Guipúzcoa","Guipúzcoa",1
+"MA2026_framed_03","9197283","Arenys de Mar,Catalonia,Spain","Arenys de Mar, Barcelona","Barcelona",1
+"MA2026_framed_03","9214217","Arroyomolinos,Community of Madrid,Spain","Arroyomolinos, Madrid","Madrid",1
+"MA2026_framed_03","9049009","Benavente,Castile and Leon,Spain","Benavente, Zamora","Zamora",1
+"MA2026_framed_03","9238240","Cabra,Andalusia,Spain","Cabra, Córdoba","Córdoba",1
+"MA2026_framed_03","9049018","Calahorra,La Rioja,Spain","Calahorra, La Rioja","La Rioja",1
+"MA2026_framed_03","9231373","Municipality of Camas,Andalusia,Spain","Camas, Sevilla","Sevilla",1
+"MA2026_framed_03","9234627","Cambados,Galicia,Spain","Cambados, Pontevedra","Pontevedra",1
+"MA2026_framed_03","9217931","Cangas del Narcea,Asturias,Spain","Cangas del Narcea, Asturias","Asturias",1
+"MA2026_framed_03","9210965","Caravaca de la Cruz,Region of Murcia,Spain","Caravaca de la Cruz, Murcia","Murcia",1
+"MA2026_framed_03","9049024","Carcaixent,Valencian Community,Spain","Carcaixent, Valencia","Valencia",1
+"MA2026_framed_03","9233141","Cassa de la Selva,Catalonia,Spain","Cassà de la Selva, Girona","Girona",1
+"MA2026_framed_03","9049030","Castalla,Valencian Community,Spain","Castalla, Alicante","Alicante",1
+"MA2026_framed_03","9255067","Castellbisbal,Catalonia,Spain","Castellbisbal, Barcelona","Barcelona",1
+"MA2026_framed_03","9049044","Colmenar Viejo,Community of Madrid,Spain","Colmenar Viejo, Madrid","Madrid",1
+"MA2026_framed_03","9256524","Culleredo,Galicia,Spain","Culleredo, A Coruña","A Coruña",1
+"MA2026_framed_03","9264153","Durango,Basque Country,Spain","Durango, Vizcaya","Vizcaya",1
+"MA2026_framed_03","9215293","Errenteria,Basque Country,Spain","Errenteria, Guipúzcoa","Guipúzcoa",1
+"MA2026_framed_03","9213562","Municipality of Esplugues de Llobregat,Catalonia,Spain","Esplugues de Llobregat, Barcelona","Barcelona",1
+"MA2026_framed_03","9212437","Jaen,Andalusia,Spain","Jaén, Jaén","Jaén",1
+"MA2026_framed_03","9223905","La Zubia,Andalusia,Spain","La Zubia, Granada","Granada",1
+"MA2026_framed_03","9218174","Llinars del Valles,Catalonia,Spain","Llinars del Vallès, Barcelona","Barcelona",1
+"MA2026_framed_03","9195803","Martorell,Catalonia,Spain","Martorell, Barcelona","Barcelona",1
+"MA2026_framed_03","9212804","Mollerussa,Catalonia,Spain","Mollerussa, Lleida","Lleida",1
+"MA2026_framed_03","9220391","Muro,Balearic Islands,Spain","Muro, Baleares","Baleares",1
+"MA2026_framed_03","9245251","Palafrugell,Catalonia,Spain","Palafrugell, Girona","Girona",1
+"MA2026_framed_03","9210925","Ponteareas,Galicia,Spain","Ponteareas, Pontevedra","Pontevedra",1
+"MA2026_framed_03","9221395","Municipality of San Bartolome de Tirajana,Canary Islands,Spain","San Bartolomé de Tirajana, Las Palmas","Las Palmas",1
+"MA2026_framed_03","9196881","Sanlucar de Barrameda,Andalusia,Spain","Sanlúcar de Barrameda, Cádiz","Cádiz",1
+"MA2026_framed_03","9210376","Sant Just Desvern,Catalonia,Spain","Sant Just Desvern, Barcelona","Barcelona",1
+"MA2026_framed_03","9215564","Sant Pere de Ribes,Catalonia,Spain","Sant Pere de Ribes, Barcelona","Barcelona",1
+"MA2026_framed_03","9232586","Santa Cruz de Bezana,Cantabria,Spain","Santa Cruz de Bezana, Cantabria","Cantabria",1
+"MA2026_framed_03","9216056","Sanxenxo,Galicia,Spain","Sanxenxo, Pontevedra","Pontevedra",1
+"MA2026_framed_03","9049217","Tarrega,Catalonia,Spain","Tàrrega, Lleida","Lleida",1
+"MA2026_framed_03","9049222","Torrelavega,Cantabria,Spain","Torrelavega, Cantabria","Cantabria",1
+"MA2026_framed_03","9049225","Tortosa,Catalonia,Spain","Tortosa, Tarragona","Tarragona",1
+"MA2026_framed_03","9049226","Totana,Region of Murcia,Spain","Totana, Murcia","Murcia",1
+"MA2026_framed_03","1005474","Vilafranca del Penedes,Catalonia,Spain","Vilafranca del Penedès, Barcelona","Barcelona",1
+"MA2026_framed_03","9049250","Zamora,Castile and Leon,Spain","Zamora, Zamora","Zamora",1
+"MA2026_framed_04","9049035","Ceuti,Region of Murcia,Spain","Ceutí, Murcia","Murcia",1
+"MA2026_framed_04","9221247","Ciempozuelos,Community of Madrid,Spain","Ciempozuelos, Madrid","Madrid",1
+"MA2026_framed_04","9195829","Collado Villalba,Community of Madrid,Spain","Collado Villalba, Madrid","Madrid",1
+"MA2026_framed_04","9218990","Cunit,Catalonia,Spain","Cunit, Tarragona","Tarragona",1
+"MA2026_framed_04","9213918","Ecija,Andalusia,Spain","Écija, Sevilla","Sevilla",1
+"MA2026_framed_04","9214386","Eibar,Basque Country,Spain","Eibar, Guipúzcoa","Guipúzcoa",1
+"MA2026_framed_04","9220569","Municipality of El Rosario,Canary Islands,Spain","El Rosario, Santa Cruz de Tenerife","Santa Cruz de Tenerife",1
+"MA2026_framed_04","9049060","Elgoibar,Basque Country,Spain","Elgoibar, Guipúzcoa","Guipúzcoa",1
+"MA2026_framed_04","9216554","Es Migjorn Gran,Balearic Islands,Spain","Es Migjorn Gran, Baleares","Baleares",1
+"MA2026_framed_04","9215991","L'Alcora,Valencian Community,Spain","L'Alcora, Castellón","Castellón",1
+"MA2026_framed_04","9049101","La Pobla de Vallbona,Valencian Community,Spain","La Pobla de Vallbona, Valencia","Valencia",1
+"MA2026_framed_04","9235979","La Roda,Castile-La Mancha,Spain","La Roda, Albacete","Albacete",1
+"MA2026_framed_04","9049106","La Vall d'Uixo,Valencian Community,Spain","La Vall d'Uixó, Castellón","Castellón",1
+"MA2026_framed_04","9236191","Laredo,Cantabria,Spain","Laredo, Cantabria","Cantabria",1
+"MA2026_framed_04","9214155","Los Llanos de Aridane,Canary Islands,Spain","Los Llanos de Aridane, Santa Cruz de Tenerife","Santa Cruz de Tenerife",1
+"MA2026_framed_04","9227800","Madridejos,Castile-La Mancha,Spain","Madridejos, Toledo","Toledo",1
+"MA2026_framed_04","9245450","Manlleu,Catalonia,Spain","Manlleu, Barcelona","Barcelona",1
+"MA2026_framed_04","9212054","Melide,Galicia,Spain","Melide, A Coruña","A Coruña",1
+"MA2026_framed_04","9224217","Montmelo,Catalonia,Spain","Montmeló, Barcelona","Barcelona",1
+"MA2026_framed_04","9242531","Montornes del Valles,Catalonia,Spain","Montornès del Vallès, Barcelona","Barcelona",1
+"MA2026_framed_04","9049143","Moron de la Frontera,Andalusia,Spain","Morón de la Frontera, Sevilla","Sevilla",1
+"MA2026_framed_04","9049149","Navalmoral de la Mata,Extremadura,Spain","Navalmoral de la Mata, Cáceres","Cáceres",1
+"MA2026_framed_04","1005543","Onda,Valencian Community,Spain","Onda, Castellón","Castellón",1
+"MA2026_framed_04","9226811","Peligros,Andalusia,Spain","Peligros, Granada","Granada",1
+"MA2026_framed_04","9049165","Peniscola,Valencian Community,Spain","Peñíscola, Castellón","Castellón",1
+"MA2026_framed_04","9210917","Perafort,Catalonia,Spain","Perafort, Tarragona","Tarragona",1
+"MA2026_framed_04","9049175","Priego de Cordoba,Andalusia,Spain","Priego de Córdoba, Córdoba","Córdoba",1
+"MA2026_framed_04","9218610","Ribeira,Galicia,Spain","Ribeira, A Coruña","A Coruña",1
+"MA2026_framed_04","9245996","Riells i Viabrea,Catalonia,Spain","Riells i Viabrea, Girona","Girona",1
+"MA2026_framed_04","9216855","Rincon de la Victoria,Andalusia,Spain","Rincón de la Victoria, Málaga","Málaga",1
+"MA2026_framed_04","9242198","Ronda,Andalusia,Spain","Ronda, Málaga","Málaga",1
+"MA2026_framed_04","9211553","Municipality of Salamanca,Castile and Leon,Spain","Salamanca, Salamanca","Salamanca",1
+"MA2026_framed_04","9049199","Sanlucar la Mayor,Andalusia,Spain","Sanlúcar la Mayor, Sevilla","Sevilla",1
+"MA2026_framed_04","9197321","Sant Boi de Llobregat,Catalonia,Spain","Sant Boi de Llobregat, Barcelona","Barcelona",1
+"MA2026_framed_04","9196110","Sant Vicenc dels Horts,Catalonia,Spain","Sant Vicenç dels Horts, Barcelona","Barcelona",1
+"MA2026_framed_04","9225985","Santa Cruz de La Palma,Canary Islands,Spain","Santa Cruz de la Palma, Santa Cruz de Tenerife","Santa Cruz de Tenerife",1
+"MA2026_framed_04","9211214","Santa Margalida,Balearic Islands,Spain","Santa Margalida, Baleares","Baleares",1
+"MA2026_framed_04","9213363","Sarria,Galicia,Spain","Sarria, Lugo","Lugo",1
+"MA2026_framed_04","9196741","Vic,Catalonia,Spain","Vic, Barcelona","Barcelona",1
+"MA2026_framed_04","9252302","Vilagarcia de Arousa,Galicia,Spain","Vilagarcía de Arousa, Pontevedra","Pontevedra",1
+"MA2026_framed_04","9236960","Villa del Rio,Andalusia,Spain","Villa del Río, Córdoba","Córdoba",1
+"MA2026_framed_04","9212378","Villalbilla,Community of Madrid,Spain","Villalbilla, Madrid","Madrid",1
+"MA2026_framed_05","9215077","A Estrada,Galicia,Spain","A Estrada, Pontevedra","Pontevedra",0
+"MA2026_framed_05","9211551","A Pobra do Caraminal,Galicia,Spain","A Pobra do Caramiñal, A Coruña","A Coruña",0
+"MA2026_framed_05","9216667","A Veiga,Galicia,Spain","A Veiga, Ourense","Ourense",0
+"MA2026_framed_05","9048957","Adra,Andalusia,Spain","Adra, Almería","Almería",0
+"MA2026_framed_05","9048958","Aguadulce,Andalusia,Spain","Aguadulce, Sevilla","Sevilla",0
+"MA2026_framed_05","9048959","Aguilas,Region of Murcia,Spain","Águilas, Murcia","Murcia",0
+"MA2026_framed_05","1005535","Agullent,Valencian Community,Spain","Agullent, Valencia","Valencia",0
+"MA2026_framed_05","9209915","Albinyana,Catalonia,Spain","Albinyana, Tarragona","Tarragona",0
+"MA2026_framed_05","9048963","Alburquerque,Extremadura,Spain","Alburquerque, Badajoz","Badajoz",0
+"MA2026_framed_05","9218648","Alcala del Rio,Andalusia,Spain","Alcalá del Río, Sevilla","Sevilla",0
+"MA2026_framed_05","9048965","Alcaniz,Aragon,Spain","Alcañiz, Teruel","Teruel",0
+"MA2026_framed_05","9243147","Alcasser,Valencian Community,Spain","Alcàsser, Valencia","Valencia",0
+"MA2026_framed_05","9211565","Alcover,Catalonia,Spain","Alcover, Tarragona","Tarragona",0
+"MA2026_framed_05","9207155","Alcudia,Balearic Islands,Spain","Alcúdia, Baleares","Baleares",0
+"MA2026_framed_05","9048969","Alfaro,La Rioja,Spain","Alfaro, La Rioja","La Rioja",0
+"MA2026_framed_05","9048972","Alginet,Valencian Community,Spain","Alginet, Valencia","Valencia",0
+"MA2026_framed_05","9214530","Alhama de Murcia,Region of Murcia,Spain","Alhama de Murcia, Murcia","Murcia",0
+"MA2026_framed_05","9242051","Alhendin,Andalusia,Spain","Alhendín, Granada","Granada",0
+"MA2026_framed_05","9215953","Aliaga,Aragon,Spain","Aliaga, Teruel","Teruel",0
+"MA2026_framed_05","9212023","Aller,Asturias,Spain","Aller, Asturias","Asturias",0
+"MA2026_framed_05","9234088","Alpicat,Catalonia,Spain","Alpicat, Lleida","Lleida",0
+"MA2026_framed_05","9048980","Altea,Valencian Community,Spain","Altea, Alicante","Alicante",0
+"MA2026_framed_05","9211638","Ames,Galicia,Spain","Ames, A Coruña","A Coruña",0
+"MA2026_framed_05","9220842","Amposta,Catalonia,Spain","Amposta, Tarragona","Tarragona",0
+"MA2026_framed_05","1005448","Aranda de Duero,Castile and Leon,Spain","Aranda de Duero, Burgos","Burgos",0
+"MA2026_framed_05","9048996","Atarfe,Andalusia,Spain","Atarfe, Granada","Granada",0
+"MA2026_framed_05","9208990","Binissalem,Balearic Islands,Spain","Binissalem, Baleares","Baleares",0
+"MA2026_framed_05","9049037","Chipiona,Andalusia,Spain","Chipiona, Cádiz","Cádiz",0
+"MA2026_framed_05","9241899","Churriana de la Vega,Andalusia,Spain","Churriana de la Vega, Granada","Granada",0
+"MA2026_framed_05","9240483","Erandio,Basque Country,Spain","Erandio, Vizcaya","Vizcaya",0
+"MA2026_framed_05","9207449","Hernani,Basque Country,Spain","Hernani, Guipúzcoa","Guipúzcoa",0
+"MA2026_framed_05","9217822","La Garriga,Catalonia,Spain","La Garriga, Barcelona","Barcelona",0
+"MA2026_framed_05","9223555","Mojacar,Andalusia,Spain","Mojácar, Almería","Almería",0
+"MA2026_framed_05","9049142","Monzon,Aragon,Spain","Monzón, Huesca","Huesca",0
+"MA2026_framed_05","9212472","Olivella,Catalonia,Spain","Olivella, Barcelona","Barcelona",0
+"MA2026_framed_05","9225505","Padul,Andalusia,Spain","Padul, Granada","Granada",0
+"MA2026_framed_05","9226648","Sant Joan d'Alacant,Valencian Community,Spain","Sant Joan d'Alacant, Alicante","Alicante",0
+"MA2026_framed_05","9213931","Son Servera,Balearic Islands,Spain","Son Servera, Baleares","Baleares",0
+"MA2026_framed_05","9211237","Soto del Barco,Asturias,Spain","Soto del Barco, Asturias","Asturias",0
+"MA2026_framed_05","9211615","Tarifa,Andalusia,Spain","Tarifa, Cádiz","Cádiz",0
+"MA2026_framed_05","9258835","Tias,Canary Islands,Spain","Tías, Las Palmas","Las Palmas",0
+"MA2026_framed_05","9208376","Valls,Catalonia,Spain","Valls, Tarragona","Tarragona",0
+"MA2026_framed_06","9048985","Andujar,Andalusia,Spain","Andújar, Jaén","Jaén",0
+"MA2026_framed_06","9261372","Arahal,Andalusia,Spain","Arahal, Sevilla","Sevilla",0
+"MA2026_framed_06","9216474","Arenas de Iguna,Cantabria,Spain","Arenas de Iguña, Cantabria","Cantabria",0
+"MA2026_framed_06","9248740","Arevalo,Castile and Leon,Spain","Arévalo, Ávila","Ávila",0
+"MA2026_framed_06","1005484","Arnedo,La Rioja,Spain","Arnedo, La Rioja","La Rioja",0
+"MA2026_framed_06","9048993","Arrecife,Canary Islands,Spain","Arrecife, Las Palmas","Las Palmas",0
+"MA2026_framed_06","9230828","Artes,Catalonia,Spain","Artés, Barcelona","Barcelona",0
+"MA2026_framed_06","9217656","As Neves,Galicia,Spain","As Neves, Pontevedra","Pontevedra",0
+"MA2026_framed_06","9220096","Avia,Catalonia,Spain","Avià, Barcelona","Barcelona",0
+"MA2026_framed_06","9211250","Azkoitia,Basque Country,Spain","Azkoitia, Guipúzcoa","Guipúzcoa",0
+"MA2026_framed_06","9049000","Baeza,Andalusia,Spain","Baeza, Jaén","Jaén",0
+"MA2026_framed_06","9212675","Balsa de Ves,Castile-La Mancha,Spain","Balsa de Ves, Albacete","Albacete",0
+"MA2026_framed_06","9218330","Banyalbufar,Balearic Islands,Spain","Banyalbufar, Baleares","Baleares",0
+"MA2026_framed_06","9049002","Barbastro,Aragon,Spain","Barbastro, Huesca","Huesca",0
+"MA2026_framed_06","9049003","Barbate,Andalusia,Spain","Barbate, Cádiz","Cádiz",0
+"MA2026_framed_06","9226302","Begues,Catalonia,Spain","Begues, Barcelona","Barcelona",0
+"MA2026_framed_06","9049007","Bejar,Castile and Leon,Spain","Béjar, Salamanca","Salamanca",0
+"MA2026_framed_06","9049008","Benaguasil,Valencian Community,Spain","Benaguasil, Valencia","Valencia",0
+"MA2026_framed_06","9213976","Benamaurel,Andalusia,Spain","Benamaurel, Granada","Granada",0
+"MA2026_framed_06","1005536","Beniparrell,Valencian Community,Spain","Beniparrell, Valencia","Valencia",0
+"MA2026_framed_06","9252414","Besalu,Catalonia,Spain","Besalú, Girona","Girona",0
+"MA2026_framed_06","9208018","Bimenes,Asturias,Spain","Bimenes, Asturias","Asturias",0
+"MA2026_framed_06","9226170","Binefar,Aragon,Spain","Binéfar, Huesca","Huesca",0
+"MA2026_framed_06","9219534","Boiro,Galicia,Spain","Boiro, A Coruña","A Coruña",0
+"MA2026_framed_06","9217930","Buger,Balearic Islands,Spain","Búger, Baleares","Baleares",0
+"MA2026_framed_06","9237298","Buitrago del Lozoya,Community of Madrid,Spain","Buitrago del Lozoya, Madrid","Madrid",0
+"MA2026_framed_06","9049015","Bullas,Region of Murcia,Spain","Bullas, Murcia","Murcia",0
+"MA2026_framed_06","9261521","Burela,Galicia,Spain","Burela, Lugo","Lugo",0
+"MA2026_framed_06","9209506","Cadiz,Andalusia,Spain","Cádiz, Cádiz","Cádiz",0
+"MA2026_framed_06","9049019","Calasparra,Region of Murcia,Spain","Calasparra, Murcia","Murcia",0
+"MA2026_framed_06","9238129","Camarma de Esteruelas,Community of Madrid,Spain","Camarma de Esteruelas, Madrid","Madrid",0
+"MA2026_framed_06","9216530","Campanet,Balearic Islands,Spain","Campanet, Baleares","Baleares",0
+"MA2026_framed_06","9220218","Campos,Balearic Islands,Spain","Campos, Baleares","Baleares",0
+"MA2026_framed_06","9049023","Canals,Valencian Community,Spain","Canals, Valencia","Valencia",0
+"MA2026_framed_06","9210671","Caniles,Andalusia,Spain","Caniles, Granada","Granada",0
+"MA2026_framed_06","9213605","Cantillana,Andalusia,Spain","Cantillana, Sevilla","Sevilla",0
+"MA2026_framed_06","9049028","Casariche,Andalusia,Spain","Casariche, Sevilla","Sevilla",0
+"MA2026_framed_06","9049029","Casasimarro,Castile-La Mancha,Spain","Casasimarro, Cuenca","Cuenca",0
+"MA2026_framed_06","9261382","Catral,Valencian Community,Spain","Catral, Alicante","Alicante",0
+"MA2026_framed_06","9049034","Cehegin,Region of Murcia,Spain","Cehegín, Murcia","Murcia",0
+"MA2026_framed_06","9231888","Cercedilla,Community of Madrid,Spain","Cercedilla, Madrid","Madrid",0
+"MA2026_framed_06","9221142","Chandrexa de Queixa,Galicia,Spain","Chandrexa de Queixa, Ourense","Ourense",0
+"MA2026_framed_07","9261809","Chauchina,Andalusia,Spain","Chauchina, Granada","Granada",0
+"MA2026_framed_07","9049038","Cieza,Region of Murcia,Spain","Cieza, Murcia","Murcia",0
+"MA2026_framed_07","9049041","Ciudad Rodrigo,Castile and Leon,Spain","Ciudad Rodrigo, Salamanca","Salamanca",0
+"MA2026_framed_07","9207313","Comillas,Cantabria,Spain","Comillas, Cantabria","Cantabria",0
+"MA2026_framed_07","9221473","Cortes y Graena,Andalusia,Spain","Cortes y Graena, Granada","Granada",0
+"MA2026_framed_07","9262043","Municipality of Coslada,Community of Madrid,Spain","Coslada, Madrid","Madrid",0
+"MA2026_framed_07","9211182","Costitx,Balearic Islands,Spain","Costitx, Baleares","Baleares",0
+"MA2026_framed_07","9220579","Cullar,Andalusia,Spain","Cúllar, Granada","Granada",0
+"MA2026_framed_07","9214634","Cuntis,Galicia,Spain","Cuntis, Pontevedra","Pontevedra",0
+"MA2026_framed_07","9215232","Curtis,Galicia,Spain","Curtis, A Coruña","A Coruña",0
+"MA2026_framed_07","9260474","Derio,Basque Country,Spain","Derio, Vizcaya","Vizcaya",0
+"MA2026_framed_07","9049056","Durcal,Andalusia,Spain","Dúrcal, Granada","Granada",0
+"MA2026_framed_07","9261506","El Astillero,Cantabria,Spain","El Astillero, Cantabria","Cantabria",0
+"MA2026_framed_07","9049057","El Cuervo de Sevilla,Andalusia,Spain","El Cuervo de Sevilla, Sevilla","Sevilla",0
+"MA2026_framed_07","9049059","El Viso del Alcor,Andalusia,Spain","El Viso del Alcor, Sevilla","Sevilla",0
+"MA2026_framed_07","9216619","El Viso,Andalusia,Spain","El Viso, Córdoba","Córdoba",0
+"MA2026_framed_07","9214107","Escorca,Balearic Islands,Spain","Escorca, Baleares","Baleares",0
+"MA2026_framed_07","9207264","Esporles,Balearic Islands,Spain","Esporles, Baleares","Baleares",0
+"MA2026_framed_07","9049068","Estepa,Andalusia,Spain","Estepa, Sevilla","Sevilla",0
+"MA2026_framed_07","9212492","Fene,Galicia,Spain","Fene, A Coruña","A Coruña",0
+"MA2026_framed_07","9049070","Flix,Catalonia,Spain","Flix, Tarragona","Tarragona",0
+"MA2026_framed_07","9243009","Foios,Valencian Community,Spain","Foios, Valencia","Valencia",0
+"MA2026_framed_07","9211499","Folgoso do Courel,Galicia,Spain","Folgoso do Courel, Lugo","Lugo",0
+"MA2026_framed_07","9220753","Fornalutx,Balearic Islands,Spain","Fornalutx, Baleares","Baleares",0
+"MA2026_framed_07","9211974","Gelves,Andalusia,Spain","Gelves, Sevilla","Sevilla",0
+"MA2026_framed_07","9215163","Gerena,Andalusia,Spain","Gerena, Sevilla","Sevilla",0
+"MA2026_framed_07","9241139","Gojar,Andalusia,Spain","Gójar, Granada","Granada",0
+"MA2026_framed_07","9259551","Gozon,Asturias,Spain","Gozón, Asturias","Asturias",0
+"MA2026_framed_07","9230020","Grinon,Community of Madrid,Spain","Griñón, Madrid","Madrid",0
+"MA2026_framed_07","9216156","Guadarrama,Community of Madrid,Spain","Guadarrama, Madrid","Madrid",0
+"MA2026_framed_07","9256617","Gurb,Catalonia,Spain","Gurb, Barcelona","Barcelona",0
+"MA2026_framed_07","9215298","Hellin,Castile-La Mancha,Spain","Hellín, Albacete","Albacete",0
+"MA2026_framed_07","9213431","Horcajo de Santiago,Castile-La Mancha,Spain","Horcajo de Santiago, Cuenca","Cuenca",0
+"MA2026_framed_07","9208961","Huercal-Overa,Andalusia,Spain","Huércal-Overa, Almería","Almería",0
+"MA2026_framed_07","9217709","Huescar,Andalusia,Spain","Huéscar, Granada","Granada",0
+"MA2026_framed_07","9049082","Ibi,Valencian Community,Spain","Ibi, Alicante","Alicante",0
+"MA2026_framed_07","9213047","Inca,Balearic Islands,Spain","Inca, Baleares","Baleares",0
+"MA2026_framed_07","9256908","Iscar,Castile and Leon,Spain","Íscar, Valladolid","Valladolid",0
+"MA2026_framed_07","9049092","L'Alcudia,Valencian Community,Spain","L'Alcúdia, Valencia","Valencia",0
+"MA2026_framed_07","9223631","L'Ametlla del Valles,Catalonia,Spain","L'Ametlla del Vallès, Barcelona","Barcelona",0
+"MA2026_framed_07","9228280","L'Olleria,Valencian Community,Spain","L'Olleria, Valencia","Valencia",0
+"MA2026_framed_07","9049098","La Carolina,Andalusia,Spain","La Carolina, Jaén","Jaén",0
+"MA2026_framed_08","9049099","La Linea de la Concepcion,Andalusia,Spain","La Línea de la Concepción, Cádiz","Cádiz",0
+"MA2026_framed_08","9207132","La Nou de Gaia,Catalonia,Spain","La Nou de Gaià, Tarragona","Tarragona",0
+"MA2026_framed_08","1005470","La Palma d'Ebre,Catalonia,Spain","La Palma d'Ebre, Tarragona","Tarragona",0
+"MA2026_framed_08","9237421","La Palma del Condado,Andalusia,Spain","La Palma del Condado, Huelva","Huelva",0
+"MA2026_framed_08","9224096","La Pobla de Farnals,Valencian Community,Spain","La Pobla de Farnals, Valencia","Valencia",0
+"MA2026_framed_08","9209426","La Pobla de Mafumet,Catalonia,Spain","La Pobla de Mafumet, Tarragona","Tarragona",0
+"MA2026_framed_08","9260084","La Union,Region of Murcia,Spain","La Unión, Murcia","Murcia",0
+"MA2026_framed_08","9218974","Lancara,Galicia,Spain","Láncara, Lugo","Lugo",0
+"MA2026_framed_08","9230048","Las Gabias,Andalusia,Spain","Las Gabias, Granada","Granada",0
+"MA2026_framed_08","9212167","Las Penas de Riglos,Aragon,Spain","Las Peñas de Riglos, Huesca","Huesca",0
+"MA2026_framed_08","9207128","Lena,Asturias,Spain","Lena, Asturias","Asturias",0
+"MA2026_framed_08","9216969","Les Borges del Camp,Catalonia,Spain","Les Borges del Camp, Tarragona","Tarragona",0
+"MA2026_framed_08","9212496","Lloret de Vistalegre,Balearic Islands,Spain","Lloret de Vistalegre, Baleares","Baleares",0
+"MA2026_framed_08","9213242","Lloseta,Balearic Islands,Spain","Lloseta, Baleares","Baleares",0
+"MA2026_framed_08","9049116","Loja,Andalusia,Spain","Loja, Granada","Granada",0
+"MA2026_framed_08","9049117","Lora del Rio,Andalusia,Spain","Lora del Río, Sevilla","Sevilla",0
+"MA2026_framed_08","9217283","Los Altos,Castile and Leon,Spain","Los Altos, Burgos","Burgos",0
+"MA2026_framed_08","9049121","Lucena,Andalusia,Spain","Lucena, Córdoba","Córdoba",0
+"MA2026_framed_08","9049122","Mairena del Alcor,Andalusia,Spain","Mairena del Alcor, Sevilla","Sevilla",0
+"MA2026_framed_08","9049124","Mancha Real,Andalusia,Spain","Mancha Real, Jaén","Jaén",0
+"MA2026_framed_08","9244457","Marchamalo,Castile-La Mancha,Spain","Marchamalo, Guadalajara","Guadalajara",0
+"MA2026_framed_08","9049127","Marchena,Andalusia,Spain","Marchena, Sevilla","Sevilla",0
+"MA2026_framed_08","9210616","Maruri-Jatabe,Basque Country,Spain","Maruri-Jatabe, Vizcaya","Vizcaya",0
+"MA2026_framed_08","9049129","Masquefa,Catalonia,Spain","Masquefa, Barcelona","Barcelona",0
+"MA2026_framed_08","9233353","Matadepera,Catalonia,Spain","Matadepera, Barcelona","Barcelona",0
+"MA2026_framed_08","9215425","Mazaricos,Galicia,Spain","Mazaricos, A Coruña","A Coruña",0
+"MA2026_framed_08","9216871","Medina de Pomar,Castile and Leon,Spain","Medina de Pomar, Burgos","Burgos",0
+"MA2026_framed_08","9234101","Mengibar,Andalusia,Spain","Mengíbar, Jaén","Jaén",0
+"MA2026_framed_08","9211087","Mino,Galicia,Spain","Miño, A Coruña","A Coruña",0
+"MA2026_framed_08","9262649","Miraflores de la Sierra,Community of Madrid,Spain","Miraflores de la Sierra, Madrid","Madrid",0
+"MA2026_framed_08","9241076","Mocejon,Castile-La Mancha,Spain","Mocejón, Toledo","Toledo",0
+"MA2026_framed_08","9209080","Mont-ral,Catalonia,Spain","Mont-ral, Tarragona","Tarragona",0
+"MA2026_framed_08","9231022","Mont-ras,Catalonia,Spain","Mont-ras, Girona","Girona",0
+"MA2026_framed_08","9213267","Montbrio del Camp,Catalonia,Spain","Montbrió del Camp, Tarragona","Tarragona",0
+"MA2026_framed_08","9211397","Montferri,Catalonia,Spain","Montferri, Tarragona","Tarragona",0
+"MA2026_framed_08","9049141","Montilla,Andalusia,Spain","Montilla, Córdoba","Córdoba",0
+"MA2026_framed_08","9216147","Morcin,Asturias,Spain","Morcín, Asturias","Asturias",0
+"MA2026_framed_08","9209821","Muras,Galicia,Spain","Muras, Lugo","Lugo",0
+"MA2026_framed_08","9197279","Nerja,Andalusia,Spain","Nerja, Málaga","Málaga",0
+"MA2026_framed_08","9209797","Nijar,Andalusia,Spain","Níjar, Almería","Almería",0
+"MA2026_framed_08","9214296","Noia,Galicia,Spain","Noia, A Coruña","A Coruña",0
+"MA2026_framed_08","9256118","Noja,Cantabria,Spain","Noja, Cantabria","Cantabria",0
+"MA2026_framed_09","9234707","Olivares,Andalusia,Spain","Olivares, Sevilla","Sevilla",0
+"MA2026_framed_09","9257598","Olocau,Valencian Community,Spain","Olocau, Valencia","Valencia",0
+"MA2026_framed_09","9253745","Ondara,Valencian Community,Spain","Ondara, Alicante","Alicante",0
+"MA2026_framed_09","9197405","Ontinyent,Valencian Community,Spain","Ontinyent, Valencia","Valencia",0
+"MA2026_framed_09","9218071","Ordes,Galicia,Spain","Ordes, A Coruña","A Coruña",0
+"MA2026_framed_09","9212817","Outeiro de Rei,Galicia,Spain","Outeiro de Rei, Lugo","Lugo",0
+"MA2026_framed_09","9217447","Paderne de Allariz,Galicia,Spain","Paderne de Allariz, Ourense","Ourense",0
+"MA2026_framed_09","9049161","Palma del Rio,Andalusia,Spain","Palma del Río, Córdoba","Córdoba",0
+"MA2026_framed_09","9230565","Penarroya-Pueblonuevo,Andalusia,Spain","Peñarroya-Pueblonuevo, Córdoba","Córdoba",0
+"MA2026_framed_09","9252845","Pilas,Andalusia,Spain","Pilas, Sevilla","Sevilla",0
+"MA2026_framed_09","9207381","Pinofranqueado,Extremadura,Spain","Pinofranqueado, Cáceres","Cáceres",0
+"MA2026_framed_09","9261572","Pioz,Castile-La Mancha,Spain","Pioz, Guadalajara","Guadalajara",0
+"MA2026_framed_09","9049171","Plasencia,Extremadura,Spain","Plasencia, Cáceres","Cáceres",0
+"MA2026_framed_09","9216355","Pollenca,Balearic Islands,Spain","Pollença, Baleares","Baleares",0
+"MA2026_framed_09","9254628","Posadas,Andalusia,Spain","Posadas, Córdoba","Córdoba",0
+"MA2026_framed_09","9242880","Pozoblanco,Andalusia,Spain","Pozoblanco, Córdoba","Córdoba",0
+"MA2026_framed_09","9049180","Puertollano,Castile-La Mancha,Spain","Puertollano, Ciudad Real","Ciudad Real",0
+"MA2026_framed_09","9216567","Puigpunyent,Balearic Islands,Spain","Puigpunyent, Baleares","Baleares",0
+"MA2026_framed_09","9216258","Quijorna,Community of Madrid,Spain","Quijorna, Madrid","Madrid",0
+"MA2026_framed_09","9214744","Quiroga,Galicia,Spain","Quiroga, Lugo","Lugo",0
+"MA2026_framed_09","9215084","Quiros,Asturias,Spain","Quirós, Asturias","Asturias",0
+"MA2026_framed_09","9220081","Ramiras,Galicia,Spain","Ramirás, Ourense","Ourense",0
+"MA2026_framed_09","9221009","Retortillo de Soria,Castile and Leon,Spain","Retortillo de Soria, Soria","Soria",0
+"MA2026_framed_09","9217199","Ribera d'Urgellet,Catalonia,Spain","Ribera d'Urgellet, Lleida","Lleida",0
+"MA2026_framed_09","9212441","Rios,Galicia,Spain","Riós, Ourense","Ourense",0
+"MA2026_framed_09","1005472","Ripollet,Catalonia,Spain","Ripollet, Barcelona","Barcelona",0
+"MA2026_framed_09","9254006","Riudellots de la Selva,Catalonia,Spain","Riudellots de la Selva, Girona","Girona",0
+"MA2026_framed_09","9212118","Salvaterra de Mino,Galicia,Spain","Salvaterra de Miño, Pontevedra","Pontevedra",0
+"MA2026_framed_09","9212766","San Cibrao das Vinas,Galicia,Spain","San Cibrao das Viñas, Ourense","Ourense",0
+"MA2026_framed_09","9249228","San Fulgencio,Valencian Community,Spain","San Fulgencio, Alicante","Alicante",0
+"MA2026_framed_09","9211175","San Pascual,Castile and Leon,Spain","San Pascual, Ávila","Ávila",0
+"MA2026_framed_09","9222307","San Sadurnino,Galicia,Spain","San Sadurniño, A Coruña","A Coruña",0
+"MA2026_framed_09","9237447","Sant Andreu de la Barca,Catalonia,Spain","Sant Andreu de la Barca, Barcelona","Barcelona",0
+"MA2026_framed_09","9246083","Sant Cebria de Vallalta,Catalonia,Spain","Sant Cebrià de Vallalta, Barcelona","Barcelona",0
+"MA2026_framed_09","9214901","Municipality of Sant Joan Despi,Catalonia,Spain","Sant Joan Despí, Barcelona","Barcelona",0
+"MA2026_framed_09","9216618","Sant Marti de Tous,Catalonia,Spain","Sant Martí de Tous, Barcelona","Barcelona",0
+"MA2026_framed_09","9248255","Sant Pol de Mar,Catalonia,Spain","Sant Pol de Mar, Barcelona","Barcelona",0
+"MA2026_framed_09","9258584","Santa Coloma de Farners,Catalonia,Spain","Santa Coloma de Farners, Girona","Girona",0
+"MA2026_framed_09","9209584","Santa Comba,Galicia,Spain","Santa Comba, A Coruña","A Coruña",0
+"MA2026_framed_09","9212032","Santa Eulalia de Roncana,Catalonia,Spain","Santa Eulàlia de Ronçana, Barcelona","Barcelona",0
+"MA2026_framed_09","9210750","Santiponce,Andalusia,Spain","Santiponce, Sevilla","Sevilla",0
+"MA2026_framed_09","9049207","Santona,Cantabria,Spain","Santoña, Cantabria","Cantabria",0
+"MA2026_framed_10","9231866","Santpedor,Catalonia,Spain","Santpedor, Barcelona","Barcelona",0
+"MA2026_framed_10","9049208","Sayalonga,Andalusia,Spain","Sayalonga, Málaga","Málaga",0
+"MA2026_framed_10","9212350","Seron,Andalusia,Spain","Serón, Almería","Almería",0
+"MA2026_framed_10","9215516","Sestao,Basque Country,Spain","Sestao, Vizcaya","Vizcaya",0
+"MA2026_framed_10","9217850","Silleda,Galicia,Spain","Silleda, Pontevedra","Pontevedra",0
+"MA2026_framed_10","9220497","Simancas,Castile and Leon,Spain","Simancas, Valladolid","Valladolid",0
+"MA2026_framed_10","9210254","Sineu,Balearic Islands,Spain","Sineu, Baleares","Baleares",0
+"MA2026_framed_10","9215208","Sotalbo,Castile and Leon,Spain","Sotalbo, Ávila","Ávila",0
+"MA2026_framed_10","9243049","Suria,Catalonia,Spain","Súria, Barcelona","Barcelona",0
+"MA2026_framed_10","9221390","Taboada,Galicia,Spain","Taboada, Lugo","Lugo",0
+"MA2026_framed_10","9224382","Tarancon,Castile-La Mancha,Spain","Tarancón, Cuenca","Cuenca",0
+"MA2026_framed_10","9212588","Teia,Catalonia,Spain","Teià, Barcelona","Barcelona",0
+"MA2026_framed_10","9221429","Tocina,Andalusia,Spain","Tocina, Sevilla","Sevilla",0
+"MA2026_framed_10","9049085","Tolosa,Basque Country,Spain","Tolosa, Guipúzcoa","Guipúzcoa",0
+"MA2026_framed_10","9049219","Tomelloso,Castile-La Mancha,Spain","Tomelloso, Ciudad Real","Ciudad Real",0
+"MA2026_framed_10","9216655","Tordoia,Galicia,Spain","Tordoia, A Coruña","A Coruña",0
+"MA2026_framed_10","9209301","Torre-Pacheco,Region of Murcia,Spain","Torre-Pacheco, Murcia","Murcia",0
+"MA2026_framed_10","9239446","Torrejon de la Calzada,Community of Madrid,Spain","Torrejón de la Calzada, Madrid","Madrid",0
+"MA2026_framed_10","9190106","Municipality of Torrelodones,Community of Madrid,Spain","Torrelodones, Madrid","Madrid",0
+"MA2026_framed_10","9256471","Torres de la Alameda,Community of Madrid,Spain","Torres de la Alameda, Madrid","Madrid",0
+"MA2026_framed_10","9226731","Tudela de Duero,Castile and Leon,Spain","Tudela de Duero, Valladolid","Valladolid",0
+"MA2026_framed_10","9247641","Umbrete,Andalusia,Spain","Umbrete, Sevilla","Sevilla",0
+"MA2026_framed_10","9217904","Val do Dubra,Galicia,Spain","Val do Dubra, A Coruña","A Coruña",0
+"MA2026_framed_10","9214029","Valdaliga,Cantabria,Spain","Valdáliga, Cantabria","Cantabria",0
+"MA2026_framed_10","9049234","Valdepenas,Castile-La Mancha,Spain","Valdepeñas, Ciudad Real","Ciudad Real",0
+"MA2026_framed_10","9212400","Valderredible,Cantabria,Spain","Valderredible, Cantabria","Cantabria",0
+"MA2026_framed_10","9210447","Valldemossa,Balearic Islands,Spain","Valldemossa, Baleares","Baleares",0
+"MA2026_framed_10","9209474","Valle de Mena,Castile and Leon,Spain","Valle de Mena, Burgos","Burgos",0
+"MA2026_framed_10","9218792","Vallmoll,Catalonia,Spain","Vallmoll, Tarragona","Tarragona",0
+"MA2026_framed_10","9210027","Velez-Blanco,Andalusia,Spain","Vélez-Blanco, Almería","Almería",0
+"MA2026_framed_10","9210391","Verin,Galicia,Spain","Verín, Ourense","Ourense",0
+"MA2026_framed_10","9209172","Vilalba,Galicia,Spain","Vilalba, Lugo","Lugo",0
+"MA2026_framed_10","9213300","Vilallonga de Ter,Catalonia,Spain","Vilallonga de Ter, Girona","Girona",0
+"MA2026_framed_10","9217198","Vilanova de Arousa,Galicia,Spain","Vilanova de Arousa, Pontevedra","Pontevedra",0
+"MA2026_framed_10","9214090","Villamanta,Community of Madrid,Spain","Villamanta, Madrid","Madrid",0
+"MA2026_framed_10","9250383","Villamayor,Castile and Leon,Spain","Villamayor, Salamanca","Salamanca",0
+"MA2026_framed_10","9234743","Villanueva de Gallego,Aragon,Spain","Villanueva de Gállego, Zaragoza","Zaragoza",0
+"MA2026_framed_10","9253274","Villanueva de la Torre,Castile-La Mancha,Spain","Villanueva de la Torre, Guadalajara","Guadalajara",0
+"MA2026_framed_10","9049243","Villarrobledo,Castile-La Mancha,Spain","Villarrobledo, Albacete","Albacete",0
+"MA2026_framed_10","9216053","Villarta-Quintana,La Rioja,Spain","Villarta-Quintana, La Rioja","La Rioja",0
+"MA2026_framed_10","9217122","Villayon,Asturias,Spain","Villayón, Asturias","Asturias",0
+"MA2026_framed_10","9216465","Xove,Galicia,Spain","Xove, Lugo","Lugo",0
+"MA2026_neutral_01","1005518","Vigo,Galicia,Spain","Vigo, Pontevedra","Pontevedra",16
+"MA2026_neutral_01","9222206","Malaga,Andalusia,Spain","Málaga, Málaga","Málaga",14
+"MA2026_neutral_01","9257209","Murcia,Region of Murcia,Spain","Murcia, Murcia","Murcia",14
+"MA2026_neutral_01","9212999","Municipality of Terrassa,Catalonia,Spain","Terrassa, Barcelona","Barcelona",12
+"MA2026_neutral_01","9214647","Badalona,Catalonia,Spain","Badalona, Barcelona","Barcelona",9
+"MA2026_neutral_01","9215883","Municipality of Cartagena,Region of Murcia,Spain","Cartagena, Murcia","Murcia",9
+"MA2026_neutral_01","9218661","Municipality of Palma,Balearic Islands,Spain","Palma de Mallorca, Baleares","Baleares",9
+"MA2026_neutral_01","9220271","Santander,Cantabria,Spain","Santander, Cantabria","Cantabria",8
+"MA2026_neutral_01","9212542","A Coruna,Galicia,Spain","A Coruña, A Coruña","A Coruña",7
+"MA2026_neutral_01","9212825","Municipality of Albacete,Castile-La Mancha,Spain","Albacete, Albacete","Albacete",7
+"MA2026_neutral_01","9048964","Alcala de Guadaira,Andalusia,Spain","Alcalá de Guadaíra, Sevilla","Sevilla",7
+"MA2026_neutral_01","9215780","Oviedo,Asturias,Spain","Oviedo, Asturias","Asturias",7
+"MA2026_neutral_01","9221363","Municipality of Rivas-Vaciamadrid,Community of Madrid,Spain","Rivas-Vaciamadrid, Madrid","Madrid",7
+"MA2026_neutral_01","9049184","Reus,Catalonia,Spain","Reus, Tarragona","Tarragona",6
+"MA2026_neutral_01","9210679","Sant Cugat del Valles,Catalonia,Spain","Sant Cugat del Vallès, Barcelona","Barcelona",6
+"MA2026_neutral_01","9049036","Chiclana de la Frontera,Andalusia,Spain","Chiclana de la Frontera, Cádiz","Cádiz",5
+"MA2026_neutral_01","9049072","Fuenlabrada,Community of Madrid,Spain","Fuenlabrada, Madrid","Madrid",5
+"MA2026_neutral_01","9215194","Municipality of Granada,Andalusia,Spain","Granada, Granada","Granada",5
+"MA2026_neutral_01","9049089","Jerez de la Frontera,Andalusia,Spain","Jerez de la Frontera, Cádiz","Cádiz",5
+"MA2026_neutral_01","9220905","Municipality of Las Rozas de Madrid,Community of Madrid,Spain","Las Rozas de Madrid, Madrid","Madrid",5
+"MA2026_neutral_01","9243986","Municipality of Torrent,Valencian Community,Spain","Torrent, Valencia","Valencia",5
+"MA2026_neutral_01","9048962","Alboraya,Valencian Community,Spain","Alboraya, Valencia","Valencia",4
+"MA2026_neutral_01","9197251","Cornella de Llobregat,Catalonia,Spain","Cornellà de Llobregat, Barcelona","Barcelona",4
+"MA2026_neutral_01","1005445","El Puerto de Santa Maria,Andalusia,Spain","El Puerto de Santa María, Cádiz","Cádiz",4
+"MA2026_neutral_01","1005459","Guadalajara,Castile-La Mancha,Spain","Guadalajara, Guadalajara","Guadalajara",4
+"MA2026_neutral_01","9049086","Irun,Basque Country,Spain","Irun, Guipúzcoa","Guipúzcoa",4
+"MA2026_neutral_01","1005485","Logrono,La Rioja,Spain","Logroño, La Rioja","La Rioja",4
+"MA2026_neutral_01","9224915","Marbella,Andalusia,Spain","Marbella, Málaga","Málaga",4
+"MA2026_neutral_01","1005546","Valladolid,Castile and Leon,Spain","Valladolid, Valladolid","Valladolid",4
+"MA2026_neutral_01","9235599","Viladecans,Catalonia,Spain","Viladecans, Barcelona","Barcelona",4
+"MA2026_neutral_01","1005488","Alcobendas,Community of Madrid,Spain","Alcobendas, Madrid","Madrid",3
+"MA2026_neutral_01","9248073","Alcorcon,Community of Madrid,Spain","Alcorcón, Madrid","Madrid",3
+"MA2026_neutral_01","9195687","Cerdanyola del Valles,Catalonia,Spain","Cerdanyola del Vallès, Barcelona","Barcelona",3
+"MA2026_neutral_01","1005541","Cullera,Valencian Community,Spain","Cullera, Valencia","Valencia",3
+"MA2026_neutral_01","9049064","Espartinas,Andalusia,Spain","Espartinas, Sevilla","Sevilla",3
+"MA2026_neutral_01","1005542","Gandia,Valencian Community,Spain","Gandia, Valencia","Valencia",3
+"MA2026_neutral_01","9049156","Oropesa del Mar,Valencian Community,Spain","Oropesa del Mar, Castellón","Castellón",3
+"MA2026_neutral_01","9049198","San Sebastian de los Reyes,Community of Madrid,Spain","San Sebastián de los Reyes, Madrid","Madrid",3
+"MA2026_neutral_01","9049204","Santa Pola,Valencian Community,Spain","Santa Pola, Alicante","Alicante",3
+"MA2026_neutral_01","9222292","Municipality of Torremolinos,Andalusia,Spain","Torremolinos, Málaga","Málaga",3
+"MA2026_neutral_01","9253436","Torroella de Montgri,Catalonia,Spain","Torroella de Montgrí, Girona","Girona",3
+"MA2026_neutral_01","9049232","Utrera,Andalusia,Spain","Utrera, Sevilla","Sevilla",3
+"MA2026_neutral_02","9048956","Adeje,Canary Islands,Spain","Adeje, Santa Cruz de Tenerife","Santa Cruz de Tenerife",2
+"MA2026_neutral_02","9048976","Almansa,Castile-La Mancha,Spain","Almansa, Albacete","Albacete",2
+"MA2026_neutral_02","9250734","Almunecar,Andalusia,Spain","Almuñécar, Granada","Granada",2
+"MA2026_neutral_02","9224718","Benissa,Valencian Community,Spain","Benissa, Alicante","Alicante",2
+"MA2026_neutral_02","9223724","Caldes de Montbui,Catalonia,Spain","Caldes de Montbui, Barcelona","Barcelona",2
+"MA2026_neutral_02","1005409","Cartaya,Andalusia,Spain","Cartaya, Huelva","Huelva",2
+"MA2026_neutral_02","9207786","Catarroja,Valencian Community,Spain","Catarroja, Valencia","Valencia",2
+"MA2026_neutral_02","1005447","Ceuta,Ceuta,Spain","Ceuta, Ceuta","Ceuta",2
+"MA2026_neutral_02","9261954","Crevillent,Valencian Community,Spain","Crevillent, Alicante","Alicante",2
+"MA2026_neutral_02","1005477","Don Benito,Extremadura,Spain","Don Benito, Badajoz","Badajoz",2
+"MA2026_neutral_02","9195738","Dos Hermanas,Andalusia,Spain","Dos Hermanas, Sevilla","Sevilla",2
+"MA2026_neutral_02","9196816","Figueres,Catalonia,Spain","Figueres, Girona","Girona",2
+"MA2026_neutral_02","9196150","Getxo,Basque Country,Spain","Getxo, Vizcaya","Vizcaya",2
+"MA2026_neutral_02","9221789","Granadilla de Abona,Canary Islands,Spain","Granadilla de Abona, Santa Cruz de Tenerife","Santa Cruz de Tenerife",2
+"MA2026_neutral_02","9049080","Huesca,Aragon,Spain","Huesca, Huesca","Huesca",2
+"MA2026_neutral_02","9229332","L'Eliana,Valencian Community,Spain","L'Eliana, Valencia","Valencia",2
+"MA2026_neutral_02","1005500","Lorca,Region of Murcia,Spain","Lorca, Murcia","Murcia",2
+"MA2026_neutral_02","9207660","Malgrat de Mar,Catalonia,Spain","Malgrat de Mar, Barcelona","Barcelona",2
+"MA2026_neutral_02","9196776","Manresa,Catalonia,Spain","Manresa, Barcelona","Barcelona",2
+"MA2026_neutral_02","9209694","Marratxi,Balearic Islands,Spain","Marratxí, Baleares","Baleares",2
+"MA2026_neutral_02","9207444","Miranda de Ebro,Castile and Leon,Spain","Miranda de Ebro, Burgos","Burgos",2
+"MA2026_neutral_02","9049152","Oliva,Valencian Community,Spain","Oliva, Valencia","Valencia",2
+"MA2026_neutral_02","9210214","Puerto del Rosario,Canary Islands,Spain","Puerto del Rosario, Las Palmas","Las Palmas",2
+"MA2026_neutral_02","1005446","Rota,Andalusia,Spain","Rota, Cádiz","Cádiz",2
+"MA2026_neutral_02","9217223","Sada,Galicia,Spain","Sada, A Coruña","A Coruña",2
+"MA2026_neutral_02","9049190","Salou,Catalonia,Spain","Salou, Tarragona","Tarragona",2
+"MA2026_neutral_02","1005532","San Cristobal de La Laguna,Canary Islands,Spain","San Cristóbal de La Laguna, Santa Cruz de Tenerife","Santa Cruz de Tenerife",2
+"MA2026_neutral_02","9229412","San Javier,Region of Murcia,Spain","San Javier, Murcia","Murcia",2
+"MA2026_neutral_02","9207650","Municipality of Siero,Asturias,Spain","Siero, Asturias","Asturias",2
+"MA2026_neutral_02","9217415","Sueca,Valencian Community,Spain","Sueca, Valencia","Valencia",2
+"MA2026_neutral_02","9049233","Valdemoro,Community of Madrid,Spain","Valdemoro, Madrid","Madrid",2
+"MA2026_neutral_02","9236656","Velilla de San Antonio,Community of Madrid,Spain","Velilla de San Antonio, Madrid","Madrid",2
+"MA2026_neutral_02","9049237","Vera,Andalusia,Spain","Vera, Almería","Almería",2
+"MA2026_neutral_02","9049245","Villaviciosa de Odon,Community of Madrid,Spain","Villaviciosa de Odón, Madrid","Madrid",2
+"MA2026_neutral_02","9049247","Vinaros,Valencian Community,Spain","Vinaròs, Castellón","Castellón",2
+"MA2026_neutral_02","9049004","Basauri,Basque Country,Spain","Basauri, Vizcaya","Vizcaya",1
+"MA2026_neutral_02","9215230","Municipality of Boadilla del Monte,Community of Madrid,Spain","Boadilla del Monte, Madrid","Madrid",1
+"MA2026_neutral_02","9196696","Castelldefels,Catalonia,Spain","Castelldefels, Barcelona","Barcelona",1
+"MA2026_neutral_02","9211969","Cervello,Catalonia,Spain","Cervelló, Barcelona","Barcelona",1
+"MA2026_neutral_02","9239176","Galdakao,Basque Country,Spain","Galdakao, Vizcaya","Vizcaya",1
+"MA2026_neutral_02","9196827","Gava,Catalonia,Spain","Gavà, Barcelona","Barcelona",1
+"MA2026_neutral_02","1005431","Mollet del Valles,Catalonia,Spain","Mollet del Vallès, Barcelona","Barcelona",1
+"MA2026_neutral_03","9209628","Alaior,Balearic Islands,Spain","Alaior, Baleares","Baleares",1
+"MA2026_neutral_03","9256364","Alfafar,Valencian Community,Spain","Alfafar, Valencia","Valencia",1
+"MA2026_neutral_03","9228011","Almoradi,Valencian Community,Spain","Almoradí, Alicante","Alicante",1
+"MA2026_neutral_03","9196308","Antequera,Andalusia,Spain","Antequera, Málaga","Málaga",1
+"MA2026_neutral_03","1005449","Avila‎,Castile and Leon,Spain","Ávila, Ávila","Ávila",1
+"MA2026_neutral_03","9048998","Azuqueca de Henares,Castile-La Mancha,Spain","Azuqueca de Henares, Guadalajara","Guadalajara",1
+"MA2026_neutral_03","9250660","Balenya,Catalonia,Spain","Balenyà, Barcelona","Barcelona",1
+"MA2026_neutral_03","9236476","Municipality of Barbera del Valles,Catalonia,Spain","Barberà del Vallès, Barcelona","Barcelona",1
+"MA2026_neutral_03","9049010","Benicarlo,Valencian Community,Spain","Benicarló, Castellón","Castellón",1
+"MA2026_neutral_03","1005425","Berga,Catalonia,Spain","Berga, Barcelona","Barcelona",1
+"MA2026_neutral_03","9209957","Bunyola,Balearic Islands,Spain","Bunyola, Baleares","Baleares",1
+"MA2026_neutral_03","9191429","Municipality of Burjassot,Valencian Community,Spain","Burjassot, Valencia","Valencia",1
+"MA2026_neutral_03","9250577","Cabrera de Mar,Catalonia,Spain","Cabrera de Mar, Barcelona","Barcelona",1
+"MA2026_neutral_03","1005524","Camargo,Cantabria,Spain","Camargo, Cantabria","Cantabria",1
+"MA2026_neutral_03","9252494","Canet d'en Berenguer,Valencian Community,Spain","Canet d'En Berenguer, Valencia","Valencia",1
+"MA2026_neutral_03","9217567","Capdepera,Balearic Islands,Spain","Capdepera, Baleares","Baleares",1
+"MA2026_neutral_03","9049027","Carmona,Andalusia,Spain","Carmona, Sevilla","Sevilla",1
+"MA2026_neutral_03","9196033","Castellar del Valles,Catalonia,Spain","Castellar del Vallès, Barcelona","Barcelona",1
+"MA2026_neutral_03","9049031","Castro Urdiales,Cantabria,Spain","Castro-Urdiales, Cantabria","Cantabria",1
+"MA2026_neutral_03","9207472","Constanti,Catalonia,Spain","Constantí, Tarragona","Tarragona",1
+"MA2026_neutral_03","9212737","Creixell,Catalonia,Spain","Creixell, Tarragona","Tarragona",1
+"MA2026_neutral_03","9049058","El Ejido,Andalusia,Spain","El Ejido, Almería","Almería",1
+"MA2026_neutral_03","9207713","Esparreguera,Catalonia,Spain","Esparreguera, Barcelona","Barcelona",1
+"MA2026_neutral_03","9197146","Fuengirola,Andalusia,Spain","Fuengirola, Málaga","Málaga",1
+"MA2026_neutral_03","9219145","Illescas,Castile-La Mancha,Spain","Illescas, Toledo","Toledo",1
+"MA2026_neutral_03","9049118","Los Barrios,Andalusia,Spain","Los Barrios, Cádiz","Cádiz",1
+"MA2026_neutral_03","9211158","Municipality of Majadahonda,Community of Madrid,Spain","Majadahonda, Madrid","Madrid",1
+"MA2026_neutral_03","9255812","Municipality of Manises,Valencian Community,Spain","Manises, Valencia","Valencia",1
+"MA2026_neutral_03","9049151","Novelda,Valencian Community,Spain","Novelda, Alicante","Alicante",1
+"MA2026_neutral_03","9212544","Petrer,Valencian Community,Spain","Petrer, Alicante","Alicante",1
+"MA2026_neutral_03","9049168","Pilar de la Horadada,Valencian Community,Spain","Pilar de la Horadada, Alicante","Alicante",1
+"MA2026_neutral_03","9219122","Portugalete,Basque Country,Spain","Portugalete, Vizcaya","Vizcaya",1
+"MA2026_neutral_03","9231169","Pucol,Valencian Community,Spain","Puçol, Valencia","Valencia",1
+"MA2026_neutral_03","9263232","Sant Llorenc d'Hortons,Catalonia,Spain","Sant Llorenç d'Hortons, Barcelona","Barcelona",1
+"MA2026_neutral_03","9230435","Sant Sadurni d'Anoia,Catalonia,Spain","Sant Sadurní d'Anoia, Barcelona","Barcelona",1
+"MA2026_neutral_03","9208475","Santanyi,Balearic Islands,Spain","Santanyí, Baleares","Baleares",1
+"MA2026_neutral_03","1005454","Soria,Castile and Leon,Spain","Soria, Soria","Soria",1
+"MA2026_neutral_03","9195643","Talavera de la Reina,Castile-La Mancha,Spain","Talavera de la Reina, Toledo","Toledo",1
+"MA2026_neutral_03","9211948","Vallirana,Catalonia,Spain","Vallirana, Barcelona","Barcelona",1
+"MA2026_neutral_03","9210753","Vila-seca,Catalonia,Spain","Vila-seca, Tarragona","Tarragona",1
+"MA2026_neutral_03","9049246","Villena,Valencian Community,Spain","Villena, Alicante","Alicante",1
+"MA2026_neutral_03","9263148","Zarautz,Basque Country,Spain","Zarautz, Guipúzcoa","Guipúzcoa",1
+"MA2026_neutral_04","9257672","Celra,Catalonia,Spain","Celrà, Girona","Girona",1
+"MA2026_neutral_04","1005456","Ciudad Real,Ciudad Real,Castile-La Mancha,Spain","Ciudad Real, Ciudad Real","Ciudad Real",1
+"MA2026_neutral_04","9217429","Cocentaina,Valencian Community,Spain","Cocentaina, Alicante","Alicante",1
+"MA2026_neutral_04","9049042","Coin,Andalusia,Spain","Coín, Málaga","Málaga",1
+"MA2026_neutral_04","9249466","Colmenarejo,Community of Madrid,Spain","Colmenarejo, Madrid","Madrid",1
+"MA2026_neutral_04","9049052","Deltebre,Catalonia,Spain","Deltebre, Tarragona","Tarragona",1
+"MA2026_neutral_04","1005404","Elda,Valencian Community,Spain","Elda, Alicante","Alicante",1
+"MA2026_neutral_04","9208300","Felanitx,Balearic Islands,Spain","Felanitx, Baleares","Baleares",1
+"MA2026_neutral_04","9049075","Guardamar del Segura,Valencian Community,Spain","Guardamar del Segura, Alicante","Alicante",1
+"MA2026_neutral_04","9049087","Jaca,Aragon,Spain","Jaca, Huesca","Huesca",1
+"MA2026_neutral_04","9049104","La Rinconada,Andalusia,Spain","La Rinconada, Sevilla","Sevilla",1
+"MA2026_neutral_04","9049109","Lebrija,Andalusia,Spain","Lebrija, Sevilla","Sevilla",1
+"MA2026_neutral_04","9215709","Les Franqueses del Valles,Catalonia,Spain","Les Franqueses del Vallès, Barcelona","Barcelona",1
+"MA2026_neutral_04","9214162","Llanca,Catalonia,Spain","Llançà, Girona","Girona",1
+"MA2026_neutral_04","9219582","Llucmajor,Balearic Islands,Spain","Llucmajor, Baleares","Baleares",1
+"MA2026_neutral_04","9049120","Los Palacios y Villafranca,Andalusia,Spain","Los Palacios y Villafranca, Sevilla","Sevilla",1
+"MA2026_neutral_04","9247847","Manzanares el Real,Community of Madrid,Spain","Manzanares el Real, Madrid","Madrid",1
+"MA2026_neutral_04","9221059","Manzanares,Castile-La Mancha,Spain","Manzanares, Ciudad Real","Ciudad Real",1
+"MA2026_neutral_04","9049136","Molins de Rei,Catalonia,Spain","Molins de Rei, Barcelona","Barcelona",1
+"MA2026_neutral_04","9049138","Moncada,Valencian Community,Spain","Moncada, Valencia","Valencia",1
+"MA2026_neutral_04","9214957","Mutxamel,Valencian Community,Spain","Mutxamel, Alicante","Alicante",1
+"MA2026_neutral_04","9249861","Navia,Asturias,Spain","Navia, Asturias","Asturias",1
+"MA2026_neutral_04","9219234","O Grove,Galicia,Spain","O Grove, Pontevedra","Pontevedra",1
+"MA2026_neutral_04","9217579","O Porrino,Galicia,Spain","O Porriño, Pontevedra","Pontevedra",1
+"MA2026_neutral_04","9215265","Oleiros,Galicia,Spain","Oleiros, A Coruña","A Coruña",1
+"MA2026_neutral_04","9049167","Picassent,Valencian Community,Spain","Picassent, Valencia","Valencia",1
+"MA2026_neutral_04","9220035","Municipality of Pozuelo de Alarcon,Community of Madrid,Spain","Pozuelo de Alarcón, Madrid","Madrid",1
+"MA2026_neutral_04","9232710","Premia de Dalt,Catalonia,Spain","Premià de Dalt, Barcelona","Barcelona",1
+"MA2026_neutral_04","9220659","Punta Umbria,Andalusia,Spain","Punta Umbría, Huelva","Huelva",1
+"MA2026_neutral_04","9250848","Ribadesella,Asturias,Spain","Ribadesella, Asturias","Asturias",1
+"MA2026_neutral_04","9208134","Riudoms,Catalonia,Spain","Riudoms, Tarragona","Tarragona",1
+"MA2026_neutral_04","9209479","San Lorenzo de El Escorial,Community of Madrid,Spain","San Lorenzo de El Escorial, Madrid","Madrid",1
+"MA2026_neutral_04","9049195","San Martin de la Vega,Community of Madrid,Spain","San Martín de la Vega, Madrid","Madrid",1
+"MA2026_neutral_04","9230739","Sant Vicenc de Montalt,Catalonia,Spain","Sant Vicenç de Montalt, Barcelona","Barcelona",1
+"MA2026_neutral_04","9243915","Santa Susanna,Catalonia,Spain","Santa Susanna, Barcelona","Barcelona",1
+"MA2026_neutral_04","9222418","Soller,Balearic Islands,Spain","Sóller, Baleares","Baleares",1
+"MA2026_neutral_04","1005460","Toledo,Castile-La Mancha,Spain","Toledo, Toledo","Toledo",1
+"MA2026_neutral_04","9260214","Tossa de Mar,Catalonia,Spain","Tossa de Mar, Girona","Girona",1
+"MA2026_neutral_04","9049227","Tres Cantos,Community of Madrid,Spain","Tres Cantos, Madrid","Madrid",1
+"MA2026_neutral_04","9049231","Utebo,Aragon,Spain","Utebo, Zaragoza","Zaragoza",1
+"MA2026_neutral_04","9234506","Villanueva del Pardillo,Community of Madrid,Spain","Villanueva del Pardillo, Madrid","Madrid",1
+"MA2026_neutral_04","9216696","Vinyols i els Arcs,Catalonia,Spain","Vinyols i els Arcs, Tarragona","Tarragona",1
+"MA2026_neutral_05","9215072","A Fonsagrada,Galicia,Spain","A Fonsagrada, Lugo","Lugo",0
+"MA2026_neutral_05","9218074","A Lama,Galicia,Spain","A Lama, Pontevedra","Pontevedra",0
+"MA2026_neutral_05","9217126","A Laracha,Galicia,Spain","A Laracha, A Coruña","A Coruña",0
+"MA2026_neutral_05","9257440","Aguilar de la Frontera,Andalusia,Spain","Aguilar de la Frontera, Córdoba","Córdoba",0
+"MA2026_neutral_05","1005486","Ajalvir,Community of Madrid,Spain","Ajalvir, Madrid","Madrid",0
+"MA2026_neutral_05","9235468","Alaquas,Valencian Community,Spain","Alaquàs, Valencia","Valencia",0
+"MA2026_neutral_05","9211756","Alaro,Balearic Islands,Spain","Alaró, Baleares","Baleares",0
+"MA2026_neutral_05","9250807","Albalat dels Sorells,Valencian Community,Spain","Albalat dels Sorells, Valencia","Valencia",0
+"MA2026_neutral_05","9232058","Albatera,Valencian Community,Spain","Albatera, Alicante","Alicante",0
+"MA2026_neutral_05","1005406","Alcala la Real,Andalusia,Spain","Alcalá la Real, Jaén","Jaén",0
+"MA2026_neutral_05","9048966","Alcantarilla,Region of Murcia,Spain","Alcantarilla, Murcia","Murcia",0
+"MA2026_neutral_05","9048967","Alcazar de San Juan,Castile-La Mancha,Spain","Alcázar de San Juan, Ciudad Real","Ciudad Real",0
+"MA2026_neutral_05","9222774","Alcolea del Pinar,Castile-La Mancha,Spain","Alcolea del Pinar, Guadalajara","Guadalajara",0
+"MA2026_neutral_05","9247183","Aldaia,Valencian Community,Spain","Aldaia, Valencia","Valencia",0
+"MA2026_neutral_05","9212004","Algaida,Balearic Islands,Spain","Algaida, Baleares","Baleares",0
+"MA2026_neutral_05","9048971","Algete,Community of Madrid,Spain","Algete, Madrid","Madrid",0
+"MA2026_neutral_05","9048975","Alhaurin el Grande,Andalusia,Spain","Alhaurín el Grande, Málaga","Málaga",0
+"MA2026_neutral_05","9213655","Alio,Catalonia,Spain","Alió, Tarragona","Tarragona",0
+"MA2026_neutral_05","9214073","Almagro,Castile-La Mancha,Spain","Almagro, Ciudad Real","Ciudad Real",0
+"MA2026_neutral_05","9048977","Almendralejo,Extremadura,Spain","Almendralejo, Badajoz","Badajoz",0
+"MA2026_neutral_05","9216587","Almonaster la Real,Andalusia,Spain","Almonaster la Real, Huelva","Huelva",0
+"MA2026_neutral_05","9208739","Altafulla,Catalonia,Spain","Altafulla, Tarragona","Tarragona",0
+"MA2026_neutral_05","9214529","Amorebieta-Etxano,Basque Country,Spain","Amorebieta-Etxano, Vizcaya","Vizcaya",0
+"MA2026_neutral_05","9216537","Amurrio,Basque Country,Spain","Amurrio, Álava","Álava",0
+"MA2026_neutral_05","9220433","Andratx,Balearic Islands,Spain","Andratx, Baleares","Baleares",0
+"MA2026_neutral_05","9243882","Angles,Catalonia,Spain","Anglès, Girona","Girona",0
+"MA2026_neutral_05","9221526","Bormujos,Andalusia,Spain","Bormujos, Sevilla","Sevilla",0
+"MA2026_neutral_05","9195730","Calella,Catalonia,Spain","Calella, Barcelona","Barcelona",0
+"MA2026_neutral_05","9239025","Corbera de Llobregat,Catalonia,Spain","Corbera de Llobregat, Barcelona","Barcelona",0
+"MA2026_neutral_05","9234654","Cuarte de Huerva,Aragon,Spain","Cuarte de Huerva, Zaragoza","Zaragoza",0
+"MA2026_neutral_05","9251498","Municipality of La Roca del Valles,Catalonia,Spain","La Roca del Vallès, Barcelona","Barcelona",0
+"MA2026_neutral_05","9260875","Llica de Vall,Catalonia,Spain","Lliçà de Vall, Barcelona","Barcelona",0
+"MA2026_neutral_05","9214789","Los Alcazares,Region of Murcia,Spain","Los Alcázares, Murcia","Murcia",0
+"MA2026_neutral_05","9214424","Mejorada del Campo,Community of Madrid,Spain","Mejorada del Campo, Madrid","Madrid",0
+"MA2026_neutral_05","9234430","Palamos,Catalonia,Spain","Palamós, Girona","Girona",0
+"MA2026_neutral_05","9259078","Pinoso,Valencian Community,Spain","Pinoso, Alicante","Alicante",0
+"MA2026_neutral_05","9049183","Requena,Valencian Community,Spain","Requena, Valencia","Valencia",0
+"MA2026_neutral_05","9219271","Roses,Catalonia,Spain","Roses, Girona","Girona",0
+"MA2026_neutral_05","9208259","Sant Antoni de Portmany,Balearic Islands,Spain","Sant Antoni de Portmany, Baleares","Baleares",0
+"MA2026_neutral_05","9212954","Sant Joan de Labritja,Balearic Islands,Spain","Sant Joan de Labritja, Baleares","Baleares",0
+"MA2026_neutral_05","9220582","Sitges,Catalonia,Spain","Sitges, Barcelona","Barcelona",0
+"MA2026_neutral_05","9241072","Tui,Galicia,Spain","Tui, Pontevedra","Pontevedra",0
+"MA2026_neutral_06","9048988","Arboleas,Andalusia,Spain","Arboleas, Almería","Almería",0
+"MA2026_neutral_06","9048989","Archena,Region of Murcia,Spain","Archena, Murcia","Murcia",0
+"MA2026_neutral_06","9221284","Ariany,Balearic Islands,Spain","Ariany, Baleares","Baleares",0
+"MA2026_neutral_06","9238021","Armilla,Andalusia,Spain","Armilla, Granada","Granada",0
+"MA2026_neutral_06","9219388","Arratzu,Basque Country,Spain","Arratzu, Vizcaya","Vizcaya",0
+"MA2026_neutral_06","9221301","Arroyo de la Encomienda,Castile and Leon,Spain","Arroyo de la Encomienda, Valladolid","Valladolid",0
+"MA2026_neutral_06","9212078","Municipality of Arteixo,Galicia,Spain","Arteixo, A Coruña","A Coruña",0
+"MA2026_neutral_06","9209175","As Pontes de Garcia Rodriguez,Galicia,Spain","As Pontes de García Rodríguez, A Coruña","A Coruña",0
+"MA2026_neutral_06","9216268","As Somozas,Galicia,Spain","As Somozas, A Coruña","A Coruña",0
+"MA2026_neutral_06","9244973","Astorga,Castile and Leon,Spain","Astorga, León","León",0
+"MA2026_neutral_06","9048999","Baena,Andalusia,Spain","Baena, Córdoba","Córdoba",0
+"MA2026_neutral_06","9049001","Bailen,Andalusia,Spain","Bailén, Jaén","Jaén",0
+"MA2026_neutral_06","9238255","Baiona,Galicia,Spain","Baiona, Pontevedra","Pontevedra",0
+"MA2026_neutral_06","9232979","Balaguer,Catalonia,Spain","Balaguer, Lleida","Lleida",0
+"MA2026_neutral_06","9220015","Barcena de Cicero,Cantabria,Spain","Bárcena de Cicero, Cantabria","Cantabria",0
+"MA2026_neutral_06","9049005","Baza,Andalusia,Spain","Baza, Granada","Granada",0
+"MA2026_neutral_06","9049006","Beasain,Basque Country,Spain","Beasain, Guipúzcoa","Guipúzcoa",0
+"MA2026_neutral_06","9208820","Belmonte de Miranda,Asturias,Spain","Belmonte de Miranda, Asturias","Asturias",0
+"MA2026_neutral_06","9248484","Benalup-Casas Viejas,Andalusia,Spain","Benalup-Casas Viejas, Cádiz","Cádiz",0
+"MA2026_neutral_06","9217508","Bergara,Basque Country,Spain","Bergara, Guipúzcoa","Guipúzcoa",0
+"MA2026_neutral_06","1005439","Bermeo,Basque Country,Spain","Bermeo, Vizcaya","Vizcaya",0
+"MA2026_neutral_06","9221228","Betanzos,Galicia,Spain","Betanzos, A Coruña","A Coruña",0
+"MA2026_neutral_06","9049014","Bollullos Par del Condado,Andalusia,Spain","Bollullos Par del Condado, Huelva","Huelva",0
+"MA2026_neutral_06","9219101","Brafim,Catalonia,Spain","Bràfim, Tarragona","Tarragona",0
+"MA2026_neutral_06","1005408","Brenes,Andalusia,Spain","Brenes, Sevilla","Sevilla",0
+"MA2026_neutral_06","9213629","Brunete,Community of Madrid,Spain","Brunete, Madrid","Madrid",0
+"MA2026_neutral_06","9219901","Burguillos del Cerro,Extremadura,Spain","Burguillos del Cerro, Badajoz","Badajoz",0
+"MA2026_neutral_06","9227084","Busot,Valencian Community,Spain","Busot, Alicante","Alicante",0
+"MA2026_neutral_06","9212602","Cabana de Bergantinos,Galicia,Spain","Cabana de Bergantiños, A Coruña","A Coruña",0
+"MA2026_neutral_06","9237029","Cabrils,Catalonia,Spain","Cabrils, Barcelona","Barcelona",0
+"MA2026_neutral_06","9215701","Camaleno,Cantabria,Spain","Camaleño, Cantabria","Cantabria",0
+"MA2026_neutral_06","9218356","Cambre,Galicia,Spain","Cambre, A Coruña","A Coruña",0
+"MA2026_neutral_06","9221447","Campoo de Yuso,Cantabria,Spain","Campoo de Yuso, Cantabria","Cantabria",0
+"MA2026_neutral_06","9243445","Canet de Mar,Catalonia,Spain","Canet de Mar, Barcelona","Barcelona",0
+"MA2026_neutral_06","9249609","Cangas de Onis,Asturias,Spain","Cangas de Onís, Asturias","Asturias",0
+"MA2026_neutral_06","9211120","Canyelles,Catalonia,Spain","Canyelles, Barcelona","Barcelona",0
+"MA2026_neutral_06","9221319","Carballedo,Galicia,Spain","Carballedo, Lugo","Lugo",0
+"MA2026_neutral_06","9208754","Cartelle,Galicia,Spain","Cartelle, Ourense","Ourense",0
+"MA2026_neutral_06","9211068","Castroverde,Galicia,Spain","Castroverde, Lugo","Lugo",0
+"MA2026_neutral_06","9223774","Caudete,Castile-La Mancha,Spain","Caudete, Albacete","Albacete",0
+"MA2026_neutral_06","9049033","Cazorla,Andalusia,Spain","Cazorla, Jaén","Jaén",0
+"MA2026_neutral_06","9209134","Cebanico,Castile and Leon,Spain","Cebanico, León","León",0
+"MA2026_neutral_07","9221610","Chantada,Galicia,Spain","Chantada, Lugo","Lugo",0
+"MA2026_neutral_07","9234171","Colindres,Cantabria,Spain","Colindres, Cantabria","Cantabria",0
+"MA2026_neutral_07","9221282","Consell,Balearic Islands,Spain","Consell, Baleares","Baleares",0
+"MA2026_neutral_07","1005410","Constantina,Andalusia,Spain","Constantina, Sevilla","Sevilla",0
+"MA2026_neutral_07","9215100","Cortes de Baza,Andalusia,Spain","Cortes de Baza, Granada","Granada",0
+"MA2026_neutral_07","9230552","Cox,Valencian Community,Spain","Cox, Alicante","Alicante",0
+"MA2026_neutral_07","9263046","Cubelles,Catalonia,Spain","Cubelles, Barcelona","Barcelona",0
+"MA2026_neutral_07","9258166","Cuellar,Castile and Leon,Spain","Cuéllar, Segovia","Segovia",0
+"MA2026_neutral_07","9256168","Daimus,Valencian Community,Spain","Daimús, Valencia","Valencia",0
+"MA2026_neutral_07","9049054","Dolores,Valencian Community,Spain","Dolores, Alicante","Alicante",0
+"MA2026_neutral_07","1005514","Eivissa,Balearic Islands,Spain","Eivissa, Baleares","Baleares",0
+"MA2026_neutral_07","9228890","El Alamo,Community of Madrid,Spain","El Álamo, Madrid","Madrid",0
+"MA2026_neutral_07","9208091","El Catllar,Catalonia,Spain","El Catllar, Tarragona","Tarragona",0
+"MA2026_neutral_07","9211780","El Franco,Asturias,Spain","El Franco, Asturias","Asturias",0
+"MA2026_neutral_07","9209266","El Mila,Catalonia,Spain","El Milà, Tarragona","Tarragona",0
+"MA2026_neutral_07","9218081","El Toro,Valencian Community,Spain","El Toro, Castellón","Castellón",0
+"MA2026_neutral_07","9213962","Es Castell,Balearic Islands,Spain","Es Castell, Baleares","Baleares",0
+"MA2026_neutral_07","1005529","Eskoriatza,Basque Country,Spain","Eskoriatza, Guipúzcoa","Guipúzcoa",0
+"MA2026_neutral_07","9211936","Estellencs,Balearic Islands,Spain","Estellencs, Baleares","Baleares",0
+"MA2026_neutral_07","9207849","Ferreries,Balearic Islands,Spain","Ferreries, Baleares","Baleares",0
+"MA2026_neutral_07","9216445","Fiscal,Aragon,Spain","Fiscal, Huesca","Huesca",0
+"MA2026_neutral_07","9212406","Fisterra,Galicia,Spain","Fisterra, A Coruña","A Coruña",0
+"MA2026_neutral_07","9215972","Friol,Galicia,Spain","Friol, Lugo","Lugo",0
+"MA2026_neutral_07","9213523","Fuente Vaqueros,Andalusia,Spain","Fuente Vaqueros, Granada","Granada",0
+"MA2026_neutral_07","9196899","Galapagar,Community of Madrid,Spain","Galapagar, Madrid","Madrid",0
+"MA2026_neutral_07","9221549","Gibraleon,Andalusia,Spain","Gibraleón, Huelva","Huelva",0
+"MA2026_neutral_07","9243217","Gironella,Catalonia,Spain","Gironella, Barcelona","Barcelona",0
+"MA2026_neutral_07","9221316","Gor,Andalusia,Spain","Gor, Granada","Granada",0
+"MA2026_neutral_07","9210641","Grado,Asturias,Spain","Grado, Asturias","Asturias",0
+"MA2026_neutral_07","9248719","Gualchos,Andalusia,Spain","Gualchos, Granada","Granada",0
+"MA2026_neutral_07","9049076","Guissona,Catalonia,Spain","Guissona, Lleida","Lleida",0
+"MA2026_neutral_07","9212060","Herrera,Andalusia,Spain","Herrera, Sevilla","Sevilla",0
+"MA2026_neutral_07","1005415","Huelva,Andalusia,Spain","Huelva, Huelva","Huelva",0
+"MA2026_neutral_07","9254321","Huetor Tajar,Andalusia,Spain","Huétor Tájar, Granada","Granada",0
+"MA2026_neutral_07","9207722","Icod de los Vinos,Canary Islands,Spain","Icod de los Vinos, Santa Cruz de Tenerife","Santa Cruz de Tenerife",0
+"MA2026_neutral_07","1005429","Igualada,Catalonia,Spain","Igualada, Barcelona","Barcelona",0
+"MA2026_neutral_07","9049090","Jodar,Andalusia,Spain","Jódar, Jaén","Jaén",0
+"MA2026_neutral_07","9049091","Jumilla,Region of Murcia,Spain","Jumilla, Murcia","Murcia",0
+"MA2026_neutral_07","9218971","L'Aleixar,Catalonia,Spain","L'Aleixar, Tarragona","Tarragona",0
+"MA2026_neutral_07","9049093","L'Escala,Catalonia,Spain","L'Escala, Girona","Girona",0
+"MA2026_neutral_07","9049095","La Algaba,Andalusia,Spain","La Algaba, Sevilla","Sevilla",0
+"MA2026_neutral_07","9240753","La Baneza,Castile and Leon,Spain","La Bañeza, León","León",0
+"MA2026_neutral_08","9257291","La Matanza de Acentejo,Canary Islands,Spain","La Matanza de Acentejo, Santa Cruz de Tenerife","Santa Cruz de Tenerife",0
+"MA2026_neutral_08","9219987","La Orotava,Canary Islands,Spain","La Orotava, Santa Cruz de Tenerife","Santa Cruz de Tenerife",0
+"MA2026_neutral_08","9234186","La Pobla Llarga,Valencian Community,Spain","La Pobla Llarga, Valencia","Valencia",0
+"MA2026_neutral_08","9049102","La Puebla de Cazalla,Andalusia,Spain","La Puebla de Cazalla, Sevilla","Sevilla",0
+"MA2026_neutral_08","9049103","La Rambla,Andalusia,Spain","La Rambla, Córdoba","Córdoba",0
+"MA2026_neutral_08","9208431","La Riba,Catalonia,Spain","La Riba, Tarragona","Tarragona",0
+"MA2026_neutral_08","9221801","La Selva del Camp,Catalonia,Spain","La Selva del Camp, Tarragona","Tarragona",0
+"MA2026_neutral_08","9049105","La Solana,Castile-La Mancha,Spain","La Solana, Ciudad Real","Ciudad Real",0
+"MA2026_neutral_08","9211230","Las Torres de Cotillas,Region of Murcia,Spain","Las Torres de Cotillas, Murcia","Murcia",0
+"MA2026_neutral_08","9215346","Laspaules,Aragon,Spain","Laspaúles, Huesca","Huesca",0
+"MA2026_neutral_08","9049110","Leioa,Basque Country,Spain","Leioa, Vizcaya","Vizcaya",0
+"MA2026_neutral_08","9242950","Lepe,Andalusia,Spain","Lepe, Huelva","Huelva",0
+"MA2026_neutral_08","9256865","Lezo,Basque Country,Spain","Lezo, Guipúzcoa","Guipúzcoa",0
+"MA2026_neutral_08","9208517","Llubi,Balearic Islands,Spain","Llubí, Baleares","Baleares",0
+"MA2026_neutral_08","9049119","Los Corrales de Buelna,Cantabria,Spain","Los Corrales de Buelna, Cantabria","Cantabria",0
+"MA2026_neutral_08","9246206","Los Montesinos,Valencian Community,Spain","Los Montesinos, Alicante","Alicante",0
+"MA2026_neutral_08","9211799","Los Realejos,Canary Islands,Spain","Los Realejos, Santa Cruz de Tenerife","Santa Cruz de Tenerife",0
+"MA2026_neutral_08","9213953","Macael,Andalusia,Spain","Macael, Almería","Almería",0
+"MA2026_neutral_08","9209840","Mancor de la Vall,Balearic Islands,Spain","Mancor de la Vall, Baleares","Baleares",0
+"MA2026_neutral_08","9220832","Manilva,Andalusia,Spain","Manilva, Málaga","Málaga",0
+"MA2026_neutral_08","9221807","Maria de la Salut,Balearic Islands,Spain","Maria de la Salut, Baleares","Baleares",0
+"MA2026_neutral_08","9049128","Martos,Andalusia,Spain","Martos, Jaén","Jaén",0
+"MA2026_neutral_08","9049130","Massamagrell,Valencian Community,Spain","Massamagrell, Valencia","Valencia",0
+"MA2026_neutral_08","9252990","Massanassa,Valencian Community,Spain","Massanassa, Valencia","Valencia",0
+"MA2026_neutral_08","9211497","Mazarron,Region of Murcia,Spain","Mazarrón, Murcia","Murcia",0
+"MA2026_neutral_08","9229605","Meco,Community of Madrid,Spain","Meco, Madrid","Madrid",0
+"MA2026_neutral_08","9211495","Medina del Campo,Castile and Leon,Spain","Medina del Campo, Valladolid","Valladolid",0
+"MA2026_neutral_08","9208103","Meira,Galicia,Spain","Meira, Lugo","Lugo",0
+"MA2026_neutral_08","9221454","Meis,Galicia,Spain","Meis, Pontevedra","Pontevedra",0
+"MA2026_neutral_08","9049133","Miguelturra,Castile-La Mancha,Spain","Miguelturra, Ciudad Real","Ciudad Real",0
+"MA2026_neutral_08","9049134","Mislata,Valencian Community,Spain","Mislata, Valencia","Valencia",0
+"MA2026_neutral_08","9257482","Mogan,Canary Islands,Spain","Mogán, Las Palmas","Las Palmas",0
+"MA2026_neutral_08","9049137","Mollina,Andalusia,Spain","Mollina, Málaga","Málaga",0
+"MA2026_neutral_08","9213937","Montblanc,Catalonia,Spain","Montblanc, Tarragona","Tarragona",0
+"MA2026_neutral_08","9217921","Monterroso,Galicia,Spain","Monterroso, Lugo","Lugo",0
+"MA2026_neutral_08","9217449","Montuiri,Balearic Islands,Spain","Montuïri, Baleares","Baleares",0
+"MA2026_neutral_08","9248853","Morata de Tajuna,Community of Madrid,Spain","Morata de Tajuña, Madrid","Madrid",0
+"MA2026_neutral_08","9217163","Naquera,Valencian Community,Spain","Náquera, Valencia","Valencia",0
+"MA2026_neutral_08","9049148","Navalcarnero,Community of Madrid,Spain","Navalcarnero, Madrid","Madrid",0
+"MA2026_neutral_08","9049150","Norena,Asturias,Spain","Noreña, Asturias","Asturias",0
+"MA2026_neutral_08","9211585","O Savinao,Galicia,Spain","O Saviñao, Lugo","Lugo",0
+"MA2026_neutral_08","9220337","Olesa de Montserrat,Catalonia,Spain","Olesa de Montserrat, Barcelona","Barcelona",0
+"MA2026_neutral_09","9220777","Olvega,Castile and Leon,Spain","Ólvega, Soria","Soria",0
+"MA2026_neutral_09","9252807","Onati,Basque Country,Spain","Oñati, Guipúzcoa","Guipúzcoa",0
+"MA2026_neutral_09","9049154","Ondarroa,Basque Country,Spain","Ondarroa, Vizcaya","Vizcaya",0
+"MA2026_neutral_09","9212292","Orba,Valencian Community,Spain","Orba, Alicante","Alicante",0
+"MA2026_neutral_09","9234141","Oroso,Galicia,Spain","Oroso, A Coruña","A Coruña",0
+"MA2026_neutral_09","9250482","Paiporta,Valencian Community,Spain","Paiporta, Valencia","Valencia",0
+"MA2026_neutral_09","9237970","Palazuelos de Eresma,Castile and Leon,Spain","Palazuelos de Eresma, Segovia","Segovia",0
+"MA2026_neutral_09","9049160","Palencia,Castile and Leon,Spain","Palencia, Palencia","Palencia",0
+"MA2026_neutral_09","9245685","Palomares del Rio,Andalusia,Spain","Palomares del Río, Sevilla","Sevilla",0
+"MA2026_neutral_09","9250789","Pals,Catalonia,Spain","Pals, Girona","Girona",0
+"MA2026_neutral_09","9049162","Paracuellos de Jarama,Community of Madrid,Spain","Paracuellos de Jarama, Madrid","Madrid",0
+"MA2026_neutral_09","9210217","Petra,Balearic Islands,Spain","Petra, Baleares","Baleares",0
+"MA2026_neutral_09","9215858","Pol,Galicia,Spain","Pol, Lugo","Lugo",0
+"MA2026_neutral_09","9222199","Porreres,Balearic Islands,Spain","Porreres, Baleares","Baleares",0
+"MA2026_neutral_09","9214713","Portomarin,Galicia,Spain","Portomarín, Lugo","Lugo",0
+"MA2026_neutral_09","9232835","Potes,Cantabria,Spain","Potes, Cantabria","Cantabria",0
+"MA2026_neutral_09","9220902","Puebla de Lillo,Castile and Leon,Spain","Puebla de Lillo, León","León",0
+"MA2026_neutral_09","9210297","Puente Genil,Andalusia,Spain","Puente Genil, Córdoba","Córdoba",0
+"MA2026_neutral_09","9218410","Puigcerda,Catalonia,Spain","Puigcerdà, Girona","Girona",0
+"MA2026_neutral_09","9217865","Quesada,Andalusia,Spain","Quesada, Jaén","Jaén",0
+"MA2026_neutral_09","9244210","Redovan,Valencian Community,Spain","Redován, Alicante","Alicante",0
+"MA2026_neutral_09","9229871","Reinosa,Cantabria,Spain","Reinosa, Cantabria","Cantabria",0
+"MA2026_neutral_09","9221652","Renau,Catalonia,Spain","Renau, Tarragona","Tarragona",0
+"MA2026_neutral_09","9224711","Ribadeo,Galicia,Spain","Ribadeo, Lugo","Lugo",0
+"MA2026_neutral_09","1005405","Rioja,Andalusia,Spain","Rioja, Almería","Almería",0
+"MA2026_neutral_09","9207229","Salas,Asturias,Spain","Salas, Asturias","Asturias",0
+"MA2026_neutral_09","9213493","Salvador de Zapardiel,Castile and Leon,Spain","Salvador de Zapardiel, Valladolid","Valladolid",0
+"MA2026_neutral_09","9210994","Samos,Galicia,Spain","Samos, Lugo","Lugo",0
+"MA2026_neutral_09","9214001","San Bartolome,Canary Islands,Spain","San Bartolomé, Las Palmas","Las Palmas",0
+"MA2026_neutral_09","9243701","San Fernando de Henares,Community of Madrid,Spain","San Fernando de Henares, Madrid","Madrid",0
+"MA2026_neutral_09","9218471","San Isidro,Valencian Community,Spain","San Isidro, Alicante","Alicante",0
+"MA2026_neutral_09","9217316","San Martin del Rey Aurelio,Asturias,Spain","San Martín del Rey Aurelio, Asturias","Asturias",0
+"MA2026_neutral_09","9208006","Sandias,Galicia,Spain","Sandiás, Ourense","Ourense",0
+"MA2026_neutral_09","9210874","Municipality of Sant Adria de Besos,Catalonia,Spain","Sant Adrià de Besòs, Barcelona","Barcelona",0
+"MA2026_neutral_09","9210293","Sant Joan,Balearic Islands,Spain","Sant Joan, Baleares","Baleares",0
+"MA2026_neutral_09","9214231","Sant Llorenc des Cardassar,Balearic Islands,Spain","Sant Llorenç des Cardassar, Baleares","Baleares",0
+"MA2026_neutral_09","1005473","Santa Barbara,Catalonia,Spain","Santa Bàrbara, Tarragona","Tarragona",0
+"MA2026_neutral_09","9213147","Santa Eugenia,Balearic Islands,Spain","Santa Eugènia, Baleares","Baleares",0
+"MA2026_neutral_09","9261657","Santa Maria de Palautordera,Catalonia,Spain","Santa Maria de Palautordera, Barcelona","Barcelona",0
+"MA2026_neutral_09","9219456","Municipality of Santa Perpetua de Mogoda,Catalonia,Spain","Santa Perpètua de Mogoda, Barcelona","Barcelona",0
+"MA2026_neutral_09","9257314","Santiago del Teide,Canary Islands,Spain","Santiago del Teide, Santa Cruz de Tenerife","Santa Cruz de Tenerife",0
+"MA2026_neutral_09","9049206","Santomera,Region of Murcia,Spain","Santomera, Murcia","Murcia",0
+"MA2026_neutral_10","9049209","Segorbe,Valencian Community,Spain","Segorbe, Castellón","Castellón",0
+"MA2026_neutral_10","9212015","Selva,Balearic Islands,Spain","Selva, Baleares","Baleares",0
+"MA2026_neutral_10","9219350","Sencelles,Balearic Islands,Spain","Sencelles, Baleares","Baleares",0
+"MA2026_neutral_10","9217118","Ses Salines,Balearic Islands,Spain","Ses Salines, Baleares","Baleares",0
+"MA2026_neutral_10","9231324","Sesena,Castile-La Mancha,Spain","Seseña, Toledo","Toledo",0
+"MA2026_neutral_10","9219563","Sevilla la Nueva,Community of Madrid,Spain","Sevilla la Nueva, Madrid","Madrid",0
+"MA2026_neutral_10","9258842","Socuellamos,Castile-La Mancha,Spain","Socuéllamos, Ciudad Real","Ciudad Real",0
+"MA2026_neutral_10","9243097","Sotillo de la Adrada,Castile and Leon,Spain","Sotillo de la Adrada, Ávila","Ávila",0
+"MA2026_neutral_10","9253072","Soto del Real,Community of Madrid,Spain","Soto del Real, Madrid","Madrid",0
+"MA2026_neutral_10","9218468","Tapia de Casariego,Asturias,Spain","Tapia de Casariego, Asturias","Asturias",0
+"MA2026_neutral_10","1005534","Tembleque,Castile-La Mancha,Spain","Tembleque, Toledo","Toledo",0
+"MA2026_neutral_10","9219982","Teo,Galicia,Spain","Teo, A Coruña","A Coruña",0
+"MA2026_neutral_10","9216873","Tineo,Asturias,Spain","Tineo, Asturias","Asturias",0
+"MA2026_neutral_10","1005422","Tomares,Andalusia,Spain","Tomares, Sevilla","Sevilla",0
+"MA2026_neutral_10","9236179","Tona,Catalonia,Spain","Tona, Barcelona","Barcelona",0
+"MA2026_neutral_10","9249777","Toro,Castile and Leon,Spain","Toro, Zamora","Zamora",0
+"MA2026_neutral_10","9049221","Torredonjimeno,Andalusia,Spain","Torredonjimeno, Jaén","Jaén",0
+"MA2026_neutral_10","9244405","Torrejon del Rey,Castile-La Mancha,Spain","Torrejón del Rey, Guadalajara","Guadalajara",0
+"MA2026_neutral_10","1005497","Torrelaguna,Community of Madrid,Spain","Torrelaguna, Madrid","Madrid",0
+"MA2026_neutral_10","9049228","Turre,Andalusia,Spain","Turre, Almería","Almería",0
+"MA2026_neutral_10","9049229","Ubeda,Andalusia,Spain","Úbeda, Jaén","Jaén",0
+"MA2026_neutral_10","9245636","Ubrique,Andalusia,Spain","Ubrique, Cádiz","Cádiz",0
+"MA2026_neutral_10","9221151","Urduna / Orduna,Basque Country,Spain","Urduña-Orduña, Álava","Álava",0
+"MA2026_neutral_10","1005522","Urnieta,Basque Country,Spain","Urnieta, Guipúzcoa","Guipúzcoa",0
+"MA2026_neutral_10","9240729","Valdeavero,Community of Madrid,Spain","Valdeavero, Madrid","Madrid",0
+"MA2026_neutral_10","9243406","Valdemorillo,Community of Madrid,Spain","Valdemorillo, Madrid","Madrid",0
+"MA2026_neutral_10","9237330","Valencina de la Concepcion,Andalusia,Spain","Valencina de la Concepción, Sevilla","Sevilla",0
+"MA2026_neutral_10","9218813","Vallehermoso,Canary Islands,Spain","Vallehermoso, Santa Cruz de Tenerife","Santa Cruz de Tenerife",0
+"MA2026_neutral_10","9217093","Vedra,Galicia,Spain","Vedra, A Coruña","A Coruña",0
+"MA2026_neutral_10","9222665","Verea,Galicia,Spain","Verea, Ourense","Ourense",0
+"MA2026_neutral_10","9211743","Vespella de Gaia,Catalonia,Spain","Vespella de Gaià, Tarragona","Tarragona",0
+"MA2026_neutral_10","9220268","Vilabella,Catalonia,Spain","Vilabella, Tarragona","Tarragona",0
+"MA2026_neutral_10","9211626","Vilamartin de Valdeorras,Galicia,Spain","Vilamartín de Valdeorras, Ourense","Ourense",0
+"MA2026_neutral_10","9227013","Villabona,Basque Country,Spain","Villabona, Guipúzcoa","Guipúzcoa",0
+"MA2026_neutral_10","9256217","Villafranca de los Barros,Extremadura,Spain","Villafranca de los Barros, Badajoz","Badajoz",0
+"MA2026_neutral_10","9208031","Villamantilla,Community of Madrid,Spain","Villamantilla, Madrid","Madrid",0
+"MA2026_neutral_10","9225174","Villanueva de la Canada,Community of Madrid,Spain","Villanueva de la Cañada, Madrid","Madrid",0
+"MA2026_neutral_10","9222329","Villanueva de Oscos,Asturias,Spain","Villanueva de Oscos, Asturias","Asturias",0
+"MA2026_neutral_10","9245405","Villarejo de Salvanes,Community of Madrid,Spain","Villarejo de Salvanés, Madrid","Madrid",0
+"MA2026_neutral_10","9236349","Villarrubia de los Ojos,Castile-La Mancha,Spain","Villarrubia de los Ojos, Ciudad Real","Ciudad Real",0
+"MA2026_neutral_10","9219885","Villaverde del Rio,Andalusia,Spain","Villaverde del Río, Sevilla","Sevilla",0
+"MA2026_neutral_10","9218206","Yecla,Region of Murcia,Spain","Yecla, Murcia","Murcia",0

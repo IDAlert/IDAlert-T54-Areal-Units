@@ -1,0 +1,42 @@
+Andujar,Andalusia,Spain
+Arahal,Andalusia,Spain
+Arenas de Iguna,Cantabria,Spain
+Arevalo,Castile and Leon,Spain
+Arnedo,La Rioja,Spain
+Arrecife,Canary Islands,Spain
+Artes,Catalonia,Spain
+As Neves,Galicia,Spain
+Avia,Catalonia,Spain
+Azkoitia,Basque Country,Spain
+Baeza,Andalusia,Spain
+Balsa de Ves,Castile-La Mancha,Spain
+Banyalbufar,Balearic Islands,Spain
+Barbastro,Aragon,Spain
+Barbate,Andalusia,Spain
+Begues,Catalonia,Spain
+Bejar,Castile and Leon,Spain
+Benaguasil,Valencian Community,Spain
+Benamaurel,Andalusia,Spain
+Beniparrell,Valencian Community,Spain
+Besalu,Catalonia,Spain
+Bimenes,Asturias,Spain
+Binefar,Aragon,Spain
+Boiro,Galicia,Spain
+Buger,Balearic Islands,Spain
+Buitrago del Lozoya,Community of Madrid,Spain
+Bullas,Region of Murcia,Spain
+Burela,Galicia,Spain
+Cadiz,Andalusia,Spain
+Calasparra,Region of Murcia,Spain
+Camarma de Esteruelas,Community of Madrid,Spain
+Campanet,Balearic Islands,Spain
+Campos,Balearic Islands,Spain
+Canals,Valencian Community,Spain
+Caniles,Andalusia,Spain
+Cantillana,Andalusia,Spain
+Casariche,Andalusia,Spain
+Casasimarro,Castile-La Mancha,Spain
+Catral,Valencian Community,Spain
+Cehegin,Region of Murcia,Spain
+Cercedilla,Community of Madrid,Spain
+Chandrexa de Queixa,Galicia,Spain

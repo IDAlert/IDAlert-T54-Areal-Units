@@ -1,0 +1,42 @@
+Chauchina,Andalusia,Spain
+Cieza,Region of Murcia,Spain
+Ciudad Rodrigo,Castile and Leon,Spain
+Comillas,Cantabria,Spain
+Cortes y Graena,Andalusia,Spain
+Municipality of Coslada,Community of Madrid,Spain
+Costitx,Balearic Islands,Spain
+Cullar,Andalusia,Spain
+Cuntis,Galicia,Spain
+Curtis,Galicia,Spain
+Derio,Basque Country,Spain
+Durcal,Andalusia,Spain
+El Astillero,Cantabria,Spain
+El Cuervo de Sevilla,Andalusia,Spain
+El Viso del Alcor,Andalusia,Spain
+El Viso,Andalusia,Spain
+Escorca,Balearic Islands,Spain
+Esporles,Balearic Islands,Spain
+Estepa,Andalusia,Spain
+Fene,Galicia,Spain
+Flix,Catalonia,Spain
+Foios,Valencian Community,Spain
+Folgoso do Courel,Galicia,Spain
+Fornalutx,Balearic Islands,Spain
+Gelves,Andalusia,Spain
+Gerena,Andalusia,Spain
+Gojar,Andalusia,Spain
+Gozon,Asturias,Spain
+Grinon,Community of Madrid,Spain
+Guadarrama,Community of Madrid,Spain
+Gurb,Catalonia,Spain
+Hellin,Castile-La Mancha,Spain
+Horcajo de Santiago,Castile-La Mancha,Spain
+Huercal-Overa,Andalusia,Spain
+Huescar,Andalusia,Spain
+Ibi,Valencian Community,Spain
+Inca,Balearic Islands,Spain
+Iscar,Castile and Leon,Spain
+L'Alcudia,Valencian Community,Spain
+L'Ametlla del Valles,Catalonia,Spain
+L'Olleria,Valencian Community,Spain
+La Carolina,Andalusia,Spain

@@ -1,0 +1,42 @@
+Olvega,Castile and Leon,Spain
+Onati,Basque Country,Spain
+Ondarroa,Basque Country,Spain
+Orba,Valencian Community,Spain
+Oroso,Galicia,Spain
+Paiporta,Valencian Community,Spain
+Palazuelos de Eresma,Castile and Leon,Spain
+Palencia,Castile and Leon,Spain
+Palomares del Rio,Andalusia,Spain
+Pals,Catalonia,Spain
+Paracuellos de Jarama,Community of Madrid,Spain
+Petra,Balearic Islands,Spain
+Pol,Galicia,Spain
+Porreres,Balearic Islands,Spain
+Portomarin,Galicia,Spain
+Potes,Cantabria,Spain
+Puebla de Lillo,Castile and Leon,Spain
+Puente Genil,Andalusia,Spain
+Puigcerda,Catalonia,Spain
+Quesada,Andalusia,Spain
+Redovan,Valencian Community,Spain
+Reinosa,Cantabria,Spain
+Renau,Catalonia,Spain
+Ribadeo,Galicia,Spain
+Rioja,Andalusia,Spain
+Salas,Asturias,Spain
+Salvador de Zapardiel,Castile and Leon,Spain
+Samos,Galicia,Spain
+San Bartolome,Canary Islands,Spain
+San Fernando de Henares,Community of Madrid,Spain
+San Isidro,Valencian Community,Spain
+San Martin del Rey Aurelio,Asturias,Spain
+Sandias,Galicia,Spain
+Municipality of Sant Adria de Besos,Catalonia,Spain
+Sant Joan,Balearic Islands,Spain
+Sant Llorenc des Cardassar,Balearic Islands,Spain
+Santa Barbara,Catalonia,Spain
+Santa Eugenia,Balearic Islands,Spain
+Santa Maria de Palautordera,Catalonia,Spain
+Municipality of Santa Perpetua de Mogoda,Catalonia,Spain
+Santiago del Teide,Canary Islands,Spain
+Santomera,Region of Murcia,Spain

@@ -1,0 +1,42 @@
+Vigo,Galicia,Spain
+Malaga,Andalusia,Spain
+Murcia,Region of Murcia,Spain
+Municipality of Terrassa,Catalonia,Spain
+Badalona,Catalonia,Spain
+Municipality of Cartagena,Region of Murcia,Spain
+Municipality of Palma,Balearic Islands,Spain
+Santander,Cantabria,Spain
+A Coruna,Galicia,Spain
+Municipality of Albacete,Castile-La Mancha,Spain
+Alcala de Guadaira,Andalusia,Spain
+Oviedo,Asturias,Spain
+Municipality of Rivas-Vaciamadrid,Community of Madrid,Spain
+Reus,Catalonia,Spain
+Sant Cugat del Valles,Catalonia,Spain
+Chiclana de la Frontera,Andalusia,Spain
+Fuenlabrada,Community of Madrid,Spain
+Municipality of Granada,Andalusia,Spain
+Jerez de la Frontera,Andalusia,Spain
+Municipality of Las Rozas de Madrid,Community of Madrid,Spain
+Municipality of Torrent,Valencian Community,Spain
+Alboraya,Valencian Community,Spain
+Cornella de Llobregat,Catalonia,Spain
+El Puerto de Santa Maria,Andalusia,Spain
+Guadalajara,Castile-La Mancha,Spain
+Irun,Basque Country,Spain
+Logrono,La Rioja,Spain
+Marbella,Andalusia,Spain
+Valladolid,Castile and Leon,Spain
+Viladecans,Catalonia,Spain
+Alcobendas,Community of Madrid,Spain
+Alcorcon,Community of Madrid,Spain
+Cerdanyola del Valles,Catalonia,Spain
+Cullera,Valencian Community,Spain
+Espartinas,Andalusia,Spain
+Gandia,Valencian Community,Spain
+Oropesa del Mar,Valencian Community,Spain
+San Sebastian de los Reyes,Community of Madrid,Spain
+Santa Pola,Valencian Community,Spain
+Municipality of Torremolinos,Andalusia,Spain
+Torroella de Montgri,Catalonia,Spain
+Utrera,Andalusia,Spain

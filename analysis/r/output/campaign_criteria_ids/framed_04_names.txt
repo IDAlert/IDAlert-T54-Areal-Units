@@ -1,0 +1,42 @@
+Ceuti,Region of Murcia,Spain
+Ciempozuelos,Community of Madrid,Spain
+Collado Villalba,Community of Madrid,Spain
+Cunit,Catalonia,Spain
+Ecija,Andalusia,Spain
+Eibar,Basque Country,Spain
+Municipality of El Rosario,Canary Islands,Spain
+Elgoibar,Basque Country,Spain
+Es Migjorn Gran,Balearic Islands,Spain
+L'Alcora,Valencian Community,Spain
+La Pobla de Vallbona,Valencian Community,Spain
+La Roda,Castile-La Mancha,Spain
+La Vall d'Uixo,Valencian Community,Spain
+Laredo,Cantabria,Spain
+Los Llanos de Aridane,Canary Islands,Spain
+Madridejos,Castile-La Mancha,Spain
+Manlleu,Catalonia,Spain
+Melide,Galicia,Spain
+Montmelo,Catalonia,Spain
+Montornes del Valles,Catalonia,Spain
+Moron de la Frontera,Andalusia,Spain
+Navalmoral de la Mata,Extremadura,Spain
+Onda,Valencian Community,Spain
+Peligros,Andalusia,Spain
+Peniscola,Valencian Community,Spain
+Perafort,Catalonia,Spain
+Priego de Cordoba,Andalusia,Spain
+Ribeira,Galicia,Spain
+Riells i Viabrea,Catalonia,Spain
+Rincon de la Victoria,Andalusia,Spain
+Ronda,Andalusia,Spain
+Municipality of Salamanca,Castile and Leon,Spain
+Sanlucar la Mayor,Andalusia,Spain
+Sant Boi de Llobregat,Catalonia,Spain
+Sant Vicenc dels Horts,Catalonia,Spain
+Santa Cruz de La Palma,Canary Islands,Spain
+Santa Margalida,Balearic Islands,Spain
+Sarria,Galicia,Spain
+Vic,Catalonia,Spain
+Vilagarcia de Arousa,Galicia,Spain
+Villa del Rio,Andalusia,Spain
+Villalbilla,Community of Madrid,Spain

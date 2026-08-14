@@ -1,0 +1,42 @@
+A Estrada,Galicia,Spain
+A Pobra do Caraminal,Galicia,Spain
+A Veiga,Galicia,Spain
+Adra,Andalusia,Spain
+Aguadulce,Andalusia,Spain
+Aguilas,Region of Murcia,Spain
+Agullent,Valencian Community,Spain
+Albinyana,Catalonia,Spain
+Alburquerque,Extremadura,Spain
+Alcala del Rio,Andalusia,Spain
+Alcaniz,Aragon,Spain
+Alcasser,Valencian Community,Spain
+Alcover,Catalonia,Spain
+Alcudia,Balearic Islands,Spain
+Alfaro,La Rioja,Spain
+Alginet,Valencian Community,Spain
+Alhama de Murcia,Region of Murcia,Spain
+Alhendin,Andalusia,Spain
+Aliaga,Aragon,Spain
+Aller,Asturias,Spain
+Alpicat,Catalonia,Spain
+Altea,Valencian Community,Spain
+Ames,Galicia,Spain
+Amposta,Catalonia,Spain
+Aranda de Duero,Castile and Leon,Spain
+Atarfe,Andalusia,Spain
+Binissalem,Balearic Islands,Spain
+Chipiona,Andalusia,Spain
+Churriana de la Vega,Andalusia,Spain
+Erandio,Basque Country,Spain
+Hernani,Basque Country,Spain
+La Garriga,Catalonia,Spain
+Mojacar,Andalusia,Spain
+Monzon,Aragon,Spain
+Olivella,Catalonia,Spain
+Padul,Andalusia,Spain
+Sant Joan d'Alacant,Valencian Community,Spain
+Son Servera,Balearic Islands,Spain
+Soto del Barco,Asturias,Spain
+Tarifa,Andalusia,Spain
+Tias,Canary Islands,Spain
+Valls,Catalonia,Spain

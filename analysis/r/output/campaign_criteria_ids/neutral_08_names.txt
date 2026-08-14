@@ -1,0 +1,42 @@
+La Matanza de Acentejo,Canary Islands,Spain
+La Orotava,Canary Islands,Spain
+La Pobla Llarga,Valencian Community,Spain
+La Puebla de Cazalla,Andalusia,Spain
+La Rambla,Andalusia,Spain
+La Riba,Catalonia,Spain
+La Selva del Camp,Catalonia,Spain
+La Solana,Castile-La Mancha,Spain
+Las Torres de Cotillas,Region of Murcia,Spain
+Laspaules,Aragon,Spain
+Leioa,Basque Country,Spain
+Lepe,Andalusia,Spain
+Lezo,Basque Country,Spain
+Llubi,Balearic Islands,Spain
+Los Corrales de Buelna,Cantabria,Spain
+Los Montesinos,Valencian Community,Spain
+Los Realejos,Canary Islands,Spain
+Macael,Andalusia,Spain
+Mancor de la Vall,Balearic Islands,Spain
+Manilva,Andalusia,Spain
+Maria de la Salut,Balearic Islands,Spain
+Martos,Andalusia,Spain
+Massamagrell,Valencian Community,Spain
+Massanassa,Valencian Community,Spain
+Mazarron,Region of Murcia,Spain
+Meco,Community of Madrid,Spain
+Medina del Campo,Castile and Leon,Spain
+Meira,Galicia,Spain
+Meis,Galicia,Spain
+Miguelturra,Castile-La Mancha,Spain
+Mislata,Valencian Community,Spain
+Mogan,Canary Islands,Spain
+Mollina,Andalusia,Spain
+Montblanc,Catalonia,Spain
+Monterroso,Galicia,Spain
+Montuiri,Balearic Islands,Spain
+Morata de Tajuna,Community of Madrid,Spain
+Naquera,Valencian Community,Spain
+Navalcarnero,Community of Madrid,Spain
+Norena,Asturias,Spain
+O Savinao,Galicia,Spain
+Olesa de Montserrat,Catalonia,Spain

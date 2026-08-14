@@ -1,0 +1,42 @@
+Almonte,Andalusia,Spain
+Alpedrete,Community of Madrid,Spain
+Alzira,Valencian Community,Spain
+Andoain,Basque Country,Spain
+Arenys de Mar,Catalonia,Spain
+Arroyomolinos,Community of Madrid,Spain
+Benavente,Castile and Leon,Spain
+Cabra,Andalusia,Spain
+Calahorra,La Rioja,Spain
+Municipality of Camas,Andalusia,Spain
+Cambados,Galicia,Spain
+Cangas del Narcea,Asturias,Spain
+Caravaca de la Cruz,Region of Murcia,Spain
+Carcaixent,Valencian Community,Spain
+Cassa de la Selva,Catalonia,Spain
+Castalla,Valencian Community,Spain
+Castellbisbal,Catalonia,Spain
+Colmenar Viejo,Community of Madrid,Spain
+Culleredo,Galicia,Spain
+Durango,Basque Country,Spain
+Errenteria,Basque Country,Spain
+Municipality of Esplugues de Llobregat,Catalonia,Spain
+Jaen,Andalusia,Spain
+La Zubia,Andalusia,Spain
+Llinars del Valles,Catalonia,Spain
+Martorell,Catalonia,Spain
+Mollerussa,Catalonia,Spain
+Muro,Balearic Islands,Spain
+Palafrugell,Catalonia,Spain
+Ponteareas,Galicia,Spain
+Municipality of San Bartolome de Tirajana,Canary Islands,Spain
+Sanlucar de Barrameda,Andalusia,Spain
+Sant Just Desvern,Catalonia,Spain
+Sant Pere de Ribes,Catalonia,Spain
+Santa Cruz de Bezana,Cantabria,Spain
+Sanxenxo,Galicia,Spain
+Tarrega,Catalonia,Spain
+Torrelavega,Cantabria,Spain
+Tortosa,Catalonia,Spain
+Totana,Region of Murcia,Spain
+Vilafranca del Penedes,Catalonia,Spain
+Zamora,Castile and Leon,Spain

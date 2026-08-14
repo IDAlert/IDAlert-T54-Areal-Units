@@ -1,0 +1,42 @@
+A Fonsagrada,Galicia,Spain
+A Lama,Galicia,Spain
+A Laracha,Galicia,Spain
+Aguilar de la Frontera,Andalusia,Spain
+Ajalvir,Community of Madrid,Spain
+Alaquas,Valencian Community,Spain
+Alaro,Balearic Islands,Spain
+Albalat dels Sorells,Valencian Community,Spain
+Albatera,Valencian Community,Spain
+Alcala la Real,Andalusia,Spain
+Alcantarilla,Region of Murcia,Spain
+Alcazar de San Juan,Castile-La Mancha,Spain
+Alcolea del Pinar,Castile-La Mancha,Spain
+Aldaia,Valencian Community,Spain
+Algaida,Balearic Islands,Spain
+Algete,Community of Madrid,Spain
+Alhaurin el Grande,Andalusia,Spain
+Alio,Catalonia,Spain
+Almagro,Castile-La Mancha,Spain
+Almendralejo,Extremadura,Spain
+Almonaster la Real,Andalusia,Spain
+Altafulla,Catalonia,Spain
+Amorebieta-Etxano,Basque Country,Spain
+Amurrio,Basque Country,Spain
+Andratx,Balearic Islands,Spain
+Angles,Catalonia,Spain
+Bormujos,Andalusia,Spain
+Calella,Catalonia,Spain
+Corbera de Llobregat,Catalonia,Spain
+Cuarte de Huerva,Aragon,Spain
+Municipality of La Roca del Valles,Catalonia,Spain
+Llica de Vall,Catalonia,Spain
+Los Alcazares,Region of Murcia,Spain
+Mejorada del Campo,Community of Madrid,Spain
+Palamos,Catalonia,Spain
+Pinoso,Valencian Community,Spain
+Requena,Valencian Community,Spain
+Roses,Catalonia,Spain
+Sant Antoni de Portmany,Balearic Islands,Spain
+Sant Joan de Labritja,Balearic Islands,Spain
+Sitges,Catalonia,Spain
+Tui,Galicia,Spain

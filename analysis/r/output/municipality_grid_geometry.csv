@@ -1,0 +1,953 @@
+"unit_name","gid_4","province","area_km2","cells_centroid","cells_interior","interior_frac","nearest_targetable_km","n_touching"
+"Alcóntar, Almería","ESP.1.1.1.3_1","Almería",94.053,16,5,0.3125,0,3
+"Arboleas, Almería","ESP.1.1.1.4_1","Almería",66.234,11,3,0.2727,1.0049,0
+"Macael, Almería","ESP.1.1.1.14_1","Almería",43.828,7,1,0.1429,9.8915,0
+"Serón, Almería","ESP.1.1.1.19_1","Almería",166.452,27,13,0.4815,0,3
+"Almería, Almería","ESP.1.1.5.1_1","Almería",297.338,48,23,0.4792,0,1
+"Níjar, Almería","ESP.1.1.5.6_1","Almería",601.569,100,67,0.67,0,1
+"Rioja, Almería","ESP.1.1.5.8_1","Almería",36.35,7,1,0.1429,3.8435,0
+"Adra, Almería","ESP.1.1.6.1_1","Almería",89.965,15,6,0.4,2.3439,0
+"El Ejido, Almería","ESP.1.1.6.4_1","Almería",224.702,38,21,0.5526,0,1
+"Roquetas de Mar, Almería","ESP.1.1.6.8_1","Almería",59.908,8,2,0.25,0,1
+"Huércal-Overa, Almería","ESP.1.1.7.5_1","Almería",316.889,49,34,0.6939,0,1
+"Mojácar, Almería","ESP.1.1.7.7_1","Almería",70.818,10,3,0.3,0,2
+"Turre, Almería","ESP.1.1.7.9_1","Almería",107.826,19,5,0.2632,0,2
+"Vera, Almería","ESP.1.1.7.10_1","Almería",57.601,11,3,0.2727,0,2
+"Vélez-Blanco, Almería","ESP.1.1.8.3_1","Almería",440.929,73,46,0.6301,0,2
+"Cádiz, Cádiz","ESP.1.2.1.1_1","Cádiz",12.3,2,0,0,0,1
+"Chiclana de la Frontera, Cádiz","ESP.1.2.1.2_1","Cádiz",203.919,32,19,0.5938,0,3
+"El Puerto de Santa María, Cádiz","ESP.1.2.1.3_1","Cádiz",158.629,28,10,0.3571,0,4
+"Puerto Real, Cádiz","ESP.1.2.1.4_1","Cádiz",195.514,29,15,0.5172,0,4
+"San Fernando, Cádiz","ESP.1.2.1.5_1","Cádiz",28.083,4,0,0,0,3
+"Algeciras, Cádiz","ESP.1.2.3.1_1","Cádiz",87.001,15,6,0.4,0,2
+"La Línea de la Concepción, Cádiz","ESP.1.2.3.4_1","Cádiz",18.537,2,0,0,0,1
+"Los Barrios, Cádiz","ESP.1.2.3.5_1","Cádiz",331.35,54,31,0.5741,0,3
+"San Roque, Cádiz","ESP.1.2.3.6_1","Cádiz",146.222,23,9,0.3913,0,3
+"Tarifa, Cádiz","ESP.1.2.3.7_1","Cádiz",418.647,68,41,0.6029,0,3
+"Chipiona, Cádiz","ESP.1.2.4.1_1","Cádiz",32.575,5,1,0.2,0,2
+"Rota, Cádiz","ESP.1.2.4.2_1","Cádiz",83.973,13,5,0.3846,0,3
+"Sanlúcar de Barrameda, Cádiz","ESP.1.2.4.3_1","Cádiz",170.734,28,13,0.4643,0,5
+"Barbate, Cádiz","ESP.1.2.5.2_1","Cádiz",143.136,24,6,0.25,0,1
+"Benalup-Casas Viejas, Cádiz","ESP.1.2.5.3_1","Cádiz",58.515,10,1,0.1,3.2914,0
+"Conil de la Frontera, Cádiz","ESP.1.2.5.4_1","Cádiz",87.335,14,3,0.2143,0,1
+"Arcos de la Frontera, Cádiz","ESP.1.2.6.4_1","Cádiz",527.099,84,60,0.7143,0,3
+"Olvera, Cádiz","ESP.1.2.6.12_1","Cádiz",193.439,30,12,0.4,0,2
+"Ubrique, Cádiz","ESP.1.2.6.17_1","Cádiz",69.562,10,4,0.4,0,2
+"Aguilar de la Frontera, Córdoba","ESP.1.3.1.1_1","Córdoba",167.139,25,10,0.4,0,3
+"Montilla, Córdoba","ESP.1.3.1.6_1","Córdoba",168.605,26,16,0.6154,0,2
+"Puente Genil, Córdoba","ESP.1.3.1.9_1","Córdoba",170.876,30,15,0.5,0,4
+"El Viso, Córdoba","ESP.1.3.2.9_1","Córdoba",254.238,44,13,0.2955,8.6361,0
+"Peñarroya-Pueblonuevo, Córdoba","ESP.1.3.2.16_1","Córdoba",64.643,10,2,0.2,20.362,0
+"Pozoblanco, Córdoba","ESP.1.3.2.17_1","Córdoba",329.651,53,28,0.5283,8.6361,0
+"Córdoba, Córdoba","ESP.1.3.4.5_1","Córdoba",1253.81,205,157,0.7659,0,2
+"Posadas, Córdoba","ESP.1.3.4.10_1","Córdoba",160.314,23,15,0.6522,2.7622,0
+"Villa del Río, Córdoba","ESP.1.3.4.11_1","Córdoba",21.907,4,0,0,10.826,0
+"Palma del Río, Córdoba","ESP.1.3.5.2_1","Córdoba",200.259,30,15,0.5,0,2
+"La Carlota, Córdoba","ESP.1.3.6.4_1","Córdoba",78.763,15,5,0.3333,0,3
+"Baena, Córdoba","ESP.1.3.7.1_1","Córdoba",362.126,61,38,0.623,0,2
+"Cabra, Córdoba","ESP.1.3.7.3_1","Córdoba",229.22,37,24,0.6486,0,3
+"Lucena, Córdoba","ESP.1.3.7.6_1","Córdoba",350.749,55,37,0.6727,0,2
+"Priego de Córdoba, Córdoba","ESP.1.3.8.6_1","Córdoba",287.996,49,24,0.4898,0,1
+"Huéscar, Granada","ESP.1.4.1.4_1","Granada",473.639,75,46,0.6133,5.2807,0
+"Baza, Granada","ESP.1.4.3.1_1","Granada",544.642,84,51,0.6071,0,6
+"Benamaurel, Granada","ESP.1.4.3.2_1","Granada",127.96,22,9,0.4091,0,3
+"Caniles, Granada","ESP.1.4.3.3_1","Granada",217.051,37,21,0.5676,0,4
+"Cortes de Baza, Granada","ESP.1.4.3.4_1","Granada",140.344,22,13,0.5909,0,3
+"Cúllar, Granada","ESP.1.4.3.6_1","Granada",427.384,70,50,0.7143,0,4
+"Cortes y Graena, Granada","ESP.1.4.4.8_1","Granada",22.44,3,0,0,16.0318,0
+"Gor, Granada","ESP.1.4.4.16_1","Granada",180.851,31,14,0.4516,0,1
+"Alhendín, Granada","ESP.1.4.5.3_1","Granada",50.696,10,1,0.1,0,5
+"Armilla, Granada","ESP.1.4.5.4_1","Granada",4.334,0,0,0,0,3
+"Atarfe, Granada","ESP.1.4.5.5_1","Granada",47.272,7,1,0.1429,0,3
+"Chauchina, Granada","ESP.1.4.5.10_1","Granada",21.278,2,1,0.5,0,1
+"Churriana de la Vega, Granada","ESP.1.4.5.11_1","Granada",6.641,1,0,0,0,4
+"Fuente Vaqueros, Granada","ESP.1.4.5.17_1","Granada",15.936,4,0,0,0,2
+"Gójar, Granada","ESP.1.4.5.18_1","Granada",12.163,2,0,0,0,2
+"Granada, Granada","ESP.1.4.5.19_1","Granada",88.296,16,4,0.25,0,5
+"Huétor Tájar, Granada","ESP.1.4.5.23_1","Granada",39.861,5,2,0.4,0,1
+"La Zubia, Granada","ESP.1.4.5.26_1","Granada",20.034,4,0,0,0,2
+"Las Gabias, Granada","ESP.1.4.5.28_1","Granada",39.239,5,2,0.4,0,2
+"Loja, Granada","ESP.1.4.5.29_1","Granada",446.744,72,45,0.625,0,1
+"Maracena, Granada","ESP.1.4.5.30_1","Granada",4.797,1,0,0,0,3
+"Peligros, Granada","ESP.1.4.5.36_1","Granada",10.096,1,0,0,0,1
+"Pinos Puente, Granada","ESP.1.4.5.38_1","Granada",98.495,17,3,0.1765,0,2
+"Dúrcal, Granada","ESP.1.4.7.2_1","Granada",76.634,13,0,0,0,1
+"Padul, Granada","ESP.1.4.7.7_1","Granada",89.495,14,4,0.2857,0,2
+"Almuñécar, Granada","ESP.1.4.8.3_1","Granada",83.543,14,4,0.2857,0,1
+"Gualchos, Granada","ESP.1.4.8.4_1","Granada",31.228,7,1,0.1429,0,1
+"Motril, Granada","ESP.1.4.8.11_1","Granada",109.405,16,12,0.75,0,1
+"Almonaster la Real, Huelva","ESP.1.5.1.2_1","Huelva",321.513,52,35,0.6731,25.6261,0
+"Aljaraque, Huelva","ESP.1.5.4.1_1","Huelva",33.534,5,1,0.2,0,2
+"Cartaya, Huelva","ESP.1.5.4.2_1","Huelva",221.257,33,15,0.4545,0,3
+"Gibraleón, Huelva","ESP.1.5.4.3_1","Huelva",328.18,56,31,0.5536,0,4
+"Lepe, Huelva","ESP.1.5.4.5_1","Huelva",123.886,20,8,0.4,0,1
+"Punta Umbría, Huelva","ESP.1.5.4.7_1","Huelva",40.165,6,0,0,0,3
+"Almonte, Huelva","ESP.1.5.5.1_1","Huelva",856.597,141,99,0.7021,0,3
+"Huelva, Huelva","ESP.1.5.5.3_1","Huelva",3.554,1,0,0,0,1
+"Bollullos Par del Condado, Huelva","ESP.1.5.6.2_1","Huelva",49.56,8,2,0.25,0,2
+"La Palma del Condado, Huelva","ESP.1.5.6.6_1","Huelva",60.074,9,3,0.3333,0,1
+"Cazorla, Jaén","ESP.1.6.1.1_1","Jaén",305.482,49,25,0.5102,0,2
+"Pozo Alcón, Jaén","ESP.1.6.1.7_1","Jaén",138.424,22,7,0.3182,0,2
+"Quesada, Jaén","ESP.1.6.1.8_1","Jaén",328.6,58,26,0.4483,0,3
+"Jaén, Jaén","ESP.1.6.2.4_1","Jaén",423.743,69,43,0.6232,0,2
+"Mancha Real, Jaén","ESP.1.6.2.8_1","Jaén",97.192,18,3,0.1667,0,2
+"Martos, Jaén","ESP.1.6.2.9_1","Jaén",261.031,41,19,0.4634,0,2
+"Mengíbar, Jaén","ESP.1.6.2.10_1","Jaén",62.402,10,1,0.1,0,1
+"Torredonjimeno, Jaén","ESP.1.6.2.15_1","Jaén",157.795,26,10,0.3846,0,1
+"Andújar, Jaén","ESP.1.6.3.1_1","Jaén",964.029,159,121,0.761,5.6083,0
+"Baeza, Jaén","ESP.1.6.5.1_1","Jaén",192.206,27,15,0.5556,0,3
+"Jódar, Jaén","ESP.1.6.7.10_1","Jaén",148.78,25,14,0.56,0,2
+"Bailén, Jaén","ESP.1.6.8.2_1","Jaén",116.915,19,7,0.3684,0,1
+"La Carolina, Jaén","ESP.1.6.8.7_1","Jaén",200.941,32,16,0.5,3.9963,0
+"Linares, Jaén","ESP.1.6.8.8_1","Jaén",196.844,30,18,0.6,0,1
+"Alcalá la Real, Jaén","ESP.1.6.9.1_1","Jaén",261.235,42,24,0.5714,0,1
+"Nerja, Málaga","ESP.1.7.1.19_1","Málaga",85.474,13,4,0.3077,0,1
+"Rincón de la Victoria, Málaga","ESP.1.7.1.21_1","Málaga",28.063,4,0,0,0,2
+"Sayalonga, Málaga","ESP.1.7.1.23_1","Málaga",18.171,3,0,0,0,1
+"Vélez-Málaga, Málaga","ESP.1.7.1.27_1","Málaga",157.618,23,10,0.4348,0,2
+"Antequera, Málaga","ESP.1.7.2.5_1","Málaga",816.115,133,93,0.6992,0,1
+"Mollina, Málaga","ESP.1.7.2.17_1","Málaga",74.523,12,4,0.3333,0,1
+"Ronda, Málaga","ESP.1.7.3.21_1","Málaga",480.651,77,46,0.5974,0,1
+"Alhaurín de la Torre, Málaga","ESP.1.7.4.1_1","Málaga",82.738,13,4,0.3077,0,4
+"Alhaurín el Grande, Málaga","ESP.1.7.4.2_1","Málaga",72.957,11,4,0.3636,0,2
+"Benalmádena, Málaga","ESP.1.7.4.7_1","Málaga",27.08,5,0,0,0,3
+"Coín, Málaga","ESP.1.7.4.12_1","Málaga",127.432,21,11,0.5238,0,1
+"Estepona, Málaga","ESP.1.7.4.13_1","Málaga",137.766,23,9,0.3913,0,1
+"Fuengirola, Málaga","ESP.1.7.4.14_1","Málaga",10.121,1,0,0,0,1
+"Manilva, Málaga","ESP.1.7.4.19_1","Málaga",35.467,6,1,0.1667,0,1
+"Marbella, Málaga","ESP.1.7.4.20_1","Málaga",116.627,21,3,0.1429,0,1
+"Torremolinos, Málaga","ESP.1.7.4.26_1","Málaga",19.524,5,0,0,0,3
+"Constantina, Sevilla","ESP.1.8.1.6_1","Sevilla",481.178,77,56,0.7273,0,1
+"Gerena, Sevilla","ESP.1.8.1.13_1","Sevilla",129.914,20,10,0.5,0,2
+"Alcalá de Guadaíra, Sevilla","ESP.1.8.2.1_1","Sevilla",285.108,48,23,0.4792,0,7
+"Arahal, Sevilla","ESP.1.8.2.2_1","Sevilla",201.058,33,15,0.4545,0,4
+"Carmona, Sevilla","ESP.1.8.2.4_1","Sevilla",923.758,151,112,0.7417,0,10
+"Écija, Sevilla","ESP.1.8.2.5_1","Sevilla",978.227,162,109,0.6728,0,6
+"El Cuervo de Sevilla, Sevilla","ESP.1.8.2.7_1","Sevilla",31.046,5,1,0.2,0,2
+"El Viso del Alcor, Sevilla","ESP.1.8.2.9_1","Sevilla",19.808,2,0,0,0,2
+"Lebrija, Sevilla","ESP.1.8.2.15_1","Sevilla",374.277,60,38,0.6333,0,3
+"Mairena del Alcor, Sevilla","ESP.1.8.2.17_1","Sevilla",69.796,13,4,0.3077,0,3
+"Marchena, Sevilla","ESP.1.8.2.18_1","Sevilla",377.862,60,40,0.6667,0,5
+"Osuna, Sevilla","ESP.1.8.2.19_1","Sevilla",592.426,96,68,0.7083,0,5
+"Utrera, Sevilla","ESP.1.8.2.21_1","Sevilla",684.215,108,69,0.6389,0,4
+"Alcalá del Río, Sevilla","ESP.1.8.3.1_1","Sevilla",81.762,14,4,0.2857,0,5
+"Brenes, Sevilla","ESP.1.8.3.3_1","Sevilla",21.255,2,0,0,0,5
+"Burguillos, Sevilla","ESP.1.8.3.4_1","Sevilla",43.181,7,2,0.2857,0,2
+"Cantillana, Sevilla","ESP.1.8.3.5_1","Sevilla",107.829,18,8,0.4444,0,4
+"Coria del Río, Sevilla","ESP.1.8.3.6_1","Sevilla",61.637,9,4,0.4444,0,2
+"Dos Hermanas, Sevilla","ESP.1.8.3.7_1","Sevilla",160.066,25,10,0.4,0,7
+"La Algaba, Sevilla","ESP.1.8.3.8_1","Sevilla",17.794,3,0,0,0,3
+"La Rinconada, Sevilla","ESP.1.8.3.9_1","Sevilla",139.518,22,9,0.4091,0,5
+"Lora del Río, Sevilla","ESP.1.8.3.10_1","Sevilla",293.361,49,34,0.6939,0,3
+"Los Palacios y Villafranca, Sevilla","ESP.1.8.3.11_1","Sevilla",109.754,19,7,0.3684,0,3
+"San Juan de Aznalfarache, Sevilla","ESP.1.8.3.13_1","Sevilla",4.173,1,0,0,0,4
+"Santiponce, Sevilla","ESP.1.8.3.14_1","Sevilla",8.399,2,0,0,0,3
+"Tocina, Sevilla","ESP.1.8.3.16_1","Sevilla",13.838,1,0,0,0,1
+"Villaverde del Río, Sevilla","ESP.1.8.3.18_1","Sevilla",40.779,8,2,0.25,0,4
+"Bormujos, Sevilla","ESP.1.8.4.5_1","Sevilla",12.061,3,0,0,0,3
+"Camas, Sevilla","ESP.1.8.4.6_1","Sevilla",11.725,2,0,0,0,4
+"Espartinas, Sevilla","ESP.1.8.4.11_1","Sevilla",22.726,4,0,0,0,5
+"Gelves, Sevilla","ESP.1.8.4.12_1","Sevilla",8.339,1,0,0,0,5
+"Mairena del Aljarafe, Sevilla","ESP.1.8.4.15_1","Sevilla",17.659,3,0,0,0,5
+"Olivares, Sevilla","ESP.1.8.4.16_1","Sevilla",45.262,9,0,0,0,3
+"Palomares del Río, Sevilla","ESP.1.8.4.17_1","Sevilla",12.908,2,0,0,0,5
+"Pilas, Sevilla","ESP.1.8.4.18_1","Sevilla",45.902,8,1,0.125,3.9786,0
+"Sanlúcar la Mayor, Sevilla","ESP.1.8.4.20_1","Sevilla",135.234,22,8,0.3636,0,4
+"Tomares, Sevilla","ESP.1.8.4.22_1","Sevilla",5.207,0,0,0,0,5
+"Umbrete, Sevilla","ESP.1.8.4.23_1","Sevilla",12.387,1,0,0,0,2
+"Valencina de la Concepción, Sevilla","ESP.1.8.4.24_1","Sevilla",25.239,4,0,0,0,3
+"Aguadulce, Sevilla","ESP.1.8.6.1_1","Sevilla",13.833,3,0,0,0,2
+"Casariche, Sevilla","ESP.1.8.6.3_1","Sevilla",53.213,8,3,0.375,0,2
+"Estepa, Sevilla","ESP.1.8.6.4_1","Sevilla",189.571,29,10,0.3448,0,6
+"Herrera, Sevilla","ESP.1.8.6.6_1","Sevilla",53.334,9,3,0.3333,0,3
+"La Puebla de Cazalla, Sevilla","ESP.1.8.7.4_1","Sevilla",189.864,30,19,0.6333,0,3
+"Morón de la Frontera, Sevilla","ESP.1.8.7.8_1","Sevilla",431.598,72,45,0.625,0,4
+"Laspaúles, Huesca","ESP.2.1.1.18_1","Huesca",81.505,12,6,0.5,40.296,0
+"Fiscal, Huesca","ESP.2.1.2.8_1","Huesca",169.91,31,15,0.4839,17.8183,0
+"Barbastro, Huesca","ESP.2.1.3.6_1","Huesca",107.569,20,8,0.4,2.0509,0
+"Binéfar, Huesca","ESP.2.1.4.10_1","Huesca",24.994,4,0,0,0,1
+"Monzón, Huesca","ESP.2.1.4.14_1","Huesca",154.631,25,10,0.4,0,1
+"Fraga, Huesca","ESP.2.1.5.7_1","Huesca",436.792,77,40,0.5195,6.0875,0
+"Huesca, Huesca","ESP.2.1.7.24_1","Huesca",160.991,28,9,0.3214,15.6497,0
+"Las Peñas de Riglos, Huesca","ESP.2.1.7.28_1","Huesca",217.519,37,12,0.3243,0,1
+"Jaca, Huesca","ESP.2.1.8.14_1","Huesca",411.323,75,44,0.5867,0,1
+"Alcañiz, Teruel","ESP.2.2.1.4_1","Teruel",471.85,85,54,0.6353,24.4724,0
+"Aliaga, Teruel","ESP.2.2.2.2_1","Teruel",196.748,31,17,0.5484,31.522,0
+"Teruel, Teruel","ESP.2.2.4.28_1","Teruel",440.159,70,50,0.7143,30.2549,0
+"Cuarte de Huerva, Zaragoza","ESP.2.3.2.15_1","Zaragoza",8.949,2,0,0,0,1
+"Utebo, Zaragoza","ESP.2.3.2.56_1","Zaragoza",17.865,2,0,0,0,1
+"Villanueva de Gállego, Zaragoza","ESP.2.3.2.60_1","Zaragoza",75.908,15,3,0.2,0,1
+"Arenas de Iguña, Cantabria","ESP.3.1.2.2_1","Cantabria",86.8,15,4,0.2667,0,1
+"Los Corrales de Buelna, Cantabria","ESP.3.1.2.6_1","Cantabria",45.481,9,2,0.2222,0,2
+"Torrelavega, Cantabria","ESP.3.1.2.11_1","Cantabria",35.49,8,1,0.125,0,1
+"Campoo de Yuso, Cantabria","ESP.3.1.3.2_1","Cantabria",89.324,15,5,0.3333,2.645,0
+"Reinosa, Cantabria","ESP.3.1.3.6_1","Cantabria",4.321,1,0,0,2.645,0
+"Valderredible, Cantabria","ESP.3.1.3.11_1","Cantabria",297.768,51,20,0.3922,7.0274,0
+"Camargo, Cantabria","ESP.3.1.4.1_1","Cantabria",37.065,7,0,0,0,3
+"El Astillero, Cantabria","ESP.3.1.4.2_1","Cantabria",6.615,0,0,0,0,1
+"Santa Cruz de Bezana, Cantabria","ESP.3.1.4.6_1","Cantabria",17.558,3,0,0,0,2
+"Santander, Cantabria","ESP.3.1.4.7_1","Cantabria",36.374,7,1,0.1429,0,2
+"Comillas, Cantabria","ESP.3.1.5.2_1","Cantabria",18.833,4,0,0,0,1
+"Valdáliga, Cantabria","ESP.3.1.5.8_1","Cantabria",97.489,16,9,0.5625,0,1
+"Castro-Urdiales, Cantabria","ESP.3.1.6.1_1","Cantabria",97.257,17,6,0.3529,3.6236,0
+"Colindres, Cantabria","ESP.3.1.6.2_1","Cantabria",4.949,1,0,0,0,1
+"Laredo, Cantabria","ESP.3.1.6.3_1","Cantabria",13.663,3,0,0,0,1
+"Camaleño, Cantabria","ESP.3.1.7.2_1","Cantabria",160.862,27,15,0.5556,0,1
+"Potes, Cantabria","ESP.3.1.7.5_1","Cantabria",7.782,2,0,0,0,1
+"Bárcena de Cicero, Cantabria","ESP.3.1.11.3_1","Cantabria",32.134,6,0,0,0.202,0
+"Noja, Cantabria","ESP.3.1.11.13_1","Cantabria",8.501,1,0,0,0,1
+"Santoña, Cantabria","ESP.3.1.11.17_1","Cantabria",10.134,2,0,0,0,1
+"Albacete, Albacete","ESP.4.1.1.1_1","Albacete",1140.392,190,137,0.7211,0,2
+"Balsa de Ves, Albacete","ESP.4.1.2.5_1","Albacete",76.372,13,4,0.3077,0,1
+"Almansa, Albacete","ESP.4.1.3.1_1","Albacete",531.595,89,65,0.7303,0,3
+"Caudete, Albacete","ESP.4.1.3.4_1","Albacete",142.221,25,12,0.48,0,3
+"Hellín, Albacete","ESP.4.1.5.2_1","Albacete",778.387,129,95,0.7364,0,4
+"La Roda, Albacete","ESP.4.1.6.3_1","Albacete",397.896,68,36,0.5294,0,2
+"Villarrobledo, Albacete","ESP.4.1.6.10_1","Albacete",862.305,147,111,0.7551,0,2
+"Alcázar de San Juan, Ciudad Real","ESP.4.2.1.1_1","Ciudad Real",666.616,112,86,0.7679,0,1
+"Daimiel, Ciudad Real","ESP.4.2.1.6_1","Ciudad Real",437.961,72,50,0.6944,0,4
+"La Solana, Ciudad Real","ESP.4.2.1.8_1","Ciudad Real",133.971,24,11,0.4583,0,1
+"Manzanares, Ciudad Real","ESP.4.2.1.11_1","Ciudad Real",474.885,81,47,0.5802,0,5
+"Socuéllamos, Ciudad Real","ESP.4.2.1.18_1","Ciudad Real",374.186,59,42,0.7119,0,2
+"Tomelloso, Ciudad Real","ESP.4.2.1.19_1","Ciudad Real",240.721,41,20,0.4878,0,1
+"Valdepeñas, Ciudad Real","ESP.4.2.1.20_1","Ciudad Real",487.529,80,56,0.7,0,1
+"Villarrubia de los Ojos, Ciudad Real","ESP.4.2.1.21_1","Ciudad Real",281.725,48,31,0.6458,0,3
+"Almagro, Ciudad Real","ESP.4.2.2.3_1","Ciudad Real",249.83,40,15,0.375,0,4
+"Bolaños de Calatrava, Ciudad Real","ESP.4.2.2.6_1","Ciudad Real",87.757,18,4,0.2222,0,2
+"Ciudad Real, Ciudad Real","ESP.4.2.2.12_1","Ciudad Real",284.677,50,21,0.42,0,1
+"Miguelturra, Ciudad Real","ESP.4.2.2.17_1","Ciudad Real",118.384,19,4,0.2105,0,2
+"Puertollano, Ciudad Real","ESP.4.2.7.9_1","Ciudad Real",226.758,40,19,0.475,8.3041,0
+"Horcajo de Santiago, Cuenca","ESP.4.3.5.18_1","Cuenca",96.031,18,6,0.3333,4.8681,0
+"Tarancón, Cuenca","ESP.4.3.5.36_1","Cuenca",106.942,20,6,0.3,4.8681,0
+"Casasimarro, Cuenca","ESP.4.3.6.6_1","Cuenca",49.572,8,3,0.375,9.8476,0
+"Alcolea del Pinar, Guadalajara","ESP.4.4.2.5_1","Guadalajara",113.614,20,7,0.35,44.7477,0
+"Azuqueca de Henares, Guadalajara","ESP.4.4.4.10_1","Guadalajara",19.679,4,1,0.25,0,3
+"Guadalajara, Guadalajara","ESP.4.4.4.28_1","Guadalajara",165.116,27,7,0.2593,0,2
+"Marchamalo, Guadalajara","ESP.4.4.4.38_1","Guadalajara",101.2,19,7,0.3684,0,1
+"Pioz, Guadalajara","ESP.4.4.4.45_1","Guadalajara",19.251,2,0,0,0,1
+"Villanueva de la Torre, Guadalajara","ESP.4.4.4.64_1","Guadalajara",11.196,2,0,0,0,3
+"Consuegra, Toledo","ESP.4.5.1.6_1","Toledo",358.777,60,36,0.6,0,2
+"Madridejos, Toledo","ESP.4.5.1.16_1","Toledo",261.651,45,26,0.5778,0,3
+"Tembleque, Toledo","ESP.4.5.1.27_1","Toledo",222.436,39,23,0.5897,0,1
+"Méntrida, Toledo","ESP.4.5.4.28_1","Toledo",82.752,15,5,0.3333,0,1
+"Torrijos, Toledo","ESP.4.5.4.40_1","Toledo",17.226,2,0,0,8.676,0
+"Talavera de la Reina, Toledo","ESP.4.5.5.43_1","Toledo",185.186,29,13,0.4483,27.6009,0
+"Illescas, Toledo","ESP.4.5.6.20_1","Toledo",57.475,9,2,0.2222,0,1
+"Mocejón, Toledo","ESP.4.5.6.25_1","Toledo",30.202,5,0,0,0,2
+"Seseña, Toledo","ESP.4.5.6.35_1","Toledo",72.351,12,3,0.25,0,3
+"Toledo, Toledo","ESP.4.5.6.36_1","Toledo",231.464,35,16,0.4571,0,2
+"Arévalo, Ávila","ESP.5.1.1.4_1","Ávila",45.469,8,0,0,6.7966,0
+"San Pascual, Ávila","ESP.5.1.1.60_1","Ávila",18.524,1,0,0,6.7966,0
+"Ávila, Ávila","ESP.5.1.2.3_1","Ávila",230.233,37,14,0.3784,2.9063,0
+"Sotalbo, Ávila","ESP.5.1.2.64_1","Ávila",90.438,15,0,0,2.9063,0
+"Sotillo de la Adrada, Ávila","ESP.5.1.6.23_1","Ávila",43.394,9,1,0.1111,18.6264,0
+"Los Altos, Burgos","ESP.5.2.3.4_1","Burgos",139.554,23,10,0.4348,7.0274,0
+"Burgos, Burgos","ESP.5.2.4.8_1","Burgos",108.604,18,7,0.3889,31.0785,0
+"Miranda de Ebro, Burgos","ESP.5.2.5.40_1","Burgos",98.022,16,5,0.3125,0,1
+"Junta de Traslaloma, Burgos","ESP.5.2.6.6_1","Burgos",75.729,13,4,0.3077,0,2
+"Medina de Pomar, Burgos","ESP.5.2.6.8_1","Burgos",214.579,38,16,0.4211,0,1
+"Valle de Mena, Burgos","ESP.5.2.6.17_1","Burgos",262.922,46,21,0.4565,0,2
+"Aranda de Duero, Burgos","ESP.5.2.9.3_1","Burgos",126.596,21,6,0.2857,44.8921,0
+"Ponferrada, León","ESP.5.3.1.25_1","León",282.508,49,27,0.551,16.5129,0
+"Cebanico, León","ESP.5.3.2.2_1","León",89.489,17,5,0.2941,20.7609,0
+"León, León","ESP.5.3.2.8_1","León",39.201,7,1,0.1429,34.704,0
+"Puebla de Lillo, León","ESP.5.3.3.15_1","León",171.142,30,19,0.6333,0,1
+"Astorga, León","ESP.5.3.6.1_1","León",46.77,7,1,0.1429,15.7374,0
+"La Bañeza, León","ESP.5.3.8.8_1","León",19.591,3,0,0,15.7374,0
+"Palencia, Palencia","ESP.5.4.2.50_1","Palencia",94.869,17,6,0.3529,21.1727,0
+"Salamanca, Salamanca","ESP.5.5.2.48_1","Salamanca",38.855,5,1,0.2,0,1
+"Villamayor, Salamanca","ESP.5.5.2.58_1","Salamanca",16.042,4,0,0,0,1
+"La Peña, Salamanca","ESP.5.5.5.25_1","Salamanca",25.408,4,0,0,47.2588,0
+"Béjar, Salamanca","ESP.5.5.7.3_1","Salamanca",45.639,8,2,0.25,34.3288,0
+"Ciudad Rodrigo, Salamanca","ESP.5.5.8.9_1","Salamanca",239.504,39,24,0.6154,15.8164,0
+"Cuéllar, Segovia","ESP.5.6.2.18_1","Segovia",216.826,38,16,0.4211,5.9574,0
+"Palazuelos de Eresma, Segovia","ESP.5.6.3.37_1","Segovia",36.566,7,0,0,0,1
+"Segovia, Segovia","ESP.5.6.3.49_1","Segovia",163.256,28,11,0.3929,0,1
+"Ólvega, Soria","ESP.5.7.2.41_1","Soria",98.424,16,4,0.25,0,1
+"Retortillo de Soria, Soria","ESP.5.7.6.16_1","Soria",172.657,27,16,0.5926,44.7477,0
+"Arroyo de la Encomienda, Valladolid","ESP.5.8.2.3_1","Valladolid",11.765,2,0,0,0,2
+"Simancas, Valladolid","ESP.5.8.2.49_1","Valladolid",42.479,8,2,0.25,0,2
+"Tudela de Duero, Valladolid","ESP.5.8.2.55_1","Valladolid",60.563,10,3,0.3,1.536,0
+"Valladolid, Valladolid","ESP.5.8.2.56_1","Valladolid",197.297,32,9,0.2812,0,2
+"Íscar, Valladolid","ESP.5.8.3.20_1","Valladolid",60.419,10,2,0.2,5.9574,0
+"Medina del Campo, Valladolid","ESP.5.8.4.15_1","Valladolid",153.083,25,13,0.52,5.6792,0
+"Salvador de Zapardiel, Valladolid","ESP.5.8.4.25_1","Valladolid",26.215,4,0,0,5.6792,0
+"Benavente, Zamora","ESP.5.9.1.6_1","Zamora",44.969,7,0,0,28.576,0
+"Zamora, Zamora","ESP.5.9.4.66_1","Zamora",148.743,27,7,0.2593,6.5228,0
+"Toro, Zamora","ESP.5.9.6.32_1","Zamora",325.021,61,20,0.3279,6.5228,0
+"Arenys de Mar, Barcelona","ESP.6.1.3.2_1","Barcelona",6.506,2,0,0,0,2
+"Badalona, Barcelona","ESP.6.1.3.5_1","Barcelona",20.823,4,1,0.25,0,3
+"Cabrera de Mar, Barcelona","ESP.6.1.3.6_1","Barcelona",9.008,2,0,0,0,2
+"Cabrils, Barcelona","ESP.6.1.3.7_1","Barcelona",7.038,1,0,0,0,2
+"Calella, Barcelona","ESP.6.1.3.9_1","Barcelona",7.819,2,0,0,0,3
+"Canet de Mar, Barcelona","ESP.6.1.3.10_1","Barcelona",6.277,1,0,0,0,3
+"El Masnou, Barcelona","ESP.6.1.3.12_1","Barcelona",3.375,1,0,0,0,2
+"Malgrat de Mar, Barcelona","ESP.6.1.3.13_1","Barcelona",8.433,1,0,0,0,2
+"Mataró, Barcelona","ESP.6.1.3.14_1","Barcelona",22.476,3,0,0,0,1
+"Pineda de Mar, Barcelona","ESP.6.1.3.18_1","Barcelona",10.407,2,0,0,0,3
+"Premià de Dalt, Barcelona","ESP.6.1.3.19_1","Barcelona",6.552,1,0,0,0,3
+"Sant Adrià de Besòs, Barcelona","ESP.6.1.3.21_1","Barcelona",3.786,0,0,0,0,3
+"Sant Cebrià de Vallalta, Barcelona","ESP.6.1.3.23_1","Barcelona",15.666,2,0,0,0,4
+"Sant Pol de Mar, Barcelona","ESP.6.1.3.25_1","Barcelona",7.433,1,0,0,0,3
+"Sant Vicenç de Montalt, Barcelona","ESP.6.1.3.26_1","Barcelona",7.919,2,0,0,0,1
+"Santa Coloma de Gramenet, Barcelona","ESP.6.1.3.27_1","Barcelona",7.159,2,0,0,0,4
+"Santa Susanna, Barcelona","ESP.6.1.3.28_1","Barcelona",12.64,3,0,0,0,2
+"Teià, Barcelona","ESP.6.1.3.29_1","Barcelona",6.688,2,0,0,0,2
+"Vilassar de Dalt, Barcelona","ESP.6.1.3.32_1","Barcelona",8.844,2,0,0,0,2
+"Igualada, Barcelona","ESP.6.1.4.15_1","Barcelona",8.284,2,0,0,0,1
+"Masquefa, Barcelona","ESP.6.1.4.20_1","Barcelona",17.378,3,0,0,0,1
+"Sant Martí de Tous, Barcelona","ESP.6.1.4.27_1","Barcelona",38.788,7,0,0,2.3947,0
+"Vilanova del Camí, Barcelona","ESP.6.1.4.34_1","Barcelona",10.233,1,0,0,0,1
+"Cardedeu, Barcelona","ESP.6.1.5.5_1","Barcelona",12.104,3,0,0,0,3
+"Granollers, Barcelona","ESP.6.1.5.8_1","Barcelona",14.769,3,0,0,0,5
+"L'Ametlla del Vallès, Barcelona","ESP.6.1.5.10_1","Barcelona",14.025,2,0,0,0,3
+"La Garriga, Barcelona","ESP.6.1.5.11_1","Barcelona",19.012,4,0,0,0,2
+"La Roca del Vallès, Barcelona","ESP.6.1.5.12_1","Barcelona",36.829,6,1,0.1667,0,4
+"Les Franqueses del Vallès, Barcelona","ESP.6.1.5.13_1","Barcelona",29.729,5,0,0,0,5
+"Lliçà de Vall, Barcelona","ESP.6.1.5.15_1","Barcelona",10.765,2,0,0,0,2
+"Llinars del Vallès, Barcelona","ESP.6.1.5.16_1","Barcelona",27.405,5,0,0,0,3
+"Mollet del Vallès, Barcelona","ESP.6.1.5.18_1","Barcelona",10.785,1,0,0,0,4
+"Montmeló, Barcelona","ESP.6.1.5.19_1","Barcelona",3.931,1,0,0,0,3
+"Montornès del Vallès, Barcelona","ESP.6.1.5.20_1","Barcelona",11.135,1,0,0,0,2
+"Santa Eulàlia de Ronçana, Barcelona","ESP.6.1.5.29_1","Barcelona",13.913,2,0,0,0,2
+"Santa Maria de Palautordera, Barcelona","ESP.6.1.5.31_1","Barcelona",16.989,2,0,0,0,1
+"Balenyà, Barcelona","ESP.6.1.7.3_1","Barcelona",18.681,5,0,0,0,1
+"Gurb, Barcelona","ESP.6.1.7.9_1","Barcelona",51.151,9,2,0.2222,0,2
+"Manlleu, Barcelona","ESP.6.1.7.14_1","Barcelona",17.309,2,1,0.5,0,2
+"Tona, Barcelona","ESP.6.1.7.49_1","Barcelona",16.581,3,0,0,0,1
+"Torelló, Barcelona","ESP.6.1.7.50_1","Barcelona",13.456,2,0,0,0,1
+"Vic, Barcelona","ESP.6.1.7.51_1","Barcelona",30.816,4,0,0,0,1
+"Avià, Barcelona","ESP.6.1.8.1_1","Barcelona",27.186,6,1,0.1667,0,1
+"Berga, Barcelona","ESP.6.1.8.3_1","Barcelona",22.383,3,0,0,0,1
+"Gironella, Barcelona","ESP.6.1.8.12_1","Barcelona",6.863,2,0,0,0.8528,0
+"Artés, Barcelona","ESP.6.1.9.1_1","Barcelona",17.852,3,0,0,3.3468,0
+"Manresa, Barcelona","ESP.6.1.9.14_1","Barcelona",41.537,8,2,0.25,0.6313,0
+"Santpedor, Barcelona","ESP.6.1.9.28_1","Barcelona",17.005,3,0,0,0.6313,0
+"Súria, Barcelona","ESP.6.1.9.29_1","Barcelona",23.655,5,1,0.2,2.3132,0
+"Barberà del Vallès, Barcelona","ESP.6.1.10.2_1","Barcelona",8.182,1,0,0,0,5
+"Caldes de Montbui, Barcelona","ESP.6.1.10.3_1","Barcelona",37.643,8,0,0,0,1
+"Castellar del Vallès, Barcelona","ESP.6.1.10.4_1","Barcelona",45.113,8,2,0.25,0,3
+"Cerdanyola del Vallès, Barcelona","ESP.6.1.10.5_1","Barcelona",30.778,4,1,0.25,0,7
+"Matadepera, Barcelona","ESP.6.1.10.8_1","Barcelona",25.428,4,1,0.25,0,2
+"Montcada i Reixac, Barcelona","ESP.6.1.10.9_1","Barcelona",23.437,6,1,0.1667,0,8
+"Polinyà, Barcelona","ESP.6.1.10.11_1","Barcelona",8.878,2,0,0,0,2
+"Ripollet, Barcelona","ESP.6.1.10.12_1","Barcelona",4.465,0,0,0,0,3
+"Rubí, Barcelona","ESP.6.1.10.13_1","Barcelona",32.073,5,2,0.4,0,4
+"Sabadell, Barcelona","ESP.6.1.10.14_1","Barcelona",37.54,6,2,0.3333,0,7
+"Sant Cugat del Vallès, Barcelona","ESP.6.1.10.15_1","Barcelona",48.178,10,2,0.2,0,7
+"Sant Quirze del Vallès, Barcelona","ESP.6.1.10.17_1","Barcelona",14.494,3,0,0,0,5
+"Santa Perpètua de Mogoda, Barcelona","ESP.6.1.10.18_1","Barcelona",15.63,2,0,0,0,5
+"Terrassa, Barcelona","ESP.6.1.10.20_1","Barcelona",70.003,13,3,0.2308,0,6
+"Vacarisses, Barcelona","ESP.6.1.10.22_1","Barcelona",40.466,8,1,0.125,0,3
+"Barcelona, Barcelona","ESP.6.1.11.2_1","Barcelona",99.544,19,6,0.3158,0,11
+"Begues, Barcelona","ESP.6.1.11.3_1","Barcelona",50.415,9,3,0.3333,0,4
+"Castellbisbal, Barcelona","ESP.6.1.11.4_1","Barcelona",31.08,6,1,0.1667,0,5
+"Castelldefels, Barcelona","ESP.6.1.11.5_1","Barcelona",12.607,2,0,0,0,2
+"Cervelló, Barcelona","ESP.6.1.11.7_1","Barcelona",23.977,2,1,0.5,0,3
+"Corbera de Llobregat, Barcelona","ESP.6.1.11.8_1","Barcelona",18.372,4,0,0,0,3
+"Cornellà de Llobregat, Barcelona","ESP.6.1.11.9_1","Barcelona",6.819,2,0,0,0,5
+"El Prat de Llobregat, Barcelona","ESP.6.1.11.11_1","Barcelona",30.608,5,1,0.2,0,5
+"Esparreguera, Barcelona","ESP.6.1.11.12_1","Barcelona",27.25,5,0,0,0,2
+"Esplugues de Llobregat, Barcelona","ESP.6.1.11.13_1","Barcelona",4.565,1,0,0,0,5
+"Gavà, Barcelona","ESP.6.1.11.14_1","Barcelona",30.738,4,0,0,0,4
+"L'Hospitalet de Llobregat, Barcelona","ESP.6.1.11.15_1","Barcelona",13.707,1,0,0,0,4
+"Martorell, Barcelona","ESP.6.1.11.17_1","Barcelona",12.784,2,0,0,0,2
+"Molins de Rei, Barcelona","ESP.6.1.11.18_1","Barcelona",15.835,3,0,0,0,4
+"Olesa de Montserrat, Barcelona","ESP.6.1.11.19_1","Barcelona",16.566,3,0,0,0,2
+"Sant Andreu de la Barca, Barcelona","ESP.6.1.11.21_1","Barcelona",5.589,0,0,0,0,3
+"Sant Boi de Llobregat, Barcelona","ESP.6.1.11.22_1","Barcelona",22.212,3,0,0,0,4
+"Sant Feliu de Llobregat, Barcelona","ESP.6.1.11.24_1","Barcelona",11.96,2,0,0,0,6
+"Sant Joan Despí, Barcelona","ESP.6.1.11.25_1","Barcelona",5.751,0,0,0,0,5
+"Sant Just Desvern, Barcelona","ESP.6.1.11.26_1","Barcelona",7.67,1,0,0,0,4
+"Sant Vicenç dels Horts, Barcelona","ESP.6.1.11.27_1","Barcelona",8.928,2,0,0,0,3
+"Vallirana, Barcelona","ESP.6.1.11.30_1","Barcelona",23.898,5,0,0,0,2
+"Viladecans, Barcelona","ESP.6.1.11.31_1","Barcelona",19.77,5,0,0,0,3
+"Canyelles, Barcelona","ESP.6.1.12.2_1","Barcelona",14.003,2,0,0,0,3
+"Cubelles, Barcelona","ESP.6.1.12.5_1","Barcelona",13.602,2,0,0,0,2
+"Olivella, Barcelona","ESP.6.1.12.14_1","Barcelona",38.856,6,1,0.1667,0,4
+"Sant Llorenç d'Hortons, Barcelona","ESP.6.1.12.20_1","Barcelona",19.762,3,0,0,0,2
+"Sant Pere de Ribes, Barcelona","ESP.6.1.12.22_1","Barcelona",40.925,7,2,0.2857,0,4
+"Sant Sadurní d'Anoia, Barcelona","ESP.6.1.12.25_1","Barcelona",18.921,4,1,0.25,0,1
+"Sitges, Barcelona","ESP.6.1.12.28_1","Barcelona",44.452,7,1,0.1429,0,5
+"Vilafranca del Penedès, Barcelona","ESP.6.1.12.32_1","Barcelona",20.051,4,0,0,2.6198,0
+"Vilanova i la Geltrú, Barcelona","ESP.6.1.12.33_1","Barcelona",33.791,8,1,0.125,0,3
+"Puigcerdà, Girona","ESP.6.2.1.10_1","Girona",18.183,3,0,0,19.1426,0
+"Vilallonga de Ter, Girona","ESP.6.2.2.20_1","Girona",64.505,13,3,0.2308,15.082,0
+"Besalú, Girona","ESP.6.2.3.2_1","Girona",4.734,0,0,0,7.2602,0
+"Olot, Girona","ESP.6.2.3.12_1","Girona",29.548,6,0,0,10.8844,0
+"Banyoles, Girona","ESP.6.2.4.2_1","Girona",10.818,2,0,0,7.2602,0
+"Cassà de la Selva, Girona","ESP.6.2.4.9_1","Girona",45.373,6,2,0.3333,0,1
+"Celrà, Girona","ESP.6.2.4.10_1","Girona",19.992,3,0,0,0,1
+"Girona, Girona","ESP.6.2.4.17_1","Girona",39.069,7,1,0.1429,0,1
+"Llagostera, Girona","ESP.6.2.4.19_1","Girona",76.692,15,5,0.3333,0,2
+"Figueres, Girona","ESP.6.2.5.20_1","Girona",18.966,2,0,0,7.1419,0
+"L'Escala, Girona","ESP.6.2.5.25_1","Girona",16.63,4,0,0,0,2
+"Llançà, Girona","ESP.6.2.5.30_1","Girona",27.902,5,1,0.2,3.9605,0
+"Roses, Girona","ESP.6.2.5.47_1","Girona",46.448,9,1,0.1111,3.9605,0
+"Sant Pere Pescador, Girona","ESP.6.2.5.52_1","Girona",17.567,2,0,0,0,1
+"Anglès, Girona","ESP.6.2.6.2_1","Girona",16.198,3,0,0,1.276,0
+"Blanes, Girona","ESP.6.2.6.4_1","Girona",18.049,2,0,0,0,2
+"Lloret de Mar, Girona","ESP.6.2.6.11_1","Girona",48.303,9,3,0.3333,0,2
+"Riells i Viabrea, Girona","ESP.6.2.6.15_1","Girona",26.76,4,0,0,6.0642,0
+"Riudellots de la Selva, Girona","ESP.6.2.6.17_1","Girona",13.359,2,0,0,1.5642,0
+"Santa Coloma de Farners, Girona","ESP.6.2.6.21_1","Girona",70.737,12,5,0.4167,1.276,0
+"Tossa de Mar, Girona","ESP.6.2.6.24_1","Girona",38.512,6,1,0.1667,0,2
+"Castell-Platja d'Aro, Girona","ESP.6.2.7.5_1","Girona",21.704,4,0,0,0,1
+"Mont-ras, Girona","ESP.6.2.7.19_1","Girona",12.218,2,0,0,0,2
+"Palafrugell, Girona","ESP.6.2.7.20_1","Girona",27.304,3,0,0,0,1
+"Palamós, Girona","ESP.6.2.7.21_1","Girona",14.682,4,0,0,0,1
+"Pals, Girona","ESP.6.2.7.23_1","Girona",25.531,4,1,0.25,0,1
+"Sant Feliu de Guíxols, Girona","ESP.6.2.7.27_1","Girona",16.172,4,0,0,0,1
+"Torroella de Montgrí, Girona","ESP.6.2.7.31_1","Girona",66.157,12,3,0.25,0,2
+"Ribera d'Urgellet, Lleida","ESP.6.3.4.22_1","Lleida",106.592,18,7,0.3889,12.2892,0
+"Guixers, Lleida","ESP.6.3.6.4_1","Lleida",65.928,10,1,0.1,7.3364,0
+"Solsona, Lleida","ESP.6.3.6.18_1","Lleida",18.043,3,0,0,10.986,0
+"Balaguer, Lleida","ESP.6.3.7.6_1","Lleida",57.029,11,2,0.1818,10.7082,0
+"Mollerussa, Lleida","ESP.6.3.8.20_1","Lleida",6.887,2,0,0,9.5721,0
+"Tàrrega, Lleida","ESP.6.3.8.26_1","Lleida",87.758,17,5,0.2941,7.8646,0
+"Guissona, Lleida","ESP.6.3.9.11_1","Lleida",17.958,3,0,0,7.8646,0
+"Alpicat, Lleida","ESP.6.3.10.9_1","Lleida",15.114,3,0,0,0,1
+"Lleida, Lleida","ESP.6.3.10.17_1","Lleida",211.816,38,9,0.2368,0,1
+"Albinyana, Tarragona","ESP.6.4.2.2_1","Tarragona",19.53,1,0,0,0,2
+"Creixell, Tarragona","ESP.6.4.2.7_1","Tarragona",10.34,1,0,0,0,1
+"Cunit, Tarragona","ESP.6.4.2.8_1","Tarragona",9.592,1,0,0,0,1
+"El Vendrell, Tarragona","ESP.6.4.2.10_1","Tarragona",36.565,8,2,0.25,0,1
+"Alcover, Tarragona","ESP.6.4.3.1_1","Tarragona",46.147,9,1,0.1111,0,6
+"Alió, Tarragona","ESP.6.4.3.3_1","Tarragona",7.124,0,0,0,0,2
+"Altafulla, Tarragona","ESP.6.4.3.5_1","Tarragona",6.991,2,0,0,0,3
+"Bràfim, Tarragona","ESP.6.4.3.7_1","Tarragona",6.569,1,0,0,0,3
+"Cambrils, Tarragona","ESP.6.4.3.9_1","Tarragona",35.272,5,1,0.2,0,5
+"Castellvell del Camp, Tarragona","ESP.6.4.3.10_1","Tarragona",5.138,1,0,0,0,2
+"Constantí, Tarragona","ESP.6.4.3.12_1","Tarragona",31.417,7,1,0.1429,0,5
+"El Catllar, Tarragona","ESP.6.4.3.14_1","Tarragona",26.318,5,1,0.2,0,4
+"El Milà, Tarragona","ESP.6.4.3.15_1","Tarragona",3.932,0,0,0,0,2
+"L'Aleixar, Tarragona","ESP.6.4.3.24_1","Tarragona",25.984,3,0,0,0,4
+"La Nou de Gaià, Tarragona","ESP.6.4.3.27_1","Tarragona",4.327,1,0,0,0,4
+"La Pobla de Mafumet, Tarragona","ESP.6.4.3.28_1","Tarragona",6.115,1,0,0,0,2
+"La Pobla de Montornès, Tarragona","ESP.6.4.3.29_1","Tarragona",12.192,2,0,0,0,4
+"La Riba, Tarragona","ESP.6.4.3.30_1","Tarragona",7.929,2,0,0,0,4
+"La Selva del Camp, Tarragona","ESP.6.4.3.33_1","Tarragona",35.063,6,1,0.1667,0,5
+"Les Borges del Camp, Tarragona","ESP.6.4.3.34_1","Tarragona",8.19,1,0,0,0,1
+"Masllorenç, Tarragona","ESP.6.4.3.35_1","Tarragona",6.481,1,0,0,0,2
+"Montbrió del Camp, Tarragona","ESP.6.4.3.38_1","Tarragona",10.515,2,0,0,0,3
+"Montferri, Tarragona","ESP.6.4.3.39_1","Tarragona",19.178,3,0,0,0,3
+"Perafort, Tarragona","ESP.6.4.3.41_1","Tarragona",9.67,2,0,0,0,4
+"Renau, Tarragona","ESP.6.4.3.44_1","Tarragona",8.403,2,0,0,0,3
+"Reus, Tarragona","ESP.6.4.3.45_1","Tarragona",52.867,10,0,0,0,7
+"Riudoms, Tarragona","ESP.6.4.3.48_1","Tarragona",32.167,6,0,0,0,7
+"Salou, Tarragona","ESP.6.4.3.51_1","Tarragona",15.114,4,0,0,0,2
+"Tarragona, Tarragona","ESP.6.4.3.52_1","Tarragona",64.306,9,0,0,0,5
+"Vallmoll, Tarragona","ESP.6.4.3.54_1","Tarragona",16.566,3,0,0,0,1
+"Valls, Tarragona","ESP.6.4.3.55_1","Tarragona",55.041,9,3,0.3333,0,6
+"Vespella de Gaià, Tarragona","ESP.6.4.3.57_1","Tarragona",18.212,3,0,0,0,5
+"Vila-seca, Tarragona","ESP.6.4.3.59_1","Tarragona",21.991,2,0,0,0,5
+"Vilabella, Tarragona","ESP.6.4.3.60_1","Tarragona",18.233,3,0,0,0,4
+"Vinyols i els Arcs, Tarragona","ESP.6.4.3.64_1","Tarragona",10.644,2,0,0,0,3
+"La Palma d'Ebre, Tarragona","ESP.6.4.4.17_1","Tarragona",38.282,5,1,0.2,0,1
+"Mont-ral, Tarragona","ESP.6.4.4.23_1","Tarragona",34.64,5,1,0.2,0,3
+"Flix, Tarragona","ESP.6.4.5.3_1","Tarragona",115.869,22,7,0.3182,0,1
+"Amposta, Tarragona","ESP.6.4.7.4_1","Tarragona",138.859,23,11,0.4783,0,2
+"Deltebre, Tarragona","ESP.6.4.7.7_1","Tarragona",107.849,18,6,0.3333,0,1
+"Santa Bàrbara, Tarragona","ESP.6.4.7.23_1","Tarragona",28.068,5,0,0,0,1
+"Tortosa, Tarragona","ESP.6.4.7.25_1","Tarragona",218.268,38,16,0.4211,0,2
+"Montblanc, Tarragona","ESP.6.4.8.4_1","Tarragona",91.202,18,4,0.2222,0,3
+"Ceuta, Ceuta","ESP.7.1.1.1_1","Ceuta",20.757,4,0,0,16.6436,0
+"Buitrago del Lozoya, Madrid","ESP.8.1.1.4_1","Madrid",26.443,5,0,0,12.6534,0
+"Miraflores de la Sierra, Madrid","ESP.8.1.1.26_1","Madrid",56.723,10,3,0.3,0,2
+"Soto del Real, Madrid","ESP.8.1.1.43_1","Madrid",43.081,8,2,0.25,0,3
+"Torrelaguna, Madrid","ESP.8.1.1.44_1","Madrid",43.026,7,1,0.1429,11.0273,0
+"Ajalvir, Madrid","ESP.8.1.2.1_1","Madrid",19.638,3,0,0,0,2
+"Alcalá de Henares, Madrid","ESP.8.1.2.2_1","Madrid",87.527,15,5,0.3333,0,7
+"Algete, Madrid","ESP.8.1.2.3_1","Madrid",37.695,9,0,0,0,2
+"Arganda del Rey, Madrid","ESP.8.1.2.5_1","Madrid",79.675,15,4,0.2667,0,4
+"Camarma de Esteruelas, Madrid","ESP.8.1.2.6_1","Madrid",35.41,6,1,0.1667,0,3
+"Meco, Madrid","ESP.8.1.2.15_1","Madrid",35.054,6,1,0.1667,0,5
+"Torres de la Alameda, Madrid","ESP.8.1.2.23_1","Madrid",43.903,7,0,0,0,3
+"Valdeavero, Madrid","ESP.8.1.2.24_1","Madrid",18.955,4,0,0,0,4
+"Villalbilla, Madrid","ESP.8.1.2.30_1","Madrid",34.55,5,1,0.2,0,2
+"Alcobendas, Madrid","ESP.8.1.3.1_1","Madrid",45.001,8,0,0,0,3
+"Alcorcón, Madrid","ESP.8.1.3.2_1","Madrid",33.611,6,1,0.1667,0,7
+"Boadilla del Monte, Madrid","ESP.8.1.3.3_1","Madrid",47.147,8,0,0,0,5
+"Brunete, Madrid","ESP.8.1.3.4_1","Madrid",48.938,7,3,0.4286,0,4
+"Colmenar Viejo, Madrid","ESP.8.1.3.5_1","Madrid",181.898,30,16,0.5333,0,7
+"Coslada, Madrid","ESP.8.1.3.6_1","Madrid",12.011,1,0,0,0,2
+"Getafe, Madrid","ESP.8.1.3.7_1","Madrid",78.576,13,3,0.2308,0,6
+"Las Rozas de Madrid, Madrid","ESP.8.1.3.8_1","Madrid",58.291,12,3,0.25,0,5
+"Leganés, Madrid","ESP.8.1.3.9_1","Madrid",42.9,5,2,0.4,0,4
+"Madrid, Madrid","ESP.8.1.3.10_1","Madrid",604.863,103,64,0.6214,0,15
+"Majadahonda, Madrid","ESP.8.1.3.11_1","Madrid",38.461,5,1,0.2,0,6
+"Mejorada del Campo, Madrid","ESP.8.1.3.12_1","Madrid",17.088,2,0,0,0,3
+"Paracuellos de Jarama, Madrid","ESP.8.1.3.13_1","Madrid",43.806,7,2,0.2857,0,6
+"Pinto, Madrid","ESP.8.1.3.14_1","Madrid",62.437,11,3,0.2727,0,5
+"Pozuelo de Alarcón, Madrid","ESP.8.1.3.15_1","Madrid",43.16,8,2,0.25,0,4
+"Quijorna, Madrid","ESP.8.1.3.16_1","Madrid",25.72,5,0,0,0,3
+"Rivas-Vaciamadrid, Madrid","ESP.8.1.3.17_1","Madrid",67.131,11,4,0.3636,0,7
+"San Fernando de Henares, Madrid","ESP.8.1.3.18_1","Madrid",39.774,6,1,0.1667,0,8
+"San Sebastián de los Reyes, Madrid","ESP.8.1.3.19_1","Madrid",58.905,11,2,0.1818,0,5
+"Torrejón de Ardoz, Madrid","ESP.8.1.3.20_1","Madrid",32.635,6,1,0.1667,0,4
+"Tres Cantos, Madrid","ESP.8.1.3.21_1","Madrid",38.33,7,1,0.1429,0,2
+"Velilla de San Antonio, Madrid","ESP.8.1.3.22_1","Madrid",14.412,2,0,0,0,3
+"Villanueva de la Cañada, Madrid","ESP.8.1.3.23_1","Madrid",34.786,6,0,0,0,7
+"Villanueva del Pardillo, Madrid","ESP.8.1.3.24_1","Madrid",25.323,4,1,0.25,0,6
+"Villaviciosa de Odón, Madrid","ESP.8.1.3.25_1","Madrid",67.993,13,3,0.2308,0,7
+"Arroyomolinos, Madrid","ESP.8.1.4.2_1","Madrid",20.711,5,0,0,0,2
+"Colmenarejo, Madrid","ESP.8.1.4.9_1","Madrid",31.696,6,0,0,0,4
+"El Álamo, Madrid","ESP.8.1.4.11_1","Madrid",22.195,4,1,0.25,0,1
+"Fuenlabrada, Madrid","ESP.8.1.4.12_1","Madrid",38.121,8,0,0,0,7
+"Griñón, Madrid","ESP.8.1.4.13_1","Madrid",17.493,3,0,0,0,3
+"Humanes de Madrid, Madrid","ESP.8.1.4.14_1","Madrid",19.412,4,0,0,0,3
+"Móstoles, Madrid","ESP.8.1.4.16_1","Madrid",45.169,7,1,0.1429,0,5
+"Navalcarnero, Madrid","ESP.8.1.4.18_1","Madrid",100.202,16,8,0.5,0,6
+"Parla, Madrid","ESP.8.1.4.20_1","Madrid",25.291,4,1,0.25,0,5
+"Sevilla la Nueva, Madrid","ESP.8.1.4.25_1","Madrid",25.089,6,0,0,0,4
+"Torrejón de la Calzada, Madrid","ESP.8.1.4.26_1","Madrid",8.934,1,0,0,0,3
+"Valdemorillo, Madrid","ESP.8.1.4.28_1","Madrid",93.33,15,7,0.4667,0,5
+"Valdemoro, Madrid","ESP.8.1.4.29_1","Madrid",64.501,10,2,0.2,0,4
+"Villamanta, Madrid","ESP.8.1.4.31_1","Madrid",62.794,11,3,0.2727,0,4
+"Villamantilla, Madrid","ESP.8.1.4.32_1","Madrid",24.007,5,0,0,0,1
+"Alpedrete, Madrid","ESP.8.1.5.1_1","Madrid",12.563,2,0,0,0,2
+"Cercedilla, Madrid","ESP.8.1.5.3_1","Madrid",35.805,6,1,0.1667,0,1
+"Collado Villalba, Madrid","ESP.8.1.5.5_1","Madrid",26.486,4,0,0,0,4
+"El Escorial, Madrid","ESP.8.1.5.7_1","Madrid",68.694,10,4,0.4,0,4
+"Galapagar, Madrid","ESP.8.1.5.9_1","Madrid",64.996,12,3,0.25,0,8
+"Guadarrama, Madrid","ESP.8.1.5.10_1","Madrid",56.936,11,1,0.0909,0,5
+"Los Molinos, Madrid","ESP.8.1.5.14_1","Madrid",19.608,5,0,0,0,2
+"Manzanares el Real, Madrid","ESP.8.1.5.15_1","Madrid",127.357,23,10,0.4348,0,2
+"San Lorenzo de El Escorial, Madrid","ESP.8.1.5.19_1","Madrid",56.374,11,2,0.1818,0,4
+"Torrelodones, Madrid","ESP.8.1.5.21_1","Madrid",21.99,3,0,0,0,3
+"Aranjuez, Madrid","ESP.8.1.6.2_1","Madrid",188.507,29,7,0.2414,0,4
+"Ciempozuelos, Madrid","ESP.8.1.6.7_1","Madrid",49.288,10,2,0.2,0,4
+"Morata de Tajuña, Madrid","ESP.8.1.6.11_1","Madrid",45.062,6,2,0.3333,0,2
+"San Martín de la Vega, Madrid","ESP.8.1.6.14_1","Madrid",105.804,19,8,0.4211,0,7
+"Villarejo de Salvanés, Madrid","ESP.8.1.6.21_1","Madrid",118.56,19,5,0.2632,7.7267,0
+"Busot, Alicante","ESP.10.1.1.4_1","Alicante",33.855,7,1,0.1429,0,2
+"El Campello, Alicante","ESP.10.1.1.5_1","Alicante",55.569,11,1,0.0909,0,4
+"Mutxamel, Alicante","ESP.10.1.1.7_1","Alicante",47.464,7,2,0.2857,0,3
+"Sant Joan d'Alacant, Alicante","ESP.10.1.1.9_1","Alicante",9.55,1,0,0,0,3
+"Castalla, Alicante","ESP.10.1.2.4_1","Alicante",114.233,17,7,0.4118,0,2
+"Ibi, Alicante","ESP.10.1.2.5_1","Alicante",62.581,10,5,0.5,0,1
+"Villena, Alicante","ESP.10.1.3.7_1","Alicante",345.442,58,36,0.6207,0,4
+"Albatera, Alicante","ESP.10.1.4.1_1","Alicante",66.484,9,2,0.2222,0,6
+"Almoradí, Alicante","ESP.10.1.4.3_1","Alicante",24.933,5,0,0,0,3
+"Callosa de Segura, Alicante","ESP.10.1.4.8_1","Alicante",24.699,5,0,0,0,6
+"Catral, Alicante","ESP.10.1.4.9_1","Alicante",19.934,5,0,0,0,6
+"Cox, Alicante","ESP.10.1.4.10_1","Alicante",16.647,3,0,0,0,4
+"Dolores, Alicante","ESP.10.1.4.13_1","Alicante",18.885,2,0,0,0,5
+"Guardamar del Segura, Alicante","ESP.10.1.4.16_1","Alicante",34.486,6,1,0.1667,0,3
+"Los Montesinos, Alicante","ESP.10.1.4.18_1","Alicante",32.836,6,1,0.1667,0,3
+"Orihuela, Alicante","ESP.10.1.4.19_1","Alicante",367.11,58,23,0.3966,0,13
+"Pilar de la Horadada, Alicante","ESP.10.1.4.20_1","Alicante",76.724,14,2,0.1429,0,3
+"Rafal, Alicante","ESP.10.1.4.21_1","Alicante",1.58,0,0,0,0,1
+"Redován, Alicante","ESP.10.1.4.22_1","Alicante",9.378,2,0,0,0,3
+"San Fulgencio, Alicante","ESP.10.1.4.24_1","Alicante",19.608,3,0,0,0,3
+"San Isidro, Alicante","ESP.10.1.4.25_1","Alicante",6.812,1,0,0,0,2
+"San Miguel de Salinas, Alicante","ESP.10.1.4.26_1","Alicante",54.734,10,3,0.3,0,3
+"Torrevieja, Alicante","ESP.10.1.4.27_1","Alicante",71.671,12,5,0.4167,0,4
+"Cocentaina, Alicante","ESP.10.1.5.13_1","Alicante",52.55,9,2,0.2222,5.3926,0
+"Benissa, Alicante","ESP.10.1.6.7_1","Alicante",70.053,12,1,0.0833,0,1
+"Dénia, Alicante","ESP.10.1.6.12_1","Alicante",66.975,9,3,0.3333,0,3
+"Els Poblets, Alicante","ESP.10.1.6.15_1","Alicante",3.676,1,0,0,0,1
+"Ondara, Alicante","ESP.10.1.6.23_1","Alicante",10.389,3,0,0,0,1
+"Orba, Alicante","ESP.10.1.6.24_1","Alicante",17.856,2,0,0,3.81,0
+"Altea, Alicante","ESP.10.1.7.1_1","Alicante",35.108,6,2,0.3333,0,1
+"Benidorm, Alicante","ESP.10.1.7.2_1","Alicante",38.539,9,0,0,2.4501,0
+"Crevillent, Alicante","ESP.10.1.9.2_1","Alicante",104.259,18,9,0.5,0,7
+"Elche, Alicante","ESP.10.1.9.3_1","Alicante",325.215,53,35,0.6604,0,7
+"Santa Pola, Alicante","ESP.10.1.9.4_1","Alicante",58.168,9,2,0.2222,0,1
+"Aspe, Alicante","ESP.10.1.8.2_1","Alicante",70.843,9,5,0.5556,0,3
+"Elda, Alicante","ESP.10.1.8.3_1","Alicante",45.641,8,3,0.375,0,2
+"Novelda, Alicante","ESP.10.1.8.9_1","Alicante",75.797,16,5,0.3125,0,3
+"Petrer, Alicante","ESP.10.1.8.10_1","Alicante",104.448,17,9,0.5294,0,3
+"Pinoso, Alicante","ESP.10.1.8.11_1","Alicante",126.968,20,10,0.5,0,3
+"L'Alcora, Castellón","ESP.10.2.1.6_1","Castellón",94.78,15,7,0.4667,0,2
+"El Toro, Castellón","ESP.10.2.3.11_1","Castellón",109.916,19,8,0.4211,12.4013,0
+"Segorbe, Castellón","ESP.10.2.3.21_1","Castellón",106.033,17,7,0.4118,1.9776,0
+"Benicarló, Castellón","ESP.10.2.5.2_1","Castellón",48.156,9,2,0.2222,0,2
+"Peñíscola, Castellón","ESP.10.2.5.11_1","Castellón",79.42,12,4,0.3333,0,1
+"Vinaròs, Castellón","ESP.10.2.5.18_1","Castellón",95.358,16,8,0.5,0,1
+"Castellón de la Plana, Castellón","ESP.10.2.7.6_1","Castellón",109.506,17,6,0.3529,0,2
+"Oropesa del Mar, Castellón","ESP.10.2.7.9_1","Castellón",26.82,5,0,0,6.2361,0
+"Almenara, Castellón","ESP.10.2.8.4_1","Castellón",27.504,5,0,0,0,2
+"La Vall d'Uixó, Castellón","ESP.10.2.8.12_1","Castellón",67.128,11,3,0.2727,0,2
+"Onda, Castellón","ESP.10.2.8.16_1","Castellón",108.174,20,8,0.4,0,2
+"Canet d'En Berenguer, Valencia","ESP.10.3.1.7_1","Valencia",3.654,1,0,0,0,1
+"Sagunto, Valencia","ESP.10.3.1.14_1","Valencia",132.182,23,4,0.1739,0,5
+"Benaguasil, Valencia","ESP.10.3.2.1_1","Valencia",25.454,3,0,0,0,2
+"Bétera, Valencia","ESP.10.3.2.3_1","Valencia",74.65,12,5,0.4167,0,5
+"L'Eliana, Valencia","ESP.10.3.2.7_1","Valencia",8.794,2,0,0,0,2
+"La Pobla de Vallbona, Valencia","ESP.10.3.2.8_1","Valencia",33.276,6,1,0.1667,0,5
+"Llíria, Valencia","ESP.10.3.2.9_1","Valencia",227.813,44,13,0.2955,0,3
+"Náquera, Valencia","ESP.10.3.2.12_1","Valencia",38.728,7,1,0.1429,0,3
+"Olocau, Valencia","ESP.10.3.2.13_1","Valencia",37.243,5,1,0.2,0,2
+"Canals, Valencia","ESP.10.3.5.2_1","Valencia",22.485,3,1,0.3333,0,2
+"Buñol, Valencia","ESP.10.3.6.2_1","Valencia",112.2,18,5,0.2778,0,3
+"Chiva, Valencia","ESP.10.3.6.4_1","Valencia",178.619,30,9,0.3,0,4
+"Godelleta, Valencia","ESP.10.3.6.6_1","Valencia",37.438,7,0,0,0,3
+"Albalat dels Sorells, Valencia","ESP.10.3.7.1_1","Valencia",4.502,0,0,0,0,3
+"Alboraya, Valencia","ESP.10.3.7.2_1","Valencia",8.038,1,0,0,0,1
+"Burjassot, Valencia","ESP.10.3.7.7_1","Valencia",3.454,1,0,0,0,2
+"Foios, Valencia","ESP.10.3.7.9_1","Valencia",6.575,1,0,0,0,3
+"La Pobla de Farnals, Valencia","ESP.10.3.7.11_1","Valencia",3.468,1,0,0,0,1
+"Massamagrell, Valencia","ESP.10.3.7.13_1","Valencia",6.266,0,0,0,0,2
+"Moncada, Valencia","ESP.10.3.7.15_1","Valencia",15.843,4,0,0,0,5
+"Puçol, Valencia","ESP.10.3.7.17_1","Valencia",18.028,4,0,0,0,1
+"Alaquàs, Valencia","ESP.10.3.8.1_1","Valencia",3.814,0,0,0,0,2
+"Aldaia, Valencia","ESP.10.3.8.2_1","Valencia",15.945,2,0,0,0,3
+"Manises, Valencia","ESP.10.3.8.3_1","Valencia",19.621,4,0,0,0,1
+"Mislata, Valencia","ESP.10.3.8.4_1","Valencia",2.399,0,0,0,0,1
+"Paterna, Valencia","ESP.10.3.8.5_1","Valencia",35.92,6,0,0,0,5
+"Torrent, Valencia","ESP.10.3.8.9_1","Valencia",69.363,13,4,0.3077,0,7
+"Albal, Valencia","ESP.10.3.10.1_1","Valencia",7.151,1,0,0,0,5
+"Alcàsser, Valencia","ESP.10.3.10.2_1","Valencia",9.045,1,0,0,0,6
+"Alfafar, Valencia","ESP.10.3.10.3_1","Valencia",9.893,2,0,0,0,3
+"Beniparrell, Valencia","ESP.10.3.10.4_1","Valencia",3.772,1,0,0,0,3
+"Catarroja, Valencia","ESP.10.3.10.5_1","Valencia",13.036,3,0,0,0,6
+"Massanassa, Valencia","ESP.10.3.10.7_1","Valencia",5.627,0,0,0,0,4
+"Paiporta, Valencia","ESP.10.3.10.8_1","Valencia",3.904,0,0,0,0,4
+"Picassent, Valencia","ESP.10.3.10.9_1","Valencia",85.728,15,5,0.3333,0,4
+"Silla, Valencia","ESP.10.3.10.11_1","Valencia",25.07,4,1,0.25,0,7
+"Daimús, Valencia","ESP.10.3.11.13_1","Valencia",3.11,0,0,0,0,1
+"Gandia, Valencia","ESP.10.3.11.14_1","Valencia",60.768,11,1,0.0909,0,1
+"Oliva, Valencia","ESP.10.3.11.19_1","Valencia",59.658,10,2,0.2,0,1
+"Requena, Valencia","ESP.10.3.12.5_1","Valencia",813.692,135,103,0.763,0,2
+"Algemesí, Valencia","ESP.10.3.13.4_1","Valencia",41.138,8,1,0.125,0,3
+"Alginet, Valencia","ESP.10.3.13.5_1","Valencia",24.108,4,0,0,0,4
+"Alzira, Valencia","ESP.10.3.13.6_1","Valencia",110.771,17,2,0.1176,0,2
+"Carcaixent, Valencia","ESP.10.3.13.12_1","Valencia",58.959,10,2,0.2,0,3
+"Carlet, Valencia","ESP.10.3.13.14_1","Valencia",45.802,8,2,0.25,0,2
+"L'Alcúdia, Valencia","ESP.10.3.13.19_1","Valencia",23.943,4,0,0,0,1
+"La Pobla Llarga, Valencia","ESP.10.3.13.21_1","Valencia",10.097,1,0,0,0,1
+"Almussafes, Valencia","ESP.10.3.14.2_1","Valencia",10.78,3,0,0,0,4
+"Cullera, Valencia","ESP.10.3.14.5_1","Valencia",52.91,10,2,0.2,0,1
+"Sollana, Valencia","ESP.10.3.14.11_1","Valencia",39.143,6,0,0,0,6
+"Sueca, Valencia","ESP.10.3.14.12_1","Valencia",92.205,13,6,0.4615,0,3
+"Agullent, Valencia","ESP.10.3.17.1_1","Valencia",16.098,3,0,0,0,1
+"L'Olleria, Valencia","ESP.10.3.17.21_1","Valencia",32.342,5,1,0.2,0,2
+"Ontinyent, Valencia","ESP.10.3.17.26_1","Valencia",125.539,21,10,0.4762,0,1
+"Alburquerque, Badajoz","ESP.11.1.1.1_1","Badajoz",723.246,120,88,0.7333,0,2
+"Mérida, Badajoz","ESP.11.1.6.14_1","Badajoz",864.293,140,60,0.4286,0,4
+"Almendralejo, Badajoz","ESP.11.1.7.3_1","Badajoz",163.87,29,16,0.5517,0,2
+"Villafranca de los Barros, Badajoz","ESP.11.1.7.21_1","Badajoz",104.125,16,8,0.5,0,1
+"Zafra, Badajoz","ESP.11.1.7.23_1","Badajoz",62.369,10,2,0.2,1.6467,0
+"Burguillos del Cerro, Badajoz","ESP.11.1.9.3_1","Badajoz",187.219,31,17,0.5484,1.6467,0
+"Don Benito, Badajoz","ESP.11.1.12.4_1","Badajoz",561.391,91,43,0.4725,0,1
+"Villanueva de la Serena, Badajoz","ESP.11.1.12.17_1","Badajoz",151.982,27,13,0.4815,0,1
+"Pinofranqueado, Cáceres","ESP.11.2.1.21_1","Cáceres",146.554,25,14,0.56,15.8164,0
+"Plasencia, Cáceres","ESP.11.2.4.22_1","Cáceres",217.802,37,16,0.4324,24.7007,0
+"Cáceres, Cáceres","ESP.11.2.6.9_1","Cáceres",1748.555,293,207,0.7065,0,4
+"Montánchez, Cáceres","ESP.11.2.6.18_1","Cáceres",113.353,17,3,0.1765,0,2
+"Navalmoral de la Mata, Cáceres","ESP.11.2.9.18_1","Cáceres",155.848,27,11,0.4074,28.0946,0
+"A Pobra do Caramiñal, A Coruña","ESP.12.1.1.2_1","A Coruña",32.524,6,0,0,0,2
+"Ames, A Coruña","ESP.12.1.1.3_1","A Coruña",80.052,13,2,0.1538,0,3
+"Boiro, A Coruña","ESP.12.1.1.4_1","A Coruña",86.27,16,6,0.375,0,1
+"Fisterra, A Coruña","ESP.12.1.1.13_1","A Coruña",29.693,5,0,0,2.8084,0
+"Mazaricos, A Coruña","ESP.12.1.1.16_1","A Coruña",187.019,31,17,0.5484,0,2
+"Muxía, A Coruña","ESP.12.1.1.18_1","A Coruña",122.973,23,7,0.3043,2.8084,0
+"Noia, A Coruña","ESP.12.1.1.20_1","A Coruña",36.926,7,0,0,2.1756,0
+"Ribeira, A Coruña","ESP.12.1.1.25_1","A Coruña",72.34,10,2,0.2,0,1
+"Santa Comba, A Coruña","ESP.12.1.1.27_1","A Coruña",203.299,34,19,0.5588,0,4
+"Santiago de Compostela, A Coruña","ESP.12.1.1.28_1","A Coruña",220.19,38,21,0.5526,0,5
+"Teo, A Coruña","ESP.12.1.1.29_1","A Coruña",79.166,15,5,0.3333,0,4
+"Vedra, A Coruña","ESP.12.1.1.30_1","A Coruña",52.89,8,1,0.125,0,3
+"Zas, A Coruña","ESP.12.1.1.32_1","A Coruña",132.788,23,9,0.3913,0,3
+"A Coruña, A Coruña","ESP.12.1.2.1_1","A Coruña",39.305,6,1,0.1667,0,2
+"A Laracha, A Coruña","ESP.12.1.2.2_1","A Coruña",125.801,22,9,0.4091,0,3
+"Abegondo, A Coruña","ESP.12.1.2.3_1","A Coruña",83.25,15,4,0.2667,0,3
+"Arteixo, A Coruña","ESP.12.1.2.5_1","A Coruña",93.62,17,6,0.3529,0,3
+"Betanzos, A Coruña","ESP.12.1.2.7_1","A Coruña",24.082,2,0,0,0,1
+"Cabana de Bergantiños, A Coruña","ESP.12.1.2.8_1","A Coruña",98.924,19,4,0.2105,0,1
+"Cambre, A Coruña","ESP.12.1.2.10_1","A Coruña",40.544,7,2,0.2857,0,4
+"Carballo, A Coruña","ESP.12.1.2.11_1","A Coruña",186.314,34,15,0.4412,0,3
+"Culleredo, A Coruña","ESP.12.1.2.19_1","A Coruña",61.701,12,1,0.0833,0,4
+"Fene, A Coruña","ESP.12.1.2.20_1","A Coruña",27.194,5,0,0,0.4118,0
+"Ferrol, A Coruña","ESP.12.1.2.21_1","A Coruña",84.666,15,5,0.3333,0,1
+"Malpica de Bergantiños, A Coruña","ESP.12.1.2.22_1","A Coruña",61.983,11,2,0.1818,0,1
+"Miño, A Coruña","ESP.12.1.2.24_1","A Coruña",32.629,6,0,0,1.9794,0
+"Narón, A Coruña","ESP.12.1.2.27_1","A Coruña",67.265,11,1,0.0909,0,2
+"Oleiros, A Coruña","ESP.12.1.2.29_1","A Coruña",44.324,9,0,0,0,2
+"Sada, A Coruña","ESP.12.1.2.35_1","A Coruña",27.838,5,1,0.2,0,2
+"San Sadurniño, A Coruña","ESP.12.1.2.36_1","A Coruña",99.165,19,4,0.2105,0,3
+"Arzúa, A Coruña","ESP.12.1.3.3_1","A Coruña",155.056,31,12,0.3871,0,1
+"As Pontes de García Rodríguez, A Coruña","ESP.12.1.3.4_1","A Coruña",248.763,44,26,0.5909,0,3
+"As Somozas, A Coruña","ESP.12.1.3.5_1","A Coruña",71.013,13,3,0.2308,0,2
+"Curtis, A Coruña","ESP.12.1.3.8_1","A Coruña",116.433,20,9,0.45,4.5824,0
+"Melide, A Coruña","ESP.12.1.3.11_1","A Coruña",101.147,17,6,0.3529,0,1
+"Ordes, A Coruña","ESP.12.1.3.15_1","A Coruña",157.06,29,13,0.4483,0,3
+"Oroso, A Coruña","ESP.12.1.3.16_1","A Coruña",71.962,11,4,0.3636,0,3
+"Tordoia, A Coruña","ESP.12.1.3.20_1","A Coruña",124.279,24,6,0.25,0,5
+"Val do Dubra, A Coruña","ESP.12.1.3.23_1","A Coruña",108.349,20,9,0.45,0,4
+"A Pobra do Brollón, Lugo","ESP.12.2.1.1_1","Lugo",176.474,29,15,0.5172,0,4
+"Carballedo, Lugo","ESP.12.2.1.3_1","Lugo",138.943,25,9,0.36,0,1
+"Chantada, Lugo","ESP.12.2.1.4_1","Lugo",176.434,33,15,0.4545,0,3
+"Folgoso do Courel, Lugo","ESP.12.2.1.5_1","Lugo",192.725,38,14,0.3684,0,3
+"Monforte de Lemos, Lugo","ESP.12.2.1.6_1","Lugo",199.295,35,20,0.5714,0,2
+"O Saviñao, Lugo","ESP.12.2.1.7_1","Lugo",196.371,34,19,0.5588,0,3
+"Quiroga, Lugo","ESP.12.2.1.9_1","Lugo",316.803,56,34,0.6071,0,3
+"Taboada, Lugo","ESP.12.2.1.12_1","Lugo",146.315,26,11,0.4231,0,5
+"Antas de Ulla, Lugo","ESP.12.2.2.1_1","Lugo",103.373,17,7,0.4118,0,2
+"Castroverde, Lugo","ESP.12.2.2.2_1","Lugo",174.13,27,16,0.5926,0,2
+"Friol, Lugo","ESP.12.2.2.3_1","Lugo",291.786,52,31,0.5962,0,2
+"Láncara, Lugo","ESP.12.2.2.5_1","Lugo",121.474,22,7,0.3182,0,3
+"Lugo, Lugo","ESP.12.2.2.6_1","Lugo",329.413,58,36,0.6207,0,3
+"Monterroso, Lugo","ESP.12.2.2.7_1","Lugo",114.345,20,8,0.4,0,3
+"Outeiro de Rei, Lugo","ESP.12.2.2.11_1","Lugo",134.014,24,10,0.4167,0,2
+"Portomarín, Lugo","ESP.12.2.2.14_1","Lugo",114.993,21,10,0.4762,0,2
+"Samos, Lugo","ESP.12.2.2.16_1","Lugo",136.195,23,9,0.3913,0,4
+"Sarria, Lugo","ESP.12.2.2.17_1","Lugo",184.29,35,18,0.5143,0,2
+"Meira, Lugo","ESP.12.2.3.7_1","Lugo",46.387,8,1,0.125,0,1
+"Muras, Lugo","ESP.12.2.3.8_1","Lugo",163.716,28,14,0.5,0,2
+"Pol, Lugo","ESP.12.2.3.9_1","Lugo",125.694,23,10,0.4348,0,2
+"Vilalba, Lugo","ESP.12.2.3.11_1","Lugo",378.516,68,43,0.6324,0,1
+"Burela, Lugo","ESP.12.2.4.4_1","Lugo",7.445,1,0,0,7.0827,0
+"Ribadeo, Lugo","ESP.12.2.4.12_1","Lugo",106.886,19,10,0.5263,2.9791,0
+"Xove, Lugo","ESP.12.2.4.16_1","Lugo",90.254,14,5,0.3571,7.0827,0
+"A Fonsagrada, Lugo","ESP.12.2.5.1_1","Lugo",437.283,78,50,0.641,0.2381,0
+"Becerreá, Lugo","ESP.12.2.5.5_1","Lugo",171.524,30,16,0.5333,0,1
+"Cartelle, Ourense","ESP.12.3.1.13_1","Ourense",94.225,17,7,0.4118,0,1
+"O Carballiño, Ourense","ESP.12.3.1.25_1","Ourense",54.288,9,1,0.1111,6.5931,0
+"Ourense, Ourense","ESP.12.3.1.28_1","Ourense",84.527,12,2,0.1667,0,1
+"Paderne de Allariz, Ourense","ESP.12.3.1.29_1","Ourense",38.671,6,0,0,0,1
+"Ramirás, Ourense","ESP.12.3.1.35_1","Ourense",40.695,7,0,0,0,1
+"San Cibrao das Viñas, Ourense","ESP.12.3.1.38_1","Ourense",39.376,7,0,0,0,2
+"Riós, Ourense","ESP.12.3.2.18_1","Ourense",113.938,21,8,0.381,0.9075,0
+"Sandiás, Ourense","ESP.12.3.2.19_1","Ourense",52.867,10,2,0.2,7.5449,0
+"Verea, Ourense","ESP.12.3.2.22_1","Ourense",93.777,16,4,0.25,1.5728,0
+"Verín, Ourense","ESP.12.3.2.23_1","Ourense",93.738,14,3,0.2143,0.9075,0
+"A Veiga, Ourense","ESP.12.3.3.6_1","Ourense",290.204,49,31,0.6327,2.0943,0
+"Chandrexa de Queixa, Ourense","ESP.12.3.3.9_1","Ourense",171.692,30,16,0.5333,8.4644,0
+"Vilamartín de Valdeorras, Ourense","ESP.12.3.3.20_1","Ourense",88.304,14,6,0.4286,0,1
+"As Neves, Pontevedra","ESP.12.4.1.3_1","Pontevedra",65.647,13,3,0.2308,0,2
+"Ponteareas, Pontevedra","ESP.12.4.1.9_1","Pontevedra",125.454,21,10,0.4762,0,3
+"Salvaterra de Miño, Pontevedra","ESP.12.4.1.11_1","Pontevedra",62.891,12,2,0.1667,0,3
+"Tui, Pontevedra","ESP.12.4.1.13_1","Pontevedra",68.015,14,3,0.2143,0,2
+"A Lama, Pontevedra","ESP.12.4.2.2_1","Pontevedra",111.44,16,10,0.625,7.1682,0
+"Campo Lameiro, Pontevedra","ESP.12.4.2.3_1","Pontevedra",63.439,12,3,0.25,0,3
+"Baiona, Pontevedra","ESP.12.4.3.2_1","Pontevedra",34.478,7,0,0,4.9258,0
+"Cambados, Pontevedra","ESP.12.4.3.6_1","Pontevedra",23.49,4,0,0,0,1
+"Cangas, Pontevedra","ESP.12.4.3.7_1","Pontevedra",38.285,7,0,0,2.4664,0
+"Meis, Pontevedra","ESP.12.4.3.12_1","Pontevedra",52.287,9,1,0.1111,0,1
+"O Grove, Pontevedra","ESP.12.4.3.17_1","Pontevedra",22.005,3,0,0,0,1
+"O Porriño, Pontevedra","ESP.12.4.3.18_1","Pontevedra",61.138,12,2,0.1667,0,3
+"Pontevedra, Pontevedra","ESP.12.4.3.21_1","Pontevedra",117.958,19,6,0.3158,0,1
+"Redondela, Pontevedra","ESP.12.4.3.23_1","Pontevedra",52.28,9,2,0.2222,0,1
+"Sanxenxo, Pontevedra","ESP.12.4.3.25_1","Pontevedra",44.771,8,2,0.25,0,1
+"Vigo, Pontevedra","ESP.12.4.3.28_1","Pontevedra",111.164,18,9,0.5,0,2
+"Vilagarcía de Arousa, Pontevedra","ESP.12.4.3.30_1","Pontevedra",44.55,8,2,0.25,0,1
+"Vilanova de Arousa, Pontevedra","ESP.12.4.3.31_1","Pontevedra",32.9,7,0,0,0,3
+"A Estrada, Pontevedra","ESP.12.4.4.1_1","Pontevedra",280.182,49,31,0.6327,0,5
+"Cuntis, Pontevedra","ESP.12.4.4.4_1","Pontevedra",79.878,15,5,0.3333,0,2
+"Silleda, Pontevedra","ESP.12.4.4.9_1","Pontevedra",167.811,32,14,0.4375,0,1
+"Ciutadella de Menorca, Baleares","ESP.13.1.1.1_1","Baleares",188.109,29,18,0.6207,0,1
+"Es Mercadal, Baleares","ESP.13.1.1.2_1","Baleares",139.894,24,9,0.375,0,4
+"Es Migjorn Gran, Baleares","ESP.13.1.1.3_1","Baleares",32.428,5,1,0.2,0,3
+"Ferreries, Baleares","ESP.13.1.1.4_1","Baleares",66.664,13,3,0.2308,0,3
+"Eivissa, Baleares","ESP.13.1.2.1_1","Baleares",11.616,1,0,0,0,2
+"Sant Antoni de Portmany, Baleares","ESP.13.1.2.3_1","Baleares",128.049,22,10,0.4545,0,3
+"Sant Joan de Labritja, Baleares","ESP.13.1.2.4_1","Baleares",123.043,21,7,0.3333,0,1
+"Sant Josep de sa Talaia, Baleares","ESP.13.1.2.5_1","Baleares",163.459,25,12,0.48,0,2
+"Alaior, Baleares","ESP.13.1.3.1_1","Baleares",109.843,19,9,0.4737,0,3
+"Es Castell, Baleares","ESP.13.1.3.2_1","Baleares",11.68,2,0,0,0,2
+"Mahón, Baleares","ESP.13.1.3.3_1","Baleares",119.461,17,6,0.3529,0,4
+"Sant Lluís, Baleares","ESP.13.1.3.4_1","Baleares",35.425,7,1,0.1429,0,2
+"Artà, Baleares","ESP.13.1.4.1_1","Baleares",139.762,22,11,0.5,0,5
+"Capdepera, Baleares","ESP.13.1.4.2_1","Baleares",55.72,9,3,0.3333,0,2
+"Manacor, Baleares","ESP.13.1.4.3_1","Baleares",260.235,42,22,0.5238,0,3
+"Sant Llorenç des Cardassar, Baleares","ESP.13.1.4.4_1","Baleares",82.052,14,3,0.2143,0,4
+"Son Servera, Baleares","ESP.13.1.4.5_1","Baleares",42.253,9,1,0.1111,0,3
+"Campos, Baleares","ESP.13.1.5.1_1","Baleares",149.102,23,13,0.5652,0,5
+"Felanitx, Baleares","ESP.13.1.5.2_1","Baleares",169.439,29,13,0.4483,0,4
+"Llucmajor, Baleares","ESP.13.1.5.3_1","Baleares",329.475,58,39,0.6724,0,5
+"Santanyí, Baleares","ESP.13.1.5.4_1","Baleares",125.456,23,5,0.2174,0,3
+"Ses Salines, Baleares","ESP.13.1.5.5_1","Baleares",39.095,5,1,0.2,0,2
+"Alcúdia, Baleares","ESP.13.1.6.1_1","Baleares",60.255,10,1,0.1,0,3
+"Muro, Baleares","ESP.13.1.6.2_1","Baleares",59.128,10,2,0.2,0,5
+"Sa Pobla, Baleares","ESP.13.1.6.4_1","Baleares",49.18,8,1,0.125,0,7
+"Santa Margalida, Baleares","ESP.13.1.6.5_1","Baleares",85.208,16,7,0.4375,0,6
+"Andratx, Baleares","ESP.13.1.7.1_1","Baleares",83.371,13,4,0.3077,0,2
+"Banyalbufar, Baleares","ESP.13.1.7.2_1","Baleares",18.831,4,0,0,0,4
+"Bunyola, Baleares","ESP.13.1.7.3_1","Baleares",84.854,16,4,0.25,0,6
+"Calvià, Baleares","ESP.13.1.7.4_1","Baleares",147.088,26,8,0.3077,0,4
+"Escorca, Baleares","ESP.13.1.7.6_1","Baleares",141.01,22,10,0.4545,0,8
+"Esporles, Baleares","ESP.13.1.7.7_1","Baleares",35.914,6,0,0,0,4
+"Estellencs, Baleares","ESP.13.1.7.8_1","Baleares",13.924,2,0,0,0,4
+"Fornalutx, Baleares","ESP.13.1.7.9_1","Baleares",19.578,3,0,0,0,2
+"Pollença, Baleares","ESP.13.1.7.10_1","Baleares",153.086,24,10,0.4167,0,4
+"Puigpunyent, Baleares","ESP.13.1.7.11_1","Baleares",40.674,8,0,0,0,5
+"Sóller, Baleares","ESP.13.1.7.12_1","Baleares",43.233,8,0,0,0,3
+"Valldemossa, Baleares","ESP.13.1.7.13_1","Baleares",43.513,6,2,0.3333,0,4
+"Alaró, Baleares","ESP.13.1.9.1_1","Baleares",45.299,8,1,0.125,0,6
+"Algaida, Baleares","ESP.13.1.9.2_1","Baleares",89.528,14,7,0.5,0,6
+"Ariany, Baleares","ESP.13.1.9.3_1","Baleares",28.121,6,0,0,0,4
+"Binissalem, Baleares","ESP.13.1.9.4_1","Baleares",29.456,6,0,0,0,5
+"Búger, Baleares","ESP.13.1.9.5_1","Baleares",7.482,1,0,0,0,4
+"Campanet, Baleares","ESP.13.1.9.6_1","Baleares",35.265,7,1,0.1429,0,5
+"Consell, Baleares","ESP.13.1.9.7_1","Baleares",13.957,2,0,0,0,4
+"Costitx, Baleares","ESP.13.1.9.8_1","Baleares",15.73,2,0,0,0,4
+"Inca, Baleares","ESP.13.1.9.9_1","Baleares",58.015,11,3,0.2727,0,9
+"Lloret de Vistalegre, Baleares","ESP.13.1.9.10_1","Baleares",16.623,4,0,0,0,6
+"Lloseta, Baleares","ESP.13.1.9.11_1","Baleares",12.167,2,0,0,0,5
+"Llubí, Baleares","ESP.13.1.9.12_1","Baleares",34.744,6,1,0.1667,0,6
+"Mancor de la Vall, Baleares","ESP.13.1.9.13_1","Baleares",19.804,3,1,0.3333,0,4
+"Maria de la Salut, Baleares","ESP.13.1.9.14_1","Baleares",30.875,6,0,0,0,5
+"Marratxí, Baleares","ESP.13.1.9.15_1","Baleares",53.977,9,2,0.2222,0,2
+"Montuïri, Baleares","ESP.13.1.9.16_1","Baleares",40.888,6,2,0.3333,0,5
+"Petra, Baleares","ESP.13.1.9.17_1","Baleares",64.533,10,3,0.3,0,7
+"Porreres, Baleares","ESP.13.1.9.18_1","Baleares",87.164,14,5,0.3571,0,5
+"Sant Joan, Baleares","ESP.13.1.9.19_1","Baleares",38.754,6,0,0,0,5
+"Santa Eugènia, Baleares","ESP.13.1.9.20_1","Baleares",20.041,4,0,0,0,4
+"Selva, Baleares","ESP.13.1.9.22_1","Baleares",49.114,8,2,0.25,0,6
+"Sencelles, Baleares","ESP.13.1.9.23_1","Baleares",53.058,9,1,0.1111,0,7
+"Sineu, Baleares","ESP.13.1.9.24_1","Baleares",48.116,6,2,0.3333,0,8
+"Arrecife, Las Palmas","ESP.14.1.1.4_1","Las Palmas",23.174,3,0,0,0,1
+"Firgas, Las Palmas","ESP.14.1.1.8_1","Las Palmas",15.015,2,0,0,0,1
+"Gáldar, Las Palmas","ESP.14.1.1.9_1","Las Palmas",63.638,11,2,0.1818,4.5872,0
+"Las Palmas de Gran Canaria, Las Palmas","ESP.14.1.1.13_1","Las Palmas",104.186,16,6,0.375,0,2
+"Mogán, Las Palmas","ESP.14.1.1.14_1","Las Palmas",170.171,24,14,0.5833,0,1
+"Puerto del Rosario, Las Palmas","ESP.14.1.1.17_1","Las Palmas",317.154,47,28,0.5957,38.1204,0
+"San Bartolomé, Las Palmas","ESP.14.1.1.18_1","Las Palmas",43.277,6,0,0,0,2
+"San Bartolomé de Tirajana, Las Palmas","ESP.14.1.1.19_1","Las Palmas",333.14,48,30,0.625,0,1
+"Telde, Las Palmas","ESP.14.1.1.26_1","Las Palmas",103.35,16,6,0.375,0,1
+"Teror, Las Palmas","ESP.14.1.1.27_1","Las Palmas",25.613,4,0,0,0,2
+"Tías, Las Palmas","ESP.14.1.1.28_1","Las Palmas",67.454,10,3,0.3,0,1
+"Adeje, Santa Cruz de Tenerife","ESP.14.2.1.1_1","Santa Cruz de Tenerife",98.898,14,6,0.4286,0,2
+"Arona, Santa Cruz de Tenerife","ESP.14.2.1.6_1","Santa Cruz de Tenerife",84.295,12,5,0.4167,0,1
+"El Rosario, Santa Cruz de Tenerife","ESP.14.2.1.13_1","Santa Cruz de Tenerife",40.074,7,1,0.1429,0,4
+"Granadilla de Abona, Santa Cruz de Tenerife","ESP.14.2.1.21_1","Santa Cruz de Tenerife",161.739,23,11,0.4783,0,1
+"Icod de los Vinos, Santa Cruz de Tenerife","ESP.14.2.1.25_1","Santa Cruz de Tenerife",96.91,14,7,0.5,0,2
+"La Matanza de Acentejo, Santa Cruz de Tenerife","ESP.14.2.1.27_1","Santa Cruz de Tenerife",15.03,3,0,0,0,1
+"La Orotava, Santa Cruz de Tenerife","ESP.14.2.1.28_1","Santa Cruz de Tenerife",206.913,29,14,0.4828,0,6
+"Los Llanos de Aridane, Santa Cruz de Tenerife","ESP.14.2.1.30_1","Santa Cruz de Tenerife",34.188,7,0,0,6.2615,0
+"Los Realejos, Santa Cruz de Tenerife","ESP.14.2.1.31_1","Santa Cruz de Tenerife",58.264,10,2,0.2,0,2
+"Puerto de la Cruz, Santa Cruz de Tenerife","ESP.14.2.1.33_1","Santa Cruz de Tenerife",9.83,1,0,0,0,2
+"San Cristóbal de La Laguna, Santa Cruz de Tenerife","ESP.14.2.1.37_1","Santa Cruz de Tenerife",106.816,14,2,0.1429,0,3
+"Santa Cruz de la Palma, Santa Cruz de Tenerife","ESP.14.2.1.41_1","Santa Cruz de Tenerife",45.002,9,1,0.1111,6.2615,0
+"Santa Cruz de Tenerife, Santa Cruz de Tenerife","ESP.14.2.1.42_1","Santa Cruz de Tenerife",155.181,22,7,0.3182,0,2
+"Santiago del Teide, Santa Cruz de Tenerife","ESP.14.2.1.44_1","Santa Cruz de Tenerife",53.405,6,1,0.1667,0,2
+"Tacoronte, Santa Cruz de Tenerife","ESP.14.2.1.45_1","Santa Cruz de Tenerife",29.018,5,0,0,0,2
+"Vallehermoso, Santa Cruz de Tenerife","ESP.14.2.1.50_1","Santa Cruz de Tenerife",109.566,17,4,0.2353,38.0655,0
+"Arnedo, La Rioja","ESP.15.1.2.2_1","La Rioja",85.178,16,6,0.375,0.8674,0
+"Haro, La Rioja","ESP.15.1.3.37_1","La Rioja",40.359,7,0,0,0,1
+"Santo Domingo de la Calzada, La Rioja","ESP.15.1.3.59_1","La Rioja",40.148,8,1,0.125,2.3571,0
+"Logroño, La Rioja","ESP.15.1.6.18_1","La Rioja",79.525,15,2,0.1333,10.432,0
+"Alfaro, La Rioja","ESP.15.1.7.3_1","La Rioja",194.083,34,14,0.4118,6.0457,0
+"Calahorra, La Rioja","ESP.15.1.7.5_1","La Rioja",93.573,14,6,0.4286,0.8674,0
+"Vitoria-Gasteiz, Álava","ESP.16.1.3.12_1","Álava",276.096,47,27,0.5745,0,1
+"Bernedo, Álava","ESP.16.1.4.2_1","Álava",130.576,23,5,0.2174,0,1
+"Urduña-Orduña, Álava","ESP.16.1.5.9_1","Álava",33.418,6,0,0,0,1
+"Andoain, Guipúzcoa","ESP.16.2.1.11_1","Guipúzcoa",27.199,5,1,0.2,0,4
+"Azkoitia, Guipúzcoa","ESP.16.2.1.20_1","Guipúzcoa",56.604,9,4,0.4444,0,4
+"Azpeitia, Guipúzcoa","ESP.16.2.1.21_1","Guipúzcoa",69.223,14,3,0.2143,0,3
+"Beasain, Guipúzcoa","ESP.16.2.1.23_1","Guipúzcoa",30.275,4,1,0.25,0,1
+"Bergara, Guipúzcoa","ESP.16.2.1.27_1","Guipúzcoa",75.95,16,3,0.1875,0,4
+"Donostia-San Sebastián, Guipúzcoa","ESP.16.2.1.32_1","Guipúzcoa",61.34,10,1,0.1,0,4
+"Eibar, Guipúzcoa","ESP.16.2.1.33_1","Guipúzcoa",24.786,4,1,0.25,0,2
+"Elgoibar, Guipúzcoa","ESP.16.2.1.36_1","Guipúzcoa",39.173,8,2,0.25,0,3
+"Errenteria, Guipúzcoa","ESP.16.2.1.37_1","Guipúzcoa",32.271,6,0,0,0,3
+"Eskoriatza, Guipúzcoa","ESP.16.2.1.39_1","Guipúzcoa",40.574,6,1,0.1667,0.388,0
+"Hernani, Guipúzcoa","ESP.16.2.1.45_1","Guipúzcoa",39.746,6,0,0,0,4
+"Hondarribia, Guipúzcoa","ESP.16.2.1.47_1","Guipúzcoa",28.429,6,2,0.3333,0,2
+"Irun, Guipúzcoa","ESP.16.2.1.51_1","Guipúzcoa",41.448,7,2,0.2857,0,2
+"Lasarte-Oria, Guipúzcoa","ESP.16.2.1.55_1","Guipúzcoa",5.969,1,0,0,0,4
+"Legazpi, Guipúzcoa","ESP.16.2.1.58_1","Guipúzcoa",41.862,7,2,0.2857,0,2
+"Lezo, Guipúzcoa","ESP.16.2.1.61_1","Guipúzcoa",8.695,1,0,0,0,3
+"Oñati, Guipúzcoa","ESP.16.2.1.68_1","Guipúzcoa",107.114,19,10,0.5263,0,2
+"Tolosa, Guipúzcoa","ESP.16.2.1.78_1","Guipúzcoa",37.41,6,0,0,0,1
+"Urnieta, Guipúzcoa","ESP.16.2.1.79_1","Guipúzcoa",22.415,3,0,0,0,3
+"Villabona, Guipúzcoa","ESP.16.2.1.82_1","Guipúzcoa",17.715,3,0,0,0,2
+"Zarautz, Guipúzcoa","ESP.16.2.1.84_1","Guipúzcoa",14.37,3,0,0,4.5124,0
+"Zumarraga, Guipúzcoa","ESP.16.2.1.90_1","Guipúzcoa",16.609,3,0,0,0,3
+"Amorebieta-Etxano, Vizcaya","ESP.16.3.1.5_1","Vizcaya",58.115,9,2,0.2222,0,2
+"Arratzu, Vizcaya","ESP.16.3.1.11_1","Vizcaya",10.289,2,0,0,0,1
+"Arrigorriaga, Vizcaya","ESP.16.3.1.13_1","Vizcaya",16.033,4,0,0,0,2
+"Barakaldo, Vizcaya","ESP.16.3.1.20_1","Vizcaya",28.975,6,1,0.1667,0,3
+"Basauri, Vizcaya","ESP.16.3.1.22_1","Vizcaya",6.965,1,0,0,0,3
+"Bermeo, Vizcaya","ESP.16.3.1.25_1","Vizcaya",33.939,6,1,0.1667,3.8145,0
+"Bilbao, Vizcaya","ESP.16.3.1.28_1","Vizcaya",41.347,7,1,0.1429,0,8
+"Derio, Vizcaya","ESP.16.3.1.30_1","Vizcaya",7.21,1,0,0,0,3
+"Durango, Vizcaya","ESP.16.3.1.32_1","Vizcaya",14.902,3,0,0,0,1
+"Erandio, Vizcaya","ESP.16.3.1.36_1","Vizcaya",17.671,4,0,0,0,6
+"Galdakao, Vizcaya","ESP.16.3.1.44_1","Vizcaya",31.722,5,1,0.2,0,4
+"Gernika-Lumo, Vizcaya","ESP.16.3.1.50_1","Vizcaya",8.348,2,0,0,0,1
+"Getxo, Vizcaya","ESP.16.3.1.51_1","Vizcaya",11.748,1,0,0,0,3
+"Leioa, Vizcaya","ESP.16.3.1.64_1","Vizcaya",8.621,1,0,0,0,4
+"Loiu, Vizcaya","ESP.16.3.1.69_1","Vizcaya",15.792,3,0,0,0,4
+"Maruri-Jatabe, Vizcaya","ESP.16.3.1.73_1","Vizcaya",15.881,3,0,0,3.8145,0
+"Ondarroa, Vizcaya","ESP.16.3.1.85_1","Vizcaya",3.663,1,0,0,6.5279,0
+"Portugalete, Vizcaya","ESP.16.3.1.90_1","Vizcaya",3.221,1,0,0,0,3
+"Sestao, Vizcaya","ESP.16.3.1.92_1","Vizcaya",3.483,0,0,0,0,4
+"Zalla, Vizcaya","ESP.16.3.1.102_1","Vizcaya",30.639,5,1,0.2,0,1
+"Zamudio, Vizcaya","ESP.16.3.1.103_1","Vizcaya",18.493,3,0,0,0,4
+"Avilés, Asturias","ESP.17.1.1.1_1","Asturias",25.027,5,0,0,0,2
+"Castrillón, Asturias","ESP.17.1.1.3_1","Asturias",55.65,10,2,0.2,0,2
+"Cudillero, Asturias","ESP.17.1.1.5_1","Asturias",102.015,20,5,0.25,0,3
+"Gozón, Asturias","ESP.17.1.1.6_1","Asturias",82.621,16,5,0.3125,0,1
+"Pravia, Asturias","ESP.17.1.1.9_1","Asturias",102.58,18,7,0.3889,0,3
+"Soto del Barco, Asturias","ESP.17.1.1.10_1","Asturias",34.726,7,1,0.1429,0,2
+"Aller, Asturias","ESP.17.1.2.1_1","Asturias",374.985,70,41,0.5857,0,3
+"Lena, Asturias","ESP.17.1.2.2_1","Asturias",315.46,53,36,0.6792,0,3
+"Mieres, Asturias","ESP.17.1.2.3_1","Asturias",145.506,23,14,0.6087,0,6
+"El Franco, Asturias","ESP.17.1.3.4_1","Asturias",78.54,12,5,0.4167,0,1
+"Navia, Asturias","ESP.17.1.3.7_1","Asturias",63.839,9,4,0.4444,0,2
+"Tapia de Casariego, Asturias","ESP.17.1.3.12_1","Asturias",66.865,12,0,0,0,1
+"Valdés, Asturias","ESP.17.1.3.14_1","Asturias",354.184,64,36,0.5625,0,5
+"Villanueva de Oscos, Asturias","ESP.17.1.3.16_1","Asturias",73.042,11,4,0.3636,0.2381,0
+"Villayón, Asturias","ESP.17.1.3.17_1","Asturias",132.109,24,10,0.4167,0,3
+"Gijón, Asturias","ESP.17.1.4.2_1","Asturias",181.984,34,16,0.4706,0,2
+"Villaviciosa, Asturias","ESP.17.1.4.3_1","Asturias",272.436,45,30,0.6667,0,2
+"Cangas del Narcea, Asturias","ESP.17.1.5.2_1","Asturias",822.149,144,114,0.7917,0,1
+"Tineo, Asturias","ESP.17.1.5.5_1","Asturias",540.028,95,65,0.6842,0,5
+"Langreo, Asturias","ESP.17.1.6.2_1","Asturias",82.35,16,4,0.25,0,4
+"San Martín del Rey Aurelio, Asturias","ESP.17.1.6.4_1","Asturias",55.802,9,2,0.2222,0,4
+"Cangas de Onís, Asturias","ESP.17.1.7.3_1","Asturias",212.589,38,20,0.5263,0,2
+"Llanes, Asturias","ESP.17.1.7.6_1","Asturias",265.545,47,24,0.5106,0,2
+"Ribadesella, Asturias","ESP.17.1.7.14_1","Asturias",84.213,14,4,0.2857,0,2
+"Belmonte de Miranda, Asturias","ESP.17.1.8.1_1","Asturias",207.38,35,21,0.6,0,3
+"Bimenes, Asturias","ESP.17.1.8.2_1","Asturias",32.76,5,2,0.4,0,2
+"Grado, Asturias","ESP.17.1.8.4_1","Asturias",221.121,38,19,0.5,0,3
+"Morcín, Asturias","ESP.17.1.8.7_1","Asturias",49.944,8,0,0,0,2
+"Noreña, Asturias","ESP.17.1.8.9_1","Asturias",5.217,1,0,0,0,1
+"Oviedo, Asturias","ESP.17.1.8.10_1","Asturias",186.55,33,15,0.4545,0,4
+"Quirós, Asturias","ESP.17.1.8.12_1","Asturias",208.816,38,22,0.5789,0,2
+"Salas, Asturias","ESP.17.1.8.15_1","Asturias",226.665,42,21,0.5,0,6
+"Siero, Asturias","ESP.17.1.8.18_1","Asturias",211.416,37,17,0.4595,0,7
+"Jumilla, Murcia","ESP.18.1.1.1_1","Murcia",971.279,162,128,0.7901,0,4
+"Yecla, Murcia","ESP.18.1.1.2_1","Murcia",602.056,98,74,0.7551,0,5
+"Águilas, Murcia","ESP.18.1.2.1_1","Murcia",251.963,43,23,0.5349,0,1
+"Lorca, Murcia","ESP.18.1.2.2_1","Murcia",1674.963,273,209,0.7656,0,7
+"Alhama de Murcia, Murcia","ESP.18.1.3.2_1","Murcia",311.084,51,29,0.5686,0,3
+"Mazarrón, Murcia","ESP.18.1.3.4_1","Murcia",318.669,52,32,0.6154,0,4
+"Totana, Murcia","ESP.18.1.3.5_1","Murcia",289.101,50,25,0.5,0,3
+"Cartagena, Murcia","ESP.18.1.4.1_1","Murcia",571.568,94,52,0.5532,0,5
+"La Unión, Murcia","ESP.18.1.4.3_1","Murcia",25.617,5,0,0,0,1
+"Alcantarilla, Murcia","ESP.18.1.5.1_1","Murcia",17.628,3,0,0,0,1
+"Santomera, Murcia","ESP.18.1.5.4_1","Murcia",44.187,8,1,0.125,0,2
+"Los Alcázares, Murcia","ESP.18.1.6.1_1","Murcia",20.075,3,0,0,0,3
+"San Javier, Murcia","ESP.18.1.6.2_1","Murcia",68.51,11,2,0.1818,0,4
+"Torre-Pacheco, Murcia","ESP.18.1.6.4_1","Murcia",188.998,31,18,0.5806,0,4
+"Bullas, Murcia","ESP.18.1.7.1_1","Murcia",81.778,14,6,0.4286,0,1
+"Calasparra, Murcia","ESP.18.1.7.2_1","Murcia",185.717,31,18,0.5806,0,3
+"Caravaca de la Cruz, Murcia","ESP.18.1.7.3_1","Murcia",857.546,141,108,0.766,0,3
+"Cehegín, Murcia","ESP.18.1.7.4_1","Murcia",299.546,48,33,0.6875,0,4
+"Cieza, Murcia","ESP.18.1.11.3_1","Murcia",366.3,58,43,0.7414,0,3
+"Archena, Murcia","ESP.18.1.12.2_1","Murcia",16.477,2,0,0,0,2
+"Ceutí, Murcia","ESP.18.1.12.3_1","Murcia",10.157,2,0,0,0,1
+"Las Torres de Cotillas, Murcia","ESP.18.1.12.4_1","Murcia",38.869,7,1,0.1429,0,2
+"Molina de Segura, Murcia","ESP.18.1.12.6_1","Murcia",170.28,28,12,0.4286,0,3
+"Jerez de la Frontera, Cádiz","ESP.1.2.2.1_1","Cádiz",1186.645,194,136,0.701,0,7
+"La Rambla, Córdoba","ESP.1.3.1.3_1","Córdoba",8.548,1,0,0,0,2
+"Moguer, Huelva","ESP.1.5.4.6_1","Huelva",367.848,59,31,0.5254,0,5
+"Úbeda, Jaén","ESP.1.6.4.8_1","Jaén",404.56,68,31,0.4559,0,4
+"Málaga, Málaga","ESP.1.7.1.17_1","Málaga",394.534,62,40,0.6452,0,3
+"Sevilla, Sevilla","ESP.1.8.3.15_1","Sevilla",141.27,22,10,0.4545,0,11
+"Zaragoza, Zaragoza","ESP.2.3.2.61_1","Zaragoza",1061.13,181,121,0.6685,0,3
+"Cuenca, Cuenca","ESP.4.3.2.4_1","Cuenca",953.025,158,59,0.3734,35.6823,0
+"Torrejón del Rey, Guadalajara","ESP.4.4.4.54_1","Guadalajara",24.944,3,1,0.3333,0,1
+"Soria, Soria","ESP.5.7.2.50_1","Soria",271.743,47,13,0.2766,0,1
+"Alicante, Alicante","ESP.10.1.1.3_1","Alicante",201.999,35,9,0.2571,0,5
+"Valencia, Valencia","ESP.10.3.4.1_1","Valencia",136.02,24,4,0.1667,0,17
+"Xàtiva, Valencia","ESP.10.3.5.19_1","Valencia",84.833,15,0,0,0,3
+"Badajoz, Badajoz","ESP.11.1.1.2_1","Badajoz",1469.583,249,159,0.6386,0,3
+"Palma de Mallorca, Baleares","ESP.13.1.6.3_1","Baleares",210.865,34,13,0.3824,0,9
+"Villarta-Quintana, La Rioja","ESP.15.1.3.74_1","La Rioja",24.592,4,0,0,2.3571,0
+"Amurrio, Álava","ESP.16.1.1.1_1","Álava",96.051,17,5,0.2941,0,1
+"Murcia, Murcia","ESP.18.1.4.4_1","Murcia",884.618,142,102,0.7183,0,10

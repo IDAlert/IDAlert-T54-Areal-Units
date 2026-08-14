@@ -27,21 +27,6 @@ renv/staging/
 .vscode/
 .idea/
 
-# Data and outputs
-data/raw/*
-!data/raw/.gitkeep
-data/interim/*
-!data/interim/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-analysis/r/power_analysis/output/*.csv
-outputs/figures/*
-!outputs/figures/.gitkeep
-outputs/tables/*
-!outputs/tables/.gitkeep
-outputs/reports/*
-!outputs/reports/.gitkeep
-
 # Logs and local environment files
 *.log
 .env
@@ -49,3 +34,41 @@ outputs/reports/*
 
 # Office lock files
 ~$*.docx
+
+# --- Data ---
+# Raw inputs stay local. Participant-level or participant-derived extracts are
+# never committed; the small public reference inputs that make the pipeline
+# runnable are the only exceptions.
+data/raw/*
+!data/raw/ine_poblacion_2025.csv
+# Operational Google Ads account exports stay local.
+data/google_ads/
+
+# --- Generated outputs ---
+# The committed set is the public record of the experiment: the frozen
+# assignment with its checksummed manifest, the campaign build files, the
+# Google Ads crosswalk and grid geometry (both rebuilt from public inputs and
+# referenced by the manifest checksums), and the power results the
+# pre-registration cites. municipality_reporter_counts.csv is derived from the
+# private raw report export and stays local, like the participant inputs.
+analysis/r/output/*
+!analysis/r/output/assignment_2026_final.csv
+!analysis/r/output/manifest_2026_final.txt
+!analysis/r/output/google_ads_spain_municipality_crosswalk.csv
+!analysis/r/output/google_ads_spain_targetable.csv
+!analysis/r/output/municipality_grid_geometry.csv
+!analysis/r/output/municipality_neighbour_distances.csv
+!analysis/r/output/final_2026_power.csv
+!analysis/r/output/final_2026_power_h2.csv
+!analysis/r/output/report_outcome_power_h1.csv
+!analysis/r/output/report_outcome_power_h2.csv
+!analysis/r/output/campaign_criteria_ids
+!analysis/r/output/campaign_criteria_ids/*
+
+# Archived exploration outputs (~320 MB of superseded simulation draws) stay
+# local; the superseded assignments and manifests already in version control
+# remain tracked as the record of earlier candidate designs.
+analysis/r/archive/output/*
+!analysis/r/archive/output/assignment_*.csv
+!analysis/r/archive/output/manifest_*.txt
+!analysis/r/archive/output/criteria_ids_*.txt

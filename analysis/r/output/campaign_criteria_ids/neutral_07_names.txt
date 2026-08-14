@@ -1,0 +1,42 @@
+Chantada,Galicia,Spain
+Colindres,Cantabria,Spain
+Consell,Balearic Islands,Spain
+Constantina,Andalusia,Spain
+Cortes de Baza,Andalusia,Spain
+Cox,Valencian Community,Spain
+Cubelles,Catalonia,Spain
+Cuellar,Castile and Leon,Spain
+Daimus,Valencian Community,Spain
+Dolores,Valencian Community,Spain
+Eivissa,Balearic Islands,Spain
+El Alamo,Community of Madrid,Spain
+El Catllar,Catalonia,Spain
+El Franco,Asturias,Spain
+El Mila,Catalonia,Spain
+El Toro,Valencian Community,Spain
+Es Castell,Balearic Islands,Spain
+Eskoriatza,Basque Country,Spain
+Estellencs,Balearic Islands,Spain
+Ferreries,Balearic Islands,Spain
+Fiscal,Aragon,Spain
+Fisterra,Galicia,Spain
+Friol,Galicia,Spain
+Fuente Vaqueros,Andalusia,Spain
+Galapagar,Community of Madrid,Spain
+Gibraleon,Andalusia,Spain
+Gironella,Catalonia,Spain
+Gor,Andalusia,Spain
+Grado,Asturias,Spain
+Gualchos,Andalusia,Spain
+Guissona,Catalonia,Spain
+Herrera,Andalusia,Spain
+Huelva,Andalusia,Spain
+Huetor Tajar,Andalusia,Spain
+Icod de los Vinos,Canary Islands,Spain
+Igualada,Catalonia,Spain
+Jodar,Andalusia,Spain
+Jumilla,Region of Murcia,Spain
+L'Aleixar,Catalonia,Spain
+L'Escala,Catalonia,Spain
+La Algaba,Andalusia,Spain
+La Baneza,Castile and Leon,Spain

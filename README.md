@@ -1,140 +1,108 @@
-# IDAlert T5.4 Areal-Unit-Based Motivation Study
+# Regulatory-Focus Framing in Geo-Targeted Ads for Citizen Science
 
-## Overview
+**IDAlert Task 5.4 — a randomized experiment across 949 Spanish municipalities,
+August–October 2026.**
 
-This repository supports a mixed research and implementation workflow for an areal-unit-based motivation study using geographically targeted digital ads for Mosquito Alert. The design is to randomize ad messaging across subnational geographic units and estimate whether different motivational frames increase citizen science reporting activity.
+Does the *content* of a recruitment message change how well geographically
+targeted advertising recruits citizen scientists — and does such advertising
+recruit at all, including in places with no existing participation?
 
-The study compares messages derived from regulatory focus framing alongside a neutral comparison condition. Outcomes are evaluated using aggregate reporting counts by areal unit and time period, with a difference-in-differences style analysis as the primary approach.
+Every Spanish municipality that Google Ads can target by name, and whose
+existing [Mosquito Alert](https://www.mosquitoalert.com) activity is below a
+pre-specified cap, is randomly assigned to one of three arms:
 
-## Current design
+| Arm | Units | Treatment |
+|---|---|---|
+| Framed | 420 | Android app-install ads using regulatory-focus framing |
+| Neutral | 420 | Identical ads with neutral framing |
+| No advertising | 109 | Nothing |
 
-1. Country: Spain only.
-2. Areal units: **2 km radius circles**, placed freely on locations with a recorded app audience rather than on administrative boundaries, thinned to a minimum 5-8 km separation (~5,000 units), delivered by Google Ads radius targeting.
-3. Randomization: a single point in time, 15 August 2026, with no re-randomization.
-4. Arms: prevention-focused, promotion-focused, and neutral messaging.
-5. Outcome comparison: report counts in the 30 or 60 days before versus after 15 August 2026, analysed as a two-margin (hurdle) model — a log ratio for units with baseline reports, and a first-report activation probability for units without.
+Ads run from 17 August 2026 (EUR 5,000 total, 20 campaigns of 42 municipalities
+at EUR 250 each). The primary outcome is the number of distinct people whose
+home municipality is the unit and who emit Mosquito Alert background location
+tracks during the 60-day post window (16 Aug – 14 Oct); people submitting
+mosquito reports are the secondary outcome. 571 of the municipalities have no
+recent activity at all, so the ads-versus-nothing contrast is in part an
+**activation** experiment.
 
-Provinces were the working unit until the power analysis showed 50 units could not detect anything below roughly a doubling; municipalities were an intermediate step, superseded because free circle placement gives more active units and a far higher activation rate among silent ones. Greece and Bangladesh were considered in earlier iterations; Greece was re-examined at municipality level and contributes under one percentage point of MDE, so it remains out of scope.
+## The three documents that matter
 
-## Status: power analysis
+| Document | What it is |
+|---|---|
+| [docs/preregistration/preregistration-osf.md](docs/preregistration/preregistration-osf.md) | **The registration of record** — hypotheses, design, analysis plan, power, limitations, structured against the OSF Preregistration form |
+| [REPRODUCE.md](REPRODUCE.md) | How to regenerate the assignment bit-for-bit and rerun every power figure |
+| [analysis/r/output/manifest_2026_final.txt](analysis/r/output/manifest_2026_final.txt) | The frozen assignment's seed, eligibility rule, checksums, and verification results |
 
-The power analysis for this design is complete, and its conclusion is negative. Calibrated to observed 2021-2024 Spanish province reporting, the design has **no meaningful power to detect a 10% effect** (simulated power ≈ 0.05, i.e. the false-positive rate). The minimum detectable effect at 80% power is an increase of roughly **95% to 170%** per arm.
+## Design in brief
 
-The binding constraint is that province-level post/pre report ratios carry a large year-specific idiosyncratic component (SD ≈ 0.6-0.95 on the log scale) that does not shrink with longer windows or higher report volume. With 50 provinces split across 3 arms, that swamps a 10% effect.
+- **Randomization**: units ordered by baseline participation (median over
+  2021–2025, home-attributed), cut into blocks of 9, each full block randomly
+  permuted 4 framed / 4 neutral / 1 no-ad; a trailing partial block goes to
+  the no-ad hold-out. Frozen seed, pinned RNG, bit-reproducible.
+- **Analysis** (pre-registered): linear model on post-window counts with block
+  fixed effects, the pre-window count and the historical median as covariates.
+  Randomization inference — labels permuted within blocks — is the primary
+  test; HC3 is the parametric companion; confidence intervals invert the
+  permutation test exactly.
+- **Power**: 0.92 at a 15% framing advantage (moderate delivery spread), ~1.00
+  at 20%; the ads-versus-nothing contrast detects roughly +110% over the
+  no-ad arm's 1.1 participants.
+- **Verification is built in**: the assignment script checks Type I error on
+  the realized draw, verifies outcome attribution from the data (municipality
+  sums against province totals), and hard-stops on duplicate Google Ads
+  Criteria IDs. The analysis script has a `--calibrate` mode that measures the
+  committed code's own error rates, and
+  `verify_campaign_locations.R` gates launch on the configured Google Ads
+  locations matching the frozen assignment ID-for-ID.
 
-Alternative outcomes were tested and none rescues it. Restricting to albopictus reports cuts usable provinces from 50 to 18 and makes things much worse; restricting to bite reports roughly breaks even. A participation/sampling-effort outcome is the best aggregate measure, and re-including Greece adds about 10%, giving an MDE of about +104%.
-
-Two reformulations do substantially better. Moving to **participant (user) level** — a closed cohort of pre-window reporters, analysed via the province mean of the per-user log ratio — gives an MDE of about **+57%**, but introduces user-level linkage that would change the ethics framing. Moving to **municipalities with a two-margin (hurdle) analysis** is the best single-wave design found, at about **+24%** — roughly the ~850 municipalities with pre-period reports (+27% on their own) combined with the ~7,400 silent ones analysed on the extensive margin (+53% on their own).
-
-None of these reaches a 10% target, but +24% is within range of a plausible advertising effect and would combine with repeated waves. At province level the hurdle approach buys nothing, since essentially no Spanish province is silent.
-
-Earlier results in this repository reporting power ≈ 0.85 for a 10% effect are **superseded and should not be used**: the estimator behind them has a Type I error rate near 0.90. See `analysis/r/power_analysis/README.md` and `docs/operations/power-analysis-spain-provinces-2026.md` for the full account and for what would change the answer.
-
-## Key research question
-
-Do geographically targeted ads using different motivational frames produce measurable differences in Mosquito Alert reporting volume across areal units, relative to neutral messaging and pre-campaign baselines?
-
-## Project workstreams
-
-1. Literature review on motivational framing, digital engagement, and ethics of low-risk field interventions.
-2. Study planning and implementation design.
-3. Ethics preparation, as an amendment to the approved broad IDAlert protocol (Component 4), based on institutional templates in `templates/cirep_forms/en/`.
-4. Reproducible code for implementation support, data processing, and statistical analysis in R and Python.
-
-## Repository structure
+## Repository map
 
 ```text
 .
-├── README.md
-├── .gitignore
-├── admin/
-├── analysis/
-│   ├── notebooks/
-│   ├── python/
-│   └── r/
-├── data/
-│   ├── interim/
-│   ├── processed/
-│   └── raw/
-├── docs/
-│   ├── ethics/
-│   ├── literature_review/
-│   ├── operations/
-│   └── study_plan/
-├── outputs/
-│   ├── figures/
-│   ├── reports/
-│   └── tables/
-└── templates/
-	└── cirep_forms/
-		└── en/
+├── README.md                  this file
+├── REPRODUCE.md               regenerate everything
+├── analysis/r/
+│   ├── 01_data_prep/          Google Ads crosswalk, grid geometry, reporter counts
+│   ├── 02_power/              power for the final design (primary + reports outcome)
+│   ├── 03_randomization/      THE assignment script, THE analysis script, launch gate
+│   ├── archive/               the exploration that led here (+ its outputs, local)
+│   └── output/                generated files; the committed subset is the public record
+├── data/raw/                  inputs (participant-derived extracts not committed)
+└── docs/
+    ├── preregistration/       the registration document of record
+    ├── operations/            live operational notes (measurement, Google Ads setup)
+    └── archive/               superseded design memos, kept as history
 ```
 
-## Core documents
+Campaign build files (Google Ads upload CSVs, canonical-name lists, budgets)
+are in
+[analysis/r/output/campaign_criteria_ids/](analysis/r/output/campaign_criteria_ids/).
 
-1. `docs/operations/power-analysis-spain-provinces-2026.md` — the finalized power analysis for the current design, and the correction to the earlier results.
-2. `docs/operations/google-ads-municipality-targeting.md` — how many Spanish municipalities Google Ads can target, how to set the campaign up by Criteria ID, and the power cost of the coverage limit.
-3. `docs/operations/radius-targeting-design.md` — radius vs named targeting, spillover and buffer sizing, unit design, and why Greece is not worth re-adding.
-4. `docs/operations/hurdle-power-analysis-spain-greece.md` — superseded earlier power analysis, retained for the record with a correction notice.
-5. `docs/study_plan/study-plan-draft.md` — initial study design and implementation planning draft.
-6. `docs/literature_review/review-matrix.md` — starter structure for the literature review.
-7. `docs/operations/platform-targeting-assessment.md` and `platform-targeting-memo.md` — platform and geography feasibility assessment.
-8. `docs/operations/google-ads-account-setup.md` — Google Ads account and billing setup guidance.
-9. `docs/ethics/Protocol Form-3_IDAlert_rev_2023_06_16.docx` — the approved broad IDAlert protocol this study amends (Component 4).
-10. `analysis/r/power_analysis/README.md` — power-analysis code, method, and results.
+## Data availability
 
-## Recommended workflow
+Participant-derived extracts — even aggregated municipality counts — are not
+distributed in this repository. The committed inputs are the public reference
+files (INE municipal population; Google Ads geotargets are fetchable from
+Google); the participant window counts and raw report export must be requested
+from the PI. Every committed output lists its input checksums in the manifest,
+so a supplied data file can be verified against the exact bytes the assignment
+was generated from.
 
-### 1. Literature review
+## Ethics
 
-Build a review matrix focused on:
+UPF's Institutional Committee for Ethical Review of Projects (CIREP) approved
+this research as a modification to protocol 270 (originally approved on 21 July
+2022; modification approved 30 July 2026). Individuals exposed to
+advertisements are not enrolled as research subjects; the analysis uses
+municipality-level aggregate counts only.
 
-1. Regulatory focus and motivational framing.
-2. Digital advertising for public-interest behavior change.
-3. Ethics of low-risk digital field experiments.
-4. Aggregate geographic outcome analysis.
+## History
 
-### 2. Implementation planning
+The design went through provinces, radius-targeted circles, postal codes,
+hurdle models and repeated waves before landing here.
+[analysis/r/archive/README.md](analysis/r/archive/README.md) documents that
+arc — including the corrections — and [docs/archive/](docs/archive/) holds the
+superseded memos. The git history is the timestamped record that every design
+decision preceded the campaign launch.
 
-Confirm, for Spain:
-
-1. That provinces are cleanly targetable in Google Ads and Meta.
-2. Whether Google AdMob is appropriate for this design.
-3. Whether alternative platforms offer cleaner geographic randomization.
-4. That Mosquito Alert outcomes can be exported at province level.
-
-### 3. Ethics preparation
-
-This study is Component 4 of the already-approved broad IDAlert protocol, so the route is an amendment rather than a new submission. Templates for reference are in `templates/cirep_forms/en/`.
-
-The ethics position assumes a minimal-risk study using aggregate areal-unit counts only, with no individual recruitment, consent, or participant-level linkage. That assumption still needs validation against actual ad-platform and backend data flows.
-
-### 4. Code and analysis
-
-Planned code tasks include:
-
-1. Scripts to clean and harmonize areal-unit-level input data.
-2. Campaign configuration and QA support scripts where feasible.
-3. Reproducible analysis pipelines in R and Python.
-4. Output generation for tables, figures, and reports.
-
-## Immediate priorities
-
-1. **Decide how to respond to the power result.** The current design detects only very large effects. Options are set out at the end of `docs/operations/power-analysis-spain-provinces-2026.md`: run as a large-effect-only study, switch to repeated re-randomized waves across the season, change the outcome or unit of analysis, or reframe the 2026 campaign as an implementation pilot.
-2. **Run a leakage pilot.** How much treatment leaks between neighbouring units is the weakest assumption in the design and decides whether the study is worth running. See `docs/operations/radius-targeting-design.md`.
-3. Confirm the ad platform strategy. Google Ads names only 970 of Spain's 8,240 municipalities (78% of reports); going beyond that needs radius targeting.
-3. Expand the literature review with ethics-relevant sources.
-4. Prepare the Component 4 amendment to the approved IDAlert protocol.
-5. Define the minimal analysis dataset and data access boundaries.
-6. Draft and refine ad copy for each message condition.
-
-## Notes on data governance
-
-This repository is organized around the principle that raw extracts and operational outputs should not be committed to version control. The `.gitignore` is configured to keep raw, interim, processed, and generated output files local unless they are explicitly curated for sharing.
-
-## Next suggested documents
-
-1. Messaging matrix with draft ads by language and condition.
-2. Component 4 amendment text for the approved IDAlert protocol.
-3. Ethics checklist draft keyed to the institutional form.
-4. Data flow and data management note.
+Part of [IDAlert](https://idalertproject.eu) (EU Horizon Europe).

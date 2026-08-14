@@ -1,0 +1,42 @@
+Algeciras,Andalusia,Spain
+Aranjuez,Community of Madrid,Spain
+Arganda del Rey,Community of Madrid,Spain
+Banyoles,Catalonia,Spain
+Municipality of Betera,Valencian Community,Spain
+Cambrils,Catalonia,Spain
+Cardedeu,Catalonia,Spain
+Castell-Platja d'Aro,Catalonia,Spain
+Ciutadella de Menorca,Balearic Islands,Spain
+Cuenca,Castile-La Mancha,Spain
+Denia,Valencian Community,Spain
+El Masnou,Catalonia,Spain
+El Prat de Llobregat,Catalonia,Spain
+Es Mercadal,Balearic Islands,Spain
+Estepona,Andalusia,Spain
+Ferrol,Galicia,Spain
+Langreo,Asturias,Spain
+Linares,Andalusia,Spain
+Llagostera,Catalonia,Spain
+Lliria,Valencian Community,Spain
+Mairena del Aljarafe,Andalusia,Spain
+Manacor,Balearic Islands,Spain
+Motril,Andalusia,Spain
+Olot,Catalonia,Spain
+Ourense,Galicia,Spain
+Paterna,Valencian Community,Spain
+Pinto,Community of Madrid,Spain
+Ponferrada,Castile and Leon,Spain
+Rubi,Catalonia,Spain
+Municipality of San Fernando,Andalusia,Spain
+San Juan de Aznalfarache,Andalusia,Spain
+San Roque,Andalusia,Spain
+Segovia,Castile and Leon,Spain
+Municipality of Telde,Canary Islands,Spain
+Teruel,Aragon,Spain
+Xativa,Valencian Community,Spain
+Arona,Canary Islands,Spain
+Lugo,Galicia,Spain
+Mahon,Balearic Islands,Spain
+Redondela,Galicia,Spain
+Roquetas de Mar,Andalusia,Spain
+Villaviciosa,Asturias,Spain

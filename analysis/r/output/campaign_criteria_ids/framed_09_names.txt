@@ -1,0 +1,42 @@
+Olivares,Andalusia,Spain
+Olocau,Valencian Community,Spain
+Ondara,Valencian Community,Spain
+Ontinyent,Valencian Community,Spain
+Ordes,Galicia,Spain
+Outeiro de Rei,Galicia,Spain
+Paderne de Allariz,Galicia,Spain
+Palma del Rio,Andalusia,Spain
+Penarroya-Pueblonuevo,Andalusia,Spain
+Pilas,Andalusia,Spain
+Pinofranqueado,Extremadura,Spain
+Pioz,Castile-La Mancha,Spain
+Plasencia,Extremadura,Spain
+Pollenca,Balearic Islands,Spain
+Posadas,Andalusia,Spain
+Pozoblanco,Andalusia,Spain
+Puertollano,Castile-La Mancha,Spain
+Puigpunyent,Balearic Islands,Spain
+Quijorna,Community of Madrid,Spain
+Quiroga,Galicia,Spain
+Quiros,Asturias,Spain
+Ramiras,Galicia,Spain
+Retortillo de Soria,Castile and Leon,Spain
+Ribera d'Urgellet,Catalonia,Spain
+Rios,Galicia,Spain
+Ripollet,Catalonia,Spain
+Riudellots de la Selva,Catalonia,Spain
+Salvaterra de Mino,Galicia,Spain
+San Cibrao das Vinas,Galicia,Spain
+San Fulgencio,Valencian Community,Spain
+San Pascual,Castile and Leon,Spain
+San Sadurnino,Galicia,Spain
+Sant Andreu de la Barca,Catalonia,Spain
+Sant Cebria de Vallalta,Catalonia,Spain
+Municipality of Sant Joan Despi,Catalonia,Spain
+Sant Marti de Tous,Catalonia,Spain
+Sant Pol de Mar,Catalonia,Spain
+Santa Coloma de Farners,Catalonia,Spain
+Santa Comba,Galicia,Spain
+Santa Eulalia de Roncana,Catalonia,Spain
+Santiponce,Andalusia,Spain
+Santona,Cantabria,Spain

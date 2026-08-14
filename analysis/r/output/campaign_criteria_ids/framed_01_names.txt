@@ -1,0 +1,42 @@
+Municipality of Seville,Andalusia,Spain
+Municipality of Zaragoza,Aragon,Spain
+Municipality of Alicante,Valencian Community,Spain
+Bilbao,Basque Country,Spain
+Vitoria-Gasteiz,Basque Country,Spain
+Benidorm,Valencian Community,Spain
+Cordoba,Andalusia,Spain
+Elx,Valencian Community,Spain
+Sabadell,Catalonia,Spain
+Municipality of Almeria,Andalusia,Spain
+Gijon,Asturias,Spain
+Torrevieja,Valencian Community,Spain
+Barakaldo,Basque Country,Spain
+Blanes,Catalonia,Spain
+Girona,Girona,Catalonia,Spain
+Moguer,Andalusia,Spain
+Algemesi,Valencian Community,Spain
+Getafe,Community of Madrid,Spain
+L'Hospitalet de Llobregat,Catalonia,Spain
+Santiago de Compostela,Galicia,Spain
+Vilanova i la Geltru,Catalonia,Spain
+Alcala de Henares,Community of Madrid,Spain
+Badajoz,Extremadura,Spain
+Municipality of Burgos,Castile and Leon,Spain
+Lleida,Catalonia,Spain
+Orihuela,Valencian Community,Spain
+Parla,Community of Madrid,Spain
+Pontevedra,Galicia,Spain
+Aspe,Valencian Community,Spain
+Caceres,Extremadura,Spain
+El Vendrell,Catalonia,Spain
+Las Palmas de Gran Canaria,Canary Islands,Spain
+Leganes,Community of Madrid,Spain
+Llanes,Asturias,Spain
+Molina de Segura,Region of Murcia,Spain
+Municipality of Montcada i Reixac,Catalonia,Spain
+Puerto Real,Andalusia,Spain
+Sagunt,Valencian Community,Spain
+Sant Quirze del Valles,Catalonia,Spain
+Santa Coloma de Gramenet,Catalonia,Spain
+Torrejon de Ardoz,Community of Madrid,Spain
+Velez-Malaga,Andalusia,Spain

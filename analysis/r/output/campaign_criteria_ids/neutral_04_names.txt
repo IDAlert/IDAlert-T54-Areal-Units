@@ -1,0 +1,42 @@
+Celra,Catalonia,Spain
+Ciudad Real,Ciudad Real,Castile-La Mancha,Spain
+Cocentaina,Valencian Community,Spain
+Coin,Andalusia,Spain
+Colmenarejo,Community of Madrid,Spain
+Deltebre,Catalonia,Spain
+Elda,Valencian Community,Spain
+Felanitx,Balearic Islands,Spain
+Guardamar del Segura,Valencian Community,Spain
+Jaca,Aragon,Spain
+La Rinconada,Andalusia,Spain
+Lebrija,Andalusia,Spain
+Les Franqueses del Valles,Catalonia,Spain
+Llanca,Catalonia,Spain
+Llucmajor,Balearic Islands,Spain
+Los Palacios y Villafranca,Andalusia,Spain
+Manzanares el Real,Community of Madrid,Spain
+Manzanares,Castile-La Mancha,Spain
+Molins de Rei,Catalonia,Spain
+Moncada,Valencian Community,Spain
+Mutxamel,Valencian Community,Spain
+Navia,Asturias,Spain
+O Grove,Galicia,Spain
+O Porrino,Galicia,Spain
+Oleiros,Galicia,Spain
+Picassent,Valencian Community,Spain
+Municipality of Pozuelo de Alarcon,Community of Madrid,Spain
+Premia de Dalt,Catalonia,Spain
+Punta Umbria,Andalusia,Spain
+Ribadesella,Asturias,Spain
+Riudoms,Catalonia,Spain
+San Lorenzo de El Escorial,Community of Madrid,Spain
+San Martin de la Vega,Community of Madrid,Spain
+Sant Vicenc de Montalt,Catalonia,Spain
+Santa Susanna,Catalonia,Spain
+Soller,Balearic Islands,Spain
+Toledo,Castile-La Mancha,Spain
+Tossa de Mar,Catalonia,Spain
+Tres Cantos,Community of Madrid,Spain
+Utebo,Aragon,Spain
+Villanueva del Pardillo,Community of Madrid,Spain
+Vinyols i els Arcs,Catalonia,Spain

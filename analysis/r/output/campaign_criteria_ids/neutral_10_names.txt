@@ -1,0 +1,42 @@
+Segorbe,Valencian Community,Spain
+Selva,Balearic Islands,Spain
+Sencelles,Balearic Islands,Spain
+Ses Salines,Balearic Islands,Spain
+Sesena,Castile-La Mancha,Spain
+Sevilla la Nueva,Community of Madrid,Spain
+Socuellamos,Castile-La Mancha,Spain
+Sotillo de la Adrada,Castile and Leon,Spain
+Soto del Real,Community of Madrid,Spain
+Tapia de Casariego,Asturias,Spain
+Tembleque,Castile-La Mancha,Spain
+Teo,Galicia,Spain
+Tineo,Asturias,Spain
+Tomares,Andalusia,Spain
+Tona,Catalonia,Spain
+Toro,Castile and Leon,Spain
+Torredonjimeno,Andalusia,Spain
+Torrejon del Rey,Castile-La Mancha,Spain
+Torrelaguna,Community of Madrid,Spain
+Turre,Andalusia,Spain
+Ubeda,Andalusia,Spain
+Ubrique,Andalusia,Spain
+Urduna / Orduna,Basque Country,Spain
+Urnieta,Basque Country,Spain
+Valdeavero,Community of Madrid,Spain
+Valdemorillo,Community of Madrid,Spain
+Valencina de la Concepcion,Andalusia,Spain
+Vallehermoso,Canary Islands,Spain
+Vedra,Galicia,Spain
+Verea,Galicia,Spain
+Vespella de Gaia,Catalonia,Spain
+Vilabella,Catalonia,Spain
+Vilamartin de Valdeorras,Galicia,Spain
+Villabona,Basque Country,Spain
+Villafranca de los Barros,Extremadura,Spain
+Villamantilla,Community of Madrid,Spain
+Villanueva de la Canada,Community of Madrid,Spain
+Villanueva de Oscos,Asturias,Spain
+Villarejo de Salvanes,Community of Madrid,Spain
+Villarrubia de los Ojos,Castile-La Mancha,Spain
+Villaverde del Rio,Andalusia,Spain
+Yecla,Region of Murcia,Spain

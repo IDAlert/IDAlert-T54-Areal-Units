@@ -1,0 +1,42 @@
+Alaior,Balearic Islands,Spain
+Alfafar,Valencian Community,Spain
+Almoradi,Valencian Community,Spain
+Antequera,Andalusia,Spain
+Avila‎,Castile and Leon,Spain
+Azuqueca de Henares,Castile-La Mancha,Spain
+Balenya,Catalonia,Spain
+Municipality of Barbera del Valles,Catalonia,Spain
+Benicarlo,Valencian Community,Spain
+Berga,Catalonia,Spain
+Bunyola,Balearic Islands,Spain
+Municipality of Burjassot,Valencian Community,Spain
+Cabrera de Mar,Catalonia,Spain
+Camargo,Cantabria,Spain
+Canet d'en Berenguer,Valencian Community,Spain
+Capdepera,Balearic Islands,Spain
+Carmona,Andalusia,Spain
+Castellar del Valles,Catalonia,Spain
+Castro Urdiales,Cantabria,Spain
+Constanti,Catalonia,Spain
+Creixell,Catalonia,Spain
+El Ejido,Andalusia,Spain
+Esparreguera,Catalonia,Spain
+Fuengirola,Andalusia,Spain
+Illescas,Castile-La Mancha,Spain
+Los Barrios,Andalusia,Spain
+Municipality of Majadahonda,Community of Madrid,Spain
+Municipality of Manises,Valencian Community,Spain
+Novelda,Valencian Community,Spain
+Petrer,Valencian Community,Spain
+Pilar de la Horadada,Valencian Community,Spain
+Portugalete,Basque Country,Spain
+Pucol,Valencian Community,Spain
+Sant Llorenc d'Hortons,Catalonia,Spain
+Sant Sadurni d'Anoia,Catalonia,Spain
+Santanyi,Balearic Islands,Spain
+Soria,Castile and Leon,Spain
+Talavera de la Reina,Castile-La Mancha,Spain
+Vallirana,Catalonia,Spain
+Vila-seca,Catalonia,Spain
+Villena,Valencian Community,Spain
+Zarautz,Basque Country,Spain

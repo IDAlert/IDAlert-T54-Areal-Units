@@ -1,0 +1,42 @@
+Adeje,Canary Islands,Spain
+Almansa,Castile-La Mancha,Spain
+Almunecar,Andalusia,Spain
+Benissa,Valencian Community,Spain
+Caldes de Montbui,Catalonia,Spain
+Cartaya,Andalusia,Spain
+Catarroja,Valencian Community,Spain
+Ceuta,Ceuta,Spain
+Crevillent,Valencian Community,Spain
+Don Benito,Extremadura,Spain
+Dos Hermanas,Andalusia,Spain
+Figueres,Catalonia,Spain
+Getxo,Basque Country,Spain
+Granadilla de Abona,Canary Islands,Spain
+Huesca,Aragon,Spain
+L'Eliana,Valencian Community,Spain
+Lorca,Region of Murcia,Spain
+Malgrat de Mar,Catalonia,Spain
+Manresa,Catalonia,Spain
+Marratxi,Balearic Islands,Spain
+Miranda de Ebro,Castile and Leon,Spain
+Oliva,Valencian Community,Spain
+Puerto del Rosario,Canary Islands,Spain
+Rota,Andalusia,Spain
+Sada,Galicia,Spain
+Salou,Catalonia,Spain
+San Cristobal de La Laguna,Canary Islands,Spain
+San Javier,Region of Murcia,Spain
+Municipality of Siero,Asturias,Spain
+Sueca,Valencian Community,Spain
+Valdemoro,Community of Madrid,Spain
+Velilla de San Antonio,Community of Madrid,Spain
+Vera,Andalusia,Spain
+Villaviciosa de Odon,Community of Madrid,Spain
+Vinaros,Valencian Community,Spain
+Basauri,Basque Country,Spain
+Municipality of Boadilla del Monte,Community of Madrid,Spain
+Castelldefels,Catalonia,Spain
+Cervello,Catalonia,Spain
+Galdakao,Basque Country,Spain
+Gava,Catalonia,Spain
+Mollet del Valles,Catalonia,Spain

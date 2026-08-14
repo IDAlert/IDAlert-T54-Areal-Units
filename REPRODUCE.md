@@ -1,0 +1,241 @@
+# Reproducing the Treatment Assignment
+
+Everything needed to regenerate the exact set of municipalities used in the
+study and their assignment to messaging arms.
+
+Four commands, all run from the repository root. Total runtime is about
+25 minutes, most of it the grid geometry in step 2.
+
+## Requirements
+
+R 4.4 or later, with:
+
+```r
+install.packages(c("sf", "terra", "sandwich", "lmtest", "dplyr", "geodata"))
+```
+
+## Inputs
+
+| File | Source | In repo? |
+|---|---|---|
+| `data/raw/participants_spain_municipality_aug_windows.csv` | Mosquito Alert background-track export, aggregated to municipality × season × window | no — request from the PI |
+| `data/raw/participants_spain_province_aug_windows.csv` | same, aggregated to province | no |
+| `data/raw/mosquito_alert_raw_reports.Rds` | Mosquito Alert raw report export (for the secondary outcome) | no — participant-level, request from the PI |
+| `data/raw/google_ads_geotargets-2026-07-16.csv` | https://developers.google.com/google-ads/api/data/geotargets | no — 23 MB, download it |
+| `data/raw/gadm/gadm41_ESP_4_pk.rds` | GADM 4.1 Spain level 4 | cached |
+| `data/raw/ine_poblacion_2025.csv` | INE municipal population register, 2025 | yes |
+
+The participant files are aggregate counts, not participant-level data, but they
+are not distributed here. Every file the pipeline writes carries municipality
+counts only.
+
+### Outcome attribution
+
+Two attributions exist for participant counts:
+
+| Attribution | Meaning |
+|---|---|
+| **Presence** | A user is counted in every municipality where they emitted a track. Municipality counts sum to ~1.20x the true number of people. Used in deliveries through 2026-08-13. |
+| **Home** | Each user counted only in the municipality where they were seen on the most distinct days. An exact partition. The 2026-08-14 (final) delivery. |
+
+The final delivery keeps the historical column name `n_participants`, so the
+assignment script **verifies attribution from the data** — municipality sums
+against province totals (1.000 = partition, 1.17–1.28 = presence) — and records
+the verdict in the manifest rather than trusting the column name. See
+`docs/operations/measurement-grid-and-home-assignment.md`.
+
+The secondary reporting outcome is attributed by **report location** by design:
+reporting identifiers are deliberately not linkable to tracking identifiers, so
+home assignment cannot be computed for reporters.
+
+## Steps
+
+### 1. Google Ads crosswalk
+
+```bash
+Rscript analysis/r/01_data_prep/build_google_ads_crosswalk.R \
+  data/raw/google_ads_geotargets-2026-07-16.csv
+```
+
+Matches municipalities to Google Ads geo targets, requiring agreement on both
+municipality name and autonomous community. Yields **952 targetable
+municipalities** of 8,240. Writes
+`analysis/r/output/google_ads_spain_municipality_crosswalk.csv`.
+
+The script stops if any Criteria ID resolves to two municipalities. It has to:
+Spain repeats municipality names across regions, and a laxer match sent
+"Cieza, Cantabria" to Google's Cieza in Murcia — putting one Google target into
+two arms.
+
+### 2. Grid-masking geometry
+
+```bash
+Rscript analysis/r/01_data_prep/build_municipality_grid_geometry.R
+```
+
+Background tracks are masked to a 0.025° grid, about 6 km² at Spanish latitudes,
+and cells are assigned whole to the municipality holding their centroid. This
+step measures, per municipality, how much of it the grid actually resolves —
+area, cells, and the fraction of its cells lying entirely inside it — plus
+distances to nearby municipalities. Municipalities spanning several GADM
+polygons are unioned before measurement.
+
+Writes `municipality_grid_geometry.csv` and
+`municipality_neighbour_distances.csv`. The first fixes the pre-specified core
+robustness subset before unblinding; the second drives the leakage model in the
+power analysis.
+
+Takes roughly 20 minutes.
+
+### 3. Assignment
+
+```bash
+Rscript analysis/r/03_randomization/assign_treatment_2026.R
+```
+
+Selects every municipality that is targetable by name with a median pre-window
+participant count of **at most 25** across 2021–2025 — **949 units** on the
+final home-assigned data, including 571 with zero baseline — and assigns them
+in blocks of 9 (4 framed, 4 neutral, 1 no-ad), giving **420 / 420 / 109** (a
+trailing partial block is assigned entirely to the no-ad arm — under block
+fixed effects a single-arm block carries no identifying variation, and this
+makes the ad arms exactly equal, every campaign exactly 42 municipalities, and
+every budget exactly EUR 250).
+
+There is no eligibility floor: the old median >= 1 requirement was a remnant of
+the abandoned hurdle analysis, and dropping it raises H1 power from 0.71 to
+0.93 at a 15% effect. N follows from the eligibility rule rather than being
+chosen. The upper cap matters: without it Madrid and Barcelona enter a pool
+whose median is far below theirs, and an earlier realised draw had a Type I
+error for H2 of 0.216 conditional on that draw against a design-level 0.064.
+On the final data the cap excludes Barcelona, Madrid and Valencia.
+
+The script simulates **Type I error on the realised draw** and warns hard if
+either hypothesis is anti-conservative (above 0.09); below 0.02 it notes the
+conservatism (HC3 over-corrects with block dummies and a small no-ad arm) but
+does not warn, since randomization inference is the primary test. This check is
+not the design-level rate averaged over fresh randomisations; only the
+conditional number describes the experiment actually being run.
+
+Writes to `analysis/r/output/`:
+
+- `assignment_2026_final.csv` — the full record, including `interior_frac` and
+  `core_subset`
+- `campaign_criteria_ids/` — per-campaign build files (CSV with full detail,
+  canonical-name lists for the web UI, bare Criteria IDs), a single
+  `google_ads_upload_all.csv`, an Editor import sheet
+  (`editor_locations_import.csv`, Campaign + numeric Criteria ID — the only
+  bulk path that cannot mis-resolve names), `campaign_budgets.csv`, and
+  `NO_AD_do_not_target.txt`
+- `manifest_2026_final.txt` — seed, RNG kinds, R version, outcome column,
+  verified attribution, eligibility rule, realised Type I error, and md5
+  checksums
+
+To confirm you have reproduced the published assignment, compare the md5 in your
+manifest against the one in this repository's committed manifest.
+
+After building campaigns in Google Ads, verify what was actually configured:
+
+```bash
+Rscript analysis/r/03_randomization/verify_campaign_locations.R <locations export.csv>
+```
+
+This diffs every configured Criteria ID against the frozen assignment (Google's
+geo table holds 180 Spanish provinces, cities and homonymous entities sharing a
+display name with a study municipality, so name-based entry mis-resolves) and
+refuses launch until it prints ALL CLEAR.
+
+### 4. Power
+
+```bash
+Rscript analysis/r/01_data_prep/build_municipality_reporter_counts.R   # secondary outcome counts
+Rscript analysis/r/02_power/run_final_2026_power.R          # primary outcome
+Rscript analysis/r/02_power/run_report_outcome_power.R      # secondary (reports)
+```
+
+The main script reads the assignment and simulates power on it, resampling each
+municipality's observed 2021–2025 pre/post pair so real year-to-year variation
+is carried. Reports Type I error conditional on the realised draw, H1 power by
+framing effect and delivery spread, H2 as a minimum detectable percentage,
+sensitivity to leakage and to track-emission rate, and power on the core
+subset. The reports script does the same for the secondary reporting outcome
+across a grid of report rates.
+
+All power fits use the same model as the analysis: **block fixed effects** plus
+the pre-window count and historical median.
+
+### 5. Analysis (after the campaign)
+
+```bash
+Rscript analysis/r/03_randomization/analyse_assignment.R --outcomes=<2026_counts.csv>
+Rscript analysis/r/03_randomization/analyse_assignment.R --outcomes=<...> --outcome=reports
+Rscript analysis/r/03_randomization/analyse_assignment.R --demo        # simulated
+Rscript analysis/r/03_randomization/analyse_assignment.R --calibrate   # Type I check
+```
+
+The pre-registered test: the arm coefficient from
+`lm(post ~ arm + block + pre + historical_median)`, with randomization
+inference — labels permuted **within blocks**, the design's own randomization
+distribution — as the primary p-value, HC3 alongside, and confidence intervals
+by exact inversion of the permutation test under a constant additive shift.
+This matters: with a small no-ad arm and skewed counts, the ordinary t-test
+without the block terms rejected a true null about 0.10 of the time on an
+earlier draw. `--calibrate` verifies the committed code's Type I error
+end-to-end.
+
+## Design summary
+
+- **Units:** 949 Spanish municipalities targetable by name in Google Ads with a
+  median pre-window home-assigned participant count of at most 25 (no floor;
+  571 units have zero baseline).
+- **Arms:** framed (420) / neutral (420) / no-ad (109), Android only,
+  EUR 5,000 across 20 campaigns of exactly 42 municipalities at EUR 250 each
+  (~15 installs and EUR 5.95 per advertising municipality; contiguous baseline
+  bands; `campaign_budgets.csv`).
+- **Randomization:** block randomization, blocks of 9 formed by ordering on
+  baseline participants, one random permutation of (4 framed, 4 neutral,
+  1 no-ad) per full block; the trailing partial block goes to no-ad.
+- **Timing:** single wave. Measurement anchor 15 August 2026 (pre window
+  16 Jun – 14 Aug, post window 16 Aug – 14 Oct — the anchor day itself is
+  excluded, matching every historical season); campaign launch 17 August,
+  planned 30-day flight.
+- **Analysis:** linear model on post-window counts with **block fixed effects**,
+  the pre-window count and the historical median as covariates; randomization
+  inference for the p-value.
+
+Why 4:4:1 rather than equal thirds: the no-ad arm consumes no budget, so its
+units are nearly free. When the allocation was fixed (on the presence-attributed
+data), H1 power at a 15% effect was 0.87 for a pure two-arm design against 0.88
+for the 4:4:1 split — the units given up are offset by the larger dose to those
+remaining, so a randomised H2 costs nothing.
+
+Why the whole eligible pool rather than a round number: power is driven by unit
+count far more than by dose, because delivery noise scales with the install
+count (on the same design-stage data: 224/224 at 28.6 installs each gave H1
+power 0.87; 100/100 at 64 installs each gave 0.58).
+
+## Reproducibility guarantees
+
+1. Deterministic ordering, every tie broken explicitly, ending on a unique key.
+   Without this the assignment would depend on input row order, because
+   `sample()` assigns by position.
+2. RNG kind pinned. R changed the default `sample()` algorithm in 3.6.0, so a
+   bare `set.seed()` is not portable across versions.
+3. Seed frozen at `20260815`. Do not change after preregistration.
+4. Short final blocks are assigned entirely to the no-ad arm — deterministic
+   and stated in advance. Under block fixed effects a single-arm block carries
+   no identifying variation to either contrast, so as ad units they would be
+   spend without information; as no-ad units they keep the frame complete at
+   zero cost and make the ad arms exactly equal (420/420).
+5. Manifest with input and output checksums, recording which outcome column was
+   used and the verified attribution.
+
+## What is not in the reproduction path
+
+`analysis/r/archive/` holds the exploratory work that led here — provinces,
+municipalities with radius targeting, freely placed circles, postal codes,
+participant-level cohorts, Greece, repeated waves, and several corrections to
+earlier analyses — together with its generated outputs. None of it is needed to
+reproduce the final study. See `analysis/r/archive/README.md` for what each
+script was for and why it was set aside. Superseded design memos are in
+`docs/archive/`.
