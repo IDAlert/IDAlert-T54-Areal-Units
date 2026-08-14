@@ -105,4 +105,6 @@ arc — including the corrections — and [docs/archive/](docs/archive/) holds t
 superseded memos. The git history is the timestamped record that every design
 decision preceded the campaign launch.
 
-Part of [IDAlert](https://idalertproject.eu) (EU Horizon Europe).
+## Funding
+
+This research is part of [IDAlert](https://idalertproject.eu), which has received funding from the European Union's Horizon Europe programme under Grant Agreement 101057554.
