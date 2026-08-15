@@ -5,7 +5,7 @@ municipalities, August–October 2026.**
 
 This document is the pre-registration of record for the study. Its sections
 follow the fields of the standard OSF Preregistration form, in form order.
-Supporting technical memos live in `docs/operations/` of the study repository,
+Supporting technical memos ca be found in `docs/operations/` of the study repository,
 and the code that produces every number reported here is listed under *Context
 and additional information*.
 
@@ -25,7 +25,7 @@ regulatory-focus framing increases participation in public-health-related
 citizen science more than neutrally framed advertising, and whether
 geographically targeted advertising increases participation at all. The
 experiment relies on Mosquito Alert (https://www.mosquitoalert.com), an
-expert-validated citizen science system that enables ordinary people to
+expert-validated citizen science system that enables anyone to
 participate in the surveillance of vector mosquitoes. The units of analysis are
 949 Spanish municipalities — every municipality Google Ads can target by name
 whose baseline activity falls below a pre-specified cap, including 571 with no
@@ -55,7 +55,7 @@ Social and Behavioral Sciences; Public Health; Environmental Public Health
 ## Tags
 
 citizen science; regulatory focus; field experiment; digital advertising;
-mosquito surveillance; Mosquito Alert; randomized controlled trial; Spain
+mosquito surveillance; vector mosquitoes; mosquito-borne disease; Mosquito Alert; randomized controlled trial
 
 ---
 
@@ -74,18 +74,15 @@ record more distinct participants than municipalities assigned to no campaign.
 Both hypotheses are two-sided.
 
 "Regulatory focus" refers to Higgins' distinction between **prevention focus**
-(motivation framed around avoiding a negative outcome — here, avoiding mosquito
-bites and disease risk) and **promotion focus** (motivation framed around
-attaining a positive outcome — here, contributing to science and protecting the
-community). The framed arm uses one or both of these orientations; the neutral
+(motivation framed around avoiding a negative outcome) and **promotion focus** (motivation framed around
+attaining a positive outcome). The framed arm includes messaging oriented to both of these foci; the neutral
 arm uses neither. See *Manipulated variables*.
 
-H1 is the primary test and asks whether the *content* of a recruitment message
+H1 is the primary test and asks whether the content of a recruitment message
 changes how much participation it generates, holding budget, targeting and
 platform constant.
 
-Both hypotheses are evaluated on the primary outcome (background-track
-participants) and, separately and secondarily, on the reporting outcome
+Both hypotheses are evaluated on the primary outcome (sampling effort) and, separately and secondarily, on the reporting outcome
 (people submitting mosquito reports). See *Measured variables*.
 
 H2 serves two purposes. It is a substantive result — whether geographically
@@ -113,7 +110,7 @@ These data materially influenced the design and analysis plan, and we record
 that plainly rather than claim otherwise. Specifically, observation of
 historical data determined:
 
-1. the choice of background tracks over submitted reports as the outcome
+1. the choice of sampling effort over submitted reports as the outcome
    (unit-level residual SD ≈ 0.43 on the log scale against 0.87–0.95 for
    report counts);
 2. the eligibility rule, including the upper baseline cap (see *Data inclusion
@@ -333,13 +330,12 @@ before the randomization was frozen, on pre-treatment data only.
 **Outcome data.** Two extracts, both aggregated to municipality by season and
 window:
 
-1. **Background location tracks**, emitted passively by the application.
+1. **Sampling effort** measured from optional, masked background locations emitted passively by the application (and used by the Mosquito Alert system to reduce sampling bias).
    Locations are masked to a 0.025° × 0.025° grid before aggregation.
 2. **Submitted mosquito reports**, geolocated and assigned to municipality by
-   point-in-polygon on the report location. Reports are not masked to the grid.
+   point-in-polygon on the report location.
 
-The two extracts use different attribution **by design**, and the difference
-is not a compromise. The primary track outcome is attributed to the user's
+The two extracts use different approaches to geographic attribution: The primary track outcome is attributed to the user's
 modal sampling municipality; reports are attributed to the location of the report
 itself, for three reasons. First, reporting identifiers are deliberately not
 linkable to background-tracking identifiers — a privacy-by-design separation —
@@ -354,7 +350,7 @@ bias H1.
 
 **Recruitment.** No recruitment of individuals is performed by the
 investigators. The intervention is the purchase of advertising inventory;
-individuals are exposed through ordinary Google advertising delivery.
+individuals are exposed through ordinary Google advertising delivery as part of Mosquito Alert's ongoing recruitment operations.
 
 ## Sample size
 

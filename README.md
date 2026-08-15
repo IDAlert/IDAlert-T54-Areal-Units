@@ -3,7 +3,7 @@
 **IDAlert Task 5.4 — a randomized experiment across 949 Spanish municipalities,
 August–October 2026.**
 
-Does the *content* of a recruitment message change how much participation
+Does the content of a recruitment message change how much participation
 geographically targeted advertising generates for citizen science — and does
 such advertising generate participation at all, including in places with none?
 
