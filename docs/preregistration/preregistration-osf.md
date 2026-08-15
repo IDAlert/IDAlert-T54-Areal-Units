@@ -21,15 +21,22 @@ Science: A Randomized Experiment Across Spanish Municipalities
 ## Description
 
 This is a three-arm randomized experiment testing whether advertising using
-regulatory-focus framing increases participation in public-health-related citizen science more than
-neutrally framed advertising, and whether geographically targeted advertising
-increases participation at all. The experiment relies on Mosquito Alert (https://www.mosquitoalert.com), an expert-validated citizen science system that enables ordinary people to participate in the surveillance of vector moquitoes. The units of analysis are 949 Spanish municipalities---every municipality
-Google Ads can target by name whose baseline activity falls below a
-pre-specified cap, including 571 with no recent Mosquito Alert activity at all. The units
-are randomly assigned to a regulatory-focus framed campaign, a neutral
-campaign, or no campaign. Outcomes are measured in the 60-day period following the commencement of the ad campaign (treatment); data from the 60-day pre-campaign window are used as controls. The primary outcome is the number of distinct Mosquito Alert participants
-whose modal sampling effort is in each municipality during the measurement window. The secondary outcome is the number of
-participants submitting mosquito reports in that window.
+regulatory-focus framing increases participation in public-health-related
+citizen science more than neutrally framed advertising, and whether
+geographically targeted advertising increases participation at all. The
+experiment relies on Mosquito Alert (https://www.mosquitoalert.com), an
+expert-validated citizen science system that enables ordinary people to
+participate in the surveillance of vector mosquitoes. The units of analysis are
+949 Spanish municipalities — every municipality Google Ads can target by name
+whose baseline activity falls below a pre-specified cap, including 571 with no
+recent Mosquito Alert activity at all. The units are randomly assigned to a
+regulatory-focus framed campaign, a neutral campaign, or no campaign. Outcomes
+are measured in a fixed 60-day post-campaign window (16 August – 14 October
+2026); data from the 60-day pre-campaign window are used as statistical
+controls. The primary outcome is the number of distinct Mosquito Alert
+participants who are active in each municipality during the measurement window
+and whose sampling effort is concentrated there. The secondary outcome is the
+number of participants submitting mosquito reports in that window.
 
 ## Contributors
 
@@ -74,7 +81,8 @@ community). The framed arm uses one or both of these orientations; the neutral
 arm uses neither. See *Manipulated variables*.
 
 H1 is the primary test and asks whether the *content* of a recruitment message
-changes its effectiveness, holding budget, targeting and platform constant.
+changes how much participation it generates, holding budget, targeting and
+platform constant.
 
 Both hypotheses are evaluated on the primary outcome (background-track
 participants) and, separately and secondarily, on the reporting outcome
@@ -585,9 +593,10 @@ prevention-versus-promotion contrast is exploratory and underpowered (see
 ## Measured variables
 
 **Primary outcome — track participants.** The number of distinct Mosquito Alert
-users whose **modal sampling municipality** is the unit in question and who emitted at
-least one background location track during the post window, 16 August to
-14 October 2026.
+participants whose **modal sampling municipality** is the unit in question —
+the municipality in which their sampling effort is concentrated (see
+*Indices*) — and who emitted at least one background location track during the
+post window, 16 August to 14 October 2026.
 
 **Secondary outcome — reporters.** The number of distinct users who submitted at
 least one geolocated non-mission report (adult mosquito, bite, or breeding
@@ -911,8 +920,9 @@ H1 or H2.
 
 **Project context.** This experiment is Task 5.4 of IDAlert (Infectious Disease
 Decision-support Tools and Alert Systems), an EU Horizon Europe project.
-Mosquito Alert is an established citizen science platform for mosquito
-surveillance in Spain.
+Mosquito Alert (https://www.mosquitoalert.com) is an expert-validated citizen
+science system that enables ordinary people to participate in the surveillance
+of vector mosquitoes, established in Spain since 2014.
 
 **Ethics.** UPF's Institutional Committee for Ethical Review of Projects
 (CIREP) approved this research as a modification to protocol 270 (originally
