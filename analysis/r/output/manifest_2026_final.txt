@@ -1,5 +1,5 @@
 IDAlert T5.4 2026 randomization manifest
-generated: 2026-08-15 00:16:00 UTC
+generated: 2026-08-15 11:57:27 UTC
 seed: 20260815
 RNG: Mersenne-Twister / Inversion / Rejection
 R version: R version 4.4.2 (2024-10-31)
