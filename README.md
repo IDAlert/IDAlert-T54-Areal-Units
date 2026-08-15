@@ -55,8 +55,8 @@ advertising create participation where none exists?
   the permutation test.
 - **Power.** 0.92 to detect a 15% framing advantage at moderate delivery
   spread, and essentially 1.00 at 20%. The advertising-versus-nothing contrast
-  detects an increase of roughly +110% over the no-advertising arm's baseline
-  of about 1.1 participants per municipality. [XXX DOUBLE CHECK THIS XXX]
+  detects an increase of roughly +110% over the no-advertising arm's expected
+  level of about 1.1 participants per municipality.
 - **Built-in verification.** The assignment script checks the Type I error of
   the realized assignment (not just the design in expectation), verifies from
   the data which attribution the participant counts carry, and stops if any
@@ -110,15 +110,16 @@ municipality boundaries. The only withheld input is the raw Mosquito Alert data 
 
 UPF's Institutional Committee for Ethical Review of Projects (CIREP) approved
 this research as a modification to protocol 270 (originally approved on 21
-July 2022; modification approved 30 July 2026). Mosquito Alert partipants are citizen scientists, not research subjects; the analysis uses
-municipality-level aggregate counts only; no individual-level or otherwise personally identifiable data is used.
+July 2022; modification approved 30 July 2026). Mosquito Alert participants are citizen scientists, not research subjects;
+the analysis uses municipality-level aggregate counts only, and no
+individual-level or otherwise personally identifiable data are used.
 
 ## History
 
 The design went through several earlier forms — provinces as units, freely
 placed radius-targeted circles, postal codes, hurdle models, repeated
 campaign waves — before reaching the registered design.
-[analysis/r/archive/README.md](analysis/r/archive/README.md) and the git history documents that
+[analysis/r/archive/README.md](analysis/r/archive/README.md) and the git history document that
 progression, including analyses that were corrected or superseded along the
 way, and [docs/archive/](docs/archive/) holds the superseded design memos.
 
