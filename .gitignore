@@ -40,7 +40,6 @@ renv/staging/
 # never committed; the small public reference inputs that make the pipeline
 # runnable are the only exceptions.
 data/raw/*
-!data/raw/ine_poblacion_2025.csv
 # Operational Google Ads account exports stay local.
 data/google_ads/
 
@@ -49,8 +48,9 @@ data/google_ads/
 # assignment with its checksummed manifest, the campaign build files, the
 # Google Ads crosswalk and grid geometry (both rebuilt from public inputs and
 # referenced by the manifest checksums), and the power results the
-# pre-registration cites. municipality_reporter_counts.csv is derived from the
-# private raw report export and stays local, like the participant inputs.
+# pre-registration cites. municipality_reporter_counts.csv stays out of git
+# because it is published on Zenodo with the other aggregate data (see
+# docs/operations/data-deposit-plan.md), not because it is sensitive.
 analysis/r/output/*
 !analysis/r/output/assignment_2026_final.csv
 !analysis/r/output/manifest_2026_final.txt

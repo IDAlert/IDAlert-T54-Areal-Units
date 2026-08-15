@@ -19,7 +19,7 @@ pre-specified cap, is randomly assigned to one of three arms:
 
 Ads run from 17 August 2026 (EUR 5,000 total, 20 campaigns of 42 municipalities
 at EUR 250 each). The primary outcome is the number of distinct people whose
-home municipality is the unit and who emit Mosquito Alert background location
+modal sampling municipality is the unit and who emit Mosquito Alert background location
 tracks during the 60-day post window (16 Aug – 14 Oct); people submitting
 mosquito reports are the secondary outcome. 571 of the municipalities have no
 recent activity at all, so the ads-versus-nothing contrast is in part an
@@ -36,7 +36,7 @@ recent activity at all, so the ads-versus-nothing contrast is in part an
 ## Design in brief
 
 - **Randomization**: units ordered by baseline participation (median over
-  2021–2025, home-attributed), cut into blocks of 9, each full block randomly
+  2021–2025, modal-attributed), cut into blocks of 9, each full block randomly
   permuted 4 framed / 4 neutral / 1 no-ad; a trailing partial block goes to
   the no-ad hold-out. Frozen seed, pinned RNG, bit-reproducible.
 - **Analysis** (pre-registered): linear model on post-window counts with block
@@ -80,11 +80,17 @@ are in
 
 ## Data availability
 
-Participant-derived extracts — even aggregated municipality counts — are not
-distributed in this repository. The committed inputs are the public reference
-files (INE municipal population; Google Ads geotargets are fetchable from
-Google); the participant window counts and raw report export must be requested
-from the PI. Every committed output lists its input checksums in the manifest,
+The aggregate inputs are published openly at
+**[10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738)** (CC-BY-4.0): modal-attributed participant counts by
+municipality and by province, and municipality-level reporter counts. Because
+the deposited participants file is byte-identical to the one checksummed in
+`manifest_2026_final.txt`, anyone can download it, confirm the md5, rerun
+`assign_treatment_2026.R`, and check that the assignment reproduces.
+
+Larger or participant-level inputs are not distributed here. Public reference inputs are fetchable from
+their sources (Google Ads geotargets from Google, GADM boundaries from GADM);
+the participant window counts and raw report export must be obtained as
+described under *Data availability* in the pre-registration. Every committed output lists its input checksums in the manifest,
 so a supplied data file can be verified against the exact bytes the assignment
 was generated from.
 

@@ -73,8 +73,10 @@ assignment <- read.csv(file.path(output_dir, "assignment_2026_final.csv"))
 participants <- read.csv(file.path("data", "raw",
                                    "participants_spain_municipality_aug_windows.csv"))
 
-outcome_column <- if ("n_participants_home" %in% names(participants)) {
-  "n_participants_home"
+outcome_column <- if ("n_participants_modal" %in% names(participants)) {
+  "n_participants_modal"
+} else if ("n_participants_home" %in% names(participants)) {
+  "n_participants_home"        # legacy name for the same modal rule
 } else {
   "n_participants"
 }

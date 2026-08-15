@@ -18,16 +18,22 @@ install.packages(c("sf", "terra", "sandwich", "lmtest", "dplyr", "geodata"))
 
 | File | Source | In repo? |
 |---|---|---|
-| `data/raw/participants_spain_municipality_aug_windows.csv` | Mosquito Alert background-track export, aggregated to municipality × season × window | no — request from the PI |
-| `data/raw/participants_spain_province_aug_windows.csv` | same, aggregated to province | no |
+| `data/raw/participants_spain_municipality_aug_windows.csv` | Mosquito Alert background-track export, aggregated to municipality × season × window | **yes — [10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738)** |
+| `data/raw/participants_spain_province_aug_windows.csv` | same, aggregated to province | **yes — [10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738)** |
 | `data/raw/mosquito_alert_raw_reports.Rds` | Mosquito Alert raw report export (for the secondary outcome) | no — participant-level, request from the PI |
 | `data/raw/google_ads_geotargets-2026-07-16.csv` | https://developers.google.com/google-ads/api/data/geotargets | no — 23 MB, download it |
 | `data/raw/gadm/gadm41_ESP_4_pk.rds` | GADM 4.1 Spain level 4 | cached |
-| `data/raw/ine_poblacion_2025.csv` | INE municipal population register, 2025 | yes |
 
-The participant files are aggregate counts, not participant-level data, but they
-are not distributed here. Every file the pipeline writes carries municipality
-counts only.
+The aggregate inputs are openly archived at **[10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738)** (CC-BY-4.0),
+together with `municipality_reporter_counts.csv` (the step-4 output, deposited
+so the secondary outcome is reproducible without the raw report export). Their
+md5s are listed in the deposit and in `docs/operations/data-deposit-plan.md`;
+the participants file is byte-identical to the input checksummed in
+`manifest_2026_final.txt`. Download them into `data/raw/` (and
+`analysis/r/output/` for the reporter counts) to run everything below.
+
+Only the participant-level raw report export is withheld. Every file the
+pipeline writes carries municipality counts only.
 
 ### Outcome attribution
 
@@ -36,17 +42,17 @@ Two attributions exist for participant counts:
 | Attribution | Meaning |
 |---|---|
 | **Presence** | A user is counted in every municipality where they emitted a track. Municipality counts sum to ~1.20x the true number of people. Used in deliveries through 2026-08-13. |
-| **Home** | Each user counted only in the municipality where they were seen on the most distinct days. An exact partition. The 2026-08-14 (final) delivery. |
+| **Modal** | Each user counted only in the municipality where they were seen on the most distinct days — where their sampling effort is concentrated. An exact partition. The 2026-08-14 (final) delivery. |
 
 The final delivery keeps the historical column name `n_participants`, so the
 assignment script **verifies attribution from the data** — municipality sums
 against province totals (1.000 = partition, 1.17–1.28 = presence) — and records
 the verdict in the manifest rather than trusting the column name. See
-`docs/operations/measurement-grid-and-home-assignment.md`.
+`docs/operations/measurement-grid-and-modal-attribution.md`.
 
 The secondary reporting outcome is attributed by **report location** by design:
 reporting identifiers are deliberately not linkable to tracking identifiers, so
-home assignment cannot be computed for reporters.
+modal attribution cannot be computed for reporters.
 
 ## Steps
 
@@ -95,7 +101,7 @@ Rscript analysis/r/03_randomization/assign_treatment_2026.R
 
 Selects every municipality that is targetable by name with a median pre-window
 participant count of **at most 25** across 2021–2025 — **949 units** on the
-final home-assigned data, including 571 with zero baseline — and assigns them
+final modal-attributed data, including 571 with zero baseline — and assigns them
 in blocks of 9 (4 framed, 4 neutral, 1 no-ad), giving **420 / 420 / 109** (a
 trailing partial block is assigned entirely to the no-ad arm — under block
 fixed effects a single-arm block carries no identifying variation, and this
@@ -187,7 +193,7 @@ end-to-end.
 ## Design summary
 
 - **Units:** 949 Spanish municipalities targetable by name in Google Ads with a
-  median pre-window home-assigned participant count of at most 25 (no floor;
+  median pre-window modal-attributed participant count of at most 25 (no floor;
   571 units have zero baseline).
 - **Arms:** framed (420) / neutral (420) / no-ad (109), Android only,
   EUR 5,000 across 20 campaigns of exactly 42 municipalities at EUR 250 each

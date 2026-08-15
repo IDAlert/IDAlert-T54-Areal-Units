@@ -30,7 +30,7 @@ prevention/promotion arms) lived here as `assign_treatment.R`; see
 ## Design, as implemented
 
 - **Eligibility, not sampling.** Every municipality that Google Ads can target
-  by name and whose median pre-window participant count (2021–2025, home
+  by name and whose median pre-window participant count (2021–2025, modal
   attribution) is at most 25 enters. No floor. N follows from the rule.
 - **Block randomization.** Units ordered by baseline, ties broken explicitly,
   cut into consecutive blocks of 9; each full block gets a random permutation
@@ -40,7 +40,7 @@ prevention/promotion arms) lived here as `assign_treatment.R`; see
   Type I error of the realized assignment (not the design average — the two
   came apart once, 0.216 vs 0.064) and warns hard if anti-conservative.
 - **Attribution self-check.** Municipality sums are compared with province
-  totals; ratio 1.00 = home-assigned partition. Recorded in the manifest, so
+  totals; ratio 1.00 = modal-attributed partition. Recorded in the manifest, so
   the outcome definition is verified from the data rather than assumed from a
   column name.
 - **Launch gate.** Google's geo table holds 180 Spanish provinces, cities and

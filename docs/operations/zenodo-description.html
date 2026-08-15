@@ -1,0 +1,129 @@
+<!-- Paste-ready Zenodo description for DOI 10.5281/zenodo.21940738.
+     Zenodo does NOT render Markdown. Its description field is a rich-text
+     editor, and its API accepts a subset of HTML: a, abbr, acronym, b,
+     blockquote, br, code, caption, div, em, i, li, ol, p, pre, span, strike,
+     strong, sub, table, tbody, thead, th, td, tr, u, ul.
+     Use this HTML via the API, or the editor's source view if it has one;
+     otherwise rebuild it with the toolbar (headings, bold, lists, links). -->
+
+<p>Aggregate Mosquito Alert participation counts for Spanish municipalities,
+2018&ndash;2026, deposited as the input data for the IDAlert Task&nbsp;5.4
+randomized advertising experiment. All files are municipality-level counts:
+they contain no identifiers, no coordinates, no dates finer than a 60-day
+window, and no per-participant records.</p>
+
+<p><strong>Masked background tracks.</strong> Participation is measured from
+background location tracks emitted passively by the Mosquito Alert app. Track
+locations are <em>masked</em> to a 0.025&deg;&nbsp;&times;&nbsp;0.025&deg; grid
+(roughly 6&nbsp;km&sup2; at Spanish latitudes) before any aggregation, so no
+precise location is used at any stage of this study or present in these files.
+Each masked cell is attributed whole to the municipality containing its
+centroid; because cells are coarse relative to municipalities, municipality
+boundaries are correspondingly approximate.</p>
+
+<h3>Files and checksums</h3>
+
+<table>
+  <thead>
+    <tr><th>File</th><th>md5</th><th>Content</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>participants_spain_municipality_aug_windows.csv</code></td>
+      <td><code>ee47f0e841790fcba139aaecf892bb9d</code></td>
+      <td>Distinct participants emitting masked background location tracks, by
+          municipality &times; season &times; 60-day window, 8,244
+          municipalities, 2018&ndash;2026. Modal attribution (see below).</td>
+    </tr>
+    <tr>
+      <td><code>participants_spain_province_aug_windows.csv</code></td>
+      <td><code>ebd07219d817355eb60bd590af37e329</code></td>
+      <td>The same counts aggregated to province, deduplicated within
+          province.</td>
+    </tr>
+    <tr>
+      <td><code>municipality_reporter_counts.csv</code></td>
+      <td><code>7b6dbf8559d40899a57052992de3ecfd</code></td>
+      <td>Distinct participants submitting mosquito reports, and report counts, by
+          municipality &times; season &times; window, 2021&ndash;2025 (see
+          &ldquo;Coverage&rdquo; below).</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Checksums</h3>
+
+<p>The first file is <strong>byte-identical</strong> to the input recorded in
+<code>manifest_2026_final.txt</code> in the study repository. If you download this file, confirm the md5 above, and run
+<code>analysis/r/03_randomization/assign_treatment_2026.R</code>, the
+treatment assignment regenerates bit-for-bit
+(<code>assignment_2026_final.csv</code>, md5
+<code>cd9c86726fd7f9aa5c8e488d0b5361b2</code>).</p>
+
+<p>These are <strong>pre-treatment</strong> data, deposited before the
+advertising campaign's outcome window opens. The 2026 <code>after</code> rows
+are placeholders (<code>window_complete = FALSE</code>,
+<code>days_observed = 0</code>, counts of 0), not outcomes. Outcome extracts
+will be added as a new version of this record after 14 October 2026.</p>
+
+<h3>Attribution</h3>
+
+<p><strong>Participant counts use modal attribution.</strong> Each participant
+is counted in exactly one municipality: the one where they were observed on the
+greatest number of distinct days over their full track history &mdash; that is,
+where their sampling effort is concentrated. Ties are broken deterministically.
+This is <em>not</em> a claim about residence; the data cannot establish where
+anyone lives. Because each person is counted once, municipality counts sum to
+the province totals, which is how attribution can be verified from the files
+themselves (ratio 1.00 = an exact partition; presence attribution, in which a
+participant is counted in every municipality visited, gives 1.17&ndash;1.28).</p>
+
+<p>Note that the column is named <code>n_participants</code> for continuity
+with earlier releases even though it carries modal-attributed counts.</p>
+
+<p><strong>Reporter counts use report-location attribution</strong>
+(point-in-polygon on the report coordinates). Reporting identifiers are
+deliberately not linkable to background-tracking identifiers, so modal
+attribution cannot be computed for reporters; most reporters submit a single
+report, so a modal rule would in any case collapse to the report location.</p>
+
+<h3>Coverage</h3>
+
+<p>The participant counts cover 2018&ndash;2026, including the complete 2026
+pre-campaign window. The reporter counts cover 2021&ndash;2025: the report
+export underlying this version ends one day before the 2026 pre-window closes,
+so no 2026 season is emitted rather than a partial one. The 2026 reporter
+counts will be included in the next version of this record, alongside the
+outcome extracts.</p>
+
+<h3>Windows</h3>
+
+<p>Each season is split by a 15 August anchor into a pre window (16 June &ndash;
+14 August) and a post window (16 August &ndash; 14 October). The anchor day
+belongs to neither window. <code>window_complete</code> and
+<code>days_observed</code> record whether the underlying data cover the whole
+window.</p>
+
+<h3>Relation to other Mosquito Alert data</h3>
+
+<p>Mosquito Alert publishes sampling-effort data at finer resolution
+(participants per masked 0.025&deg; grid cell per day) and publishes all
+reports. The counts here are a coarser aggregation of the same underlying
+streams &mdash; the same masked cells, grouped into municipalities and 60-day
+windows &mdash; prepared for municipality-level analysis; the modal attribution is the one element not
+derivable from those releases, since they contain counts rather than per-participant
+records.</p>
+
+<h3>Citation and related resources</h3>
+
+<ul>
+  <li>Code, treatment assignment, and checksummed manifest:
+      the study's GitHub repository (cite the tagged commit).</li>
+  <li>Pre-registration: OSF registration <code>[DOI to be added once the
+      registration is public]</code>, which specifies the hypotheses, design,
+      and analysis plan these data support.</li>
+  <li>Licence: CC-BY-4.0.</li>
+</ul>
+
+<p>Part of IDAlert (Infectious Disease decision-support tools and Alert
+systems), which has received funding from the European Union's Horizon Europe programme under Grant Agreement 101057554.</p>

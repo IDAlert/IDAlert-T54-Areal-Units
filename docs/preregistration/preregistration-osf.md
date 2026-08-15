@@ -11,7 +11,7 @@ belong in a form field lives in `docs/operations/`, and the code that produces
 every number here is in the repository listed under *Context and additional
 information*.
 
-**Status** DRAFT, calibrated on the final home-assigned data, seasons
+**Status** DRAFT, calibrated on the final modal-attributed data, seasons
 2021–2025. Remaining steps before submission are listed under *Open items*.
 
 ---
@@ -33,7 +33,7 @@ Google Ads can target by name whose baseline activity falls below a
 pre-specified cap, including 571 with no recent Mosquito Alert activity at all —
 are randomly assigned to a regulatory-focus framed campaign, a neutral
 campaign, or no campaign. The
-primary outcome is the number of distinct people whose home municipality is the
+primary outcome is the number of distinct people whose modal sampling municipality is the
 unit and who emit Mosquito Alert background location tracks in the 60-day
 post-campaign window; the number of people submitting mosquito reports is a
 secondary outcome.
@@ -121,7 +121,7 @@ historical data determined:
 4. the decision to enter the pre-period as a covariate rather than difference
    it;
 5. the 4:4:1 arm allocation;
-6. the switch to home-assigned participant counts as the primary outcome;
+6. the switch to modal-attributed participant counts as the primary outcome;
 7. restriction of calibration to seasons from 2021 onward;
 8. removal of the eligibility floor, after simulation on pre-treatment data
    showed the zero-baseline municipalities raise rather than lower power.
@@ -284,10 +284,10 @@ earlier, smaller candidate pools.
 
 **Attribution verification.** The script also verifies the outcome attribution
 from the data itself — municipality sums against province totals (1.000 = an
-exact home-assigned partition; 1.17–1.28 = presence attribution) — and records
+exact modal-attributed partition; 1.17–1.28 = presence attribution) — and records
 the verdict in the manifest, because the final data delivery carries
-home-assigned counts under the historical column name. The final data verify as
-`home-assigned partition (ratio 1.000)`.
+modal-attributed counts under the historical column name. The final data verify as
+`modal-attributed partition (ratio 1.000)`.
 
 ---
 
@@ -302,7 +302,7 @@ activity at all, so the study speaks both to amplifying participation where it
 exists and to **activating** it where it does not.
 
 **Sampling frame and eligibility.** Beginning from all 8,244 Spanish
-municipalities, with participant counts under home attribution:
+municipalities, with participant counts under modal attribution:
 
 | Step | Remaining |
 |---|---|
@@ -334,10 +334,10 @@ window:
 
 The two extracts use different attribution **by design**, and the difference
 is not a compromise. The primary track outcome is attributed to the user's
-home municipality; reports are attributed to the location of the report
+modal sampling municipality; reports are attributed to the location of the report
 itself, for three reasons. First, reporting identifiers are deliberately not
 linkable to background-tracking identifiers — a privacy-by-design separation —
-so a home municipality, which is defined on the tracking stream, cannot be
+so a modal sampling municipality, which is defined on the tracking stream, cannot be
 computed for reporters at all. Second, most reporters submit exactly one
 report, so a modal-location rule would collapse to the report location anyway.
 Third, every historical season in the reports calibration is report-location
@@ -421,7 +421,7 @@ power depends on what share of advertising-driven installs go on to submit at
 least one report — the *report rate* — which is not known in advance. The
 historical aggregate ratio of reporter counts to track-participant counts is
 about 1.0 (1.20 / 1.14), but this is a ratio of municipality totals under two
-different attributions (reports by report location, tracks by home), not a
+different attributions (reports by report location, tracks by modal sampling municipality), not a
 per-user rate, and newly recruited users are expected to report at a lower rate
 than the established base. The plausible range is therefore treated as wide and
 low.
@@ -501,10 +501,10 @@ attenuation dominates (confirmed by a common-random-numbers simulation:
 paired power difference −0.15 at lambda = 0.30). **Under the plausible central
 case (lambda ≈ 0.15, in line with the ~1.20 multi-municipality ratio measured
 under presence attribution), power at a 15% framing effect is roughly 0.86;
-heavy leakage (lambda = 0.30) leaves 0.77.** Type I error is unaffected. Home
-assignment already removes the recorded double counting; residual lambda
-reflects ad recruits whose home lies outside the targeted municipality (e.g.
-commuters), which the realized multi-municipality diagnostic cannot directly
+heavy leakage (lambda = 0.30) leaves 0.77.** Type I error is unaffected. Modal
+attribution already removes the recorded double counting; residual lambda
+reflects ad recruits whose sampling is concentrated outside the targeted
+municipality (e.g. commuters), which the realized multi-municipality diagnostic cannot directly
 measure — a reason the attenuation caveat in *Inference criteria* matters.
 
 Two alternative designs intended to reduce leakage were tested at design stage
@@ -578,7 +578,7 @@ exploratory and underpowered (see *Other planned analysis*).
 ## Measured variables
 
 **Primary outcome — track participants.** The number of distinct Mosquito Alert
-users whose **home municipality** is the unit in question and who emitted at
+users whose **modal sampling municipality** is the unit in question and who emitted at
 least one background location track during the post window, 16 August to
 14 October 2026.
 
@@ -619,7 +619,7 @@ from Google Ads reporting.
 
 ## Indices
 
-**Home municipality assignment.** Each user is assigned to exactly one
+**Modal sampling municipality assignment.** Each user is assigned to exactly one
 municipality: the one in which they were observed on the greatest number of
 distinct days, computed over the user's **full track history** rather than the
 study window alone. Ties are broken by number of distinct grid cells, then by
@@ -628,21 +628,21 @@ applied**, because requiring a minimum number of tracked days would
 preferentially remove the marginal, low-activity users that the campaign is
 intended to create.
 
-Home assignment replaces presence attribution as the primary outcome because
+Modal attribution replaces presence attribution as the primary outcome because
 presence attribution counts a user in every municipality visited, so
 municipality counts sum to approximately 1.20 times the true number of people
 (stable across 2021–2025; the ratio was 1.6–2.0 before 2021, a different
-tracking regime, which is why calibration begins at 2021). Home assignment makes
+tracking regime, which is why calibration begins at 2021). Modal attribution makes
 the counts an exact partition of people, makes units statistically independent,
 and removes transient passers-by.
 
-The natural objection — that Google targets by *presence* while home assignment
-measures *residence*, which would diverge during the Spanish holiday season — is
-not supported: the multi-municipality ratio is 1.233 in coastal provinces
+The natural objection — that Google targets by *presence* while modal
+attribution measures a participant's habitual location, which would diverge
+during the Spanish holiday season — is not supported: the multi-municipality ratio is 1.233 in coastal provinces
 against 1.202 in interior provinces (p = 0.56). The phenomenon is ordinary local
 mobility, not tourism.
 
-**Home assignment is nonetheless measured post-treatment**, because an
+**Modal attribution is nonetheless measured post-treatment**, because an
 advertising-induced user's entire track history begins after launch. If
 advertising caused users to run the app more while physically inside the
 targeted municipality, borderline users would be classified there and the
@@ -716,7 +716,7 @@ corresponding amount.
 Covariates enter untransformed and linearly. No standardization, binning, or
 winsorization is applied.
 
-The single derived variable is the home municipality assignment described under
+The single derived variable is the modal sampling municipality assignment described under
 *Indices*, which is applied identically to pre- and post-window counts and to
 all historical seasons.
 
@@ -724,7 +724,7 @@ all historical seasons.
 
 **Alpha 0.05, two-sided**, throughout.
 
-**There is exactly one primary test: H1 on the primary outcome (home-assigned
+**There is exactly one primary test: H1 on the primary outcome (modal-attributed
 track participants).** Every other test in this plan is secondary or tertiary
 and is labelled as such wherever reported:
 
@@ -820,7 +820,7 @@ information and is applied before randomization, so it cannot bias the treatment
 contrast; it defines the population to which results generalize.
 
 **The upper baseline cap, and why it exists.** Municipalities with a median
-pre-window count above 25 are excluded — on the final home-assigned data these
+pre-window count above 25 are excluded — on the final modal-attributed data these
 are Barcelona (93), Madrid (48) and Valencia (40), which
 sit one to two orders of magnitude above the pool median of 2. They are not
 merely large — they destabilize inference. At design stage, with them included,
@@ -830,7 +830,7 @@ because the extreme right tail landed disproportionately in the advertising
 arms and the covariates could not absorb it. They are also the municipalities
 in which EUR 5,000 buys the least exposure per head. The cap is a fixed rule,
 not a list: Vigo (excluded under presence attribution at 28.5) and Sevilla
-(excluded under 2021–2024 home medians at 38.5) both re-entered as the data and
+(excluded under 2021–2024 modal-attributed medians at 38.5) both re-entered as the data and
 calibration window changed, because their medians fell within the cap.
 
 **Post-assignment exclusion.** No municipality will be excluded after assignment
@@ -864,7 +864,7 @@ and the primary analysis, which does not use them, is unaffected.
 All of the following are pre-specified and secondary. None affects the status of
 H1 or H2.
 
-1. **Presence-attributed outcome** substituted for home assignment (the tertiary
+1. **Presence-attributed outcome** substituted for modal attribution (the tertiary
    outcome). If the two disagree, that is a finding about mobility rather than a
    defect.
 2. **Core subset**: the 448 municipalities with interior cell fraction ≥ 0.25,
@@ -925,12 +925,12 @@ and reported in full as a secondary outcome, with its power stated in advance.
 1. The measured outcome attenuates the true effect, because participants induced
    in one municipality may be recorded in another. A null H1 is uninformative
    about the absence of an effect.
-2. Home assignment is computed partly from post-treatment data. H1 is immune to
+2. Modal attribution is computed partly from post-treatment data. H1 is immune to
    any resulting bias; H2 is not.
 3. The study has power 0.92 at a 15% framing effect and essentially 1.00 at
    20% on the primary outcome (at moderate delivery spread), 0.65 at 10%, and
-   is not powered below that. Leakage of ad recruits whose home lies outside
-   the targeted municipality reduces H1 power moderately (to roughly 0.86 at a
+   is not powered below that. Leakage of ad recruits whose sampling is concentrated
+   outside the targeted municipality reduces H1 power moderately (to roughly 0.86 at a
    plausible lambda of 0.15). On the secondary reporting outcome, power at a
    15% effect is 0.79 if roughly 40% of advertising-driven installs go on to
    report, and lower below that.
@@ -958,6 +958,19 @@ and reported in full as a secondary outcome, with its power stated in advance.
 are in the project repository. The registration should be linked to a tagged
 commit so that the assignment can be verified against the manifest md5.
 
+**Data availability.** The aggregate inputs — municipality-level
+modal-attributed participation counts and municipality-level reporter counts,
+both containing no identifiers, coordinates, or per-person records — are
+deposited openly at **[10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738)** (CC-BY-4.0) so that the manifest checksums are verifiable rather than
+merely asserted, and so the assignment can be independently regenerated. The
+pre-treatment inputs are deposited **before any outcome exists**, which
+timestamps exactly the bytes the randomization consumed; the 2026 outcome
+extracts follow after the post window closes on 14 October 2026. Deposit scope and the measured disclosure profile — including the comparison
+with Mosquito Alert's existing finer-grained public releases — are set out in
+`docs/operations/data-deposit-plan.md`. The participant-level raw report export
+is not published; it is the input to the aggregate reporter counts, not a
+publishable product.
+
 | Item | Location |
 |---|---|
 | Assignment | `analysis/r/output/assignment_2026_final.csv` |
@@ -967,13 +980,13 @@ commit so that the assignment can be verified against the manifest md5.
 | Power analysis, reporting outcome | `analysis/r/02_power/run_report_outcome_power.R` |
 | Analysis code (RI, HC3, CI inversion, calibration) | `analysis/r/03_randomization/analyse_assignment.R` |
 | Grid geometry per municipality | `analysis/r/output/municipality_grid_geometry.csv` |
-| Measurement memo (grid, home assignment) | `docs/operations/measurement-grid-and-home-assignment.md` |
+| Measurement memo (grid, modal attribution) | `docs/operations/measurement-grid-and-modal-attribution.md` |
 | Campaign target lists | `analysis/r/output/campaign_criteria_ids/` |
 | Reproduction path | `REPRODUCE.md` |
 
 **Open items before submission.**
 
-1. ~~Regenerate against the 2026-era data~~ — done 2026-08-14: home-assigned
+1. ~~Regenerate against the 2026-era data~~ — done 2026-08-14: modal-attributed
    data delivered and verified (partition ratio 1.000); assignment, power and
    calibration all regenerated. Note the delivery keeps the historical column
    name `n_participants`; the manifest records the verified attribution.
@@ -990,8 +1003,8 @@ commit so that the assignment can be verified against the manifest md5.
    (c) H2 gains substantive interest: it measures whether paid advertising can
    sustain participation in precisely the conditions where organic
    participation is falling.
-3. ~~Home-assigned reporter counts~~ — dropped with cause: reporting and
-   tracking identifiers are deliberately unlinkable, so home assignment cannot
+3. ~~Modal-attributed reporter counts~~ — dropped with cause: reporting and
+   tracking identifiers are deliberately unlinkable, so modal attribution cannot
    be computed for reporters (see *Data collection procedures*). Still open:
    a **presence-attributed** track export for the tertiary outcome, which can
    be produced after the campaign without affecting the primary analysis.
@@ -1007,3 +1020,4 @@ commit so that the assignment can be verified against the manifest md5.
    under *Context and additional information*.
 8. Add remaining contributors.
 9. Tag the repository commit and insert its permanent link.
+10. ~~Data deposit~~ — published at 10.5281/zenodo.21940738; cited above and in the manifest.

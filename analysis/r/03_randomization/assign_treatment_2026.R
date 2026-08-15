@@ -1,7 +1,7 @@
 # =============================================================================
 # FINAL treatment assignment: IDAlert T5.4 areal-unit messaging experiment, 2026
 #
-# Design (final, 2026-08-14, on the home-assigned data)
+# Design (final, 2026-08-14, on the modal-attributed data)
 #   Units    every Spanish municipality that Google Ads can target by name AND
 #            whose median pre-window participant count (2021-2025) is at most
 #            25. No floor: 571 of the 949 eligible units have zero baseline.
@@ -91,6 +91,10 @@ CALIBRATION_YEARS <- 2021:2025
 # the 0.025 degree masking grid. Fixed HERE, before unblinding.
 CORE_INTERIOR_FRAC <- 0.25
 
+# Open archive of the aggregate inputs. Recorded in the manifest so the
+# checksums below name the archive they can be verified against.
+DEPOSIT_DOI <- "10.5281/zenodo.21940738"
+
 args <- commandArgs(trailingOnly = TRUE)
 n_check_sims <- if (length(args) >= 1) as.integer(args[[1]]) else 500L
 
@@ -109,30 +113,36 @@ geometry_path <- file.path(output_dir, "municipality_grid_geometry.csv")
 #                        they emitted a track. Summing over municipalities
 #                        therefore exceeds the true number of people -- by a
 #                        factor of about 1.20 within province since 2021.
-#   n_participants_home  RESIDENCE. Each user is assigned to the municipality
-#                        where they were seen on the most distinct days, and
-#                        counted only there. An exact partition of people.
+#   n_participants_modal MODAL SAMPLING. Each user is assigned to exactly one
+#   (or n_participants_home) municipality -- the one where they were observed
+#                        on the most distinct days, i.e. where their sampling
+#                        effort is concentrated. An exact partition of people.
+#                        This is NOT a residence claim: the data cannot
+#                        establish where anyone lives, and the design does not
+#                        need it. `_home` is the legacy name for the same rule.
 #
-# The final (2026-08-14) data delivery is home-assigned but kept the historical
+# The final (2026-08-14) data delivery is modal-attributed but kept the historical
 # column name, which is why the check below verifies attribution from the data
-# itself instead of trusting the name. Home assignment removes the double
+# itself instead of trusting the name. Modal attribution removes the double
 # counting, makes units genuinely independent, and strips out transient
 # passers-by, who are noise rather than signal.
 
 participants <- read.csv(participants_path)
 
-OUTCOME_COLUMN <- if ("n_participants_home" %in% names(participants)) {
-  "n_participants_home"
+OUTCOME_COLUMN <- if ("n_participants_modal" %in% names(participants)) {
+  "n_participants_modal"
+} else if ("n_participants_home" %in% names(participants)) {
+  "n_participants_home"        # legacy name for the same modal rule
 } else {
   "n_participants"
 }
 participants$outcome <- participants[[OUTCOME_COLUMN]]
 
 # Attribution is VERIFIED from the data, not assumed from the column name.
-# Under home assignment each participant is counted in exactly one
+# Under modal attribution each participant is counted in exactly one
 # municipality, so municipality counts sum to the province totals (ratio 1.00);
 # under presence attribution the ratio has run 1.17-1.28 since 2021. The 2026-08
-# data delivery is home-assigned but kept the historical column name, which is
+# data delivery is modal-attributed but kept the historical column name, which is
 # why this check exists.
 province_path <- file.path("data", "raw",
                            "participants_spain_province_aug_windows.csv")
@@ -145,7 +155,7 @@ if (file.exists(province_path)) {
   attribution_ratio <- muni_sum / prov_sum
   ATTRIBUTION <- sprintf(
     "%s (municipality/province sum ratio %.3f, year %d)",
-    if (abs(attribution_ratio - 1) < 0.02) "home-assigned partition"
+    if (abs(attribution_ratio - 1) < 0.02) "modal-attributed partition"
     else "presence (multi-counting)",
     attribution_ratio, check_year)
 }
@@ -510,6 +520,8 @@ writeLines(c(
   paste("realised Type I error: H1", sprintf("%.3f", realised["h1"]),
         "| H2", sprintf("%.3f", realised["h2"]),
         sprintf("(%d sims)", n_check_sims)),
+  "",
+  paste("input data archive:", DEPOSIT_DOI),
   "",
   "input checksums (md5):",
   paste(" ", participants_path, tools::md5sum(participants_path)),

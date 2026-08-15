@@ -1,13 +1,13 @@
-# Measuring participation: the masking grid, and home assignment
+# Measuring participation: the masking grid, and modal attribution
 
-**Status** Decided 2026-08-13; **home-assigned data delivered 2026-08-14** and
+**Status** Decided 2026-08-13; **modal-attributed data delivered 2026-08-14** and
 verified (municipality sums equal province totals exactly, ratio 1.000, every
 year and window — the signature of a partition). The delivery keeps the
 historical column name `n_participants`, so the assignment script verifies
 attribution from the data (municipality/province sum ratio) rather than
 trusting the name, and records the result in the manifest.
 
-Under home attribution per-unit medians fell to 0.76–0.80 of presence values,
+Under modal attribution per-unit medians fell to 0.76–0.80 of presence values,
 with none rising. The final design (2026-08-14) also removed the eligibility
 floor and extended calibration to 2021–2025: the pool is now all 949 nameable
 municipalities with median at most 25, of which 571 have zero baseline. Only
@@ -110,7 +110,7 @@ unblinding.
 
 ---
 
-## 2. Participants are counted by presence, not residence
+## 2. Participants are counted by presence, not by where they mostly sample
 
 A user is currently counted in **every** municipality where they emitted a
 track. Summing over municipalities therefore exceeds the number of people:
@@ -139,16 +139,24 @@ in Spain would lead you to expect:
 | | p = 0.56 |
 
 So it is ordinary local mobility — commuting, the next town over. That matters,
-because the main objection to home assignment was that Google targets by
-*presence* while home assignment measures *residence*, and in August those
-would diverge badly. They do not. Google's "presence or regularly in" targeting
+because the main objection to modal attribution was that Google targets by
+*presence* while modal attribution measures a participant's habitual
+location, and in August those would diverge badly. They do not. Google's "presence or regularly in" targeting
 is approximately "residents plus regular commuters", close to what a modal
 municipality rule recovers.
 
-### Decision: move to home assignment
+### Decision: move to modal attribution
 
 Each UUID is assigned to the municipality where it was seen on the most
-distinct days, and counted only there.
+distinct days — where its sampling effort is concentrated — and counted only
+there.
+
+**On the name.** This is deliberately *not* called a "home" municipality. The
+data cannot establish where anyone lives, and the design does not need it: what
+matters is where a participant spends most of their time with the app running.
+"Modal sampling municipality" names the rule (the mode of the distribution of
+observed days across municipalities) without asserting a fact about the
+person's life.
 
 **What it buys**
 
@@ -160,16 +168,17 @@ distinct days, and counted only there.
 
 **Three cautions, carried into the pre-registration**
 
-- **Home is measured post-treatment.** For an ad-induced user every track used
+- **The modal municipality is measured post-treatment.** For an ad-induced user every track used
   to classify them is collected after the campaign begins. If ads made people
   use the app more while inside the targeted municipality, borderline users
   would be classified there and the estimate would inflate. Background tracks
   are passive, so this should be small — and note **H1 is immune** (both arms
   are treated, so any such bias cancels) while **H2 is not**.
 - **No minimum-activity threshold.** Requiring, say, ≥5 days of tracks before
-  assigning a home would remove exactly the marginal, low-activity users the
-  campaign creates. Assign a home to everyone; break ties deterministically.
-- **Everything recalibrates.** Home assignment cuts counts ~17%, moving
+  assigning a modal municipality would remove exactly the marginal, low-activity
+  users the campaign creates. Assign one to everyone; break ties
+  deterministically.
+- **Everything recalibrates.** Modal attribution cuts counts ~17%, moving
   baselines, eligibility, and τ. Expected direction is that τ falls and power
   improves, since transients are erratic year to year — but that is a
   prediction to check, not a result.
@@ -179,17 +188,18 @@ distinct days, and counted only there.
 Requested alongside the existing columns, same file, same windows, 2021 onward:
 
 - For each UUID and season, distinct days present per municipality.
-- `home` = municipality with the most distinct days; ties broken by most cells,
+- `modal municipality` = municipality with the most distinct days; ties broken by most cells,
   then by `GID_4`, so the rule is deterministic.
-- Home computed from the UUID's **full track history**, not just the study
-  window — this makes home effectively pre-treatment for existing users and
+- Computed from the UUID's **full track history**, not just the study window —
+  this makes the assignment effectively pre-treatment for existing users and
   stabilises it for new ones.
-- Emitted as `n_participants_home` beside the existing `n_participants`.
+- Emitted as `n_participants_modal` (or the legacy `n_participants_home`)
+  beside the existing `n_participants`.
 
 `assign_treatment_2026.R` and `run_final_2026_power.R` both detect
-`n_participants_home` automatically and fall back to `n_participants` with a
+the modal column automatically and fall back to `n_participants` with a
 note when it is absent, so the switch needs no code change.
 
-**Home-assigned counts become the primary outcome; presence-based counts remain
+**Modal-attributed counts become the primary outcome; presence-based counts remain
 a pre-specified robustness comparison.** If the two disagree that is a finding
 about mobility, not a problem with the experiment.

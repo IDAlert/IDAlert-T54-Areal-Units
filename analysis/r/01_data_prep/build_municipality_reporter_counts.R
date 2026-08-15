@@ -3,7 +3,7 @@
 #
 # Attribution is by REPORT LOCATION (point-in-polygon on GADM level 4), by
 # design: reporting UUIDs are deliberately not linkable to background-tracking
-# UUIDs, so the home assignment used for the primary outcome cannot be computed
+# UUIDs, so the modal attribution used for the primary outcome cannot be computed
 # here -- and most reporters report exactly once, so a modal-location rule
 # would collapse to the report location anyway.
 #

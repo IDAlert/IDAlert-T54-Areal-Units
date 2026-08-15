@@ -1,10 +1,10 @@
 IDAlert T5.4 2026 randomization manifest
-generated: 2026-08-14 22:32:00 UTC
+generated: 2026-08-15 00:16:00 UTC
 seed: 20260815
 RNG: Mersenne-Twister / Inversion / Rejection
 R version: R version 4.4.2 (2024-10-31)
 outcome column: n_participants
-attribution: home-assigned partition (municipality/province sum ratio 1.000, year 2025)
+attribution: modal-attributed partition (municipality/province sum ratio 1.000, year 2025)
 units: 949 (all eligible; N follows the rule, not a target)
 arms: framed=420, neutral=420, no_ad=109
 block: framed/framed/framed/framed/neutral/neutral/neutral/neutral/no_ad
@@ -12,7 +12,9 @@ campaigns per ad arm: 10 (Android only)
 eligibility: median pre-window participants in [ 0 , 25 ]
 calibration seasons: 2021, 2022, 2023, 2024, 2025
 core subset: interior_frac >= 0.25 (448 units)
-realised Type I error: H1 0.030 | H2 0.019 (800 sims)
+realised Type I error: H1 0.033 | H2 0.000 (60 sims)
+
+input data archive: 10.5281/zenodo.21940738
 
 input checksums (md5):
   data/raw/participants_spain_municipality_aug_windows.csv ee47f0e841790fcba139aaecf892bb9d
