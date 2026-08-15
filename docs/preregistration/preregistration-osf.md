@@ -122,10 +122,13 @@ historical data determined:
 4. the decision to enter the pre-period as a covariate rather than difference
    it;
 5. the 4:4:1 arm allocation;
-6. the switch to modal-attributed participant counts as the primary outcome;
-7. restriction of calibration to seasons from 2021 onward;
-8. removal of the eligibility floor, after simulation on pre-treatment data
-   showed the zero-baseline municipalities raise rather than lower power.
+6. the choice of modal attribution over presence attribution for the primary
+   outcome (the two are defined under *Indices*);
+7. the use of seasons 2021–2025 for calibration, because earlier seasons
+   reflect a different tracking regime (see *Indices*);
+8. the decision to include municipalities with no baseline activity, after
+   simulation on pre-treatment data showed that they raise rather than lower
+   power (see *Data collection procedures*).
 
 Each is justified in the relevant section below.
 
@@ -282,12 +285,13 @@ the check reads **H1 0.030, H2 0.019 — both nominal to mildly conservative**.
 The 109-unit no-advertising arm resolved the small-arm pathologies seen on
 earlier, smaller candidate pools.
 
-**Attribution verification.** The script also verifies the outcome attribution
-from the data itself — municipality sums against province totals (1.000 = an
-exact modal-attributed partition; 1.17–1.28 = presence attribution) — and records
-the verdict in the manifest, because the final data delivery carries
-modal-attributed counts under the historical column name. The final data verify as
-`modal-attributed partition (ratio 1.000)`.
+**Attribution verification.** Because a column of counts does not by itself
+reveal which attribution produced it, the script verifies the attribution from
+the data: under modal attribution each participant is counted exactly once, so
+municipality sums equal province totals (ratio 1.000), whereas presence
+attribution gives ratios of 1.17–1.28. The verdict is recorded in the
+manifest; the data used here verify as `modal-attributed partition
+(ratio 1.000)`.
 
 ---
 
@@ -316,13 +320,15 @@ not chosen as a target. Every unit's Google Ads Criteria ID was verified
 individually: 949 distinct numeric IDs, each matched on both municipality name
 and autonomous community.
 
-**There is no eligibility floor.** An earlier draft required a median of at
-least one participant — a remnant of an abandoned analysis that needed nonzero
-baselines. Under the registered model a zero-baseline municipality is fully
-informative, and admitting the 571 zero-baseline nameable municipalities raises
-H1 power from 0.71 to 0.93 at a 15% framing effect while turning H2 partly into
-an activation experiment. The floor was removed before randomization was
-frozen, on simulation against pre-treatment data only.
+**There is no minimum-activity requirement.** Requiring some baseline
+participation before a municipality could enter was considered and rejected:
+under the registered model a municipality with zero baseline activity is fully
+informative — its no-advertising outcome is near zero with little variance,
+and its treated outcome is essentially the advertising-driven installs. In
+simulation on pre-treatment data, including the 571 zero-baseline nameable
+municipalities raises H1 power from 0.71 to 0.93 at a 15% framing effect, and
+it turns H2 partly into an activation experiment. This decision was made
+before the randomization was frozen, on pre-treatment data only.
 
 **Outcome data.** Two extracts, both aggregated to municipality by season and
 window:
@@ -383,10 +389,12 @@ resulting percentage difference in observed participants is smaller than
 
 **The study has power 0.92 at a 15% framing effect and essentially 1.00 at 20%
 at moderate delivery spread (sigma_c = 0.4), and meaningful though not adequate
-power at 10% (0.65). Below 10% it is not powered.** Removing the eligibility floor is
-what bought this: the 949-unit pool at ~15 installs per municipality
-outperforms the 378-unit pool at ~38 installs under every scenario tested,
-because power here is driven by unit count far more than by dose.
+power at 10% (0.65). Below 10% it is not powered.** Including the zero-baseline
+municipalities is what buys this: in design-stage simulations the full 949-unit
+pool at ~15 installs per municipality outperformed a 378-unit pool restricted
+to municipalities with baseline activity (which would have received ~38
+installs each) under every scenario tested, because power here is driven by
+unit count far more than by dose.
 
 **H2 — advertising versus none.** The assumed campaign effect is about 15
 installs against a no-advertising level of 1.14 participants, an increase of
@@ -453,16 +461,18 @@ contingency is stated in advance precisely so that a null result on the
 reporting outcome cannot be read as informative without reference to the
 realized report rate, which will be reported.
 
-**Why this allocation.** The no-advertising arm consumes no budget, so its units
-are nearly free. When the allocation was fixed (on the earlier presence-attributed
-data), H1 power at a 15% effect was 0.87 for a pure two-arm design against 0.88
-for the 4:4:1 split — the units surrendered are offset by the larger dose to
-those remaining. A randomized H2 therefore costs essentially nothing.
+**Why this allocation.** The no-advertising arm consumes no budget, so its
+units are nearly free. In design-stage simulations, H1 power at a 15% effect
+was 0.87 for a design with every unit advertising against 0.88 for the 4:4:1
+split — the units surrendered to the no-advertising arm are offset by the
+larger dose to those remaining. A randomized H2 therefore costs essentially
+nothing.
 
-**Why the whole eligible pool.** Power is driven by unit count far more than by
-dose, because delivery noise scales with the install count: on the same
-design-stage data, 224/224 at 28.6 installs each gave H1 power 0.87, while
-100/100 at 64 installs each gave 0.58.
+**Why the whole eligible pool.** Power is driven by unit count far more than
+by dose, because delivery noise scales with the install count. In design-stage
+simulations, two advertising arms of 224 municipalities receiving 28.6 installs
+each gave H1 power 0.87, while arms of 100 municipalities receiving 64 installs
+each gave 0.58.
 
 **Principal threat — uneven delivery.** At `sigma_c` = 0.6, power at a 15%
 effect falls to 0.72 (0.93 at 20%). The banded campaign structure described in
@@ -507,12 +517,14 @@ reflects ad recruits whose sampling is concentrated outside the targeted
 municipality (e.g. commuters), which the realized multi-municipality diagnostic cannot directly
 measure — a reason the attenuation caveat in *Inference criteria* matters.
 
-Two alternative designs intended to reduce leakage were tested at design stage
-and rejected. Requiring ≥5 km separation between units kept only 198 of the
-then-448 units and dropped H1 power to 0.59 — it loses more to sample size than
-leakage takes. Cluster randomization on touching municipalities was worse still
-(0.46 at lambda = 0.30) and inflated Type I error to 0.098, because clusters of
-touching municipalities do not contain spillover at a 3 km scale.
+Two alternative designs intended to reduce leakage were tested at design
+stage and rejected. Requiring at least 5 km of separation between study
+municipalities cut the design-stage pool from 448 to 198 units and dropped H1
+power to 0.59 — separation loses more to sample size than leakage takes.
+Randomizing clusters of adjacent municipalities as single units was worse
+still (power 0.46 at lambda = 0.30) and inflated Type I error to 0.098,
+because clusters of touching municipalities do not contain spillover operating
+at a 3 km scale.
 
 ## Starting and stopping rules
 
@@ -645,8 +657,9 @@ applied**, because requiring a minimum number of tracked days would
 preferentially remove the marginal, low-activity users that the campaign is
 intended to create.
 
-Modal attribution replaces presence attribution as the primary outcome because
-presence attribution counts a user in every municipality visited, so
+Modal attribution is used for the primary outcome rather than presence
+attribution because presence attribution counts a participant in every
+municipality visited, so
 municipality counts sum to approximately 1.20 times the true number of people
 (stable across 2021–2025; the ratio was 1.6–2.0 before 2021, a different
 tracking regime, which is why calibration begins at 2021). Modal attribution makes
@@ -848,10 +861,11 @@ the realized assignment had a Type I error for H2 of **0.216 conditional on
 that draw**, against a design-level 0.064 averaged over fresh randomizations,
 because the extreme right tail landed disproportionately in the advertising
 arms and the covariates could not absorb it. They are also the municipalities
-in which EUR 5,000 buys the least exposure per head. The cap is a fixed rule,
-not a list: Vigo (excluded under presence attribution at 28.5) and Sevilla
-(excluded under 2021–2024 modal-attributed medians at 38.5) both re-entered as the data and
-calibration window changed, because their medians fell within the cap.
+in which EUR 5,000 buys the least exposure per head. The cap is a fixed rule
+applied to the data, not a list of named cities: across design iterations on
+successive pre-treatment datasets, other large municipalities moved in and out
+of eligibility as their medians crossed the threshold, and the three excluded
+here are simply those above it in the final data.
 
 **Post-assignment exclusion.** No municipality will be excluded after assignment
 except where Google Ads refuses to serve the location at all. Any such exclusion
