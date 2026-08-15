@@ -20,21 +20,20 @@ Science: A Randomized Experiment Across Spanish Municipalities
 
 ## Description
 
-A three-arm randomized experiment testing whether advertising using
-regulatory-focus framing recruits more citizen science participants than
+This is a three-arm randomized experiment testing whether advertising using
+regulatory-focus framing increases participation in public-health-related citizen science more than
 neutrally framed advertising, and whether geographically targeted advertising
-increases participation at all. 949 Spanish municipalities — every municipality
+increases participation at all. The experiment relies on Mosquito Alert (https://www.mosquitoalert.com), an expert-validated citizen science system that enables ordinary people to participate in the surveillance of vector moquitoes. The units of analysis are 949 Spanish municipalities---every municipality
 Google Ads can target by name whose baseline activity falls below a
-pre-specified cap, including 571 with no recent Mosquito Alert activity at all —
+pre-specified cap, including 571 with no recent Mosquito Alert activity at all. The units
 are randomly assigned to a regulatory-focus framed campaign, a neutral
-campaign, or no campaign. The primary outcome is the number of distinct people
-whose modal sampling municipality is the unit and who emit Mosquito Alert
-background location tracks in the 60-day post-campaign window; the number of
-people submitting mosquito reports is a secondary outcome.
+campaign, or no campaign. Outcomes are measured in the 60-day period following the commencement of the ad campaign (treatment); data from the 60-day pre-campaign window are used as controls. The primary outcome is the number of distinct Mosquito Alert participants
+whose modal sampling effort is in each municipality during the measurement window. The secondary outcome is the number of
+participants submitting mosquito reports in that window.
 
 ## Contributors
 
-John Palmer, Universitat Pompeu Fabra — john.palmer@upf.edu
+John R.B. Palmer, Universitat Pompeu Fabra
 
 Berj Dekramanjian, Universitat Pompeu Fabra
 
