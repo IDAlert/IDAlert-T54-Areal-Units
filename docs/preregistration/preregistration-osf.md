@@ -355,9 +355,9 @@ pre/post pair so that real year-to-year variation is carried rather than
 averaged away (`analysis/r/02_power/run_final_2026_power.R`).
 
 **H1 — framing contrast.** `delta` is the conversion advantage of the regulatory focus frame
-compered to the neutral ads. Because both arms' counts contain the baseline and the installs, the
+compared with the neutral ads. Because both arms' counts contain the baseline and the installs, the
 resulting percentage difference in observed participants is smaller than
-`delta`. `sigma_c` is the unit-to-unit spread in realized installs that results from Google ad optimization (and cannot calculated in advance).
+`delta`. `sigma_c` is the unit-to-unit spread in realized installs that results from Google ad optimization (and cannot be calculated in advance).
 
 | delta | Observed difference | sigma_c = 0.3 | sigma_c = 0.4 | sigma_c = 0.6 |
 |---|---|---|---|---|
@@ -390,11 +390,24 @@ detectable effect is the meaningful quantity:
 | 1.5 | +131% | 0.92 |
 | 2.0 | +175% | 1.00 |
 
-Randomization inference — the primary inference method — agrees (≈0.70 at
-+87%), placing the **MDE at roughly 1.2 extra participants, about +110%** over
-the no-advertising arm. **H2 therefore fails to reject only if the
-campaign delivers under roughly 8% of plan**, at which point H1 is
-uninterpretable regardless, which is what a manipulation check should do.
+The power figures in both tables are computed with the HC3 regression test
+rather than with randomization inference: every cell requires hundreds of
+simulated experiments, and the randomization test would multiply the cost of
+each by its 10,000 permutations. Because the registered primary test *is*
+randomization inference, this substitution matters only if the two tests
+differ in power on this design. As a check, the randomization test's power
+was computed directly at one benchmark cell of the H2 table — one extra
+participant per municipality (+87%) — where it reads ≈0.70, matching the HC3
+entry. Where the two tests differ at all in calibration, randomization
+inference rejects somewhat more often, so the tabulated power if anything
+slightly understates the primary test's. Reading the table as the primary
+test's power places the **MDE (power 0.80) at roughly 1.2 extra
+participants, about +108%** over the no-advertising arm. Since the campaign
+plan delivers about 15 installs per municipality, 1.2 participants is
+roughly 8% of that: **H2 fails to reject only if the campaign delivers under
+about 8% of plan**, at which point H1 — a contrast between two framings of
+ads that were barely delivered — is uninterpretable regardless, which is
+what a manipulation check should do.
 
 **The H1 and H2 percentages are not comparable and should not be compared.**
 H1's percentage is measured against a municipality that already carries
