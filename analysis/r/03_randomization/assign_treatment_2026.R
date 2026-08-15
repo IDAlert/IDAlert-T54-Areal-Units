@@ -113,9 +113,9 @@ geometry_path <- file.path(output_dir, "municipality_grid_geometry.csv")
 #                        they emitted a track. Summing over municipalities
 #                        therefore exceeds the true number of people -- by a
 #                        factor of about 1.20 within province since 2021.
-#   n_participants_modal MODAL SAMPLING. Each user is assigned to exactly one
-#   (or n_participants_home) municipality -- the one where they were observed
-#                        on the most distinct days, i.e. where their sampling
+#   modal attribution    Each participant is assigned to exactly one
+#                        municipality -- the one where they were observed on
+#                        the most distinct days, i.e. where their sampling
 #                        effort is concentrated. An exact partition of people.
 #                        This is NOT a residence claim: the data cannot
 #                        establish where anyone lives, and the design does not
@@ -129,13 +129,9 @@ geometry_path <- file.path(output_dir, "municipality_grid_geometry.csv")
 
 participants <- read.csv(participants_path)
 
-OUTCOME_COLUMN <- if ("n_participants_modal" %in% names(participants)) {
-  "n_participants_modal"
-} else if ("n_participants_home" %in% names(participants)) {
-  "n_participants_home"        # legacy name for the same modal rule
-} else {
-  "n_participants"
-}
+# The delivered column is named n_participants under BOTH attributions, so the
+# name proves nothing; the ratio check below verifies which one the data carry.
+OUTCOME_COLUMN <- "n_participants"
 participants$outcome <- participants[[OUTCOME_COLUMN]]
 
 # Attribution is VERIFIED from the data, not assumed from the column name.
