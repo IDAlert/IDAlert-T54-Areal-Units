@@ -193,7 +193,8 @@ Requested alongside the existing columns, same file, same windows, 2021 onward:
 - Computed from the UUID's **full track history**, not just the study window —
   this makes the assignment effectively pre-treatment for existing users and
   stabilises it for new ones.
-- Emitted as `n_participants_modal` (or the legacy `n_participants_home`)
+- Delivered in the `n_participants` column (the same name presence-attributed
+  counts used, so the name proves nothing; attribution is verified by ratio)
   beside the existing `n_participants`.
 
 `assign_treatment_2026.R` and `run_final_2026_power.R` both detect
