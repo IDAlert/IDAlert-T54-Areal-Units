@@ -31,7 +31,7 @@ was fixed in advance of the results it will be used to analyse.
   checksums in `analysis/r/output/manifest_2026_final.txt`.
 - **Type I error checked on the realised draw**, not just in expectation:
   H1 0.030, H2 0.019 at the design stage; the committed analysis code's own
-  `--calibrate` mode reads H1 0.052, H2 0.067 over 1,000 null datasets.
+  `--calibrate` mode reads H1 0.052, H2 0.067 over 600 null datasets.
 - **Google Ads configuration verified ID-for-ID.**
   `verify_campaign_locations.R` confirms all 840 configured location Criteria
   IDs match the assignment exactly, with no no-advertising municipality
