@@ -5,7 +5,8 @@ municipalities, August–October 2026.**
 
 This document is the pre-registration of record for the study. Its sections
 follow the fields of the standard OSF Preregistration form, in form order.
-Supporting technical memos ca be found in `docs/operations/` of the study repository,
+Supporting technical memos can be found in `docs/operations/` of the study
+repository,
 and the code that produces every number reported here is listed under *Context
 and additional information*.
 
@@ -82,8 +83,9 @@ H1 is the primary test and asks whether the content of a recruitment message
 changes how much participation it generates, holding budget, targeting and
 platform constant.
 
-Both hypotheses are evaluated on the primary outcome (sampling effort) and, separately and secondarily, on the reporting outcome
-(people submitting mosquito reports). See *Measured variables*.
+Both hypotheses are evaluated on the primary outcome (participants measured
+through sampling effort) and, separately and secondarily, on the reporting
+outcome (people submitting mosquito reports). See *Measured variables*.
 
 ## Foreknowledge of data or evidence
 
@@ -150,8 +152,9 @@ defined in *Data collection procedures*.
 ## Blinding of experimental treatments
 
 - Individuals exposed to advertisements see
-  ordinary advertisements that are part of Mosquito Alert's normal recruitment operations. The content of the advertisements will depend on the random allocation across municipalities, and individuals would only know that the municipality they are in is part of an experimental design in the highly unlikely event that they would read this preregistration document and repository. No individual-level data are collected for the
-  purpose of this experiment; we rely for the study only on the aggregate counts described below.
+  ordinary advertisements that are part of Mosquito Alert's normal recruitment operations. The content of the advertisements will depend on the random allocation across municipalities, and individuals will not know that the municipality they are in is part of an experimental design unless they read this preregistration document and repository, which is highly unlikely to happen. No individual-level data are collected for the
+  purpose of this experiment; the study relies only on the aggregate counts
+  described below.
 - Data analysts are not blinded. The assignment file is public in the
   repository. This is mitigated by full pre-specification of the analysis and by
   the use of randomization inference, which is mechanical given the assignment.
@@ -179,7 +182,7 @@ is the municipality.
 | Measurement anchor | **15 August 2026** |
 | Measurement windows | 60 days before (16 Jun – 14 Aug) and 60 days after (16 Aug – 14 Oct); the anchor day itself is excluded, matching every historical season |
 | Platform | Android only |
-| Budget | EUR 5,000 total: EUR 250 per campaign, every campaign holding exactly 42 municipalities, so every municipality carries the same expected budget (EUR 5.95) [XXX DOUBLE CHECK THIS AND MAKE CLEAR THIS IS DAILY BUDGET XXX] |
+| Budget | EUR 5,000 in total: EUR 250 per campaign over the 30-day flight, set in Google Ads as a daily budget of EUR 8.33. Every campaign holds exactly 42 municipalities, so every municipality carries the same expected total budget over the flight (EUR 5.95) |
 
 **Arms.** The *framed* arm runs advertisements using regulatory-focus framing.
 The *neutral* arm runs advertisements identical in placement, budget, targeting
@@ -187,16 +190,20 @@ and call to action but with neutral framing. The *no advertising* arm receives
 no campaign.
 
 **Launch date versus measurement anchor.** The measurement windows are anchored
-on 15 August, matching the anchor used for every historical season, so that
-2026 is exactly comparable to 2021–2025. The campaign launches on Monday 17
-August: 15 August 2026 is a Saturday and a Spanish national holiday, and
-launching across an unmonitored holiday weekend risks the first 48 hours of
-delivery. Because the post window begins 16 August (the anchor day is excluded
-by the data pipeline's convention, in every season), a 17 August launch leaves
-exactly **one untreated day** — 1.7% of the window — which attenuates the
-estimate negligibly. This is accepted in exchange for exact historical
-comparability. Were the launch to slip more than five days, the measurement
-anchor would be moved and all historical windows re-derived to match.
+on 15 August, matching the anchor used in our analysis of historical seasons. Thus,
+2026 is exactly comparable to 2021–2025. The anchor day itself belongs to
+neither window (the data pipeline's convention, applied in every season), so
+the post window starts on 16 August. However, given that this falls on a
+Sunday this year — and that it is a high-travel holiday weekend — we are
+planning to launch the ads on Monday, 17 August. This leaves exactly one
+untreated day — 1.7% of the window — which attenuates the estimate negligibly.
+If the launch ends up being delayed by more than five days, the measurement
+anchor will be moved, all historical windows re-derived to match, and the power
+simulations re-run against the shifted windows; the change will be recorded as
+a dated, versioned update to this registration, made before any outcome data
+exist and for the operational reason stated, not in response to any outcome. A
+shorter delay leaves the design unchanged and will simply be reported, together
+with the resulting number of untreated window days.
 
 **Timing rationale.** A mid-August launch places part of the Spanish summer
 holiday period in the pre-window and part in the post-window, so that seasonal
@@ -209,17 +216,25 @@ band, the same unit count, and the same budget, so the arms are symmetric
 campaign by campaign and Google's optimiser faces an identical allocation
 problem in both. Each campaign holds units of similar size so the optimiser can
 only reallocate spend among like units. There are 20 campaigns in total (the no-ad arm
-requires none). Municipalities are targeted by Google Ads Criteria ID combined with
-pasted place names and then double checked through the Google Ads Editor to ensure matches. (The process is complicated because Spanish municipality names repeat across regions nad because the Google Ads names database is not consistent.)
+requires none). Municipalities are targeted by Google Ads Criteria ID combined with pasted
+place names, and the configured locations were then exported and every
+Criteria ID checked against the assignment by a scripted verification included
+in the repository, which reported an exact match for all 840 targeted
+municipalities and no targeting of any no-advertising municipality. (The
+process needs this care because Spanish municipality names repeat across
+regions and because the same place can appear in Google's geographic database
+as several entities with different identifiers.)
 
 Homogeneous campaigns limit how far Google's optimiser can concentrate spending
 within an arm, which is the principal identified threat to H1.
 
-**Campaign budgets are EUR 250 each** — the general rule is budgets
+**Campaign budgets are EUR 250 each over the flight**, set in Google Ads as
+daily budgets of EUR 8.33 over the 30 days. The general rule is budgets
 proportional to municipality counts, which with all campaigns at exactly 42
-units reduces to equal budgets, EUR 5.95 per municipality everywhere. [XXX DOUBLE CHECK AND INDICATE THAT THIS IS DAILY AMOUNT XXX] The
-budget table is emitted by the assignment script (`campaign_budgets.csv`) so
-the allocation is part of the reproducible record.
+units reduces to equal budgets — EUR 5.95 per municipality over the flight,
+everywhere. The budget table is emitted by the assignment script
+(`campaign_budgets.csv`) so the allocation is part of the reproducible
+record.
 
 **Android only.** Roughly 70% of Spanish Mosquito Alert participants use
 Android; the EUR 0.39 cost-per-install estimate comes from an Android test
@@ -252,26 +267,14 @@ date reference. The script writes a manifest recording the seed, RNG kinds, R
 version, eligibility rule, outcome column used, and md5 checksums of both inputs
 and the resulting assignment.
 
-**Pre-launch verification.** The assignment script simulates Type I error
-**conditional on the realized draw** and warns if either hypothesis is
-anti-conservative (above 0.09); below 0.02 it notes the conservatism without
-warning, since HC3 over-corrects in the presence of block dummies and a small
-no-ad arm, and the primary randomization test is exact regardless. This check
-is deliberately not the design-level rate averaged over fresh randomizations:
-an earlier candidate design had a design-level rate of 0.064 for H2 while the
-particular draw in hand had a rate of 0.216. Only the conditional quantity
-describes the experiment actually being run. On the final 949-unit assignment
-the check reads **H1 0.030, H2 0.019 — both nominal to mildly conservative**.
-The 109-unit no-advertising arm resolved the small-arm pathologies seen on
-earlier, smaller candidate pools. [XXX CHECK THIS PARAGRAPH XXX]
-
 **Attribution verification.** Because a column of counts does not by itself
 reveal which attribution produced it, the script verifies the attribution from
 the data: under modal attribution each participant is counted exactly once, so
 municipality sums equal province totals (ratio 1.000), whereas presence
 attribution gives ratios of 1.17–1.28. The verdict is recorded in the
 manifest; the data used here verify as `modal-attributed partition
-(ratio 1.000)`. [XXX CHECK THIS PARAGRAPH XXX]
+(ratio 1.000)`, computed on the 2025 season, the most recent with complete
+windows.
 
 ---
 
@@ -314,32 +317,31 @@ before the randomization was frozen, on pre-treatment data only.
 window:
 
 1. **Sampling effort** measured from optional, masked background locations emitted passively by the application (and used by the Mosquito Alert system to reduce sampling bias).
-   Locations are masked to a 0.025° × 0.025° grid before aggregation.
+   Locations are masked by Mosquito Alert to a 0.025° × 0.025° grid before leaving the participant's device, so precise locations are never known.
 2. **Submitted mosquito reports**, geolocated and assigned to municipality by
    point-in-polygon on the report location.
 
-The two extracts use different approaches to geographic attribution: The primary track outcome is attributed to the user's
-modal sampling municipality; reports are attributed to the location of the report
-itself, for three reasons. First, reporting identifiers are deliberately not
+The two extracts use different approaches to geographic attribution: the
+primary track outcome is attributed to the participant's modal sampling
+municipality; reports are attributed to the location of the report
+itself. (Note that reporting identifiers are deliberately not
 linkable to background-tracking identifiers — a privacy-by-design separation —
 so a modal sampling municipality, which is defined on the tracking stream, cannot be
-computed for reporters at all. Second, most reporters submit exactly one
-report, so a modal-location rule would collapse to the report location anyway.
-Third, every historical season in the reports calibration is report-location
-attributed, so keeping that attribution for 2026 preserves comparability. The
+computed for reporters at all. Note also that most reporters submit exactly one
+report, so a modal-location rule would collapse to the report location anyway.) The
 residual multi-municipality inflation this leaves in the reports outcome is
-small (single-report users dominate) and symmetric across arms, so it cannot
+small (since single-report participants dominate) and symmetric across arms, so it cannot
 bias H1.
 
 **Recruitment.** No recruitment of individuals is performed by the
-investigators. The intervention is the purchase of advertising inventory;
+investigators. The intervention is the advertising targeted at municipalities;
 individuals are exposed through ordinary Google advertising delivery as part of Mosquito Alert's ongoing recruitment operations.
 
 ## Sample size
 
 **949 municipalities**: 420 framed, 420 neutral, 109 no advertising.
 
-Approximately 15 app installs per advertising municipality, from EUR 5,000 at an
+We budget approximately 15 app installs per advertising municipality, from EUR 5,000 at an
 estimated EUR 0.39 per install across 840 advertising municipalities. The total
 budget is fixed at EUR 5,000; when the eligible pool changes, the
 per-municipality dose adjusts, not the budget.
@@ -409,7 +411,7 @@ least one report — the *report rate* — which is not known in advance. The
 historical aggregate ratio of reporter counts to track-participant counts is
 about 1.0 (1.20 / 1.14), but this is a ratio of municipality totals under two
 different attributions (reports by report location, tracks by modal sampling municipality), not a
-per-user rate, and newly recruited users are expected to report at a lower rate
+per-participant rate, and newly recruited participants are expected to report at a lower rate
 than the established base. The plausible range is therefore treated as wide and
 low.
 
@@ -456,7 +458,12 @@ each gave 0.58.
 **Principal threat — uneven delivery.** At `sigma_c` = 0.6, power at a 15%
 effect falls to 0.72 (0.93 at 20%). The banded campaign structure described in
 *Study design* is the mitigation, and realized delivery spread will be reported
-whatever it shows.
+whatever it shows. The delivery-noise model treats municipalities as
+independent; in reality each campaign's budget is fixed, making delivery
+zero-sum within a campaign. A sensitivity simulation with fixed campaign
+totals gives higher power (0.98 at 15%) and lower Type I error than the
+figures above, so the tabulated power is conservative with respect to this
+modelling choice.
 
 **Sensitivity to track emission.** If only a fraction of advertising-driven
 installs ever emit a background track (equivalently, if the realized cost per
@@ -518,6 +525,30 @@ Reports in the second half of the post window run at about three-quarters the
 volume of the first half (0.60–0.91 across 2021–2025), a mild further argument
 for concentrating delivery early.
 
+**Ad review contingency.** Google reviews every ad asset against its content
+policies, and the framed arm's copy — which deliberately uses risk- and
+protection-oriented language — is more exposed to that filter than the neutral
+arm's. Review outcomes could therefore differ by arm; because the assets *are*
+the treatment, that would be a treatment-integrity problem, not a delivery
+problem. Three rules are fixed in advance:
+
+1. **No campaign starts until every asset in both advertising arms is
+   approved.** A review problem in either arm therefore delays both arms
+   equally, converting a potential asymmetry into a symmetric delay, which is
+   governed by the launch-slip rule above (*Launch date versus measurement
+   anchor*).
+2. **If an asset is disapproved mid-flight**, it will be edited minimally to
+   satisfy the policy while preserving the framing manipulation, resubmitted,
+   and both versions archived in `docs/creatives/` in the study repository. If
+   framed copy cannot be made policy-compliant without giving up the
+   manipulation itself, that will be reported as a design failure; the copy
+   will not be quietly replaced with weaker framing.
+3. **Serving status is monitored per arm through the flight.** Any difference
+   between arms in approval status, limited-serving status, or effective start
+   date will be reported alongside the results and treated as a threat to
+   validity — a policy filter acting differentially on the arms is confounded
+   with the treatment — rather than as ordinary delivery noise.
+
 **If a campaign's budget is materially unspent on 15 September, its end date
 may be extended toward 14 October.** This is a delivery decision, taken from
 spend data only, applied to all affected campaigns by the same rule, and made
@@ -562,9 +593,11 @@ participation is falling.
 **Advertising condition**, assigned at municipality level, three levels:
 
 1. **Regulatory-focus framed** — advertisements whose copy is framed around
-   either avoiding a negative outcome (prevention focus: mosquito bites, disease
-   risk) or attaining a positive one (promotion focus: contributing to science,
-   protecting the community), or both.
+   avoiding a negative outcome (prevention focus: mosquito bites, disease risk)
+   or attaining a positive one (promotion focus: contributing to science,
+   protecting the community). The arm carries creatives of both orientations,
+   with Google's optimiser allocating impressions between them within each
+   campaign.
 2. **Neutral** — advertisements matched on placement, budget, targeting, call to
    action and platform, differing only in message framing. Copy describes the
    application without invoking either regulatory-focus orientation.
@@ -573,13 +606,13 @@ participation is falling.
 Budget is held equal across advertising campaigns. Targeting is by Google Ads
 Criteria ID. All campaigns are Android app-install campaigns.
 
-**Verbatim advertisement copy for all arms will be deposited in the repository
-and linked from this registration before launch.** The regulatory-focus label is
-a claim about the stimulus, so the stimulus is recorded rather than merely
-described. Whether the framed arm runs one creative or both orientations will be
-decided before launch and recorded with the deposited copy; if both, the
-prevention-versus-promotion contrast is exploratory and underpowered (see
-*Other planned analysis*).
+**Verbatim advertisement content for all arms is deposited in the repository
+(`docs/creatives/`) and linked from this registration.** The regulatory-focus
+label is a claim about the stimulus, so the stimulus itself is recorded — every
+headline, description and image asset, per ad group — rather than merely
+described. Because the framed arm carries both orientations, the
+prevention-versus-promotion contrast is available but exploratory and
+underpowered (see *Other planned analysis*).
 
 ## Measured variables
 
@@ -589,7 +622,7 @@ the municipality in which their sampling effort is concentrated (see
 *Indices*) — and who emitted at least one background location track during the
 post window, 16 August to 14 October 2026.
 
-**Secondary outcome — reporters.** The number of distinct users who submitted at
+**Secondary outcome — reporters.** The number of distinct participants who submitted at
 least one geolocated non-mission report (adult mosquito, bite, or breeding
 site) attributed to the municipality during the same window.
 
@@ -610,9 +643,9 @@ what advertising can and cannot buy.
 
 **Tertiary outcome — presence attribution.** The primary outcome recomputed
 under **presence** attribution, in which a participant is counted in every
-municipality where they emitted a track. This is the attribution used in all
-data deliveries through 2025; the presence-attributed 2026 extract will be
-produced together with the October outcome extraction.
+municipality where they emitted a track. Presence attribution is how these
+counts were produced through 2025; the presence-attributed 2026 extract will
+be produced together with the October outcome extraction.
 
 **Covariates.** For each outcome, its own:
 
@@ -627,13 +660,14 @@ from Google Ads reporting.
 
 ## Indices
 
-**Modal sampling municipality assignment.** Each user is assigned to exactly one
-municipality: the one in which they were observed on the greatest number of
-distinct days, computed over the user's **full track history** rather than the
+**Modal sampling municipality assignment.** Each participant is assigned to
+exactly one municipality: the one in which they were observed on the greatest
+number of distinct days, computed over the participant's **full track history**
+rather than the
 study window alone. Ties are broken by number of distinct grid cells, then by
 GADM `GID_4`, so the rule is deterministic. **No minimum-activity threshold is
 applied**, because requiring a minimum number of tracked days would
-preferentially remove the marginal, low-activity users that the campaign is
+preferentially remove the marginal, low-activity participants that the campaign is
 intended to create.
 
 Modal attribution is used for the primary outcome rather than presence
@@ -652,9 +686,9 @@ against 1.202 in interior provinces (p = 0.56). The phenomenon is ordinary local
 mobility, not tourism.
 
 **Modal attribution is nonetheless measured post-treatment**, because an
-advertising-induced user's entire track history begins after launch. If
-advertising caused users to run the app more while physically inside the
-targeted municipality, borderline users would be classified there and the
+advertising-induced participant's entire track history begins after launch. If
+advertising caused participants to run the app more while physically inside the
+targeted municipality, borderline participants would be classified there and the
 estimate would inflate. Background tracks are emitted passively, so this is
 expected to be small. Note that **H1 is immune** — both arms are advertised, so
 any such bias cancels — while **H2 is not**. This is recorded as a limitation.
@@ -895,8 +929,11 @@ H1 or H2.
 5. **Delivery distributions by arm**: impressions, clicks, installs and spend per
    municipality, reported whatever the result. If these differ materially between
    arms, H1 must be read with that caveat foregrounded.
-6. **Prevention-focused versus promotion-focused creative**, if the framed arm
-   runs both. **Declared exploratory and underpowered.**
+6. **Prevention-focused versus promotion-focused creative** within the framed
+   arm, which carries both orientations. **Declared exploratory and
+   underpowered**: the allocation of impressions between orientations is made
+   by Google's optimiser, not by randomization, so this contrast is
+   observational even within the experiment.
 7. **Minimum-delivery subset**: analysis restricted to municipalities receiving
    at least a threshold level of delivery. The threshold will be fixed and
    recorded before outcome data are examined.
@@ -914,8 +951,8 @@ H1 or H2.
 **Project context.** This experiment is Task 5.4 of IDAlert (Infectious Disease
 Decision-support Tools and Alert Systems), an EU Horizon Europe project.
 Mosquito Alert (https://www.mosquitoalert.com) is an expert-validated citizen
-science system that enables ordinary people to participate in the surveillance
-of vector mosquitoes, established in Spain since 2014.
+science system that enables anyone to participate in the surveillance of
+vector mosquitoes, established in Spain since 2014.
 
 **Ethics.** UPF's Institutional Committee for Ethical Review of Projects
 (CIREP) approved this research as a modification to protocol 270 (originally
@@ -1000,4 +1037,5 @@ publishable product.
 | Grid geometry per municipality | `analysis/r/output/municipality_grid_geometry.csv` |
 | Measurement memo (grid, modal attribution) | `docs/operations/measurement-grid-and-modal-attribution.md` |
 | Campaign target lists | `analysis/r/output/campaign_criteria_ids/` |
+| Advertisement creatives (verbatim copy and images) | `docs/creatives/` |
 | Reproduction path | `REPRODUCE.md` |
