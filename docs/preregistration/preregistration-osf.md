@@ -359,6 +359,15 @@ compared with the neutral ads. Because both arms' counts contain the baseline an
 resulting percentage difference in observed participants is smaller than
 `delta`. `sigma_c` is the unit-to-unit spread in realized installs that results from Google ad optimization (and cannot be calculated in advance).
 
+Every simulated test rejects at a fixed nominal **alpha = 0.05**; power is
+the fraction of simulated experiments rejecting at that threshold. The
+`delta = 0` row is therefore a measurement, not a setting: the realized rate
+of false rejection at the same fixed threshold, verifying that *p* < 0.05
+means what it claims on this design. Values at or mildly below 0.05 indicate
+a valid to slightly conservative test — and they are what make the power
+rows meaningful, since a mis-calibrated test can manufacture "power" by
+over-rejecting everywhere.
+
 | delta | Observed difference | sigma_c = 0.3 | sigma_c = 0.4 | sigma_c = 0.6 |
 |---|---|---|---|---|
 | 0% (Type I) | — | 0.029 | 0.033 | 0.030 |
@@ -506,8 +515,7 @@ Leakage has two opposing effects — it attenuates the arm contrast, and it
 smooths unit-level delivery noise — and which dominates depends on the realized
 pool's spatial density: with 949 study units covering 11.5% of Spain's
 municipalities, about 68% of leaked activity lands inside the study, so
-attenuation dominates (confirmed by a common-random-numbers simulation:
-paired power difference −0.15 at lambda = 0.30). **Under the plausible central
+attenuation dominates. **Under the plausible central
 case (lambda ≈ 0.15, in line with the ~1.20 multi-municipality ratio measured
 under presence attribution), power at a 15% framing effect is roughly 0.86;
 heavy leakage (lambda = 0.30) leaves 0.77.** Type I error is unaffected. Modal
@@ -541,7 +549,7 @@ for concentrating delivery early.
 **Ad review contingency.** Google reviews every ad asset against its content
 policies, and the framed arm's copy — which deliberately uses risk- and
 protection-oriented language — is more exposed to that filter than the neutral
-arm's. Review outcomes could therefore differ by arm; because the assets *are*
+arm's. Review outcomes could therefore differ by arm; because the assets are
 the treatment, that would be a treatment-integrity problem, not a delivery
 problem. Three rules are fixed in advance:
 
@@ -564,7 +572,7 @@ problem. Three rules are fixed in advance:
 
 **If a campaign's budget is materially unspent on 15 September, its end date
 may be extended toward 14 October.** This is a delivery decision, taken from
-spend data only, applied to all affected campaigns by the same rule, and made
+spending data only, applied to all affected campaigns by the same rule, and made
 without reference to any outcome.
 
 **Data collection end.** The post-treatment window closes 14 October 2026, 60
@@ -629,38 +637,40 @@ underpowered (see *Other planned analysis*).
 
 ## Measured variables
 
-**Primary outcome — track participants.** The number of distinct Mosquito Alert
+**Primary outcome — sampling effort participants.** The number of distinct Mosquito Alert
 participants whose **modal sampling municipality** is the unit in question —
 the municipality in which their sampling effort is concentrated (see
 *Indices*) — and who emitted at least one background location track during the
 post window, 16 August to 14 October 2026.
 
 **Secondary outcome — reporters.** The number of distinct participants who submitted at
-least one geolocated non-mission report (adult mosquito, bite, or breeding
+least one geolocated report (adult mosquito, bite, or breeding
 site) attributed to the municipality during the same window.
 
-These measure different things and the distinction is substantive. Track
+XXX PROPOSED DELETION XXX
+These measure different things: Sampling effort
 participants capture anyone running the application; reporters capture people
-who actually contribute surveillance data. Reporting is the outcome that matters
-for the platform's purpose, and is reported as such — but it is noisier
+who actually report mosquitoes. In many ways, reporting is the outcome that matters
+for the platform's purpose, but it is noisier
 (unit-level residual SD 0.87–0.95 on the log scale against 0.43 for track
 participants, with 65% of study municipality-seasons recording zero reporters),
-which is why the design is powered on track participants. Power for the reporting
+which is why the design is powered on sampling effort participants. Power for the reporting
 outcome is stated explicitly in *Sample size rationale* rather than left
-implicit.
+implicit. At the same time, however, sampling effort, even with no reporting, is valuable from a surveillance perspective.
 
 **A divergence between the two outcomes is interpretable, not a problem.**
-Advertising that raises track participants but not reporters would indicate
+Advertising that raises sampling effort participants but not reporters would indicate
 recruitment of app-runners who do not contribute data — itself a finding about
 what advertising can and cannot buy.
+XXX END PROPOSED DELETION XXX
 
 **Tertiary outcome — presence attribution.** The primary outcome recomputed
 under **presence** attribution, in which a participant is counted in every
-municipality where they emitted a track. Presence attribution is how these
+municipality where they emitted a sampling effort. Presence attribution is how these
 counts were produced through 2025; the presence-attributed 2026 extract will
 be produced together with the October outcome extraction.
 
-**Covariates.** For each outcome, its own:
+**Covariates.** For each outcome:
 
 - The equivalent count for the pre window, 16 June to 14 August 2026 (same attribution
   and same measure as the outcome).
@@ -668,18 +678,18 @@ be produced together with the October outcome extraction.
   2021–2025.
 
 **Delivery measures (post-treatment, reported but not used in the primary
-analysis).** Realized impressions, clicks, installs and spend per municipality,
+analysis).** Realized impressions and spending per municipality,
 from Google Ads reporting.
 
 ## Indices
 
 **Modal sampling municipality assignment.** Each participant is assigned to
 exactly one municipality: the one in which they were observed on the greatest
-number of distinct days, computed over the participant's **full track history**
+number of distinct days, computed over the participant's full sampling effort history
 rather than the
 study window alone. Ties are broken by number of distinct grid cells, then by
-GADM `GID_4`, so the rule is deterministic. **No minimum-activity threshold is
-applied**, because requiring a minimum number of tracked days would
+GADM `GID_4`, so the rule is deterministic. No minimum-activity threshold is
+applied, because requiring a minimum number of tracked days would
 preferentially remove the marginal, low-activity participants that the campaign is
 intended to create.
 
@@ -692,6 +702,7 @@ tracking regime, which is why calibration begins at 2021). Modal attribution mak
 the counts an exact partition of people, makes units statistically independent,
 and removes transient passers-by.
 
+XXX PROPOSED FOR DELETION XXX
 The natural objection — that Google targets by *presence* while modal
 attribution measures a participant's habitual location, which would diverge
 during the Spanish holiday season — is not supported: the multi-municipality ratio is 1.233 in coastal provinces
@@ -705,6 +716,7 @@ targeted municipality, borderline participants would be classified there and the
 estimate would inflate. Background tracks are emitted passively, so this is
 expected to be small. Note that **H1 is immune** — both arms are advertised, so
 any such bias cancels — while **H2 is not**. This is recorded as a limitation.
+XXX END PROPOSED FOR DELETION XXX
 
 **Interior cell fraction.** For each municipality, the share of its assigned
 0.025° grid cells that lie entirely within its boundary. Cells are approximately
@@ -751,6 +763,7 @@ median post-window reporter count across 2021–2025). Nothing else changes.
 Results on the reporting outcome are reported alongside the primary outcome
 whatever they show, and are labelled secondary.
 
+XXX PROPOSED FOR DELETION XXX
 **Why counts rather than logs.** If Google's optimiser concentrates spend more
 in one arm than the other, a model on the log scale reports a spurious effect
 even when the arms receive identical total impressions, because the log of a
@@ -763,6 +776,7 @@ covariate rather than being subtracted. Difference-in-differences implicitly
 constrains its coefficient to 1; the estimated optimum in these data is
 0.58–0.93, so differencing imports baseline noise without removing a
 corresponding amount.
+XXX END PROPOSED FOR DELETION XXX
 
 **Estimand.** Intention-to-treat with respect to the **assigned municipality**.
 
@@ -798,14 +812,14 @@ reported together with their own alpha, whatever they show. The protection
 against selective reporting is that the full set is enumerated here in advance
 and will be reported in full.
 
-**A secondary result cannot rescue a null primary.** If H1 on track participants
+**A secondary result cannot rescue a null primary.** If H1 on sampling effort participants
 is not supported, a supported H1 on the reporting outcome is reported as what it
-is — a secondary finding requiring replication — and not as support for H1.
+is — a secondary finding — and not as support for H1.
 
 **Primary test: randomization inference** (implemented in
 `analysis/r/03_randomization/analyse_assignment.R`). The test statistic is the
-`arm` **coefficient from the primary model itself**, re-estimated under
-permutations of the treatment labels **within the realized blocks** — the
+`arm` coefficient from the primary model itself, re-estimated under
+permutations of the treatment labels within the realized blocks — the
 design's own randomization distribution — with the covariates retained at their
 observed values. 10,000 permutations; two-sided p-value
 (1 + #{|T_perm| ≥ |T_obs|}) / (1 + N).
@@ -816,8 +830,9 @@ units — the randomization distribution conditional on the no-ad positions, whi
 are themselves a function of the assignment. For H2, the pooled
 advertising/no-advertising indicator is permuted within blocks across all units.
 
-This is exact over the randomization distribution by construction, **and its
-exactness does not depend on independence between municipalities**: under the
+XXX PROPOSED FOR DELETION XXX
+This is exact over the randomization distribution by construction, and its
+exactness does not depend on independence between municipalities: under the
 sharp null the outcomes are fixed, so spatial correlation — including any
 induced by leakage of ad-driven participants between neighbouring
 municipalities — cannot invalidate it. Parametric alternatives carry no such
@@ -848,6 +863,7 @@ large no-advertising arm of this design is what tamed them. HC3 sits mildly
 below nominal (0.02–0.03). A result whose significance depends on the gap between the two
 tests — one just under alpha, the other just over — will be reported as
 equivocal rather than resolved by picking the favourable one.
+XXX END PROPOSED FOR DELETION XXX
 
 **Secondary test: HC3 heteroskedasticity-consistent standard errors**, reported
 alongside. With block dummies and a no-advertising arm holding one unit in nine,
@@ -862,13 +878,13 @@ percentage of the neutral arm's mean. For H2, the estimated difference between
 advertising and no-advertising municipalities, in absolute terms and as a
 percentage of the no-advertising arm's mean. Both with 95% confidence intervals;
 for the randomization-inference results, the interval is obtained by inverting
-the permutation test **under a constant additive per-municipality effect**. The
+the permutation test under a constant additive per-municipality effect. The
 statistic is linear in the hypothesised shift, so the inversion is exact rather
 than a grid approximation.
 
 **Attenuation.** Advertising-induced participants recorded outside the
 municipality that was targeted attenuate the estimate toward zero. A supported
-H1 is therefore conservative. A null H1 is **not** evidence of no effect and
+H1 is therefore conservative. A null H1 is not evidence of no effect and
 will not be reported as such.
 
 ## Data inclusion and exclusion
@@ -878,20 +894,20 @@ collection procedures* are included. Eligibility uses only pre-treatment
 information and is applied before randomization, so it cannot bias the treatment
 contrast; it defines the population to which results generalize.
 
-**The upper baseline cap, and why it exists.** Municipalities with a median
+**The upper baseline cap.** Municipalities with a median
 pre-window count above 25 are excluded — on the final modal-attributed data these
 are Barcelona (93), Madrid (48) and Valencia (40), which
 sit one to two orders of magnitude above the pool median of 2. They are not
 merely large — they destabilize inference. At design stage, with them included,
-the realized assignment had a Type I error for H2 of **0.216 conditional on
-that draw**, against a design-level 0.064 averaged over fresh randomizations,
+the realized assignment had a Type I error for H2 of 0.216 conditional on
+that draw, against a design-level 0.064 averaged over fresh randomizations,
 because the extreme right tail landed disproportionately in the advertising
 arms and the covariates could not absorb it. They are also the municipalities
-in which EUR 5,000 buys the least exposure per head. The cap is a fixed rule
-applied to the data, not a list of named cities: across design iterations on
+in which a fixed budget buys the least exposure per population. The cap is a fixed rule
+applied to the data, not a list of named municipalities: across design iterations on
 successive pre-treatment datasets, other large municipalities moved in and out
 of eligibility as their medians crossed the threshold, and the three excluded
-here are simply those above it in the final data.
+here are simply those above it in the final data. At the same time, an additional reason for excluding Barcelona is that we anticipate a biodiversity-focused dissemination campaign will take place there during September, which would potentially influence our results.
 
 **Post-assignment exclusion.** No municipality will be excluded after assignment
 except where Google Ads refuses to serve the location at all. Any such exclusion
@@ -939,7 +955,7 @@ H1 or H2.
 4. **Equal-exposure estimate**: a model additionally adjusted for realized
    impressions per municipality. Realized impressions are post-treatment, so
    this is secondary and reported as such.
-5. **Delivery distributions by arm**: impressions, clicks, installs and spend per
+5. **Delivery distributions by arm**: impressions and spending per
    municipality, reported whatever the result. If these differ materially between
    arms, H1 must be read with that caveat foregrounded.
 6. **Prevention-focused versus promotion-focused creative** within the framed
@@ -962,10 +978,11 @@ H1 or H2.
 ## Context and additional information
 
 **Project context.** This experiment is Task 5.4 of IDAlert (Infectious Disease
-Decision-support Tools and Alert Systems), an EU Horizon Europe project.
+Decision-support Tools and Alert Systems), a project funded by the European Union's Horizon Europe programme under
+Grant Agreement 101057554.
 Mosquito Alert (https://www.mosquitoalert.com) is an expert-validated citizen
 science system that enables anyone to participate in the surveillance of
-vector mosquitoes, established in Spain since 2014.
+vector mosquitoes.
 
 **Ethics.** UPF's Institutional Committee for Ethical Review of Projects
 (CIREP) approved this research as a modification to protocol 270 (originally
@@ -974,6 +991,7 @@ not enrolled as research subjects and no individual-level data are collected for
 the purpose of this experiment; the analysis uses municipality-level aggregate
 counts only.
 
+XXX PROPOSED FOR DELETION XXX
 **Why background tracks are the primary outcome and reports secondary.**
 Background tracks are emitted by anyone running the application, so they capture
 participation more broadly than report submission, and they are substantially
@@ -983,6 +1001,7 @@ municipality-seasons recording zero reporters. The design is therefore powered
 on tracks. Reporting is nonetheless the outcome that matters for the platform's
 purpose — it is the actual contribution of surveillance data — so it is analysed
 and reported in full as a secondary outcome, with its power stated in advance.
+XXX END PROPOSED FOR DELETION XXX
 
 **Known limitations, stated in advance.**
 
@@ -1005,9 +1024,10 @@ and reported in full as a secondary outcome, with its power stated in advance.
    Ads cannot address directly.
 5. The cost-per-install figure of EUR 0.39 is a Google estimate from a test
    campaign, not a realized cost. If the realized cost is materially higher,
-   installs per municipality fall and power falls with them; realized cost will
+   installs per municipality fall and power falls with them. Realized cost will
    be reported.
 
+XXX PROPOSED FOR DELETION XXX
 **What would falsify what.**
 
 - *H1 supported*: the framed arm exceeds the neutral arm, with comparable
@@ -1018,6 +1038,7 @@ and reported in full as a secondary outcome, with its power stated in advance.
   evidence of no effect.
 - *H2 not supported*: the campaign did not deliver. H1 becomes uninterpretable
   and will be reported as such rather than as a null result.
+XXX END PROPOSED FOR DELETION XXX
 
 **Materials and code.** All code, the assignment, and the checksummed manifest
 are in the project repository,
@@ -1028,18 +1049,13 @@ that tag.
 
 **Data availability.** The aggregate inputs — municipality-level
 modal-attributed participation counts and municipality-level reporter counts,
-both containing no identifiers, coordinates, or per-person records — are
-deposited openly at **[10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738)** (CC-BY-4.0) so that the manifest checksums are verifiable rather than
-merely asserted, and so the assignment can be independently regenerated. The
-pre-treatment inputs are deposited **before any outcome exists**, which
-timestamps exactly the bytes the randomization consumed; the 2026 outcome
-extracts follow after the post window closes on 14 October 2026. Deposit scope and the measured disclosure profile — including the comparison
+both containing no identifiers, coordinates, or per-person records — have been
+deposited at [10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738) (CC-BY-4.0). The 2026 outcome
+extracts will be deposited to Zenodo after the post window closes on 14 October 2026. Deposit scope and the measured disclosure profile — including the comparison
 with Mosquito Alert's existing finer-grained public releases — are set out in
-`docs/operations/data-deposit-plan.md`. The participant-level raw report export
-is not published; it is the input to the aggregate reporter counts, not a
-publishable product.
+`docs/operations/data-deposit-plan.md`.
 
-| Item | Location |
+| Item | Location in repository|
 |---|---|
 | Assignment | `analysis/r/output/assignment_2026_final.csv` |
 | Assignment code | `analysis/r/03_randomization/assign_treatment_2026.R` |
