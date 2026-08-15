@@ -354,10 +354,10 @@ on the realized assignment, resampling each municipality's observed 2021–2025
 pre/post pair so that real year-to-year variation is carried rather than
 averaged away (`analysis/r/02_power/run_final_2026_power.R`).
 
-**H1 — framing contrast.** `delta` is the conversion advantage of the framed
-creative. Because both arms' counts contain the baseline and the installs, the
+**H1 — framing contrast.** `delta` is the conversion advantage of the regulatory focus frame
+compered to the neutral ads. Because both arms' counts contain the baseline and the installs, the
 resulting percentage difference in observed participants is smaller than
-`delta`. `sigma_c` is the unit-to-unit spread in realized installs.
+`delta`. `sigma_c` is the unit-to-unit spread in realized installs that results from Google ad optimization (and cannot calculated in advance).
 
 | delta | Observed difference | sigma_c = 0.3 | sigma_c = 0.4 | sigma_c = 0.6 |
 |---|---|---|---|---|
