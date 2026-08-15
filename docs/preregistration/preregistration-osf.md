@@ -618,7 +618,10 @@ participation is falling.
    or attaining a positive one (promotion focus: contributing to science,
    protecting the community). The arm carries creatives of both orientations,
    with Google's optimiser allocating impressions between them within each
-   campaign.
+   campaign. Carrying both orientations means the framed arm also holds more
+   distinct creatives than the neutral arm (six ad groups against one); any
+   effect of creative variety per se is therefore part of the framed
+   treatment as implemented, not separable from the framing content.
 2. **Neutral** — advertisements matched on placement, budget, targeting, call to
    action and platform, differing only in message framing. Copy describes the
    application without invoking either regulatory-focus orientation.
