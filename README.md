@@ -8,7 +8,7 @@ geographically targeted advertising generates for citizen science — and does
 such advertising generate participation at all, including in places with none?
 
 The experiment is built on [Mosquito Alert](https://www.mosquitoalert.com), an
-expert-validated citizen science system through which ordinary people
+expert-validated citizen science system through which anyone can
 participate in the surveillance of vector mosquitoes. Every Spanish
 municipality that Google Ads can target by name, and whose existing Mosquito
 Alert activity falls below a pre-specified cap, is randomly assigned to one of
@@ -20,8 +20,7 @@ three arms:
 | Neutral | 420 | Identical ads with neutral framing |
 | No advertising | 109 | Nothing |
 
-Ads run from 17 August 2026 (EUR 5,000 in total: 20 campaigns of 42
-municipalities at EUR 250 each). The primary outcome is the number of distinct
+Ads run from 17 August 2026. The primary outcome is the number of distinct
 participants who are active in each municipality during the 60-day
 post-campaign window (16 August – 14 October) and whose sampling effort is
 concentrated there — each participant is counted in exactly one municipality,
@@ -36,7 +35,7 @@ advertising create participation where none exists?
 | Document | Contents |
 |---|---|
 | [docs/preregistration/preregistration-osf.md](docs/preregistration/preregistration-osf.md) | **The pre-registration of record** — hypotheses, design, analysis plan, power, and limitations, structured against the OSF Preregistration form |
-| [REPRODUCE.md](REPRODUCE.md) | Step-by-step instructions to regenerate the treatment assignment bit-for-bit and rerun every power figure |
+| [REPRODUCE.md](REPRODUCE.md) | Step-by-step instructions to regenerate the treatment assignment exactly and rerun every power figure |
 | [analysis/r/output/manifest_2026_final.txt](analysis/r/output/manifest_2026_final.txt) | The assignment's seed, eligibility rule, input and output checksums, and verification results |
 
 ## Design in brief
@@ -95,9 +94,7 @@ budgets) are in
 
 ## Data availability
 
-The aggregate input data are published openly at
-**[10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738)**
-(CC-BY-4.0): participant counts by municipality and by province, and reporter
+The aggregate input data are available at [10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738): participant counts by municipality and by province, and reporter
 counts by municipality, all as counts per 60-day window with no identifiers,
 coordinates, or per-person records. The deposited participants file is
 byte-identical to the input recorded in
@@ -107,27 +104,23 @@ the published assignment reproduces exactly.
 
 Two public reference inputs are fetched from their sources rather than
 committed: the Google Ads geographic targets table (from Google) and GADM
-municipality boundaries. The only withheld input is the participant-level raw
-report export, from which the deposited aggregate reporter counts are built.
+municipality boundaries. The only withheld input is the raw Mosquito Alert data from which the deposited aggregate reporter counts are built.
 
 ## Ethics
 
 UPF's Institutional Committee for Ethical Review of Projects (CIREP) approved
 this research as a modification to protocol 270 (originally approved on 21
-July 2022; modification approved 30 July 2026). Individuals exposed to the
-advertisements are not enrolled as research subjects; the analysis uses
-municipality-level aggregate counts only.
+July 2022; modification approved 30 July 2026). Mosquito Alert partipants are citizen scientists, not research subjects; the analysis uses
+municipality-level aggregate counts only; no individual-level or otherwise personally identifiable data is used.
 
 ## History
 
 The design went through several earlier forms — provinces as units, freely
 placed radius-targeted circles, postal codes, hurdle models, repeated
 campaign waves — before reaching the registered design.
-[analysis/r/archive/README.md](analysis/r/archive/README.md) documents that
+[analysis/r/archive/README.md](analysis/r/archive/README.md) and the git history documents that
 progression, including analyses that were corrected or superseded along the
-way, and [docs/archive/](docs/archive/) holds the superseded design memos. The
-git history is the timestamped record that every design decision preceded the
-campaign launch.
+way, and [docs/archive/](docs/archive/) holds the superseded design memos.
 
 ## Funding
 
