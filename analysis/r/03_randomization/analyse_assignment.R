@@ -209,14 +209,7 @@ if (sys.nframe() == 0) {
     # calibrate applies none and measures how often this exact code rejects.
     participants <- read.csv(file.path("data", "raw",
                                        "participants_spain_municipality_aug_windows.csv"))
-    outcome_column <- if ("n_participants_modal" %in% names(participants)) {
-      "n_participants_modal"
-    } else if ("n_participants_home" %in% names(participants)) {
-      "n_participants_home"    # legacy name for the same modal rule
-    } else {
-      "n_participants"
-    }
-    participants$outcome_value <- participants[[outcome_column]]
+    participants$outcome_value <- participants[["n_participants"]]
     participants <- participants[participants$window_complete %in% c(TRUE, "TRUE") &
                                    participants$year %in% 2021:2025, ]
     participants$unit_name <- paste(participants$NAME_4, participants$NAME_2, sep = ", ")
