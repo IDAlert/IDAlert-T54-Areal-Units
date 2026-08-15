@@ -965,13 +965,7 @@ analysis code, and the text of this registration were developed with
 substantial assistance from a large language model (Claude, Anthropic), used
 interactively for design exploration, implementation, verification tooling,
 and drafting. All design decisions were made and reviewed by the authors,
-who take full responsibility for every analytical choice and all text. This
-assistance is disclosed for transparency, and its products are auditable
-rather than taken on trust: every load-bearing artifact — the assignment,
-the power figures, the calibration results — is committed to the public
-repository and regenerates from fixed seeds and checksummed inputs. AI
-assistance will continue to be used in the analysis phase, which is in any
-case constrained to the pre-registered analysis scripts.
+who take full responsibility for every analytical choice and all text.
 
 **Known limitations, stated in advance.**
 
