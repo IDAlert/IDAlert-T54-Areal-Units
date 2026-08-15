@@ -99,7 +99,7 @@ analyses in this plan and will not do so until after this plan is registered.
 ## Explanation of foreknowledge and managing unintended influences
 
 All data observed to date are **pre-treatment**. They comprise Mosquito Alert
-background-track participant counts for the 2018–2025 seasons, and the 2026
+sampling effort participant counts for the 2018–2025 seasons, and the 2026
 pre-campaign window (16 June – 14 August 2026), which enters the analysis as a
 covariate.
 
@@ -210,12 +210,12 @@ holiday period in the pre-window and part in the post-window, so that seasonal
 mobility is represented on both sides of the comparison rather than only one.
 
 **Campaign structure.** Each advertising arm is divided into 10 campaigns of
-**exactly 42 municipalities**, formed as **contiguous baseline bands**:
+exactly 42 municipalities, formed as contiguous baseline bands:
 campaign k in the framed arm and campaign k in the neutral arm hold the same
 band, the same unit count, and the same budget, so the arms are symmetric
 campaign by campaign and Google's optimiser faces an identical allocation
 problem in both. Each campaign holds units of similar size so the optimiser can
-only reallocate spend among like units. There are 20 campaigns in total (the no-ad arm
+only reallocate spending among like units. There are 20 campaigns in total (the no-ad arm
 requires none). Municipalities are targeted by Google Ads Criteria ID combined with pasted
 place names, and the configured locations were then exported and every
 Criteria ID checked against the assignment by a scripted verification included
@@ -322,7 +322,7 @@ window:
    point-in-polygon on the report location.
 
 The two extracts use different approaches to geographic attribution: the
-primary track outcome is attributed to the participant's modal sampling
+primary sampling effort outcome is attributed to the participant's modal sampling
 municipality; reports are attributed to the location of the report
 itself. (Note that reporting identifiers are deliberately not
 linkable to background-tracking identifiers — a privacy-by-design separation —
@@ -426,13 +426,13 @@ untreated municipality at 1.14. In absolute terms H2 detects a difference of
 denominators do.
 
 **Power for the secondary reporting outcome.** The reporting outcome has a
-no-advertising level of 1.20 reporters per municipality against 1.14 track
-participants, with 65% of municipality-seasons recording zero reporters. Its
+no-advertising level of 1.20 reporters per municipality against 1.14 sampling
+effort participants, with 65% of municipality-seasons recording zero reporters. Its
 power depends on what share of advertising-driven installs go on to submit at
 least one report — the *report rate* — which is not known in advance. The
-historical aggregate ratio of reporter counts to track-participant counts is
+historical aggregate ratio of reporter counts to sampling effort participant counts is
 about 1.0 (1.20 / 1.14), but this is a ratio of municipality totals under two
-different attributions (reports by report location, tracks by modal sampling municipality), not a
+different attributions (reports by report location, sampling effort by modal sampling municipality), not a
 per-participant rate, and newly recruited participants are expected to report at a lower rate
 than the established base. The plausible range is therefore treated as wide and
 low.
@@ -590,7 +590,7 @@ were regenerated on 14 August 2026 against the completed 2026 pre-window data
 eligibility rule, arm ratio, blocking variable, seed and analysis plan were
 fixed before that regeneration and did not change. The 2026 pre-window
 covariate will be re-extracted together with the October outcome pull, so that
-any late-arriving tracks are included; the outcome extraction and the covariate
+any late-arriving background location tracks are included; the outcome extraction and the covariate
 re-extraction are a single operation.
 
 **The 2026 season is atypically quiet.** The 2026 pre-window total is 304
@@ -647,26 +647,25 @@ post window, 16 August to 14 October 2026.
 least one geolocated report (adult mosquito, bite, or breeding
 site) attributed to the municipality during the same window.
 
-XXX PROPOSED DELETION XXX
-These measure different things: Sampling effort
-participants capture anyone running the application; reporters capture people
-who actually report mosquitoes. In many ways, reporting is the outcome that matters
-for the platform's purpose, but it is noisier
-(unit-level residual SD 0.87–0.95 on the log scale against 0.43 for track
-participants, with 65% of study municipality-seasons recording zero reporters),
-which is why the design is powered on sampling effort participants. Power for the reporting
-outcome is stated explicitly in *Sample size rationale* rather than left
-implicit. At the same time, however, sampling effort, even with no reporting, is valuable from a surveillance perspective.
-
-**A divergence between the two outcomes is interpretable, not a problem.**
-Advertising that raises sampling effort participants but not reporters would indicate
-recruitment of app-runners who do not contribute data — itself a finding about
-what advertising can and cannot buy.
-XXX END PROPOSED DELETION XXX
+Sampling effort participants capture anyone running the application;
+reporters capture the subset who actually report mosquitoes. The platform
+depends on both: reports are the surveillance observations, while sampling
+effort is what corrects their spatial sampling bias and makes absences
+measurable — a window with no reports is informative only where sampling
+effort shows that participants were present to report. At the municipality
+level, however, reporting is far noisier (unit-level residual SD 0.87–0.95
+on the log scale, against 0.43 for sampling effort participants, with 65% of
+study municipality-seasons recording zero reporters), which is why the
+design is powered on sampling effort participants. A divergence between the
+two outcomes is therefore
+interpretable, not a problem: advertising that raises sampling effort
+participants but not reporters would indicate recruitment of app-runners who
+do not contribute reports — itself a finding about what advertising can and
+cannot buy.
 
 **Tertiary outcome — presence attribution.** The primary outcome recomputed
 under **presence** attribution, in which a participant is counted in every
-municipality where they emitted a sampling effort. Presence attribution is how these
+municipality where they emitted at least one background location track. Presence attribution is how these
 counts were produced through 2025; the presence-attributed 2026 extract will
 be produced together with the October outcome extraction.
 
@@ -678,7 +677,7 @@ be produced together with the October outcome extraction.
   2021–2025.
 
 **Delivery measures (post-treatment, reported but not used in the primary
-analysis).** Realized impressions and spending per municipality,
+analysis).** Realized impressions, installs and spending per municipality,
 from Google Ads reporting.
 
 ## Indices
@@ -701,22 +700,6 @@ municipality counts sum to approximately 1.20 times the true number of people
 tracking regime, which is why calibration begins at 2021). Modal attribution makes
 the counts an exact partition of people, makes units statistically independent,
 and removes transient passers-by.
-
-XXX PROPOSED FOR DELETION XXX
-The natural objection — that Google targets by *presence* while modal
-attribution measures a participant's habitual location, which would diverge
-during the Spanish holiday season — is not supported: the multi-municipality ratio is 1.233 in coastal provinces
-against 1.202 in interior provinces (p = 0.56). The phenomenon is ordinary local
-mobility, not tourism.
-
-**Modal attribution is nonetheless measured post-treatment**, because an
-advertising-induced participant's entire track history begins after launch. If
-advertising caused participants to run the app more while physically inside the
-targeted municipality, borderline participants would be classified there and the
-estimate would inflate. Background tracks are emitted passively, so this is
-expected to be small. Note that **H1 is immune** — both arms are advertised, so
-any such bias cancels — while **H2 is not**. This is recorded as a limitation.
-XXX END PROPOSED FOR DELETION XXX
 
 **Interior cell fraction.** For each municipality, the share of its assigned
 0.025° grid cells that lie entirely within its boundary. Cells are approximately
@@ -763,8 +746,7 @@ median post-window reporter count across 2021–2025). Nothing else changes.
 Results on the reporting outcome are reported alongside the primary outcome
 whatever they show, and are labelled secondary.
 
-XXX PROPOSED FOR DELETION XXX
-**Why counts rather than logs.** If Google's optimiser concentrates spend more
+**Why counts rather than logs.** If Google's optimiser concentrates spending more
 in one arm than the other, a model on the log scale reports a spurious effect
 even when the arms receive identical total impressions, because the log of a
 concentrated allocation has a lower mean than that of an even one. In simulation
@@ -776,7 +758,6 @@ covariate rather than being subtracted. Difference-in-differences implicitly
 constrains its coefficient to 1; the estimated optimum in these data is
 0.58–0.93, so differencing imports baseline noise without removing a
 corresponding amount.
-XXX END PROPOSED FOR DELETION XXX
 
 **Estimand.** Intention-to-treat with respect to the **assigned municipality**.
 
@@ -795,13 +776,13 @@ all historical seasons.
 **Alpha 0.05, two-sided**, throughout.
 
 **There is exactly one primary test: H1 on the primary outcome (modal-attributed
-track participants).** Every other test in this plan is secondary or tertiary
+sampling effort participants).** Every other test in this plan is secondary or tertiary
 and is labelled as such wherever reported:
 
 | Test | Status |
 |---|---|
-| H1, track participants | **Primary** |
-| H2, track participants | Secondary |
+| H1, sampling effort participants | **Primary** |
+| H2, sampling effort participants | Secondary |
 | H1, reporters | Secondary |
 | H2, reporters | Secondary |
 | H1 and H2, presence attribution | Tertiary |
@@ -830,40 +811,25 @@ units — the randomization distribution conditional on the no-ad positions, whi
 are themselves a function of the assignment. For H2, the pooled
 advertising/no-advertising indicator is permuted within blocks across all units.
 
-XXX PROPOSED FOR DELETION XXX
-This is exact over the randomization distribution by construction, and its
-exactness does not depend on independence between municipalities: under the
-sharp null the outcomes are fixed, so spatial correlation — including any
-induced by leakage of ad-driven participants between neighbouring
-municipalities — cannot invalidate it. Parametric alternatives carry no such
-guarantee: on an earlier candidate assignment, HC3's Type I error drifted from
-0.055 to 0.073 as simulated leakage rose, precisely because leakage correlates
-neighbouring outcomes. On the final assignment no such drift appears, but the
-immunity of randomization inference is structural rather than an empirical
-observation about one draw.
+This test is exact over the randomization distribution by construction, and
+its exactness does not depend on independence between municipalities: under
+the sharp null the outcomes are fixed, so spatial correlation — including
+any induced by leakage of ad-driven participants between neighbouring
+municipalities — cannot invalidate it. Parametric standard errors carry no
+such guarantee, which is one reason randomization inference is primary.
 
-Randomization inference with the block-fixed-effects model is the primary
-method because the obvious alternatives failed at design stage: on an earlier
-realized draw with a covariates-only model, the ordinary t-test rejected a true
-H2 null **0.098** of the time (49 no-ad against 399 advertising units,
-right-skewed counts), and even randomization inference on the blockless model
-reached 0.10 conditional on the draw. The block terms remove the source of
-both. Randomization inference was verified exact over the randomization
-distribution (rejection rate 0.046 at alpha 0.05, median p-value 0.502, under
-simulation in which only the assignment varies), and the analysis script's
-`--calibrate` mode re-runs an end-to-end verification on the committed code.
-On the final assignment, over 600 simulated null datasets, it reads
-**H1 0.052, H2 0.067**. These are the stricter draw-conditional check —
-outcomes redrawn with the assignment held fixed — which RI does not formally
-control (its guarantee is over the randomization distribution, where it is
-exact). H1 is essentially exact on this check and H2 sits within about 1.5
-standard errors of 0.05; both were far worse on earlier, smaller candidate
-pools (H2 reached 0.22 without the cap and 0.10 without block terms), and the
-large no-advertising arm of this design is what tamed them. HC3 sits mildly
-below nominal (0.02–0.03). A result whose significance depends on the gap between the two
-tests — one just under alpha, the other just over — will be reported as
-equivocal rather than resolved by picking the favourable one.
-XXX END PROPOSED FOR DELETION XXX
+Both tests were verified on this design before launch. Randomization
+inference is exact over the randomization distribution (rejection rate 0.046
+at alpha 0.05, median p-value 0.502, under simulation in which only the
+assignment varies). The analysis script's `--calibrate` mode additionally
+re-runs the committed code end to end under a stricter draw-conditional
+check — outcomes redrawn with the assignment held fixed, a property the
+randomization guarantee does not formally cover: over 600 simulated null
+datasets it reads H1 0.052 and H2 0.067, so H1 is essentially exact and H2
+sits within about 1.5 standard errors of 0.05. A result whose significance
+depends on the gap between the two tests — one just under alpha, the other
+just over — will be reported as equivocal rather than resolved by picking
+the favourable one.
 
 **Secondary test: HC3 heteroskedasticity-consistent standard errors**, reported
 alongside. With block dummies and a no-advertising arm holding one unit in nine,
@@ -903,11 +869,14 @@ the realized assignment had a Type I error for H2 of 0.216 conditional on
 that draw, against a design-level 0.064 averaged over fresh randomizations,
 because the extreme right tail landed disproportionately in the advertising
 arms and the covariates could not absorb it. They are also the municipalities
-in which a fixed budget buys the least exposure per population. The cap is a fixed rule
+in which a fixed budget buys the least exposure per capita. The cap is a fixed rule
 applied to the data, not a list of named municipalities: across design iterations on
 successive pre-treatment datasets, other large municipalities moved in and out
 of eligibility as their medians crossed the threshold, and the three excluded
-here are simply those above it in the final data. At the same time, an additional reason for excluding Barcelona is that we anticipate a biodiversity-focused dissemination campaign will take place there during September, which would potentially influence our results.
+here are simply those above it in the final data. An additional reason for
+excluding Barcelona specifically is that we anticipate a biodiversity-focused
+dissemination campaign will take place there during September 2026, which
+could have influenced its outcomes had it remained in the study.
 
 **Post-assignment exclusion.** No municipality will be excluded after assignment
 except where Google Ads refuses to serve the location at all. Any such exclusion
@@ -920,7 +889,7 @@ based exclusion.
 
 ## Missing data
 
-**Municipalities with no tracked participants are zeros, not missing.** The
+**Municipalities with no sampling effort participants are zeros, not missing.** The
 sampling frame is the complete list of municipalities, so a municipality with no
 activity in a window contributes a count of 0. This is the substantively correct
 treatment and the reason the frame is built from the full municipality index
@@ -955,7 +924,7 @@ H1 or H2.
 4. **Equal-exposure estimate**: a model additionally adjusted for realized
    impressions per municipality. Realized impressions are post-treatment, so
    this is secondary and reported as such.
-5. **Delivery distributions by arm**: impressions and spending per
+5. **Delivery distributions by arm**: impressions, installs and spending per
    municipality, reported whatever the result. If these differ materially between
    arms, H1 must be read with that caveat foregrounded.
 6. **Prevention-focused versus promotion-focused creative** within the framed
@@ -991,17 +960,18 @@ not enrolled as research subjects and no individual-level data are collected for
 the purpose of this experiment; the analysis uses municipality-level aggregate
 counts only.
 
-XXX PROPOSED FOR DELETION XXX
-**Why background tracks are the primary outcome and reports secondary.**
-Background tracks are emitted by anyone running the application, so they capture
-participation more broadly than report submission, and they are substantially
-less noisy: the unit-level residual SD is roughly 0.43 on the log scale for
-track participants against 0.87–0.95 for report counts, with 65% of study
-municipality-seasons recording zero reporters. The design is therefore powered
-on tracks. Reporting is nonetheless the outcome that matters for the platform's
-purpose — it is the actual contribution of surveillance data — so it is analysed
-and reported in full as a secondary outcome, with its power stated in advance.
-XXX END PROPOSED FOR DELETION XXX
+**Use of AI assistance.** The statistical design, the simulation and
+analysis code, and the text of this registration were developed with
+substantial assistance from a large language model (Claude, Anthropic), used
+interactively for design exploration, implementation, verification tooling,
+and drafting. All design decisions were made and reviewed by the authors,
+who take full responsibility for every analytical choice and all text. This
+assistance is disclosed for transparency, and its products are auditable
+rather than taken on trust: every load-bearing artifact — the assignment,
+the power figures, the calibration results — is committed to the public
+repository and regenerates from fixed seeds and checksummed inputs. AI
+assistance will continue to be used in the analysis phase, which is in any
+case constrained to the pre-registered analysis scripts.
 
 **Known limitations, stated in advance.**
 
@@ -1027,19 +997,6 @@ XXX END PROPOSED FOR DELETION XXX
    installs per municipality fall and power falls with them. Realized cost will
    be reported.
 
-XXX PROPOSED FOR DELETION XXX
-**What would falsify what.**
-
-- *H1 supported*: the framed arm exceeds the neutral arm, with comparable
-  delivery distributions across arms.
-- *H1 not supported*: no detectable difference. Given the power above, this
-  rules out framing effects above roughly 15%, is partially informative at 10%
-  (power 0.65), uninformative below, and — because of attenuation — is not
-  evidence of no effect.
-- *H2 not supported*: the campaign did not deliver. H1 becomes uninterpretable
-  and will be reported as such rather than as a null result.
-XXX END PROPOSED FOR DELETION XXX
-
 **Materials and code.** All code, the assignment, and the checksummed manifest
 are in the project repository,
 `https://github.com/IDAlert/IDAlert-T54-Areal-Units`, at the release tag
@@ -1055,7 +1012,7 @@ extracts will be deposited to Zenodo after the post window closes on 14 October 
 with Mosquito Alert's existing finer-grained public releases — are set out in
 `docs/operations/data-deposit-plan.md`.
 
-| Item | Location in repository|
+| Item | Location in repository |
 |---|---|
 | Assignment | `analysis/r/output/assignment_2026_final.csv` |
 | Assignment code | `analysis/r/03_randomization/assign_treatment_2026.R` |
