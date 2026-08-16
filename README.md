@@ -3,6 +3,8 @@
 **IDAlert Task 5.4 — a randomized experiment across 949 Spanish municipalities,
 August–October 2026.**
 
+[![DOI](https://zenodo.org/badge/1215879061.svg)](https://doi.org/10.5281/zenodo.21969063)
+
 Does the content of a recruitment message change how much participation
 geographically targeted advertising generates for citizen science — and does
 such advertising generate participation at all, including in places with none?
@@ -94,7 +96,11 @@ budgets) are in
 
 ## Data availability
 
-The aggregate input data are available at [10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738): participant counts by municipality and by province, and reporter
+This repository is archived on Zenodo at
+[10.5281/zenodo.21969063](https://doi.org/10.5281/zenodo.21969063) (concept
+DOI, resolving to the latest release; the `v1.0-preregistration` release is
+the pre-registration state). The aggregate input data are available separately
+at [10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738): participant counts by municipality and by province, and reporter
 counts by municipality, all as counts per 60-day window with no identifiers,
 coordinates, or per-person records. The deposited participants file is
 byte-identical to the input recorded in

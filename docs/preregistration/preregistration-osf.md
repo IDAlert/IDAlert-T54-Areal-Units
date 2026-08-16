@@ -1055,8 +1055,11 @@ who take full responsibility for every analytical choice and all text.
 are in the project repository,
 `https://github.com/IDAlert/IDAlert-T54-Areal-Units`, at the release tag
 **`v1.0-preregistration`** — the repository state at registration, before any
-outcome existed. The assignment can be verified against the manifest md5 at
-that tag.
+outcome had been extracted or observed. That release is archived on Zenodo
+under the concept DOI [10.5281/zenodo.21969063](https://doi.org/10.5281/zenodo.21969063),
+which resolves to the latest version; the version-specific DOI of the
+`v1.0-preregistration` archive is listed on that record. The assignment can
+be verified against the manifest md5 at that tag.
 
 **Data availability.** The aggregate inputs — municipality-level
 modal-attributed participation counts and municipality-level reporter counts,
