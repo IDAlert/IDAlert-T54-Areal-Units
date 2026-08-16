@@ -84,7 +84,7 @@ advertising create participation where none exists?
 └── docs/
     ├── preregistration/       the pre-registration of record
     ├── operations/            operational notes (measurement definitions,
-    │                          Google Ads setup, data deposit)
+    │                          data deposit)
     └── archive/               superseded design memos, kept as history
 ```
 
