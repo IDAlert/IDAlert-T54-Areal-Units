@@ -96,7 +96,7 @@ CORE_INTERIOR_FRAC <- 0.25
 DEPOSIT_DOI <- "10.5281/zenodo.21940738"
 
 args <- commandArgs(trailingOnly = TRUE)
-n_check_sims <- if (length(args) >= 1) as.integer(args[[1]]) else 500L
+n_check_sims <- if (length(args) >= 1) as.integer(args[[1]]) else 800L
 
 output_dir <- file.path("analysis", "r", "output")
 participants_path <- file.path("data", "raw",
@@ -498,7 +498,9 @@ cat("   Criteria ID files in", campaign_dir, "\n")
 manifest_path <- file.path(output_dir, "manifest_2026_final.txt")
 writeLines(c(
   "IDAlert T5.4 2026 randomization manifest",
-  paste("generated:", format(Sys.time(), tz = "UTC", usetz = TRUE)),
+  # No timestamp: this file must regenerate bit-for-bit so auditors can diff
+  # it directly; generation dates are evidenced by git history, not by a
+  # self-declared line.
   paste("seed:", SEED),
   paste("RNG:", RNG_KIND, "/", RNG_NORMAL, "/", RNG_SAMPLE),
   paste("R version:", R.version.string),

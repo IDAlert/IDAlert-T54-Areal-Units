@@ -198,8 +198,10 @@ Writes to `analysis/r/output/`:
   verified attribution, eligibility rule, realised Type I error, and md5
   checksums
 
-To confirm you have reproduced the published assignment, compare the md5 in your
-manifest against the one in this repository's committed manifest.
+To confirm you have reproduced the published assignment, diff your regenerated
+`manifest_2026_final.txt` against the committed one: they should be
+byte-identical (the manifest deliberately contains no timestamp so that it can
+be compared directly; generation dates are evidenced by git history).
 
 After building campaigns in Google Ads, verify what was actually configured:
 
