@@ -49,7 +49,7 @@ John R.B. Palmer, Universitat Pompeu Fabra
 
 ## License
 
-CC-By Attribution 4.0 International
+CC BY 4.0
 
 ## Subject
 
@@ -185,7 +185,7 @@ is the municipality.
 | Measurement anchor | **15 August 2026** |
 | Measurement windows | 60 days before (16 Jun – 14 Aug) and 60 days after (16 Aug – 14 Oct); the anchor day itself is excluded, matching every historical season |
 | Platform | Android only |
-| Budget | EUR 5,000 in total: EUR 250 per campaign over the 30-day flight, set in Google Ads as a daily budget of EUR 8.33. Every campaign holds exactly 42 municipalities, so every municipality carries the same expected total budget over the flight (EUR 5.95) |
+| Budget | EUR 5,000 total; EUR 250 per campaign (EUR 8.33/day × 30-day flight); EUR 5.95 per advertising municipality |
 
 **Arms.** The *framed* arm runs advertisements using regulatory-focus framing.
 The *neutral* arm runs advertisements identical in placement, budget, targeting
@@ -196,7 +196,7 @@ no campaign.
 on 15 August, matching the anchor used in our analysis of historical seasons. Thus,
 2026 is exactly comparable to 2021–2025. The anchor day itself belongs to
 neither window (the data pipeline's convention, applied in every season), so
-the post window starts on 16 August. However, given that this falls on a
+the post window starts on 16 August. However, given that 16 August falls on a
 Sunday this year — and that it is a high-travel holiday weekend — we are
 planning to launch the ads on Monday, 17 August. This leaves exactly one
 untreated day — 1.7% of the window — which attenuates the estimate negligibly.
@@ -216,8 +216,8 @@ mobility is represented on both sides of the comparison rather than only one.
 exactly 42 municipalities, formed as contiguous baseline bands:
 campaign k in the framed arm and campaign k in the neutral arm hold the same
 band, the same unit count, and the same budget, so the arms are symmetric
-campaign by campaign and Google's optimiser faces an identical allocation
-problem in both. Each campaign holds units of similar size so the optimiser can
+campaign by campaign and Google's optimizer faces an identical allocation
+problem in both. Each campaign holds units of similar size so the optimizer can
 only reallocate spending among like units. There are 20 campaigns in total (the no-ad arm
 requires none). Municipalities are targeted by Google Ads Criteria ID combined with pasted
 place names, and the configured locations were then exported and every
@@ -228,7 +228,7 @@ process needs this care because Spanish municipality names repeat across
 regions and because the same place can appear in Google's geographic database
 as several entities with different identifiers.)
 
-Homogeneous campaigns limit how far Google's optimiser can concentrate spending
+Homogeneous campaigns limit how far Google's optimizer can concentrate spending
 within an arm, which is the principal identified threat to H1.
 
 **Campaign budgets are EUR 250 each over the flight**, set in Google Ads as
@@ -258,7 +258,7 @@ variation to either contrast, so as advertising units these four would involve s
 without contributing information; assigning them to no-ad keeps every eligible unit in the
 frame at zero cost, and makes the advertising arms exactly equal (420 / 420).
 That equality is what allows every campaign to hold exactly 42 municipalities
-with identical budgets, so Google's within-campaign optimiser faces the same
+with identical budgets, so Google's within-campaign optimizer faces the same
 problem in both arms.
 
 **Level.** Municipality. There is no individual-level randomization.
@@ -296,7 +296,7 @@ municipalities, with participant counts under modal attribution:
 
 | Step | Remaining |
 |---|---|
-| All municipalities | 8,244 |
+| All municipalities (GADM level 4; the deposited data additionally carry four *plazas de soberanía*, giving 8,244 rows) | 8,240 |
 | Targetable by name in Google Ads (name and autonomous community both match) | 952 |
 | Median pre-window participants 2021–2025 ≤ 25 | **949** |
 
@@ -311,8 +311,9 @@ participation before a municipality could enter was considered and rejected:
 under the registered model a municipality with zero baseline activity is fully
 informative — its no-advertising outcome is near zero with little variance,
 and its treated outcome is essentially the advertising-driven installs. In
-simulation on pre-treatment data, including the 571 zero-baseline nameable
-municipalities raises H1 power from 0.71 to 0.93 at a 15% framing effect, and
+design-stage simulation on pre-treatment data (superseded scripts in
+`analysis/r/archive/`), including the 571 zero-baseline nameable
+municipalities raised H1 power from 0.71 to 0.93 at a 15% framing effect, and
 it turns H2 partly into an activation experiment. This decision was made
 before the randomization was frozen, on pre-treatment data only.
 
@@ -388,7 +389,8 @@ a valid to slightly conservative test.
 **The study has power 0.92 at a 15% framing effect and essentially 1.00 at 20%
 at moderate delivery spread (sigma_c = 0.4), and meaningful though not adequate
 power at 10% (0.67). Below 10% it is not powered.** Including the zero-baseline
-municipalities is what buys this: in design-stage simulations the full 949-unit
+municipalities is what buys this: in design-stage simulations (superseded
+scripts in `analysis/r/archive/`, on earlier pre-treatment data) the full 949-unit
 pool at ~15 installs per municipality outperformed a 378-unit pool restricted
 to municipalities with baseline activity (which would have received ~38
 installs each) under every scenario tested, because power here is driven by
@@ -401,6 +403,7 @@ detectable effect is the meaningful quantity:
 
 | Extra participants per municipality | % over no-ad arm | Power (HC3) |
 |---|---|---|
+| 0 (Type I) | 0% | 0.013 |
 | 0.5 | +44% | 0.35 |
 | 1.0 | +87% | 0.71 |
 | 1.5 | +131% | 0.91 |
@@ -412,8 +415,8 @@ simulated experiments, and the randomization test would multiply the cost of
 each by its 10,000 permutations. Because the registered primary test *is*
 randomization inference, this substitution matters only if the two tests
 differ in power on this design. As a check, the randomization test's power
-was computed directly at one benchmark cell of the H2 table — one extra
-participant per municipality (+87%) — where it reads ≈0.70, in line with the
+was computed directly, at design stage, at one benchmark cell of the H2
+table — one extra participant per municipality (+87%) — where it read ≈0.70, in line with the
 HC3 entry (0.71). Where the two tests differ at all in calibration, randomization
 inference rejects somewhat more often, so the tabulated power if anything
 slightly understates the primary test's. Interpolating between the tabulated
@@ -499,6 +502,11 @@ totals gives higher power (0.98 at 15%) and lower Type I error than the
 figures above, so the tabulated power is conservative with respect to this
 modelling choice.
 
+The sensitivity tables that follow are separately seeded simulation runs, so
+the common baseline cell (H1 at 15%, sigma_c = 0.4) reads 0.93 in them
+against 0.92 in the main table: the same quantity within Monte Carlo error
+(about ±0.01 at 1,000 simulations per cell).
+
 **Sensitivity to track emission.** If only a fraction of advertising-driven
 installs ever emit a background track (equivalently, if the realized cost per
 install is higher than estimated — both scale the effective dose):
@@ -537,9 +545,10 @@ municipality (e.g. commuters), which the realized multi-municipality diagnostic 
 measure — a reason the attenuation caveat in *Inference criteria* matters.
 
 Two alternative designs intended to reduce leakage were tested at design
-stage and rejected. Requiring at least 5 km of separation between study
-municipalities cut the design-stage pool from 448 to 198 units and dropped H1
-power to 0.59 — separation loses more to sample size than leakage takes.
+stage (superseded scripts in `analysis/r/archive/`, on an earlier 448-unit
+candidate pool unrelated to the 448-unit core subset) and rejected. Requiring
+at least 5 km of separation between study municipalities cut that pool from
+448 to 198 units and dropped H1 power to 0.59 — separation loses more to sample size than leakage takes.
 Randomizing clusters of adjacent municipalities as single units was worse
 still (power 0.46 at lambda = 0.30) and inflated Type I error to 0.098,
 because clusters of touching municipalities do not contain spillover operating
@@ -549,13 +558,14 @@ at a 3 km scale.
 
 **Start.** The campaign launches on 17 August 2026 with a planned 30-day
 flight (to 15 September), EUR 8.33 per campaign per day. Thirty days rather
-than sixty because the optimiser's learning is driven by conversion volume,
+than sixty because the optimizer's learning is driven by conversion volume,
 which the fixed budget fixes — a longer flight delivers the same data at half
 the daily rate, spending a larger share of budget inside the learning phase and
 serving erratically at very thin daily amounts — and because recruits arriving
 earlier have more of the measurement window in which to appear in the outcome.
 Reports in the second half of the post window run at about three-quarters the
-volume of the first half (0.60–0.91 across 2021–2025), a mild further argument
+volume of the first half (0.60–0.91 across 2021–2025, from the deposited
+reporter counts), a mild further argument
 for concentrating delivery early.
 
 **Ad review contingency.** Google reviews every ad asset against its content
@@ -596,8 +606,8 @@ delivery materially below plan. **No comparison between arms will be computed
 before the post window closes.** Any halt, its date and its reason will be
 reported.
 
-**Regeneration against final data.** The assignment and every figure above
-were regenerated on 14 August 2026 against the completed 2026 pre-window data
+**Regeneration against final data.** The assignment and every figure derived
+from it were regenerated on 14 August 2026 against the completed 2026 pre-window data
 (the pre-window closed that day and enters the analysis as a covariate). The
 eligibility rule, arm ratio, blocking variable, seed and analysis plan were
 fixed before that regeneration and did not change. The 2026 pre-window
@@ -606,8 +616,8 @@ any late-arriving background location tracks are included; the outcome extractio
 re-extraction are a single operation.
 
 **The 2026 season is atypically quiet.** The 2026 pre-window total is 304
-participants Spain-wide, against roughly 1,000–1,300 in comparable seasons —
-a genuine drop reflecting reduced dissemination this year and apparently lower
+participants Spain-wide, against roughly 1,000–1,300 in 2021, 2022 and 2025
+(2,700 in 2024, and about 14,800 in the exceptional 2023 season) — a genuine drop reflecting reduced dissemination this year and apparently lower
 mosquito populations in much of Spain, not a data artefact. Consequences:
 the 2026 pre-window covariate is weaker but valid; post-window baselines will
 likely run below the historical levels the power simulation resamples, which
@@ -629,7 +639,7 @@ participation is falling.
    avoiding a negative outcome (prevention focus: mosquito bites, disease risk)
    or attaining a positive one (promotion focus: contributing to science,
    protecting the community). The arm carries creatives of both orientations,
-   with Google's optimiser allocating impressions between them within each
+   with Google's optimizer allocating impressions between them within each
    campaign. Carrying both orientations means the framed arm also holds more
    distinct creatives than the neutral arm (six ad groups against one); any
    effect of creative variety per se is therefore part of the framed
@@ -713,14 +723,15 @@ municipality visited, so
 municipality counts sum to approximately 1.20 times the true number of people
 (stable across 2021–2025; the ratio was 1.6–2.0 before 2021, a different
 tracking regime, which is why calibration begins at 2021). Modal attribution makes
-the counts an exact partition of people, makes units statistically independent,
-and removes transient passers-by.
+the counts an exact partition of people, removes the mechanical dependence
+between municipalities that double counting creates, and removes transient
+passers-by.
 
 **Interior cell fraction.** For each municipality, the share of its assigned
 0.025° grid cells that lie entirely within its boundary. Cells are approximately
 6 km² at Spanish latitudes and are assigned whole to the municipality containing
 their centroid; the median study municipality has an interior fraction of only
-0.24, so most of its cells straddle its boundary. Municipalities spanning
+0.21 (mean 0.24), so most of its cells straddle its boundary. Municipalities spanning
 several GADM polygons are unioned before measurement. This index is computed
 from GADM boundaries before launch, stored in the assignment file, and defines
 the pre-specified core robustness subset (448 units at ≥ 0.25).
@@ -738,14 +749,16 @@ observation per municipality:
 post_participants ~ arm + block + pre_participants + historical_median
 ```
 
-where `block` enters as fixed effects for the 106 randomization blocks and
+where `block` enters as fixed effects for the randomization blocks (106 for
+H2; 105 for H1, since the trailing block holds no advertising units) and
 `historical_median` is the municipality's median post-window count across
-2021–2025.
+2021–2025 (the `median_post_participants` column of the assignment file).
 
 **The block fixed effects are not optional.** The design blocked on baseline;
 a model without the blocks lets the curvature of the count outcome in baseline —
-which blocking absorbed by design — re-enter the specification. In simulation on
-an earlier realized draw this put H2's conditional Type I error at 0.10, against
+which blocking absorbed by design — re-enter the specification. In design-stage
+simulation on an earlier realized draw (superseded scripts in
+`analysis/r/archive/`) this put H2's conditional Type I error at 0.10, against
 0.06 with the blocks included, while power was unchanged for H1 and slightly
 improved for H2. Analyze as you randomize.
 
@@ -761,17 +774,18 @@ median post-window reporter count across 2021–2025). Nothing else changes.
 Results on the reporting outcome are reported alongside the primary outcome
 whatever they show, and are labelled secondary.
 
-**Why counts rather than logs.** If Google's optimiser concentrates spending more
+**Why counts rather than logs.** If Google's optimizer concentrates spending more
 in one arm than the other, a model on the log scale reports a spurious effect
 even when the arms receive identical total impressions, because the log of a
-concentrated allocation has a lower mean than that of an even one. In simulation
-this inflated Type I error from 0.05 to as high as 0.99 with no true effect. A
+concentrated allocation has a lower mean than that of an even one. In
+design-stage simulations this inflated Type I error from 0.05 to as high as
+0.99 with no true effect. A
 linear model on counts is structurally immune and costs essentially no power.
 
 **Why a covariate rather than a difference.** The pre-window count enters as a
 covariate rather than being subtracted. Difference-in-differences implicitly
-constrains its coefficient to 1; the estimated optimum in these data is
-0.58–0.93, so differencing imports baseline noise without removing a
+constrains its coefficient to 1; the optimum estimated on the calibration
+seasons at design stage is 0.58–0.93, so differencing imports baseline noise without removing a
 corresponding amount.
 
 **Estimand.** Intention-to-treat with respect to the **assigned municipality**.
@@ -835,7 +849,7 @@ such guarantee, which is one reason randomization inference is primary. One
 qualification: delivery is mediated by 20 fixed-budget campaigns whose
 membership follows from the assignment, so relabelling a framed and a
 neutral municipality within a block also moves them between campaigns. If
-Google's optimiser concentrates spending unevenly within campaigns, outcomes
+Google's optimizer concentrates spending unevenly within campaigns, outcomes
 under the null of no framing effect are not perfectly invariant to
 relabelling — interference through budget sharing rather than through
 space. A design-stage simulation with strongly concentrated within-campaign
@@ -845,14 +859,15 @@ power; the realized delivery distribution by arm is reported in any case
 (see *Other planned analysis*).
 
 Both tests were verified on this design before launch. Randomization
-inference is exact over the randomization distribution (rejection rate 0.046
-at alpha 0.05, median p-value 0.502, under simulation in which only the
-assignment varies). The analysis script's `--calibrate` mode additionally
-re-runs the committed code end to end under a stricter draw-conditional
-check — outcomes redrawn with the assignment held fixed, a property the
-randomization guarantee does not formally cover: over 600 simulated null
-datasets it reads H1 0.052 and H2 0.067, so H1 is essentially exact and H2
-sits within about 1.5 standard errors of 0.05. A result whose significance
+inference is exact over the randomization distribution (design-stage
+simulation in which only the assignment varies: rejection rate 0.046 at
+alpha 0.05, median p-value 0.502). The analysis script's `--calibrate` mode
+additionally re-runs the committed code end to end under a stricter
+draw-conditional check — outcomes redrawn with the assignment held fixed, a
+property the randomization guarantee does not formally cover: over 600
+simulated null datasets (`analyse_assignment.R --calibrate --runs=600`,
+seeded per run, several hours of compute) it reads H1 0.052 and H2 0.067, so H1 is essentially exact and H2
+sits about two standard errors above 0.05. A result whose significance
 depends on the gap between the two tests — one just under alpha, the other
 just over — will be reported as equivocal rather than resolved by picking
 the favourable one.
@@ -900,8 +915,11 @@ contrast; it defines the population to which results generalize.
 **The upper baseline cap.** Municipalities with a median
 pre-window count above 25 are excluded — on the final modal-attributed data these
 are Barcelona (93), Madrid (48) and Valencia (40), which
-sit one to two orders of magnitude above the pool median of 2. They are not
-merely large — they destabilize inference. At design stage, with them included,
+sit far above the rest of the pool, whose median is 0 (571 units have no
+baseline activity), whose mean is 0.94, and whose largest included
+municipality has a median of 17. They are not merely large — they
+destabilize inference. At design stage (superseded scripts in
+`analysis/r/archive/`, on earlier data), with them included,
 the realized assignment had a Type I error for H2 of 0.216 conditional on
 that draw, against a design-level 0.064 averaged over fresh randomizations,
 because the extreme right tail landed disproportionately in the advertising
@@ -967,7 +985,7 @@ H1 or H2.
 6. **Prevention-focused versus promotion-focused creative** within the framed
    arm, which carries both orientations. **Declared exploratory and
    underpowered**: the allocation of impressions between orientations is made
-   by Google's optimiser, not by randomization, so this contrast is
+   by Google's optimizer, not by randomization, so this contrast is
    observational even within the experiment.
 7. **Minimum-delivery subset**: analysis restricted to municipalities receiving
    at least a threshold level of delivery. The threshold will be fixed and
@@ -1012,8 +1030,8 @@ who take full responsibility for every analytical choice and all text.
 1. The measured outcome attenuates the true effect, because participants induced
    in one municipality may be recorded in another. A null H1 is uninformative
    about the absence of an effect.
-2. Modal attribution is computed partly from post-treatment data. H1 is immune to
-   any resulting bias; H2 is not.
+2. Modal attribution is computed partly from post-treatment data. H1 is
+   protected by symmetry between the advertising arms; H2 is not.
 3. The study has power 0.92 at a 15% framing effect and essentially 1.00 at
    20% on the primary outcome (at moderate delivery spread), 0.67 at 10%, and
    is not powered below that. Leakage of ad recruits whose sampling is concentrated

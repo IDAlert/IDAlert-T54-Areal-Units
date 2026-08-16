@@ -62,6 +62,8 @@ analysis/r/output/*
 !analysis/r/output/final_2026_power_h2.csv
 !analysis/r/output/report_outcome_power_h1.csv
 !analysis/r/output/report_outcome_power_h2.csv
+!analysis/r/output/final_2026_power_console.log
+!analysis/r/output/zerosum_sensitivity.csv
 !analysis/r/output/campaign_criteria_ids
 !analysis/r/output/campaign_criteria_ids/*
 

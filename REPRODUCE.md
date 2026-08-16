@@ -220,7 +220,16 @@ refuses launch until it prints ALL CLEAR.
 ```bash
 Rscript analysis/r/02_power/run_final_2026_power.R          # primary outcome
 Rscript analysis/r/02_power/run_report_outcome_power.R      # secondary (reports)
+Rscript analysis/r/02_power/run_zerosum_sensitivity.R       # delivery-model sensitivity
 ```
+
+Each is seeded and regenerates its committed outputs byte-for-byte:
+`final_2026_power.csv`, `final_2026_power_h2.csv`,
+`report_outcome_power_h1.csv`, `report_outcome_power_h2.csv`, and
+`zerosum_sensitivity.csv`. The primary script also prints sensitivity tables
+(leakage, track-emission rate, core subset) that are not written to CSV; its
+full console output is committed as `final_2026_power_console.log` so those
+figures, too, have a file behind them — diff your run's output against it.
 
 (A third script, `build_municipality_reporter_counts.R`, produces the reporter
 counts the second command reads — but it requires the non-distributed raw

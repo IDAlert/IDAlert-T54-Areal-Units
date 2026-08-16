@@ -3,7 +3,7 @@
 #
 # The design is powered on background-track participants; the reporting outcome
 # -- distinct people submitting at least one mosquito report -- is noisier
-# (log-scale residual SD 0.87-0.95 against 0.43, and 45% of municipality-seasons
+# (log-scale residual SD 0.87-0.95 against 0.43, and 65% of municipality-seasons
 # record zero reporters) but is the outcome that matters for the platform's
 # purpose, so its power is stated in the pre-registration rather than left
 # implicit.
