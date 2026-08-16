@@ -41,9 +41,11 @@ number of participants submitting mosquito reports in that window.
 
 ## Contributors
 
-John R.B. Palmer, Universitat Pompeu Fabra
-
 Berj Dekramanjian, Universitat Pompeu Fabra
+([ORCID 0000-0001-9672-422X](https://orcid.org/0000-0001-9672-422X))
+
+John R.B. Palmer, Universitat Pompeu Fabra
+([ORCID 0000-0002-2648-7860](https://orcid.org/0000-0002-2648-7860))
 
 ## License
 

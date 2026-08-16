@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Regulatory-Focus Framing in Geographically Targeted Advertisements for Citizen Science: A Randomized Experiment Across Spanish Municipalities"
+type: software
+authors:
+  - family-names: Dekramanjian
+    given-names: Berj
+    orcid: "https://orcid.org/0000-0001-9672-422X"
+    affiliation: "Universitat Pompeu Fabra"
+  - family-names: Palmer
+    given-names: "John R.B."
+    orcid: "https://orcid.org/0000-0002-2648-7860"
+    affiliation: "Universitat Pompeu Fabra"
+repository-code: "https://github.com/IDAlert/IDAlert-T54-Areal-Units"
+abstract: >-
+  Code, treatment assignment, verification tooling, and pre-registration
+  documentation for IDAlert Task 5.4: a three-arm randomized experiment
+  testing regulatory-focus framed against neutral advertising, and
+  advertising against none, across 949 Spanish municipalities, with
+  Mosquito Alert participation as the outcome (August-October 2026).
+keywords:
+  - citizen science
+  - regulatory focus
+  - field experiment
+  - digital advertising
+  - mosquito surveillance
+  - Mosquito Alert
+  - randomized controlled trial
+references:
+  - type: data
+    title: "Aggregate Mosquito Alert participation counts for Spanish municipalities (IDAlert Task 5.4 inputs)"
+    doi: 10.5281/zenodo.21940738
