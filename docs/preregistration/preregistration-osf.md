@@ -831,7 +831,18 @@ its exactness does not depend on independence between municipalities: under
 the sharp null the outcomes are fixed, so spatial correlation — including
 any induced by leakage of ad-driven participants between neighbouring
 municipalities — cannot invalidate it. Parametric standard errors carry no
-such guarantee, which is one reason randomization inference is primary.
+such guarantee, which is one reason randomization inference is primary. One
+qualification: delivery is mediated by 20 fixed-budget campaigns whose
+membership follows from the assignment, so relabelling a framed and a
+neutral municipality within a block also moves them between campaigns. If
+Google's optimiser concentrates spending unevenly within campaigns, outcomes
+under the null of no framing effect are not perfectly invariant to
+relabelling — interference through budget sharing rather than through
+space. A design-stage simulation with strongly concentrated within-campaign
+delivery shows the effect runs in the conservative direction (the test
+rejects less often, not more), so validity is preserved and the cost is
+power; the realized delivery distribution by arm is reported in any case
+(see *Other planned analysis*).
 
 Both tests were verified on this design before launch. Randomization
 inference is exact over the randomization distribution (rejection rate 0.046
@@ -850,8 +861,14 @@ the favourable one.
 alongside. With block dummies and a no-advertising arm holding one unit in nine,
 HC3 over-corrects and runs mildly conservative on the realized draw (H1 0.030,
 H2 0.019). Where a block dummy isolates a single unit — possible in subset
-analyses — HC3 is undefined and HC1 is substituted; the analysis code does this
-automatically.
+analyses such as the core subset, where two blocks reduce to one unit — HC3
+is undefined for that fit. Such a unit has residual zero and contributes
+nothing to the treatment coefficient (the estimate is identical with it
+dropped), so the analysis code drops singleton-block units before fitting,
+reports how many were dropped, and keeps HC3 throughout. An earlier version
+of the code substituted HC1 in these cases; a pre-launch code audit showed
+HC1 to be materially less conservative than HC3 on this design, and it was
+removed. HC1 is not used anywhere in the analysis.
 
 **Effect sizes reported.** For H1, the estimated difference in participants
 between framed and neutral municipalities, both in absolute terms and as a
@@ -861,7 +878,12 @@ percentage of the no-advertising arm's mean. Both with 95% confidence intervals;
 for the randomization-inference results, the interval is obtained by inverting
 the permutation test under a constant additive per-municipality effect. The
 statistic is linear in the hypothesised shift, so the inversion is exact rather
-than a grid approximation.
+than a grid approximation. This is an interval for a constant shift, not for
+an average effect under heterogeneous responses; where effects are
+heterogeneous — as expected, given zero-baseline and active municipalities
+respond differently — it over-covers, so it is conservative for the average
+effect. In a subset analysis with too few blocks for a bounded interval, a
+bound is reported as open rather than as a spurious finite value.
 
 **Attenuation.** Advertising-induced participants recorded outside the
 municipality that was targeted attenuate the estimate toward zero. A supported
@@ -949,7 +971,10 @@ H1 or H2.
    observational even within the experiment.
 7. **Minimum-delivery subset**: analysis restricted to municipalities receiving
    at least a threshold level of delivery. The threshold will be fixed and
-   recorded before outcome data are examined.
+   recorded before outcome data are examined. Delivery is post-treatment, so
+   this subset is not a valid basis for a randomization test; it is reported
+   descriptively (estimates and HC3 intervals), without a randomization
+   inference p-value.
 8. **Activation subgroup**: H2 restricted to the 571 municipalities with zero
    baseline participants — does advertising create participation where none
    exists? The subgroup is defined by pre-treatment data and fixed in the

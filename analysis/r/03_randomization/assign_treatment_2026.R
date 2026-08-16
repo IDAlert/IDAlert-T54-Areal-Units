@@ -362,8 +362,9 @@ check_realised_type_i <- function(units, n_sims) {
     h2 <- lmtest::coeftest(fit_h2, vcov. = sandwich::vcovHC(fit_h2, type = "HC3"))[2, 4]
     c(h1 = h1, h2 = h2)
   })
-  c(h1 = mean(draws["h1", ] < 0.05, na.rm = TRUE),
-    h2 = mean(draws["h2", ] < 0.05, na.rm = TRUE))
+  if (anyNA(draws)) stop("undefined p-value in Type I check: inspect the design")
+  c(h1 = mean(draws["h1", ] < 0.05),
+    h2 = mean(draws["h2", ] < 0.05))
 }
 
 cat("\n=== Type I error check on the realised draw ===\n")

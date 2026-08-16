@@ -82,14 +82,36 @@ assignment_path <- file.path(output_dir, "assignment_2026_final.csv")
 
 ri_test <- function(post, treat_obs, covariates, block,
                     n_permutations = N_PERMUTATIONS, seed = RI_SEED) {
+  # A unit alone in its block (possible in subset analyses) has a block dummy
+  # that fits it exactly: hat value 1, residual 0, and no contribution to the
+  # treatment coefficient -- the estimate is identical with it dropped. Because
+  # HC3 divides by (1 - h_i)^2, such units make the HC3 covariance undefined.
+  # Drop them before fitting so that HC3 remains HC3 in every analysis, and
+  # report how many were dropped so the printout can say so.
+  in_singleton <- ave(seq_along(block), block, FUN = length) == 1
+  if (any(in_singleton)) {
+    keep <- !in_singleton
+    post <- post[keep]
+    treat_obs <- treat_obs[keep]
+    block <- block[keep]
+    covariates <- covariates[keep, , drop = FALSE]
+    # a block dummy for a removed singleton block is now an all-zero column
+    covariates <- covariates[, colSums(abs(covariates)) > 0, drop = FALSE]
+  }
+  n_singleton_dropped <- sum(in_singleton)
+
   X <- cbind(treat = treat_obs, covariates)
   fit <- lm(post ~ X)
   estimate <- coef(fit)[["Xtreat"]]
-  # HC3 divides by (1 - h_i)^2; a block dummy isolating a single unit puts its
-  # hat value at 1 and returns NaN (possible in subset analyses). Fall back.
-  hc3_type <- if (any(stats::hatvalues(fit) > 0.999)) "HC1" else "HC3"
+  # HC3 is always HC3. If a hat value still reaches 1 (a degenerate design that
+  # is not a singleton block), stop rather than silently substitute another
+  # estimator: the anomaly should be inspected, not papered over.
+  if (any(stats::hatvalues(fit) > 0.999)) {
+    stop("HC3 undefined: a unit has hat value 1 for a reason other than being ",
+         "alone in its block. Inspect the design before proceeding.")
+  }
   hc3_p <- lmtest::coeftest(fit,
-                            vcov. = sandwich::vcovHC(fit, type = hc3_type))["Xtreat", 4]
+                            vcov. = sandwich::vcovHC(fit, type = "HC3"))["Xtreat", 4]
 
   blocks <- split(seq_along(block), block)
   set.seed(seed, kind = "Mersenne-Twister", normal.kind = "Inversion",
@@ -109,9 +131,15 @@ ri_test <- function(post, treat_obs, covariates, block,
   }
   p_value <- p_at(0)
 
-  # 95% CI: the set of tau with p(tau) > ALPHA. |a - tau*b| >= |estimate - tau|
-  # flips at the roots of two linear equations per permutation, so the interval
-  # bounds are located by bisection on p_at, which is monotone near the bounds.
+  # 95% CI: the set of tau with p(tau) > ALPHA, i.e. the inversion of the
+  # permutation test under a CONSTANT ADDITIVE SHIFT (a Fisher-style interval,
+  # not an interval for an average effect under heterogeneity). Each indicator
+  # |a_p - tau*b_p| >= |estimate - tau| is monotone in tau on either side of
+  # the estimate whenever |b_p| < 1 (slope 1 - |b_p| > 0), which holds here
+  # because b_p is the coefficient of a permuted label on the observed label
+  # (|b_p| ~ 0.1-0.2 on this design), so bisection on p_at finds the true
+  # boundary. Under the sharp null b = 1 for the observed labels, hence the
+  # observed statistic is estimate - tau.
   se_proxy <- sd(a)
   locate <- function(lower, upper) {
     for (i in 1:60) {
@@ -121,7 +149,13 @@ ri_test <- function(post, treat_obs, covariates, block,
     (lower + upper) / 2
   }
   wide <- 20 * max(se_proxy, 1e-9)
-  ci_low <- locate(estimate - wide, estimate)
+  # The search window is a truncation. If p(tau) is still above ALPHA at its
+  # edge, the interval is unbounded on that side (only possible when a
+  # non-trivial share of permutations reproduce the observed labels, i.e. in
+  # a subset with very few blocks) -- report it as open rather than as a
+  # spurious finite bound.
+  ci_low <- if (p_at(estimate - wide) > ALPHA) -Inf else
+    locate(estimate - wide, estimate)
   upper_locate <- function(lower, upper) {
     for (i in 1:60) {
       mid <- (lower + upper) / 2
@@ -129,11 +163,14 @@ ri_test <- function(post, treat_obs, covariates, block,
     }
     (lower + upper) / 2
   }
-  ci_high <- upper_locate(estimate, estimate + wide)
+  ci_high <- if (p_at(estimate + wide) > ALPHA) Inf else
+    upper_locate(estimate, estimate + wide)
 
   data.frame(estimate = estimate, p_ri = p_value, p_hc3 = hc3_p,
              ci_low = ci_low, ci_high = ci_high,
-             n_permutations = length(a))
+             n_permutations = length(a),
+             n_units = length(post),
+             n_singleton_dropped = n_singleton_dropped)
 }
 
 # --- hypothesis wrappers -----------------------------------------------------
@@ -174,6 +211,18 @@ analyse <- function(assignment, post, pre, historical, label) {
               "H2", h2$estimate, 100 * h2$estimate / noad_mean,
               h2$p_ri, h2$p_hc3, h2$ci_low, h2$ci_high))
   cat(sprintf("  control means: neutral %.2f | no-ad %.2f\n", neutral_mean, noad_mean))
+  cat(sprintf("  units in fit: H1 %d | H2 %d", h1$n_units, h2$n_units))
+  if (h1$n_singleton_dropped + h2$n_singleton_dropped > 0) {
+    cat(sprintf(" (singleton-block units dropped before fitting: H1 %d, H2 %d;",
+                h1$n_singleton_dropped, h2$n_singleton_dropped),
+        "\n   these carry no information about the treatment coefficient and",
+        "\n   would make HC3 undefined -- estimates are unchanged by dropping them)")
+  }
+  cat("\n")
+  if (any(!is.finite(c(h1$ci_low, h1$ci_high, h2$ci_low, h2$ci_high)))) {
+    cat("  NOTE: an RI confidence bound is open (Inf): too few blocks in this",
+        "analysis for a bounded 95% interval.\n")
+  }
   invisible(list(h1 = h1, h2 = h2))
 }
 

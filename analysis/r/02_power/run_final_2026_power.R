@@ -45,13 +45,21 @@ suppressPackageStartupMessages({
 # over the randomisation distribution; HC3 is what the simulation uses because
 # it is cheap enough to run tens of thousands of times.
 #
-# Guard: HC3 divides by (1 - h_i)^2 and returns NaN when a unit's hat value is
-# 1 -- which happens whenever a block dummy isolates a single unit, e.g. in the
-# core-subset analysis. Fall back to HC1 for those fits.
+# Guard: HC3 divides by (1 - h_i)^2 and is undefined when a unit's hat value
+# is 1 -- which happens whenever a block dummy isolates a single unit, e.g. in
+# the core-subset analysis. Such a unit has residual 0 and contributes nothing
+# to the treatment coefficient, so it is dropped and the model refitted; HC3
+# stays HC3 (an earlier version substituted HC1, a materially less
+# conservative estimator on this design -- see the audit note in the
+# pre-registration). Callers pass the block vector so singletons can be found.
+drop_singletons <- function(block) {
+  ave(seq_along(block), block, FUN = length) > 1
+}
 hc3_p <- function(fit, row = 2) {
-  h <- stats::hatvalues(fit)
-  type <- if (any(h > 0.999)) "HC1" else "HC3"
-  lmtest::coeftest(fit, vcov. = sandwich::vcovHC(fit, type = type))[row, 4]
+  if (any(stats::hatvalues(fit) > 0.999)) {
+    stop("HC3 undefined (hat value 1): drop singleton-block units before fitting")
+  }
+  lmtest::coeftest(fit, vcov. = sandwich::vcovHC(fit, type = "HC3"))[row, 4]
 }
 
 output_dir <- file.path("analysis", "r", "output")
@@ -153,9 +161,13 @@ simulate <- function(delta, sigma_c, track_rate = 1, lambda = 0, subset = NULL) 
   post <- rpois(n_units, pmax(base_post + kept + moved, 1e-8))
 
   keep <- if (is.null(subset)) rep(TRUE, n_units) else subset
+  # Units left alone in their block by the subset carry no information about
+  # the treatment coefficient and would make HC3 undefined; drop them per fit.
   ad <- keep & arm != "no_ad"
+  ad[ad] <- drop_singletons(block[ad])
   fit_framing <- lm(post[ad] ~ factor(arm[ad], levels = c("neutral", "framed")) +
                       factor(block[ad]) + base_pre[ad] + history[ad])
+  keep[keep] <- drop_singletons(block[keep])
   group <- factor(ifelse(arm[keep] == "no_ad", "no_ad", "ads"),
                   levels = c("no_ad", "ads"))
   fit_ads <- lm(post[keep] ~ group + factor(block[keep]) + base_pre[keep] +
@@ -166,8 +178,9 @@ simulate <- function(delta, sigma_c, track_rate = 1, lambda = 0, subset = NULL) 
 run <- function(delta, sigma_c, track_rate = 1, lambda = 0, subset = NULL,
                 sims = n_sims) {
   draws <- replicate(sims, simulate(delta, sigma_c, track_rate, lambda, subset))
-  c(framing = mean(draws["framing", ] < ALPHA, na.rm = TRUE),
-    ads = mean(draws["ads", ] < ALPHA, na.rm = TRUE))
+  if (anyNA(draws)) stop("undefined p-value in simulation: inspect the design")
+  c(framing = mean(draws["framing", ] < ALPHA),
+    ads = mean(draws["ads", ] < ALPHA))
 }
 
 # H2's effect is an absolute number of extra participants per municipality, not
@@ -195,7 +208,7 @@ cat("   H2 null: NO arm gets installs -- delivering them and then testing ads\n"
 cat("            against no-ad is H2's alternative, and returns 1.000\n\n")
 for (sc in SIGMA_GRID) {
   h1_null <- run(0, sc)["framing"]
-  h2_null <- mean(replicate(n_sims, simulate_h2(0, sc)) < ALPHA, na.rm = TRUE)
+  h2_null <- mean(replicate(n_sims, simulate_h2(0, sc)) < ALPHA)
   cat(sprintf("  sigma_c %.1f:  H1 %.3f   H2 %.3f\n", sc, h1_null, h2_null))
 }
 
@@ -228,7 +241,7 @@ cat(sprintf("%16s %18s %10s\n", "extra per muni", "% over no-ad", "power"))
 extra_grid <- c(0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 5.0, installs_per_unit)
 h2_results <- list()
 for (extra in extra_grid) {
-  power <- mean(replicate(n_sims, simulate_h2(extra, 0.4)) < ALPHA, na.rm = TRUE)
+  power <- mean(replicate(n_sims, simulate_h2(extra, 0.4)) < ALPHA)
   cat(sprintf("%16.1f %17.0f%% %10.3f\n", extra, 100 * extra / control_level, power))
   h2_results[[length(h2_results) + 1]] <- data.frame(
     extra = extra, pct = extra / control_level, power = power)
