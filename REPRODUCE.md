@@ -66,26 +66,23 @@ first:
   committed crosswalk. It is not committed here (third-party data); if the
   dated snapshot is no longer offered, the committed crosswalk output remains
   the verifiable record.
-- **GADM 4.1 boundaries, Spain level 4** (step 2 only; ~50 MB; free for
-  academic use, see https://gadm.org). Download into the expected location
-  with the `geodata` package:
+- **GADM 4.1 boundaries, Spain level 4** (~50 MB; free for academic use, see
+  https://gadm.org). Step 1 downloads this automatically via the `geodata`
+  package into `data/raw/gadm/gadm41_ESP_4_pk.rds`, which step 2 then reads.
+  To fetch it manually (e.g. to run step 2 without step 1):
 
   ```r
   geodata::gadm(country = "ESP", level = 4, path = "data/raw")
-  # writes data/raw/gadm/gadm41_ESP_4_pk.rds, which step 2 reads
   ```
 
 ### Not available: the raw report export
 
 `data/raw/mosquito_alert_raw_reports.Rds` is Mosquito Alert's internal
-participant-level report data and is **not distributed** — sharing it would
-require case-by-case confidentiality agreements. Reproduction does not need
+participant-level report data and is not distributed. Reproduction does not need
 it: its only role is producing `municipality_reporter_counts.csv`, which is
 deposited with its checksum, and
 `build_municipality_reporter_counts.R` is committed so the derivation is
-fully documented. Please do not request this file in order to reproduce the
-study — everything the analysis consumes is public, and every file the
-pipeline writes carries municipality-level counts only.
+fully documented.
 
 ### Inputs at a glance
 
@@ -107,13 +104,13 @@ Two attributions exist for participant counts:
 | **Presence** | A participant is counted in every municipality where they emitted at least one background location track. Municipality counts sum to ~1.20x the true number of people. How the counts were produced through 2025. |
 | **Modal** | Each participant is counted only in the municipality where they were observed on the most distinct days — where their sampling effort is concentrated. An exact partition. The attribution of the final deposited dataset. |
 
-The final delivery keeps the historical column name `n_participants`, so the
+The
 assignment script **verifies attribution from the data** — municipality sums
 against province totals (1.000 = partition, 1.17–1.28 = presence) — and records
 the verdict in the manifest rather than trusting the column name. See
 `docs/operations/measurement-grid-and-modal-attribution.md`.
 
-The secondary reporting outcome is attributed by **report location** by design:
+The secondary reporting outcome is attributed by **report location**:
 reporting identifiers are deliberately not linkable to tracking identifiers, so
 modal attribution cannot be computed for reporters.
 
@@ -128,7 +125,10 @@ Rscript analysis/r/01_data_prep/build_google_ads_crosswalk.R \
 
 Matches municipalities to Google Ads geo targets, requiring agreement on both
 municipality name and autonomous community. Yields **952 targetable
-municipalities** of 8,240. Writes
+municipalities** of the 8,240 GADM level-4 municipalities. (The deposited
+participation data cover 8,244 level-4 units: these 8,240 plus the four
+*plazas de soberanía*, which are not municipalities and not targetable —
+hence the pre-registration's frame of 8,244.) Writes
 `analysis/r/output/google_ads_spain_municipality_crosswalk.csv`.
 
 The script stops if any Criteria ID resolves to two municipalities. It has to:
@@ -172,20 +172,17 @@ fixed effects a single-arm block carries no identifying variation, and this
 makes the ad arms exactly equal, every campaign exactly 42 municipalities, and
 every budget exactly EUR 250).
 
-There is no eligibility floor: the old median >= 1 requirement was a remnant of
-the abandoned hurdle analysis, and dropping it raises H1 power from 0.71 to
-0.93 at a 15% effect. N follows from the eligibility rule rather than being
-chosen. The upper cap matters: without it Madrid and Barcelona enter a pool
-whose median is far below theirs, and an earlier realised draw had a Type I
-error for H2 of 0.216 conditional on that draw against a design-level 0.064.
+There is no eligibility floor, and N follows from the eligibility rule rather than being
+chosen. The upper cap excludes municipalities that would otherwise enter a pool
+whose median is far below theirs, raising Type I
+errors.
 On the final data the cap excludes Barcelona, Madrid and Valencia.
 
-The script simulates **Type I error on the realised draw** and warns hard if
+The script simulates **Type I error on the realised draw** and warns if
 either hypothesis is anti-conservative (above 0.09); below 0.02 it notes the
 conservatism (HC3 over-corrects with block dummies and a small no-ad arm) but
-does not warn, since randomization inference is the primary test. This check is
-not the design-level rate averaged over fresh randomisations; only the
-conditional number describes the experiment actually being run.
+does not warn, since randomization inference is the primary test. This is the
+rate for the realised draw, not the design average over fresh randomisations.
 
 Writes to `analysis/r/output/`:
 
@@ -253,10 +250,7 @@ The pre-registered test: the arm coefficient from
 inference — labels permuted **within blocks**, the design's own randomization
 distribution — as the primary p-value, HC3 alongside, and confidence intervals
 by exact inversion of the permutation test under a constant additive shift.
-This matters: with a small no-ad arm and skewed counts, the ordinary t-test
-without the block terms rejected a true null about 0.10 of the time on an
-earlier draw. `--calibrate` verifies the committed code's Type I error
-end-to-end.
+`--calibrate` verifies the committed code's Type I error end-to-end.
 
 ## Design summary
 
@@ -278,16 +272,9 @@ end-to-end.
   the pre-window count and the historical median as covariates; randomization
   inference for the p-value.
 
-Why 4:4:1 rather than equal thirds: the no-ad arm consumes no budget, so its
-units are nearly free. When the allocation was fixed (on the presence-attributed
-data), H1 power at a 15% effect was 0.87 for a pure two-arm design against 0.88
-for the 4:4:1 split — the units given up are offset by the larger dose to those
-remaining, so a randomised H2 costs nothing.
-
-Why the whole eligible pool rather than a round number: power is driven by unit
-count far more than by dose, because delivery noise scales with the install
-count (on the same design-stage data: 224/224 at 28.6 installs each gave H1
-power 0.87; 100/100 at 64 installs each gave 0.58).
+Design rationale — why this allocation, this pool, this outcome — is in the
+pre-registration (`docs/preregistration/preregistration-osf.md`); this file
+covers only how to reproduce what was done.
 
 ## Reproducibility guarantees
 
@@ -299,8 +286,8 @@ power 0.87; 100/100 at 64 installs each gave 0.58).
 3. Seed frozen at `20260815`. Do not change after preregistration.
 4. Short final blocks are assigned entirely to the no-ad arm — deterministic
    and stated in advance. Under block fixed effects a single-arm block carries
-   no identifying variation to either contrast, so as ad units they would be
-   spend without information; as no-ad units they keep the frame complete at
+   no identifying variation to either contrast, so as advertising units they
+   would spend budget without adding information; as no-ad units they keep the frame complete at
    zero cost and make the ad arms exactly equal (420/420).
 5. Manifest with input and output checksums, recording which outcome column was
    used and the verified attribution.
