@@ -55,7 +55,7 @@ advertising create participation where none exists?
   the permutation test.
 - **Power.** 0.92 to detect a 15% framing advantage at moderate delivery
   spread, and essentially 1.00 at 20%. The advertising-versus-nothing contrast
-  detects an increase of roughly +110% over the no-advertising arm's expected
+  detects an increase of roughly +107% over the no-advertising arm's expected
   level of about 1.1 participants per municipality.
 - **Built-in verification.** The assignment script checks the Type I error of
   the realized assignment (not just the design in expectation), verifies from
