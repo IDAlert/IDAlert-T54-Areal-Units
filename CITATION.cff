@@ -12,6 +12,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-2648-7860"
     affiliation: "Universitat Pompeu Fabra"
 repository-code: "https://github.com/IDAlert/IDAlert-T54-Areal-Units"
+license: GPL-3.0-or-later
 abstract: >-
   Code, treatment assignment, verification tooling, and pre-registration
   documentation for IDAlert Task 5.4: a three-arm randomized experiment

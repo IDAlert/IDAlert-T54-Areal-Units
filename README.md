@@ -123,6 +123,12 @@ campaign waves — before reaching the registered design.
 progression, including analyses that were corrected or superseded along the
 way, and [docs/archive/](docs/archive/) holds the superseded design memos.
 
+## License
+
+The code in this repository is licensed under the GNU General Public License
+v3.0 (see [LICENSE](LICENSE)). The pre-registration document and the data
+deposit are licensed CC-BY 4.0.
+
 ## Funding
 
 This research is part of [IDAlert](https://idalertproject.eu), which has
