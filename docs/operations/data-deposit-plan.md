@@ -54,8 +54,9 @@ Suggested deposit metadata:
 - **Title:** Aggregate Mosquito Alert participation counts by Spanish
   municipality, 2018–2026 (IDAlert T5.4)
 - **License:** CC-BY-4.0
-- **Related identifiers:** *is supplement to* the OSF registration; *is
-  supplement to* the GitHub repository (cite the tagged commit)
+- **Related identifiers:** *is supplement to* the OSF registration
+  (10.17605/OSF.IO/XQWB3); *is supplement to* the code archive
+  (10.5281/zenodo.21969063, release `v1.0-preregistration`)
 - Cite the deposit DOI back in the pre-registration and `REPRODUCE.md`, and
   add the DOI to the repository README, so the link works in both directions.
 

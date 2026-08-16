@@ -31,3 +31,6 @@ references:
   - type: data
     title: "Aggregate Mosquito Alert participation counts for Spanish municipalities (IDAlert Task 5.4 inputs)"
     doi: 10.5281/zenodo.21940738
+  - type: generic
+    title: "Regulatory-Focus Framing in Geographically Targeted Advertisements for Citizen Science: A Randomized Experiment Across Spanish Municipalities (OSF pre-registration)"
+    doi: 10.17605/OSF.IO/XQWB3

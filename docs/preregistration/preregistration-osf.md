@@ -3,7 +3,8 @@
 **IDAlert Task 5.4 — a randomized experiment across 949 Spanish
 municipalities, August–October 2026.**
 
-This document is the pre-registration of record for the study. Its sections
+This document is the pre-registration of record for the study, registered on
+OSF on 16 August 2026 as https://doi.org/10.17605/OSF.IO/XQWB3. Its sections
 follow the fields of the standard OSF Preregistration form, in form order.
 Supporting technical memos can be found in `docs/operations/` of the study
 repository,

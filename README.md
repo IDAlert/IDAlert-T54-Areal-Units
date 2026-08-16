@@ -36,7 +36,7 @@ advertising create participation where none exists?
 
 | Document | Contents |
 |---|---|
-| [docs/preregistration/preregistration-osf.md](docs/preregistration/preregistration-osf.md) | **The pre-registration of record** — hypotheses, design, analysis plan, power, and limitations, structured against the OSF Preregistration form |
+| [docs/preregistration/preregistration-osf.md](docs/preregistration/preregistration-osf.md) | **The pre-registration of record** — hypotheses, design, analysis plan, power, and limitations, structured against the OSF Preregistration form. Registered on OSF: [10.17605/OSF.IO/XQWB3](https://doi.org/10.17605/OSF.IO/XQWB3) |
 | [REPRODUCE.md](REPRODUCE.md) | Step-by-step instructions to regenerate the treatment assignment exactly and rerun every power figure |
 | [analysis/r/output/manifest_2026_final.txt](analysis/r/output/manifest_2026_final.txt) | The assignment's seed, eligibility rule, input and output checksums, and verification results |
 
@@ -99,7 +99,8 @@ budgets) are in
 This repository is archived on Zenodo at
 [10.5281/zenodo.21969063](https://doi.org/10.5281/zenodo.21969063) (concept
 DOI, resolving to the latest release; the `v1.0-preregistration` release is
-the pre-registration state). The aggregate input data are available separately
+the pre-registration state), and the study is registered on OSF at
+[10.17605/OSF.IO/XQWB3](https://doi.org/10.17605/OSF.IO/XQWB3). The aggregate input data are available separately
 at [10.5281/zenodo.21940738](https://doi.org/10.5281/zenodo.21940738): participant counts by municipality and by province, and reporter
 counts by municipality, all as counts per 60-day window with no identifiers,
 coordinates, or per-person records. The deposited participants file is
