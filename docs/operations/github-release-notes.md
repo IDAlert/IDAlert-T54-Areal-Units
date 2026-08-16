@@ -8,9 +8,11 @@ paste the block below as-is.
 ---
 
 The state of this repository at pre-registration, immediately before the
-advertising campaign launches. **No outcome data exists at this commit** — the
-post-treatment measurement window opens on 16 August 2026 — so everything here
-was fixed in advance of the results it will be used to analyse.
+advertising campaign launches on 17 August 2026. **No outcome data has been
+extracted or observed at this commit** — the post-treatment measurement
+window (16 August – 14 October 2026) will not be accessed until it closes —
+so everything here was fixed in advance of the results it will be used to
+analyse.
 
 ## What is frozen here
 
@@ -26,29 +28,34 @@ was fixed in advance of the results it will be used to analyse.
 
 ## Verification included in this release
 
-- **The assignment regenerates bit-for-bit.** `assign_treatment_2026.R` on the
-  deposited inputs reproduces the committed CSV, md5 above, recorded with input
-  checksums in `analysis/r/output/manifest_2026_final.txt`.
+- **Every committed artifact regenerates bit-for-bit** from the deposited
+  inputs and the committed scripts: the assignment (md5 above), the manifest
+  itself (`manifest_2026_final.txt`, which carries input checksums and
+  deliberately no timestamp so it can be diffed), and all power outputs. An
+  independent fresh-clone reproduction and two external code audits were
+  completed before this tag; the fixes they produced are in this commit.
 - **Type I error checked on the realised draw**, not just in expectation:
-  H1 0.030, H2 0.019 at the design stage; the committed analysis code's own
-  `--calibrate` mode reads H1 0.052, H2 0.067 over 600 null datasets.
+  the assignment script's built-in screen reads H1 0.030, H2 0.019 (800
+  simulated null datasets, recorded in the manifest); the committed analysis
+  code's own `--calibrate` mode reads H1 0.052, H2 0.067 over 600.
 - **Google Ads configuration verified ID-for-ID.**
   `verify_campaign_locations.R` confirms all 840 configured location Criteria
   IDs match the assignment exactly, with no no-advertising municipality
-  targeted: `ALL CLEAR: 0 of 20 campaigns failed`
+  targeted: `ALL CLEAR: 0 of 20 campaigns failed`, re-verified on a fresh
+  export the day before launch
   (`analysis/r/output/campaign_criteria_ids/VERIFIED.md`).
 
 ## Reproducing it
 
 ```bash
-# fetch the aggregate inputs from the data deposit into data/raw/
-Rscript analysis/r/01_data_prep/build_google_ads_crosswalk.R data/raw/google_ads_geotargets-2026-07-16.csv
-Rscript analysis/r/01_data_prep/build_municipality_grid_geometry.R
+# fetch the three deposited files from the data record into data/raw/ (commands in REPRODUCE.md)
 Rscript analysis/r/03_randomization/assign_treatment_2026.R
 md5 analysis/r/output/assignment_2026_final.csv   # expect cd9c8672...
+diff analysis/r/output/manifest_2026_final.txt <(git show HEAD:analysis/r/output/manifest_2026_final.txt)  # expect no output
 ```
 
-Full path in `REPRODUCE.md`.
+The crosswalk and grid geometry the assignment reads are committed; the full
+path that rebuilds them from public sources is in `REPRODUCE.md`.
 
 ## Related records
 
@@ -77,8 +84,9 @@ Part of IDAlert, EU Horizon Europe grant agreement 101057554.
    git push origin v1.0-preregistration
    ```
 3. Create the GitHub release from that tag, pasting the notes above.
-4. Publish the Zenodo **data** record (it already cites this tag).
-5. Register on OSF, citing the data DOI and the release URL.
+4. The Zenodo **data** record (10.5281/zenodo.21940738) is already published
+   and cites this tag; nothing to do here.
+5. Register on OSF, citing the data DOI, the release URL, and the code DOI.
 6. Return to Zenodo and add the OSF DOI to the data record — description *and*
    Related identifiers ("is documented by"), since only the latter is
    machine-readable. Do the same on the code record if you created one.

@@ -20,7 +20,7 @@ Rscript analysis/r/03_randomization/analyse_assignment.R --calibrate   # Type I 
 
 # the launch gate: configured Google Ads locations vs the frozen assignment
 Rscript analysis/r/03_randomization/verify_campaign_locations.R \
-  data/google_ads/campaign_locations_2026-08-14.csv
+  data/google_ads/campaign_locations_2026-08-16.csv
 ```
 
 The superseded 2025 assignment script (population strata, hurdle margins,
