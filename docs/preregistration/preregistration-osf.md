@@ -498,9 +498,10 @@ effect falls to 0.72 (0.93 at 20%). The banded campaign structure described in
 whatever it shows. The delivery-noise model treats municipalities as
 independent; in reality each campaign's budget is fixed, making delivery
 zero-sum within a campaign. A sensitivity simulation with fixed campaign
-totals gives higher power (0.98 at 15%) and lower Type I error than the
-figures above, so the tabulated power is conservative with respect to this
-modelling choice.
+totals (`run_zerosum_sensitivity.R`, output `zerosum_sensitivity.csv`)
+gives higher power (0.99 at 15% and 0.87 at 15% under sigma_c = 0.6,
+against 0.92 and 0.72) and a Type I error of 0.000 (against 0.03), so the
+tabulated power is conservative with respect to this modelling choice.
 
 The sensitivity tables that follow are separately seeded simulation runs, so
 the common baseline cell (H1 at 15%, sigma_c = 0.4) reads 0.93 in them
@@ -854,9 +855,10 @@ under the null of no framing effect are not perfectly invariant to
 relabelling — interference through budget sharing rather than through
 space. A design-stage simulation with strongly concentrated within-campaign
 delivery shows the effect runs in the conservative direction (the test
-rejects less often, not more), so validity is preserved and the cost is
-power; the realized delivery distribution by arm is reported in any case
-(see *Other planned analysis*).
+rejects less often, not more; see the fixed-campaign-total sensitivity in
+*Sample size rationale*, where Type I error falls to 0.000), so validity is
+preserved and the cost is power; the realized delivery distribution by arm
+is reported in any case (see *Other planned analysis*).
 
 Both tests were verified on this design before launch. Randomization
 inference is exact over the randomization distribution (design-stage
