@@ -34,11 +34,24 @@ The framed arm necessarily carries more distinct creatives than the neutral
 arm (six ad groups against one); this structural difference is part of the
 framed treatment as implemented and is noted in the pre-registration.
 
+## Launch-day re-export
+
+`ad_assets_export_with_images_2026_08_17_1413.zip` (md5
+`90721043c51eb559837fa446f53d3ca7`) is the same export taken at 14:13 on
+launch day, 17 August 2026, about 14 hours after the campaigns started. A
+content-level comparison against the pre-launch zip found **one difference
+across all 70 ad rows, all columns and all 28 image files**: `Campaign Status`
+changed from `Pending` to `Enabled` on every row — the launch itself. No
+text, image, or approval status changed. This is the record that the
+creatives which launched are the creatives that were registered.
+
 ## Contents
 
 ```
 docs/creatives/
 ├── README.md                          this file
+├── ad_assets_export_with_images_2026_08_17_1413.zip
+│                                      launch-day re-export (see above)
 ├── ad_assets_export_with_images.zip   AUTHORITATIVE record (md5
 │                                      55f1fd42535815197d898dd2be3f934c):
 │                                      Google Ads Editor export containing
