@@ -1,7 +1,8 @@
 # Campaign location verification — ALL CLEAR
 
 - **Date:** 2026-08-14 (re-confirmed 2026-08-15; re-verified 2026-08-16 on a
-  fresh export taken after the final creative edits and ad review — see below)
+  fresh export taken after the final creative edits and ad review, and again
+  2026-08-18 on a live post-launch export — see below)
 - **Command:**
   `Rscript analysis/r/03_randomization/verify_campaign_locations.R data/google_ads/campaign_locations_2026-08-16.csv`
 - **Result:** ALL CLEAR — 0 of 20 campaigns failed; 840 configured Criteria IDs
@@ -16,6 +17,15 @@
   to it (same md5): the location configuration did not change between the
   original verification and the launch-eve gate, despite intervening creative
   edits and ad review.
+  A further export on 2026-08-18 (`campaign_locations_2026-08-18.csv`, taken
+  after launch) again passes ALL CLEAR: the (campaign, Criteria ID) set is
+  identical to the 16 Aug export and the only column that differs is
+  `Campaign Status` (Pending → Enabled). A direct census of `Location type`
+  finds 530 Municipality + 310 City entries and no province, region or other
+  entity type. This check was prompted by a colleague seeing provinces in
+  `MA2026_neutral_01` in Google Ads Editor; that proved to be an un-refreshed
+  local Editor copy still holding the pre-correction configuration, and the
+  provinces disappeared on refresh.
 - **Assignment verified against:** `assignment_2026_final.csv`,
   md5 `cd9c86726fd7f9aa5c8e488d0b5361b2`.
 
