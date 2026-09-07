@@ -45,6 +45,13 @@ changed from `Pending` to `Enabled` on every row — the launch itself. No
 text, image, or approval status changed. This is the record that the
 creatives which launched are the creatives that were registered.
 
+`ad_assets_export_with_images_2026_09_03_2022.zip` (md5
+`6a104449a0bafaf4e6a97f68c6f46655`) is the same export on day 18 of the
+30-day flight. It is **identical cell for cell and byte for byte** to the
+launch-day export — 70 ad rows, every column, all 28 images, all 70 ads
+still *Approved* — so nothing in the creatives changed during the first
+eighteen days of serving. A final export at flight end completes the record.
+
 ## Contents
 
 ```
@@ -52,6 +59,8 @@ docs/creatives/
 ├── README.md                          this file
 ├── ad_assets_export_with_images_2026_08_17_1413.zip
 │                                      launch-day re-export (see above)
+├── ad_assets_export_with_images_2026_09_03_2022.zip
+│                                      flight day-18 re-export, identical (see above)
 ├── ad_assets_export_with_images.zip   AUTHORITATIVE record (md5
 │                                      55f1fd42535815197d898dd2be3f934c):
 │                                      Google Ads Editor export containing

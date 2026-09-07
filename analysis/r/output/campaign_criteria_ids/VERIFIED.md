@@ -26,6 +26,17 @@
   `MA2026_neutral_01` in Google Ads Editor; that proved to be an un-refreshed
   local Editor copy still holding the pre-correction configuration, and the
   provinces disappeared on refresh.
+- **2026-09-03 (flight day 18 of 30):** `campaign_locations_2026-09-03.csv`
+  passes ALL CLEAR and is byte-identical to the 18 Aug export (md5
+  `625ce384a41941f4b1d4a4dc659bd843`). A campaign-settings export the same
+  day (local, `data/google_ads/campaign_settings_export_2026-09-03.zip`)
+  shows every one of the 20 campaigns identical on all 24 settings fields:
+  App installs, EUR 8.33 daily, Target CPA EUR 0.39, 2026-08-17 to
+  2026-09-15, location-of-presence targeting, same install conversion
+  action, languages ca/en/es, no ad schedule. Statuses: 12 Eligible, 4
+  "Eligible (Limited) — limited by budget" (bands 01–02, both arms) and 4
+  "bidding strategy constrained" (framed_05, neutral_05/07/09); neither
+  reason is a policy or serving restriction.
 - **Assignment verified against:** `assignment_2026_final.csv`,
   md5 `cd9c86726fd7f9aa5c8e488d0b5361b2`.
 
