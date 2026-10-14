@@ -100,9 +100,9 @@ with any cost recorded.
 | neutral_01 | 255.94 | 256.66 | +6.66 | 15 Sep | 16 Sep | paused |
 | framed_02 | 239.48 | 260.58 | +10.58 | 16 Sep | 18 Sep | paused |
 | neutral_02 | 244.94 | 255.66 | +5.66 | 16 Sep | 18 Sep | paused |
-| framed_03 | 194.56 | 278.24 | +28.24 | 30 Sep | 14 Oct | **not paused** |
-| neutral_03 | 209.45 | 283.27 | +33.27 | 1 Oct | 14 Oct | **not paused** |
-| neutral_04 | 188.82 | 271.67 | +21.67 | 7 Oct | 14 Oct | **not paused** |
+| framed_03 | 194.56 | 278.24 | +28.24 | 30 Sep | 14 Oct | **paused late, 14 Oct** |
+| neutral_03 | 209.45 | 283.27 | +33.27 | 1 Oct | 14 Oct | **paused late, 14 Oct** |
+| neutral_04 | 188.82 | 271.67 | +21.67 | 7 Oct | 14 Oct | **paused late, 14 Oct** |
 | framed_04 | 174.87 | 239.65 | −10.35 | — | 14 Oct | ran to end |
 
 The remaining twelve campaigns (bands 05–10, both arms) ended between
@@ -113,12 +113,14 @@ days of reaching the cap. Two of the four campaigns ended 15 September already
 over EUR 250 on the day's spend, which is consistent with the one-day
 overshoot anticipated when the rule was adopted.
 
-## Deviation: three campaigns not paused at the cap
+## Deviation: three campaigns not paused at the cap until the last day
 
 The rule required each campaign to be paused on the day it reached EUR 250.
 After 18 September the daily check lapsed, and three campaigns that crossed
-the cap later were not paused: framed_03 (crossed 30 September), neutral_03
-(1 October) and neutral_04 (7 October). They ran to the scheduled end date,
+the cap later were not paused when they reached it: framed_03 (crossed 30
+September), neutral_03 (1 October) and neutral_04 (7 October). They kept
+serving until they were paused on the evening of 14 October, a few hours
+before the scheduled end, once the lapse was detected,
 overspending the cap by EUR 28.24, 33.27 and 21.67. framed_04, neutral_04's
 band partner, never reached the cap.
 
@@ -157,16 +159,21 @@ carries no risk or protection language, so the cause is most likely an
 element the arms share: one of the 17 common image assets, or the app listing
 itself. Per rule 3 of the contingency, the limitation, its timing, and its
 equal incidence across arms are reported with the results. The closing
-creatives export will record each ad's approval status, identifying what was
-limited.
+creatives export (14 October) confirms this at the level of individual ads:
+all 70 ads, in both arms, changed from *Approved* to *Approved limited*, with
+no change to any text or image. The export does not name the policy topic.
 
 ## Snapshots
 
 The campaign-settings export that should have been taken when the extension
-was applied on 14 September was missed; one taken on 20 September records the
-same state (all twenty campaigns ending 2026-10-14, daily budget EUR 8.33,
-target CPA EUR 0.39, unchanged otherwise), and the date the change was applied
-is recorded above. Nothing is lost from the missed performance snapshot
+was applied on 14 September was missed. The one taken on 20 September
+(`data/google_ads/campaign_settings_export_2026-09-20.zip`) records the same
+state: all twenty campaigns ending 2026-10-14, four paused, daily budget
+EUR 8.33 and target CPA EUR 0.39, every other setting unchanged since
+3 September. The closing export on 14 October
+(`campaign_settings_export_2026-10-14.zip`) shows the same settings with the
+seven capped campaigns paused. The date the extension was applied is recorded
+above. Nothing is lost from the missed performance snapshot
 either: Google Ads retains day-level history, so a day-segmented spend report
 run at any time reconstructs cumulative spend on 15 September and the exact
 date each campaign was paused.

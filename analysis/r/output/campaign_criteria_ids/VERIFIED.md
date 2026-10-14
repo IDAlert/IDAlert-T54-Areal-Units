@@ -37,6 +37,15 @@
   "Eligible (Limited) — limited by budget" (bands 01–02, both arms) and 4
   "bidding strategy constrained" (framed_05, neutral_05/07/09); neither
   reason is a policy or serving restriction.
+- **2026-10-14, closing verification (last day of the flight):**
+  `campaign_locations_2026-10-14.csv` passes ALL CLEAR — 840 locations across
+  all 20 campaigns. The 840 (campaign, Criteria ID) pairs are identical to every
+  earlier export; the only changed column is `Campaign Status` (*Enabled* →
+  *Paused*) on the 294 rows of the seven campaigns paused at the EUR 250 cap.
+  The location configuration was therefore unchanged from first verification
+  on 14 August to the end of the flight. A settings export the same evening
+  shows all 20 campaigns ending 2026-10-14 with every other setting unchanged
+  since 3 September.
 - **Assignment verified against:** `assignment_2026_final.csv`,
   md5 `cd9c86726fd7f9aa5c8e488d0b5361b2`.
 

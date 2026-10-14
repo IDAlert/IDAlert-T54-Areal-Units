@@ -52,6 +52,26 @@ launch-day export — 70 ad rows, every column, all 28 images, all 70 ads
 still *Approved* — so nothing in the creatives changed during the first
 eighteen days of serving. A final export at flight end completes the record.
 
+`ad_assets_export_with_images_2026_10_14_2228.zip` (md5
+`8dc939346e5c7e83c5709499842af325`) is the closing export, taken at 22:28 on
+14 October 2026, the last day of the flight. Against the 3 September export,
+the 70 ad rows, all text, and all 28 images are unchanged. Two columns
+differ:
+
+- `Campaign Status` is *Paused* on the 22 ad rows belonging to the seven
+  campaigns paused on reaching the EUR 250 cap (bands 01–03 framed, bands
+  01–04 neutral).
+- `Approval Status` changed from *Approved* to **Approved limited** on all 70
+  ads: every ad in both arms. Google began reporting "most ads limited by
+  policy" for all twenty campaigns between 3 and 14 September. Because the
+  limitation applies equally to every framed and every neutral ad, including
+  neutral copy with no risk language, it is not the arm-differential policy
+  filtering that the pre-registration's ad review contingency treats as
+  confounded with the treatment. The export does not record the policy topic.
+
+So the creatives that were registered are the creatives that ran, unchanged,
+from launch to the end of the flight.
+
 ## Contents
 
 ```
@@ -61,6 +81,8 @@ docs/creatives/
 │                                      launch-day re-export (see above)
 ├── ad_assets_export_with_images_2026_09_03_2022.zip
 │                                      flight day-18 re-export, identical (see above)
+├── ad_assets_export_with_images_2026_10_14_2228.zip
+│                                      closing export, last day of flight (see above)
 ├── ad_assets_export_with_images.zip   AUTHORITATIVE record (md5
 │                                      55f1fd42535815197d898dd2be3f934c):
 │                                      Google Ads Editor export containing
