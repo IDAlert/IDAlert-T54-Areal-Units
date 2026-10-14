@@ -67,7 +67,12 @@ differ:
   limitation applies equally to every framed and every neutral ad, including
   neutral copy with no risk language, it is not the arm-differential policy
   filtering that the pre-registration's ad review contingency treats as
-  confounded with the treatment. The export does not record the policy topic.
+  confounded with the treatment. The export does not record the policy topic;
+  Google's campaign status names it as **Misleading Ad Design**, a policy on the
+  visual design of ads (for example, images resembling interface elements or
+  buttons) rather than on what the copy claims. The likeliest trigger is the
+  app-interface screenshots in the shared image set, which run in every ad
+  group of both arms.
 
 So the creatives that were registered are the creatives that ran, unchanged,
 from launch to the end of the flight.

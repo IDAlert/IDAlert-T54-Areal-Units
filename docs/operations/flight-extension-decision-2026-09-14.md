@@ -161,7 +161,28 @@ itself. Per rule 3 of the contingency, the limitation, its timing, and its
 equal incidence across arms are reported with the results. The closing
 creatives export (14 October) confirms this at the level of individual ads:
 all 70 ads, in both arms, changed from *Approved* to *Approved limited*, with
-no change to any text or image. The export does not name the policy topic.
+no change to any text or image.
+
+The policy named by Google is **Misleading Ad Design**. A screenshot of the
+campaign status on 14 October (`data/google_ads/policy_status_misleading_ad_design_2026-10-14_2245.png`,
+kept locally with the other account exports) shows: "1 out of 1 ad group is
+limited by policy. Some of your ads can only serve in certain countries or on
+certain devices due to the nature of the content", with the policy listed as
+Misleading Ad Design. This policy concerns the visual design of ads, such as
+images resembling interface elements or buttons, not the claims in the copy.
+The most likely trigger is therefore one or more of the app-interface
+screenshots in the shared image set, which run in all seven ad groups of both
+arms. That is consistent with the equal incidence across arms, and it places
+the limitation outside the framing manipulation, which lives in the text and
+in the three arm-specific mosquito photographs.
+
+The day-level delivery data are consistent with this. In the sixteen
+campaigns that ran throughout (bands 03–10), daily impressions in both arms
+fell in parallel during the onset window, roughly halving over 8–10 September,
+with the two arms moving almost in step (9 September: 18,402 framed against
+19,643 neutral; 10 September: 15,044 against 15,118). Weekend effects and the
+general decline in delivery over the flight mean the onset cannot be dated
+more precisely than that.
 
 ## Snapshots
 
