@@ -1083,3 +1083,32 @@ with Mosquito Alert's existing finer-grained public releases — are set out in
 | Campaign target lists | `analysis/r/output/campaign_criteria_ids/` |
 | Advertisement creatives (verbatim copy and images) | `docs/creatives/` |
 | Reproduction path | `REPRODUCE.md` |
+
+---
+
+# Errata (added after registration)
+
+The registered text on OSF (https://doi.org/10.17605/OSF.IO/XQWB3, 16 August
+2026) is unchanged. This section records corrections to that text, with the
+date each was recorded, so that the repository copy is accurate.
+
+**15 October 2026 — modal attribution is computed within each window, not
+over the participant's full history.** *Indices* states that the modal
+sampling municipality is "computed over the participant's full sampling effort
+history rather than the study window alone", with ties "broken by number of
+distinct grid cells, then by GADM `GID_4`", and that this "makes the assignment
+effectively pre-treatment for existing participants". The code that generates
+the counts (`scripts/z1_participants_areal_units_weekly.R` in the
+`mosquito_model_data_prep` repository, commit `539a22ae8` of 14 August 2026)
+assigns each participant, within each 60-day window separately, to the
+municipality in which they were tracked on the most distinct days in that
+window, ties broken by participant-cell-days and then by unit identifier. This
+rule produced the deposited calibration data, the pre-window covariate, and
+the outcome, which therefore remain exactly comparable; the partition property
+verified by the assignment script holds under it. The rule is unchanged and
+the description is corrected. H1 is unaffected. For H2, limitation 2 is
+stronger than stated: the post-window attribution is computed entirely from
+post-window tracks, so the presence-attributed tertiary outcome (item 1 of
+*Other planned analysis*) is the relevant robustness comparison and the H2
+result will be reported with this caveat. Recorded before any outcome data
+were examined; see `docs/operations/analysis-log-2026.md`.

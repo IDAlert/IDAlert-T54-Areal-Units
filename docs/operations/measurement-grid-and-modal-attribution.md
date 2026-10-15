@@ -192,7 +192,9 @@ Requested alongside the existing columns, same file, same windows, 2021 onward:
   then by `GID_4`, so the rule is deterministic.
 - Computed from the UUID's **full track history**, not just the study window —
   this makes the assignment effectively pre-treatment for existing users and
-  stabilises it for new ones.
+  stabilises it for new ones. **Not implemented as specified** (noted 15 October
+  2026): the generator computes the modal municipality within each window; see
+  the errata section of the pre-registration and `analysis-log-2026.md`.
 - Delivered in the `n_participants` column (the same name presence-attributed
   counts used, so the name proves nothing; attribution is verified by ratio)
   beside the existing `n_participants`.

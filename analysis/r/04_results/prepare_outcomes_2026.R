@@ -52,14 +52,37 @@ pick <- function(p, per) {
   v
 }
 
+checks <- c(sprintf("prepared: %s", format(Sys.time(), "%Y-%m-%d %H:%M")))
 modal <- load_windows(raw("participants_spain_municipality_aug_windows_2026-10.csv"), "modal municipality file")
 province <- read.csv(raw("participants_spain_province_aug_windows_2026-10.csv"))
+
+# The October extract must reproduce the deposited calibration data exactly for
+# the seasons the registered analysis was calibrated on: same tracks, same rule.
+# Any difference would mean the outcome and the calibration data were built
+# differently, and must be understood before going further.
+deposited <- read.csv(raw("participants_spain_municipality_aug_windows.csv"))
+deposited$unit_name <- paste(deposited$NAME_4, deposited$NAME_2, sep = ", ")
+key <- function(d) paste(d$unit_name, d$year, d$period)
+hist_new <- modal[modal$year %in% 2021:2025, ]
+hist_old <- deposited[deposited$year %in% 2021:2025, ]
+hist_new <- hist_new[order(key(hist_new)), ]; hist_old <- hist_old[order(key(hist_old)), ]
+if (!identical(key(hist_new), key(hist_old)))
+  stop("2021-2025 rows of the October extract do not line up with the deposited file")
+n_diff <- sum(hist_new$n_participants != hist_old$n_participants)
+checks <- c(checks, sprintf("2021-2025 municipality counts vs deposited file: %s",
+                            if (n_diff == 0) "IDENTICAL" else sprintf("%d of %d rows differ (max abs diff %d)", n_diff, nrow(hist_new),
+                                                                        max(abs(hist_new$n_participants - hist_old$n_participants)))))
+if (n_diff > 0) stop("October extract differs from the deposited calibration data on 2021-2025 rows; see checks")
+pre_old <- deposited[deposited$year == 2026 & deposited$period == "before", ]
+pre_new <- modal[modal$year == 2026 & modal$period == "before", ]
+checks <- c(checks, sprintf("2026 pre-window re-extraction: national total %d (deposited August extract: %d); %d municipalities changed",
+                            sum(pre_new$n_participants), sum(pre_old$n_participants),
+                            sum(pre_new$n_participants[match(pre_old$unit_name, pre_new$unit_name)] != pre_old$n_participants)))
 out <- data.frame(unit_name = assignment$unit_name,
                   post_participants = pick(modal, "after"),
                   pre_participants = pick(modal, "before"),
                   stringsAsFactors = FALSE)
 
-checks <- c(sprintf("prepared: %s", format(Sys.time(), "%Y-%m-%d %H:%M")))
 ratio <- function(muni, per, label) {
   m <- sum(muni$n_participants[muni$year == 2026 & muni$period == per])
   pv <- sum(province$n_participants[province$year == 2026 & province$period == per])
@@ -77,7 +100,16 @@ if (file.exists(presence_path)) {
   presence <- load_windows(presence_path, "presence municipality file")
   out$post_participants_presence <- pick(presence, "after")
   out$pre_participants_presence <- pick(presence, "before")
-  for (per in c("before", "after")) ratio(presence, per, "presence attribution (realized multi-municipality ratio)")
+  for (per in c("before", "after")) ratio(presence, per, "presence municipality sum / home province sum")
+  pp_path <- raw("participants_spain_province_aug_windows_presence_2026-10.csv")
+  if (file.exists(pp_path)) {
+    pp <- read.csv(pp_path)
+    for (per in c("before", "after")) {
+      m <- sum(presence$n_participants[presence$year == 2026 & presence$period == per])
+      pv <- sum(pp$n_participants[pp$year == 2026 & pp$period == per])
+      checks <- c(checks, sprintf("realized within-province multi-municipality ratio, 2026 %s: %d / %d = %.3f (2021-2025 reference 1.17-1.28)", per, m, pv, m / pv))
+    }
+  }
   hist <- presence[presence$year %in% 2021:2025 & presence$period == "after" &
                      presence$window_complete %in% c(TRUE, "TRUE"), ]
   if (nrow(hist) > 0) {

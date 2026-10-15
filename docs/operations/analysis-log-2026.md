@@ -32,6 +32,50 @@ the same frozen code as a declared *late-upload sensitivity check*, reported
 alongside the analysis of record whatever either shows. The analysis of
 record is not replaced by it.
 
+**2a. Erratum to the registered description of modal attribution — found
+and recorded before any outcome data were examined.** While locating the code
+that generates the participant counts for the outcome extraction, the rule
+actually implemented was found to differ from the registered description. The
+generator is `scripts/z1_participants_areal_units_weekly.R` in the
+`mosquito_model_data_prep` repository (commit `539a22ae8`, 14 August 2026,
+"counting only in home municipality"), which runs nightly on the cluster and
+produced the deposited August data. It assigns each participant, **within each
+60-day window separately**, to the municipality in which they were tracked on
+the most distinct days *in that window*, ties broken by participant-cell-days
+and then by unit identifier. The pre-registration (*Indices*) describes the
+modal municipality as "computed over the participant's full sampling effort
+history rather than the study window alone", with ties "broken by number of
+distinct grid cells, then by GADM `GID_4`", and says this "makes the assignment
+effectively pre-treatment for existing participants". No version of the
+generator ever implemented the full-history rule; the description was written
+from the data specification sent to the pipeline, not from the code.
+
+Resolution: the **rule is not changed**. The deposited calibration data
+(2021–2025), the pre-window covariate and the outcome are all produced by the
+same within-window rule, so they remain exactly comparable, and the
+municipality/province partition property the assignment script verifies holds
+under it. The **description is corrected** (errata section appended to the
+repository copy of the pre-registration; the OSF registration is unchanged).
+Consequences for inference: H1 is unaffected — the rule is identical in both
+advertising arms. For H2, the registered limitation that modal attribution is
+"computed partly from post-treatment data" understates the case: for the post
+window it is computed entirely from post-window tracks, so the mechanism the
+registration describes (advertising-induced activity inside the targeted
+municipality pulling borderline participants into it) applies in full. The
+presence-attributed tertiary outcome (item 1), registered as the robustness
+comparison for exactly this, therefore carries more weight for H2 than
+anticipated, and the H2 result will be reported with this caveat foregrounded.
+
+**2b. Extraction source.** The outcome files are the nightly cluster
+pipeline's `data/proc/participants_spain_{municipality,province}_aug_windows.csv`
+from the first run whose data reach 14 October 2026 (expected 16 October), with
+`mosquito_alert_raw_reports.Rds` from the same run. The analysis-of-record
+declaration in item 2 refers to that run; the late-upload sensitivity check is
+the same files from the run of 21 October or later. The presence-attributed
+extract is produced by the companion script
+`scripts/z1b_participants_spain_windows_presence.R` (added 15 October) from the
+same tracks file.
+
 **3. Code.** The primary analysis is `analyse_assignment.R` (frozen at tag
 `v1.0-preregistration`, with the HC3/singleton fix of 16 August). The
 pre-specified secondary and exploratory analyses are implemented in
@@ -56,5 +100,6 @@ pre-specified secondary and exploratory analyses are implemented in
 | 15 Oct | threshold rule declared; secondary-analysis code committed | this file, `04_results/` |
 | 15 Oct 15:57 | delivery-by-location report for the full flight pulled (840 rows, 42 per campaign; totals reconcile with the day-level file) | `data/google_ads/delivery_by_location_2026-08-17_to_2026-10-14.csv` (local) |
 | 15 Oct | minimum-delivery subset fixed from it: 447 municipalities (217 framed, 230 neutral) with >= 5 installs; committed before any outcome file was opened | `min_delivery_subset_2026.csv` |
-| | outcome extraction (analysis of record) | (to be filled in) |
+| 15 Oct | generator of the participant counts located in `mosquito_model_data_prep`; within-window modal rule found; erratum recorded (item 2a) | this file; prereg errata section |
+| | outcome extraction (analysis of record): cluster run of 16 Oct | (to be filled in) |
 | | primary analysis run | (to be filled in) |
