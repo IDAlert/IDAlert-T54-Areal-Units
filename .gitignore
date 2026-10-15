@@ -66,6 +66,13 @@ analysis/r/output/*
 !analysis/r/output/report_outcome_power_h2.csv
 !analysis/r/output/final_2026_power_console.log
 !analysis/r/output/zerosum_sensitivity.csv
+# 2026 results (analysis/r/04_results/)
+!analysis/r/output/min_delivery_subset_2026.csv
+!analysis/r/output/outcomes_2026.csv
+!analysis/r/output/outcomes_2026_checks.txt
+!analysis/r/output/secondary_results_2026.csv
+!analysis/r/output/secondary_results_2026_delivery_by_arm.csv
+!analysis/r/output/orientation_delivery_2026.csv
 !analysis/r/output/campaign_criteria_ids
 !analysis/r/output/campaign_criteria_ids/*
 

@@ -1,0 +1,950 @@
+"unit_name","arm","installs","in_subset"
+"Sevilla, Sevilla","framed",303,TRUE
+"Zaragoza, Zaragoza","framed",104,TRUE
+"Alicante, Alicante","framed",78,TRUE
+"Bilbao, Vizcaya","framed",141,TRUE
+"Vitoria-Gasteiz, Álava","framed",52,TRUE
+"Benidorm, Alicante","framed",15,TRUE
+"Córdoba, Córdoba","framed",61,TRUE
+"Elche, Alicante","framed",41,TRUE
+"Sabadell, Barcelona","framed",19,TRUE
+"Almería, Almería","framed",49,TRUE
+"Gijón, Asturias","framed",24,TRUE
+"Torrevieja, Alicante","framed",35,TRUE
+"Barakaldo, Vizcaya","framed",7,TRUE
+"Blanes, Girona","framed",6,TRUE
+"Girona, Girona","framed",18,TRUE
+"Moguer, Huelva","framed",6,TRUE
+"Algemesí, Valencia","framed",2,FALSE
+"Getafe, Madrid","framed",13,TRUE
+"L'Hospitalet de Llobregat, Barcelona","framed",27,TRUE
+"Santiago de Compostela, A Coruña","framed",15,TRUE
+"Vilanova i la Geltrú, Barcelona","framed",12,TRUE
+"Alcalá de Henares, Madrid","framed",15,TRUE
+"Badajoz, Badajoz","framed",25,TRUE
+"Burgos, Burgos","framed",22,TRUE
+"Lleida, Lleida","framed",32,TRUE
+"Orihuela, Alicante","framed",18,TRUE
+"Parla, Madrid","framed",15,TRUE
+"Pontevedra, Pontevedra","framed",18,TRUE
+"Aspe, Alicante","framed",2,FALSE
+"Cáceres, Cáceres","framed",15,TRUE
+"El Vendrell, Tarragona","framed",8,TRUE
+"Las Palmas de Gran Canaria, Las Palmas","framed",98,TRUE
+"Leganés, Madrid","framed",25,TRUE
+"Llanes, Asturias","framed",2,FALSE
+"Molina de Segura, Murcia","framed",16,TRUE
+"Montcada i Reixac, Barcelona","framed",16,TRUE
+"Puerto Real, Cádiz","framed",9,TRUE
+"Sagunto, Valencia","framed",0,FALSE
+"Sant Quirze del Vallès, Barcelona","framed",1,FALSE
+"Santa Coloma de Gramenet, Barcelona","framed",1,FALSE
+"Torrejón de Ardoz, Madrid","framed",18,TRUE
+"Vélez-Málaga, Málaga","framed",19,TRUE
+"Algeciras, Cádiz","framed",59,TRUE
+"Aranjuez, Madrid","framed",32,TRUE
+"Arganda del Rey, Madrid","framed",23,TRUE
+"Banyoles, Girona","framed",8,TRUE
+"Bétera, Valencia","framed",3,FALSE
+"Cambrils, Tarragona","framed",1,FALSE
+"Cardedeu, Barcelona","framed",3,FALSE
+"Castell-Platja d'Aro, Girona","framed",7,TRUE
+"Ciutadella de Menorca, Baleares","framed",8,TRUE
+"Cuenca, Cuenca","framed",11,TRUE
+"Dénia, Alicante","framed",0,FALSE
+"El Masnou, Barcelona","framed",1,FALSE
+"El Prat de Llobregat, Barcelona","framed",110,TRUE
+"Es Mercadal, Baleares","framed",5,TRUE
+"Estepona, Málaga","framed",1,FALSE
+"Ferrol, A Coruña","framed",41,TRUE
+"Langreo, Asturias","framed",7,TRUE
+"Linares, Jaén","framed",25,TRUE
+"Llagostera, Girona","framed",6,TRUE
+"Llíria, Valencia","framed",17,TRUE
+"Mairena del Aljarafe, Sevilla","framed",12,TRUE
+"Manacor, Baleares","framed",26,TRUE
+"Motril, Granada","framed",44,TRUE
+"Olot, Girona","framed",18,TRUE
+"Ourense, Ourense","framed",46,TRUE
+"Paterna, Valencia","framed",2,FALSE
+"Pinto, Madrid","framed",9,TRUE
+"Ponferrada, León","framed",16,TRUE
+"Rubí, Barcelona","framed",16,TRUE
+"San Fernando, Cádiz","framed",40,TRUE
+"San Juan de Aznalfarache, Sevilla","framed",2,FALSE
+"San Roque, Cádiz","framed",4,FALSE
+"Segovia, Segovia","framed",26,TRUE
+"Telde, Las Palmas","framed",39,TRUE
+"Teruel, Teruel","framed",9,TRUE
+"Xàtiva, Valencia","framed",0,FALSE
+"Arona, Santa Cruz de Tenerife","framed",0,FALSE
+"Lugo, Lugo","framed",31,TRUE
+"Mahón, Baleares","framed",12,TRUE
+"Redondela, Pontevedra","framed",9,TRUE
+"Roquetas de Mar, Almería","framed",88,TRUE
+"Villaviciosa, Asturias","framed",6,TRUE
+"Almonte, Huelva","framed",0,FALSE
+"Alpedrete, Madrid","framed",3,FALSE
+"Alzira, Valencia","framed",62,TRUE
+"Andoain, Guipúzcoa","framed",22,TRUE
+"Arenys de Mar, Barcelona","framed",16,TRUE
+"Arroyomolinos, Madrid","framed",10,TRUE
+"Benavente, Zamora","framed",8,TRUE
+"Cabra, Córdoba","framed",9,TRUE
+"Calahorra, La Rioja","framed",1,FALSE
+"Camas, Sevilla","framed",20,TRUE
+"Cambados, Pontevedra","framed",3,FALSE
+"Cangas del Narcea, Asturias","framed",4,FALSE
+"Caravaca de la Cruz, Murcia","framed",21,TRUE
+"Carcaixent, Valencia","framed",0,FALSE
+"Cassà de la Selva, Girona","framed",5,TRUE
+"Castalla, Alicante","framed",0,FALSE
+"Castellbisbal, Barcelona","framed",9,TRUE
+"Colmenar Viejo, Madrid","framed",11,TRUE
+"Culleredo, A Coruña","framed",1,FALSE
+"Durango, Vizcaya","framed",7,TRUE
+"Errenteria, Guipúzcoa","framed",13,TRUE
+"Esplugues de Llobregat, Barcelona","framed",99,TRUE
+"Jaén, Jaén","framed",114,TRUE
+"La Zubia, Granada","framed",19,TRUE
+"Llinars del Vallès, Barcelona","framed",8,TRUE
+"Martorell, Barcelona","framed",22,TRUE
+"Mollerussa, Lleida","framed",4,FALSE
+"Muro, Baleares","framed",7,TRUE
+"Palafrugell, Girona","framed",21,TRUE
+"Ponteareas, Pontevedra","framed",17,TRUE
+"San Bartolomé de Tirajana, Las Palmas","framed",40,TRUE
+"Sanlúcar de Barrameda, Cádiz","framed",2,FALSE
+"Sant Just Desvern, Barcelona","framed",1,FALSE
+"Sant Pere de Ribes, Barcelona","framed",18,TRUE
+"Santa Cruz de Bezana, Cantabria","framed",5,TRUE
+"Sanxenxo, Pontevedra","framed",11,TRUE
+"Tàrrega, Lleida","framed",0,FALSE
+"Torrelavega, Cantabria","framed",20,TRUE
+"Tortosa, Tarragona","framed",21,TRUE
+"Totana, Murcia","framed",1,FALSE
+"Vilafranca del Penedès, Barcelona","framed",45,TRUE
+"Zamora, Zamora","framed",25,TRUE
+"Ceutí, Murcia","framed",0,FALSE
+"Ciempozuelos, Madrid","framed",24,TRUE
+"Collado Villalba, Madrid","framed",36,TRUE
+"Cunit, Tarragona","framed",0,FALSE
+"Écija, Sevilla","framed",3,FALSE
+"Eibar, Guipúzcoa","framed",21,TRUE
+"El Rosario, Santa Cruz de Tenerife","framed",11,TRUE
+"Elgoibar, Guipúzcoa","framed",0,FALSE
+"Es Migjorn Gran, Baleares","framed",0,FALSE
+"L'Alcora, Castellón","framed",2,FALSE
+"La Pobla de Vallbona, Valencia","framed",0,FALSE
+"La Roda, Albacete","framed",6,TRUE
+"La Vall d'Uixó, Castellón","framed",23,TRUE
+"Laredo, Cantabria","framed",2,FALSE
+"Los Llanos de Aridane, Santa Cruz de Tenerife","framed",11,TRUE
+"Madridejos, Toledo","framed",5,TRUE
+"Manlleu, Barcelona","framed",18,TRUE
+"Melide, A Coruña","framed",4,FALSE
+"Montmeló, Barcelona","framed",1,FALSE
+"Montornès del Vallès, Barcelona","framed",16,TRUE
+"Morón de la Frontera, Sevilla","framed",1,FALSE
+"Navalmoral de la Mata, Cáceres","framed",0,FALSE
+"Onda, Castellón","framed",0,FALSE
+"Peligros, Granada","framed",7,TRUE
+"Peñíscola, Castellón","framed",12,TRUE
+"Perafort, Tarragona","framed",6,TRUE
+"Priego de Córdoba, Córdoba","framed",0,FALSE
+"Ribeira, A Coruña","framed",10,TRUE
+"Riells i Viabrea, Girona","framed",9,TRUE
+"Rincón de la Victoria, Málaga","framed",34,TRUE
+"Ronda, Málaga","framed",17,TRUE
+"Salamanca, Salamanca","framed",129,TRUE
+"Sanlúcar la Mayor, Sevilla","framed",0,FALSE
+"Sant Boi de Llobregat, Barcelona","framed",55,TRUE
+"Sant Vicenç dels Horts, Barcelona","framed",26,TRUE
+"Santa Cruz de la Palma, Santa Cruz de Tenerife","framed",12,TRUE
+"Santa Margalida, Baleares","framed",6,TRUE
+"Sarria, Lugo","framed",7,TRUE
+"Vic, Barcelona","framed",33,TRUE
+"Vilagarcía de Arousa, Pontevedra","framed",7,TRUE
+"Villa del Río, Córdoba","framed",8,TRUE
+"Villalbilla, Madrid","framed",38,TRUE
+"A Estrada, Pontevedra","framed",6,TRUE
+"A Pobra do Caramiñal, A Coruña","framed",13,TRUE
+"A Veiga, Ourense","framed",0,FALSE
+"Adra, Almería","framed",1,FALSE
+"Aguadulce, Sevilla","framed",0,FALSE
+"Águilas, Murcia","framed",26,TRUE
+"Agullent, Valencia","framed",0,FALSE
+"Albinyana, Tarragona","framed",0,FALSE
+"Alburquerque, Badajoz","framed",0,FALSE
+"Alcalá del Río, Sevilla","framed",10,TRUE
+"Alcañiz, Teruel","framed",0,FALSE
+"Alcàsser, Valencia","framed",12,TRUE
+"Alcover, Tarragona","framed",5,TRUE
+"Alcúdia, Baleares","framed",21,TRUE
+"Alfaro, La Rioja","framed",0,FALSE
+"Alginet, Valencia","framed",0,FALSE
+"Alhama de Murcia, Murcia","framed",22,TRUE
+"Alhendín, Granada","framed",3,FALSE
+"Aliaga, Teruel","framed",0,FALSE
+"Aller, Asturias","framed",1,FALSE
+"Alpicat, Lleida","framed",1,FALSE
+"Altea, Alicante","framed",0,FALSE
+"Ames, A Coruña","framed",27,TRUE
+"Amposta, Tarragona","framed",31,TRUE
+"Aranda de Duero, Burgos","framed",28,TRUE
+"Atarfe, Granada","framed",0,FALSE
+"Binissalem, Baleares","framed",5,TRUE
+"Chipiona, Cádiz","framed",38,TRUE
+"Churriana de la Vega, Granada","framed",20,TRUE
+"Erandio, Vizcaya","framed",13,TRUE
+"Hernani, Guipúzcoa","framed",17,TRUE
+"La Garriga, Barcelona","framed",11,TRUE
+"Mojácar, Almería","framed",10,TRUE
+"Monzón, Huesca","framed",1,FALSE
+"Olivella, Barcelona","framed",5,TRUE
+"Padul, Granada","framed",14,TRUE
+"Sant Joan d'Alacant, Alicante","framed",19,TRUE
+"Son Servera, Baleares","framed",9,TRUE
+"Soto del Barco, Asturias","framed",2,FALSE
+"Tarifa, Cádiz","framed",23,TRUE
+"Tías, Las Palmas","framed",4,FALSE
+"Valls, Tarragona","framed",16,TRUE
+"Andújar, Jaén","framed",11,TRUE
+"Arahal, Sevilla","framed",0,FALSE
+"Arenas de Iguña, Cantabria","framed",1,FALSE
+"Arévalo, Ávila","framed",3,FALSE
+"Arnedo, La Rioja","framed",0,FALSE
+"Arrecife, Las Palmas","framed",61,TRUE
+"Artés, Barcelona","framed",7,TRUE
+"As Neves, Pontevedra","framed",1,FALSE
+"Avià, Barcelona","framed",0,FALSE
+"Azkoitia, Guipúzcoa","framed",5,TRUE
+"Baeza, Jaén","framed",0,FALSE
+"Balsa de Ves, Albacete","framed",0,FALSE
+"Banyalbufar, Baleares","framed",0,FALSE
+"Barbastro, Huesca","framed",0,FALSE
+"Barbate, Cádiz","framed",0,FALSE
+"Begues, Barcelona","framed",8,TRUE
+"Béjar, Salamanca","framed",4,FALSE
+"Benaguasil, Valencia","framed",0,FALSE
+"Benamaurel, Granada","framed",0,FALSE
+"Beniparrell, Valencia","framed",0,FALSE
+"Besalú, Girona","framed",1,FALSE
+"Bimenes, Asturias","framed",0,FALSE
+"Binéfar, Huesca","framed",9,TRUE
+"Boiro, A Coruña","framed",15,TRUE
+"Búger, Baleares","framed",2,FALSE
+"Buitrago del Lozoya, Madrid","framed",1,FALSE
+"Bullas, Murcia","framed",0,FALSE
+"Burela, Lugo","framed",0,FALSE
+"Cádiz, Cádiz","framed",108,TRUE
+"Calasparra, Murcia","framed",0,FALSE
+"Camarma de Esteruelas, Madrid","framed",4,FALSE
+"Campanet, Baleares","framed",0,FALSE
+"Campos, Baleares","framed",7,TRUE
+"Canals, Valencia","framed",0,FALSE
+"Caniles, Granada","framed",2,FALSE
+"Cantillana, Sevilla","framed",8,TRUE
+"Casariche, Sevilla","framed",0,FALSE
+"Casasimarro, Cuenca","framed",0,FALSE
+"Catral, Alicante","framed",1,FALSE
+"Cehegín, Murcia","framed",0,FALSE
+"Cercedilla, Madrid","framed",1,FALSE
+"Chandrexa de Queixa, Ourense","framed",0,FALSE
+"Chauchina, Granada","framed",9,TRUE
+"Cieza, Murcia","framed",4,FALSE
+"Ciudad Rodrigo, Salamanca","framed",1,FALSE
+"Comillas, Cantabria","framed",2,FALSE
+"Cortes y Graena, Granada","framed",0,FALSE
+"Coslada, Madrid","framed",140,TRUE
+"Costitx, Baleares","framed",0,FALSE
+"Cúllar, Granada","framed",3,FALSE
+"Cuntis, Pontevedra","framed",4,FALSE
+"Curtis, A Coruña","framed",0,FALSE
+"Derio, Vizcaya","framed",1,FALSE
+"Dúrcal, Granada","framed",0,FALSE
+"El Astillero, Cantabria","framed",4,FALSE
+"El Cuervo de Sevilla, Sevilla","framed",0,FALSE
+"El Viso del Alcor, Sevilla","framed",19,TRUE
+"El Viso, Córdoba","framed",1,FALSE
+"Escorca, Baleares","framed",0,FALSE
+"Esporles, Baleares","framed",1,FALSE
+"Estepa, Sevilla","framed",2,FALSE
+"Fene, A Coruña","framed",6,TRUE
+"Flix, Tarragona","framed",0,FALSE
+"Foios, Valencia","framed",7,TRUE
+"Folgoso do Courel, Lugo","framed",0,FALSE
+"Fornalutx, Baleares","framed",0,FALSE
+"Gelves, Sevilla","framed",8,TRUE
+"Gerena, Sevilla","framed",12,TRUE
+"Gójar, Granada","framed",9,TRUE
+"Gozón, Asturias","framed",7,TRUE
+"Griñón, Madrid","framed",2,FALSE
+"Guadarrama, Madrid","framed",4,FALSE
+"Gurb, Barcelona","framed",2,FALSE
+"Hellín, Albacete","framed",33,TRUE
+"Horcajo de Santiago, Cuenca","framed",2,FALSE
+"Huércal-Overa, Almería","framed",16,TRUE
+"Huéscar, Granada","framed",11,TRUE
+"Ibi, Alicante","framed",0,FALSE
+"Inca, Baleares","framed",16,TRUE
+"Íscar, Valladolid","framed",4,FALSE
+"L'Alcúdia, Valencia","framed",0,FALSE
+"L'Ametlla del Vallès, Barcelona","framed",10,TRUE
+"L'Olleria, Valencia","framed",12,TRUE
+"La Carolina, Jaén","framed",0,FALSE
+"La Línea de la Concepción, Cádiz","framed",60,TRUE
+"La Nou de Gaià, Tarragona","framed",0,FALSE
+"La Palma d'Ebre, Tarragona","framed",0,FALSE
+"La Palma del Condado, Huelva","framed",0,FALSE
+"La Pobla de Farnals, Valencia","framed",10,TRUE
+"La Pobla de Mafumet, Tarragona","framed",6,TRUE
+"La Unión, Murcia","framed",3,FALSE
+"Láncara, Lugo","framed",1,FALSE
+"Las Gabias, Granada","framed",35,TRUE
+"Las Peñas de Riglos, Huesca","framed",0,FALSE
+"Lena, Asturias","framed",2,FALSE
+"Les Borges del Camp, Tarragona","framed",3,FALSE
+"Lloret de Vistalegre, Baleares","framed",0,FALSE
+"Lloseta, Baleares","framed",1,FALSE
+"Loja, Granada","framed",0,FALSE
+"Lora del Río, Sevilla","framed",0,FALSE
+"Los Altos, Burgos","framed",0,FALSE
+"Lucena, Córdoba","framed",35,TRUE
+"Mairena del Alcor, Sevilla","framed",0,FALSE
+"Mancha Real, Jaén","framed",0,FALSE
+"Marchamalo, Guadalajara","framed",1,FALSE
+"Marchena, Sevilla","framed",0,FALSE
+"Maruri-Jatabe, Vizcaya","framed",1,FALSE
+"Masquefa, Barcelona","framed",0,FALSE
+"Matadepera, Barcelona","framed",0,FALSE
+"Mazaricos, A Coruña","framed",5,TRUE
+"Medina de Pomar, Burgos","framed",1,FALSE
+"Mengíbar, Jaén","framed",5,TRUE
+"Miño, A Coruña","framed",3,FALSE
+"Miraflores de la Sierra, Madrid","framed",4,FALSE
+"Mocejón, Toledo","framed",4,FALSE
+"Mont-ral, Tarragona","framed",0,FALSE
+"Mont-ras, Girona","framed",0,FALSE
+"Montbrió del Camp, Tarragona","framed",2,FALSE
+"Montferri, Tarragona","framed",0,FALSE
+"Montilla, Córdoba","framed",2,FALSE
+"Morcín, Asturias","framed",0,FALSE
+"Muras, Lugo","framed",0,FALSE
+"Nerja, Málaga","framed",49,TRUE
+"Níjar, Almería","framed",40,TRUE
+"Noia, A Coruña","framed",12,TRUE
+"Noja, Cantabria","framed",6,TRUE
+"Olivares, Sevilla","framed",5,TRUE
+"Olocau, Valencia","framed",3,FALSE
+"Ondara, Alicante","framed",13,TRUE
+"Ontinyent, Valencia","framed",31,TRUE
+"Ordes, A Coruña","framed",13,TRUE
+"Outeiro de Rei, Lugo","framed",0,FALSE
+"Paderne de Allariz, Ourense","framed",2,FALSE
+"Palma del Río, Córdoba","framed",0,FALSE
+"Peñarroya-Pueblonuevo, Córdoba","framed",1,FALSE
+"Pilas, Sevilla","framed",2,FALSE
+"Pinofranqueado, Cáceres","framed",1,FALSE
+"Pioz, Guadalajara","framed",12,TRUE
+"Plasencia, Cáceres","framed",6,TRUE
+"Pollença, Baleares","framed",9,TRUE
+"Posadas, Córdoba","framed",7,TRUE
+"Pozoblanco, Córdoba","framed",14,TRUE
+"Puertollano, Ciudad Real","framed",18,TRUE
+"Puigpunyent, Baleares","framed",0,FALSE
+"Quijorna, Madrid","framed",2,FALSE
+"Quiroga, Lugo","framed",3,FALSE
+"Quirós, Asturias","framed",1,FALSE
+"Ramirás, Ourense","framed",0,FALSE
+"Retortillo de Soria, Soria","framed",0,FALSE
+"Ribera d'Urgellet, Lleida","framed",2,FALSE
+"Riós, Ourense","framed",1,FALSE
+"Ripollet, Barcelona","framed",1,FALSE
+"Riudellots de la Selva, Girona","framed",3,FALSE
+"Salvaterra de Miño, Pontevedra","framed",10,TRUE
+"San Cibrao das Viñas, Ourense","framed",3,FALSE
+"San Fulgencio, Alicante","framed",3,FALSE
+"San Pascual, Ávila","framed",0,FALSE
+"San Sadurniño, A Coruña","framed",2,FALSE
+"Sant Andreu de la Barca, Barcelona","framed",17,TRUE
+"Sant Cebrià de Vallalta, Barcelona","framed",4,FALSE
+"Sant Joan Despí, Barcelona","framed",1,FALSE
+"Sant Martí de Tous, Barcelona","framed",1,FALSE
+"Sant Pol de Mar, Barcelona","framed",5,TRUE
+"Santa Coloma de Farners, Girona","framed",6,TRUE
+"Santa Comba, A Coruña","framed",4,FALSE
+"Santa Eulàlia de Ronçana, Barcelona","framed",8,TRUE
+"Santiponce, Sevilla","framed",5,TRUE
+"Santoña, Cantabria","framed",0,FALSE
+"Santpedor, Barcelona","framed",4,FALSE
+"Sayalonga, Málaga","framed",0,FALSE
+"Serón, Almería","framed",1,FALSE
+"Sestao, Vizcaya","framed",25,TRUE
+"Silleda, Pontevedra","framed",5,TRUE
+"Simancas, Valladolid","framed",3,FALSE
+"Sineu, Baleares","framed",0,FALSE
+"Sotalbo, Ávila","framed",0,FALSE
+"Súria, Barcelona","framed",7,TRUE
+"Taboada, Lugo","framed",2,FALSE
+"Tarancón, Cuenca","framed",16,TRUE
+"Teià, Barcelona","framed",8,TRUE
+"Tocina, Sevilla","framed",9,TRUE
+"Tolosa, Guipúzcoa","framed",0,FALSE
+"Tomelloso, Ciudad Real","framed",28,TRUE
+"Tordoia, A Coruña","framed",0,FALSE
+"Torre-Pacheco, Murcia","framed",44,TRUE
+"Torrejón de la Calzada, Madrid","framed",5,TRUE
+"Torrelodones, Madrid","framed",4,FALSE
+"Torres de la Alameda, Madrid","framed",7,TRUE
+"Tudela de Duero, Valladolid","framed",12,TRUE
+"Umbrete, Sevilla","framed",14,TRUE
+"Val do Dubra, A Coruña","framed",1,FALSE
+"Valdáliga, Cantabria","framed",3,FALSE
+"Valdepeñas, Ciudad Real","framed",20,TRUE
+"Valderredible, Cantabria","framed",0,FALSE
+"Valldemossa, Baleares","framed",1,FALSE
+"Valle de Mena, Burgos","framed",3,FALSE
+"Vallmoll, Tarragona","framed",1,FALSE
+"Vélez-Blanco, Almería","framed",2,FALSE
+"Verín, Ourense","framed",7,TRUE
+"Vilalba, Lugo","framed",5,TRUE
+"Vilallonga de Ter, Girona","framed",1,FALSE
+"Vilanova de Arousa, Pontevedra","framed",10,TRUE
+"Villamanta, Madrid","framed",2,FALSE
+"Villamayor, Salamanca","framed",0,FALSE
+"Villanueva de Gállego, Zaragoza","framed",2,FALSE
+"Villanueva de la Torre, Guadalajara","framed",5,TRUE
+"Villarrobledo, Albacete","framed",0,FALSE
+"Villarta-Quintana, La Rioja","framed",0,FALSE
+"Villayón, Asturias","framed",0,FALSE
+"Xove, Lugo","framed",6,TRUE
+"Vigo, Pontevedra","neutral",220,TRUE
+"Málaga, Málaga","neutral",193,TRUE
+"Murcia, Murcia","neutral",52,TRUE
+"Terrassa, Barcelona","neutral",42,TRUE
+"Badalona, Barcelona","neutral",29,TRUE
+"Cartagena, Murcia","neutral",41,TRUE
+"Palma de Mallorca, Baleares","neutral",100,TRUE
+"Santander, Cantabria","neutral",32,TRUE
+"A Coruña, A Coruña","neutral",35,TRUE
+"Albacete, Albacete","neutral",50,TRUE
+"Alcalá de Guadaíra, Sevilla","neutral",9,TRUE
+"Oviedo, Asturias","neutral",20,TRUE
+"Rivas-Vaciamadrid, Madrid","neutral",14,TRUE
+"Reus, Tarragona","neutral",18,TRUE
+"Sant Cugat del Vallès, Barcelona","neutral",8,TRUE
+"Chiclana de la Frontera, Cádiz","neutral",20,TRUE
+"Fuenlabrada, Madrid","neutral",20,TRUE
+"Granada, Granada","neutral",62,TRUE
+"Jerez de la Frontera, Cádiz","neutral",50,TRUE
+"Las Rozas de Madrid, Madrid","neutral",6,TRUE
+"Torrent, Valencia","neutral",15,TRUE
+"Alboraya, Valencia","neutral",0,FALSE
+"Cornellà de Llobregat, Barcelona","neutral",14,TRUE
+"El Puerto de Santa María, Cádiz","neutral",21,TRUE
+"Guadalajara, Guadalajara","neutral",19,TRUE
+"Irun, Guipúzcoa","neutral",11,TRUE
+"Logroño, La Rioja","neutral",24,TRUE
+"Marbella, Málaga","neutral",47,TRUE
+"Valladolid, Valladolid","neutral",87,TRUE
+"Viladecans, Barcelona","neutral",10,TRUE
+"Alcobendas, Madrid","neutral",11,TRUE
+"Alcorcón, Madrid","neutral",13,TRUE
+"Cerdanyola del Vallès, Barcelona","neutral",7,TRUE
+"Cullera, Valencia","neutral",0,FALSE
+"Espartinas, Sevilla","neutral",0,FALSE
+"Gandia, Valencia","neutral",22,TRUE
+"Oropesa del Mar, Castellón","neutral",0,FALSE
+"San Sebastián de los Reyes, Madrid","neutral",5,TRUE
+"Santa Pola, Alicante","neutral",1,FALSE
+"Torremolinos, Málaga","neutral",11,TRUE
+"Torroella de Montgrí, Girona","neutral",2,FALSE
+"Utrera, Sevilla","neutral",9,TRUE
+"Adeje, Santa Cruz de Tenerife","neutral",0,FALSE
+"Almansa, Albacete","neutral",16,TRUE
+"Almuñécar, Granada","neutral",12,TRUE
+"Benissa, Alicante","neutral",4,FALSE
+"Caldes de Montbui, Barcelona","neutral",5,TRUE
+"Cartaya, Huelva","neutral",2,FALSE
+"Catarroja, Valencia","neutral",4,FALSE
+"Ceuta, Ceuta","neutral",46,TRUE
+"Crevillent, Alicante","neutral",26,TRUE
+"Don Benito, Badajoz","neutral",17,TRUE
+"Dos Hermanas, Sevilla","neutral",37,TRUE
+"Figueres, Girona","neutral",39,TRUE
+"Getxo, Vizcaya","neutral",13,TRUE
+"Granadilla de Abona, Santa Cruz de Tenerife","neutral",30,TRUE
+"Huesca, Huesca","neutral",26,TRUE
+"L'Eliana, Valencia","neutral",7,TRUE
+"Lorca, Murcia","neutral",41,TRUE
+"Malgrat de Mar, Barcelona","neutral",7,TRUE
+"Manresa, Barcelona","neutral",28,TRUE
+"Marratxí, Baleares","neutral",8,TRUE
+"Miranda de Ebro, Burgos","neutral",14,TRUE
+"Oliva, Valencia","neutral",3,FALSE
+"Puerto del Rosario, Las Palmas","neutral",12,TRUE
+"Rota, Cádiz","neutral",17,TRUE
+"Sada, A Coruña","neutral",2,FALSE
+"Salou, Tarragona","neutral",34,TRUE
+"San Cristóbal de La Laguna, Santa Cruz de Tenerife","neutral",62,TRUE
+"San Javier, Murcia","neutral",11,TRUE
+"Siero, Asturias","neutral",35,TRUE
+"Sueca, Valencia","neutral",20,TRUE
+"Valdemoro, Madrid","neutral",27,TRUE
+"Velilla de San Antonio, Madrid","neutral",3,FALSE
+"Vera, Almería","neutral",0,FALSE
+"Villaviciosa de Odón, Madrid","neutral",7,TRUE
+"Vinaròs, Castellón","neutral",16,TRUE
+"Basauri, Vizcaya","neutral",0,FALSE
+"Boadilla del Monte, Madrid","neutral",11,TRUE
+"Castelldefels, Barcelona","neutral",1,FALSE
+"Cervelló, Barcelona","neutral",2,FALSE
+"Galdakao, Vizcaya","neutral",9,TRUE
+"Gavà, Barcelona","neutral",12,TRUE
+"Mollet del Vallès, Barcelona","neutral",24,TRUE
+"Alaior, Baleares","neutral",0,FALSE
+"Alfafar, Valencia","neutral",0,FALSE
+"Almoradí, Alicante","neutral",3,FALSE
+"Antequera, Málaga","neutral",49,TRUE
+"Ávila, Ávila","neutral",43,TRUE
+"Azuqueca de Henares, Guadalajara","neutral",27,TRUE
+"Balenyà, Barcelona","neutral",8,TRUE
+"Barberà del Vallès, Barcelona","neutral",34,TRUE
+"Benicarló, Castellón","neutral",25,TRUE
+"Berga, Barcelona","neutral",0,FALSE
+"Bunyola, Baleares","neutral",0,FALSE
+"Burjassot, Valencia","neutral",26,TRUE
+"Cabrera de Mar, Barcelona","neutral",5,TRUE
+"Camargo, Cantabria","neutral",22,TRUE
+"Canet d'En Berenguer, Valencia","neutral",5,TRUE
+"Capdepera, Baleares","neutral",7,TRUE
+"Carmona, Sevilla","neutral",23,TRUE
+"Castellar del Vallès, Barcelona","neutral",20,TRUE
+"Castro-Urdiales, Cantabria","neutral",21,TRUE
+"Constantí, Tarragona","neutral",0,FALSE
+"Creixell, Tarragona","neutral",4,FALSE
+"El Ejido, Almería","neutral",81,TRUE
+"Esparreguera, Barcelona","neutral",7,TRUE
+"Fuengirola, Málaga","neutral",80,TRUE
+"Illescas, Toledo","neutral",30,TRUE
+"Los Barrios, Cádiz","neutral",2,FALSE
+"Majadahonda, Madrid","neutral",26,TRUE
+"Manises, Valencia","neutral",20,TRUE
+"Novelda, Alicante","neutral",1,FALSE
+"Petrer, Alicante","neutral",18,TRUE
+"Pilar de la Horadada, Alicante","neutral",38,TRUE
+"Portugalete, Vizcaya","neutral",26,TRUE
+"Puçol, Valencia","neutral",14,TRUE
+"Sant Llorenç d'Hortons, Barcelona","neutral",1,FALSE
+"Sant Sadurní d'Anoia, Barcelona","neutral",12,TRUE
+"Santanyí, Baleares","neutral",10,TRUE
+"Soria, Soria","neutral",23,TRUE
+"Talavera de la Reina, Toledo","neutral",72,TRUE
+"Vallirana, Barcelona","neutral",7,TRUE
+"Vila-seca, Tarragona","neutral",19,TRUE
+"Villena, Alicante","neutral",0,FALSE
+"Zarautz, Guipúzcoa","neutral",16,TRUE
+"Celrà, Girona","neutral",10,TRUE
+"Ciudad Real, Ciudad Real","neutral",56,TRUE
+"Cocentaina, Alicante","neutral",23,TRUE
+"Coín, Málaga","neutral",1,FALSE
+"Colmenarejo, Madrid","neutral",0,FALSE
+"Deltebre, Tarragona","neutral",4,FALSE
+"Elda, Alicante","neutral",31,TRUE
+"Felanitx, Baleares","neutral",10,TRUE
+"Guardamar del Segura, Alicante","neutral",0,FALSE
+"Jaca, Huesca","neutral",0,FALSE
+"La Rinconada, Sevilla","neutral",0,FALSE
+"Lebrija, Sevilla","neutral",3,FALSE
+"Les Franqueses del Vallès, Barcelona","neutral",20,TRUE
+"Llançà, Girona","neutral",7,TRUE
+"Llucmajor, Baleares","neutral",30,TRUE
+"Los Palacios y Villafranca, Sevilla","neutral",27,TRUE
+"Manzanares el Real, Madrid","neutral",6,TRUE
+"Manzanares, Ciudad Real","neutral",8,TRUE
+"Molins de Rei, Barcelona","neutral",3,FALSE
+"Moncada, Valencia","neutral",1,FALSE
+"Mutxamel, Alicante","neutral",6,TRUE
+"Navia, Asturias","neutral",3,FALSE
+"O Grove, Pontevedra","neutral",4,FALSE
+"O Porriño, Pontevedra","neutral",19,TRUE
+"Oleiros, A Coruña","neutral",25,TRUE
+"Picassent, Valencia","neutral",2,FALSE
+"Pozuelo de Alarcón, Madrid","neutral",128,TRUE
+"Premià de Dalt, Barcelona","neutral",20,TRUE
+"Punta Umbría, Huelva","neutral",1,FALSE
+"Ribadesella, Asturias","neutral",5,TRUE
+"Riudoms, Tarragona","neutral",4,FALSE
+"San Lorenzo de El Escorial, Madrid","neutral",5,TRUE
+"San Martín de la Vega, Madrid","neutral",14,TRUE
+"Sant Vicenç de Montalt, Barcelona","neutral",2,FALSE
+"Santa Susanna, Barcelona","neutral",6,TRUE
+"Sóller, Baleares","neutral",8,TRUE
+"Toledo, Toledo","neutral",156,TRUE
+"Tossa de Mar, Girona","neutral",6,TRUE
+"Tres Cantos, Madrid","neutral",18,TRUE
+"Utebo, Zaragoza","neutral",1,FALSE
+"Villanueva del Pardillo, Madrid","neutral",11,TRUE
+"Vinyols i els Arcs, Tarragona","neutral",2,FALSE
+"A Fonsagrada, Lugo","neutral",1,FALSE
+"A Lama, Pontevedra","neutral",2,FALSE
+"A Laracha, A Coruña","neutral",5,TRUE
+"Aguilar de la Frontera, Córdoba","neutral",5,TRUE
+"Ajalvir, Madrid","neutral",1,FALSE
+"Alaquàs, Valencia","neutral",15,TRUE
+"Alaró, Baleares","neutral",4,FALSE
+"Albalat dels Sorells, Valencia","neutral",1,FALSE
+"Albatera, Alicante","neutral",1,FALSE
+"Alcalá la Real, Jaén","neutral",0,FALSE
+"Alcantarilla, Murcia","neutral",15,TRUE
+"Alcázar de San Juan, Ciudad Real","neutral",21,TRUE
+"Alcolea del Pinar, Guadalajara","neutral",1,FALSE
+"Aldaia, Valencia","neutral",32,TRUE
+"Algaida, Baleares","neutral",10,TRUE
+"Algete, Madrid","neutral",2,FALSE
+"Alhaurín el Grande, Málaga","neutral",0,FALSE
+"Alió, Tarragona","neutral",0,FALSE
+"Almagro, Ciudad Real","neutral",7,TRUE
+"Almendralejo, Badajoz","neutral",17,TRUE
+"Almonaster la Real, Huelva","neutral",7,TRUE
+"Altafulla, Tarragona","neutral",8,TRUE
+"Amorebieta-Etxano, Vizcaya","neutral",15,TRUE
+"Amurrio, Álava","neutral",1,FALSE
+"Andratx, Baleares","neutral",4,FALSE
+"Anglès, Girona","neutral",1,FALSE
+"Bormujos, Sevilla","neutral",18,TRUE
+"Calella, Barcelona","neutral",15,TRUE
+"Corbera de Llobregat, Barcelona","neutral",10,TRUE
+"Cuarte de Huerva, Zaragoza","neutral",8,TRUE
+"La Roca del Vallès, Barcelona","neutral",24,TRUE
+"Lliçà de Vall, Barcelona","neutral",17,TRUE
+"Los Alcázares, Murcia","neutral",8,TRUE
+"Mejorada del Campo, Madrid","neutral",18,TRUE
+"Palamós, Girona","neutral",20,TRUE
+"Pinoso, Alicante","neutral",4,FALSE
+"Requena, Valencia","neutral",0,FALSE
+"Roses, Girona","neutral",22,TRUE
+"Sant Antoni de Portmany, Baleares","neutral",21,TRUE
+"Sant Joan de Labritja, Baleares","neutral",2,FALSE
+"Sitges, Barcelona","neutral",19,TRUE
+"Tui, Pontevedra","neutral",15,TRUE
+"Arboleas, Almería","neutral",0,FALSE
+"Archena, Murcia","neutral",0,FALSE
+"Ariany, Baleares","neutral",0,FALSE
+"Armilla, Granada","neutral",19,TRUE
+"Arratzu, Vizcaya","neutral",0,FALSE
+"Arroyo de la Encomienda, Valladolid","neutral",15,TRUE
+"Arteixo, A Coruña","neutral",15,TRUE
+"As Pontes de García Rodríguez, A Coruña","neutral",7,TRUE
+"As Somozas, A Coruña","neutral",0,FALSE
+"Astorga, León","neutral",2,FALSE
+"Baena, Córdoba","neutral",0,FALSE
+"Bailén, Jaén","neutral",18,TRUE
+"Baiona, Pontevedra","neutral",6,TRUE
+"Balaguer, Lleida","neutral",11,TRUE
+"Bárcena de Cicero, Cantabria","neutral",7,TRUE
+"Baza, Granada","neutral",14,TRUE
+"Beasain, Guipúzcoa","neutral",0,FALSE
+"Belmonte de Miranda, Asturias","neutral",0,FALSE
+"Benalup-Casas Viejas, Cádiz","neutral",9,TRUE
+"Bergara, Guipúzcoa","neutral",13,TRUE
+"Bermeo, Vizcaya","neutral",1,FALSE
+"Betanzos, A Coruña","neutral",18,TRUE
+"Bollullos Par del Condado, Huelva","neutral",0,FALSE
+"Bràfim, Tarragona","neutral",0,FALSE
+"Brenes, Sevilla","neutral",0,FALSE
+"Brunete, Madrid","neutral",8,TRUE
+"Burguillos del Cerro, Badajoz","neutral",0,FALSE
+"Busot, Alicante","neutral",0,FALSE
+"Cabana de Bergantiños, A Coruña","neutral",1,FALSE
+"Cabrils, Barcelona","neutral",9,TRUE
+"Camaleño, Cantabria","neutral",0,FALSE
+"Cambre, A Coruña","neutral",2,FALSE
+"Campoo de Yuso, Cantabria","neutral",0,FALSE
+"Canet de Mar, Barcelona","neutral",5,TRUE
+"Cangas de Onís, Asturias","neutral",8,TRUE
+"Canyelles, Barcelona","neutral",7,TRUE
+"Carballedo, Lugo","neutral",1,FALSE
+"Cartelle, Ourense","neutral",0,FALSE
+"Castroverde, Lugo","neutral",0,FALSE
+"Caudete, Albacete","neutral",3,FALSE
+"Cazorla, Jaén","neutral",0,FALSE
+"Cebanico, León","neutral",0,FALSE
+"Chantada, Lugo","neutral",1,FALSE
+"Colindres, Cantabria","neutral",0,FALSE
+"Consell, Baleares","neutral",5,TRUE
+"Constantina, Sevilla","neutral",0,FALSE
+"Cortes de Baza, Granada","neutral",0,FALSE
+"Cox, Alicante","neutral",2,FALSE
+"Cubelles, Barcelona","neutral",23,TRUE
+"Cuéllar, Segovia","neutral",3,FALSE
+"Daimús, Valencia","neutral",5,TRUE
+"Dolores, Alicante","neutral",1,FALSE
+"Eivissa, Baleares","neutral",21,TRUE
+"El Álamo, Madrid","neutral",7,TRUE
+"El Catllar, Tarragona","neutral",0,FALSE
+"El Franco, Asturias","neutral",2,FALSE
+"El Milà, Tarragona","neutral",0,FALSE
+"El Toro, Castellón","neutral",0,FALSE
+"Es Castell, Baleares","neutral",3,FALSE
+"Eskoriatza, Guipúzcoa","neutral",0,FALSE
+"Estellencs, Baleares","neutral",0,FALSE
+"Ferreries, Baleares","neutral",0,FALSE
+"Fiscal, Huesca","neutral",1,FALSE
+"Fisterra, A Coruña","neutral",16,TRUE
+"Friol, Lugo","neutral",1,FALSE
+"Fuente Vaqueros, Granada","neutral",11,TRUE
+"Galapagar, Madrid","neutral",20,TRUE
+"Gibraleón, Huelva","neutral",66,TRUE
+"Gironella, Barcelona","neutral",3,FALSE
+"Gor, Granada","neutral",0,FALSE
+"Grado, Asturias","neutral",9,TRUE
+"Gualchos, Granada","neutral",1,FALSE
+"Guissona, Lleida","neutral",0,FALSE
+"Herrera, Sevilla","neutral",2,FALSE
+"Huelva, Huelva","neutral",107,TRUE
+"Huétor Tájar, Granada","neutral",7,TRUE
+"Icod de los Vinos, Santa Cruz de Tenerife","neutral",16,TRUE
+"Igualada, Barcelona","neutral",51,TRUE
+"Jódar, Jaén","neutral",0,FALSE
+"Jumilla, Murcia","neutral",2,FALSE
+"L'Aleixar, Tarragona","neutral",2,FALSE
+"L'Escala, Girona","neutral",10,TRUE
+"La Algaba, Sevilla","neutral",0,FALSE
+"La Bañeza, León","neutral",3,FALSE
+"La Matanza de Acentejo, Santa Cruz de Tenerife","neutral",10,TRUE
+"La Orotava, Santa Cruz de Tenerife","neutral",25,TRUE
+"La Pobla Llarga, Valencia","neutral",1,FALSE
+"La Puebla de Cazalla, Sevilla","neutral",0,FALSE
+"La Rambla, Córdoba","neutral",0,FALSE
+"La Riba, Tarragona","neutral",0,FALSE
+"La Selva del Camp, Tarragona","neutral",7,TRUE
+"La Solana, Ciudad Real","neutral",0,FALSE
+"Las Torres de Cotillas, Murcia","neutral",18,TRUE
+"Laspaúles, Huesca","neutral",0,FALSE
+"Leioa, Vizcaya","neutral",34,TRUE
+"Lepe, Huelva","neutral",22,TRUE
+"Lezo, Guipúzcoa","neutral",5,TRUE
+"Llubí, Baleares","neutral",5,TRUE
+"Los Corrales de Buelna, Cantabria","neutral",0,FALSE
+"Los Montesinos, Alicante","neutral",2,FALSE
+"Los Realejos, Santa Cruz de Tenerife","neutral",16,TRUE
+"Macael, Almería","neutral",1,FALSE
+"Mancor de la Vall, Baleares","neutral",0,FALSE
+"Manilva, Málaga","neutral",23,TRUE
+"Maria de la Salut, Baleares","neutral",1,FALSE
+"Martos, Jaén","neutral",0,FALSE
+"Massamagrell, Valencia","neutral",0,FALSE
+"Massanassa, Valencia","neutral",5,TRUE
+"Mazarrón, Murcia","neutral",38,TRUE
+"Meco, Madrid","neutral",8,TRUE
+"Medina del Campo, Valladolid","neutral",13,TRUE
+"Meira, Lugo","neutral",0,FALSE
+"Meis, Pontevedra","neutral",3,FALSE
+"Miguelturra, Ciudad Real","neutral",0,FALSE
+"Mislata, Valencia","neutral",0,FALSE
+"Mogán, Las Palmas","neutral",23,TRUE
+"Mollina, Málaga","neutral",6,TRUE
+"Montblanc, Tarragona","neutral",2,FALSE
+"Monterroso, Lugo","neutral",1,FALSE
+"Montuïri, Baleares","neutral",2,FALSE
+"Morata de Tajuña, Madrid","neutral",8,TRUE
+"Náquera, Valencia","neutral",9,TRUE
+"Navalcarnero, Madrid","neutral",25,TRUE
+"Noreña, Asturias","neutral",0,FALSE
+"O Saviñao, Lugo","neutral",1,FALSE
+"Olesa de Montserrat, Barcelona","neutral",16,TRUE
+"Ólvega, Soria","neutral",1,FALSE
+"Oñati, Guipúzcoa","neutral",8,TRUE
+"Ondarroa, Vizcaya","neutral",0,FALSE
+"Orba, Alicante","neutral",3,FALSE
+"Oroso, A Coruña","neutral",3,FALSE
+"Paiporta, Valencia","neutral",18,TRUE
+"Palazuelos de Eresma, Segovia","neutral",1,FALSE
+"Palencia, Palencia","neutral",49,TRUE
+"Palomares del Río, Sevilla","neutral",18,TRUE
+"Pals, Girona","neutral",1,FALSE
+"Paracuellos de Jarama, Madrid","neutral",9,TRUE
+"Petra, Baleares","neutral",2,FALSE
+"Pol, Lugo","neutral",0,FALSE
+"Porreres, Baleares","neutral",1,FALSE
+"Portomarín, Lugo","neutral",2,FALSE
+"Potes, Cantabria","neutral",1,FALSE
+"Puebla de Lillo, León","neutral",0,FALSE
+"Puente Genil, Córdoba","neutral",24,TRUE
+"Puigcerdà, Girona","neutral",3,FALSE
+"Quesada, Jaén","neutral",2,FALSE
+"Redován, Alicante","neutral",4,FALSE
+"Reinosa, Cantabria","neutral",8,TRUE
+"Renau, Tarragona","neutral",0,FALSE
+"Ribadeo, Lugo","neutral",6,TRUE
+"Rioja, Almería","neutral",0,FALSE
+"Salas, Asturias","neutral",4,FALSE
+"Salvador de Zapardiel, Valladolid","neutral",0,FALSE
+"Samos, Lugo","neutral",0,FALSE
+"San Bartolomé, Las Palmas","neutral",5,TRUE
+"San Fernando de Henares, Madrid","neutral",3,FALSE
+"San Isidro, Alicante","neutral",2,FALSE
+"San Martín del Rey Aurelio, Asturias","neutral",7,TRUE
+"Sandiás, Ourense","neutral",1,FALSE
+"Sant Adrià de Besòs, Barcelona","neutral",239,TRUE
+"Sant Joan, Baleares","neutral",0,FALSE
+"Sant Llorenç des Cardassar, Baleares","neutral",7,TRUE
+"Santa Bàrbara, Tarragona","neutral",0,FALSE
+"Santa Eugènia, Baleares","neutral",0,FALSE
+"Santa Maria de Palautordera, Barcelona","neutral",6,TRUE
+"Santa Perpètua de Mogoda, Barcelona","neutral",33,TRUE
+"Santiago del Teide, Santa Cruz de Tenerife","neutral",8,TRUE
+"Santomera, Murcia","neutral",0,FALSE
+"Segorbe, Castellón","neutral",0,FALSE
+"Selva, Baleares","neutral",0,FALSE
+"Sencelles, Baleares","neutral",1,FALSE
+"Ses Salines, Baleares","neutral",8,TRUE
+"Seseña, Toledo","neutral",7,TRUE
+"Sevilla la Nueva, Madrid","neutral",5,TRUE
+"Socuéllamos, Ciudad Real","neutral",3,FALSE
+"Sotillo de la Adrada, Ávila","neutral",3,FALSE
+"Soto del Real, Madrid","neutral",2,FALSE
+"Tapia de Casariego, Asturias","neutral",7,TRUE
+"Tembleque, Toledo","neutral",0,FALSE
+"Teo, A Coruña","neutral",12,TRUE
+"Tineo, Asturias","neutral",3,FALSE
+"Tomares, Sevilla","neutral",57,TRUE
+"Tona, Barcelona","neutral",3,FALSE
+"Toro, Zamora","neutral",3,FALSE
+"Torredonjimeno, Jaén","neutral",0,FALSE
+"Torrejón del Rey, Guadalajara","neutral",6,TRUE
+"Torrelaguna, Madrid","neutral",0,FALSE
+"Turre, Almería","neutral",0,FALSE
+"Úbeda, Jaén","neutral",0,FALSE
+"Ubrique, Cádiz","neutral",12,TRUE
+"Urduña-Orduña, Álava","neutral",2,FALSE
+"Urnieta, Guipúzcoa","neutral",0,FALSE
+"Valdeavero, Madrid","neutral",2,FALSE
+"Valdemorillo, Madrid","neutral",5,TRUE
+"Valencina de la Concepción, Sevilla","neutral",13,TRUE
+"Vallehermoso, Santa Cruz de Tenerife","neutral",1,FALSE
+"Vedra, A Coruña","neutral",2,FALSE
+"Verea, Ourense","neutral",2,FALSE
+"Vespella de Gaià, Tarragona","neutral",0,FALSE
+"Vilabella, Tarragona","neutral",0,FALSE
+"Vilamartín de Valdeorras, Ourense","neutral",0,FALSE
+"Villabona, Guipúzcoa","neutral",0,FALSE
+"Villafranca de los Barros, Badajoz","neutral",5,TRUE
+"Villamantilla, Madrid","neutral",1,FALSE
+"Villanueva de la Cañada, Madrid","neutral",11,TRUE
+"Villanueva de Oscos, Asturias","neutral",0,FALSE
+"Villarejo de Salvanés, Madrid","neutral",5,TRUE
+"Villarrubia de los Ojos, Ciudad Real","neutral",3,FALSE
+"Villaverde del Río, Sevilla","neutral",5,TRUE
+"Yecla, Murcia","neutral",21,TRUE
+"Donostia-San Sebastián, Guipúzcoa","no_ad",NA,FALSE
+"Cangas, Pontevedra","no_ad",NA,FALSE
+"Tarragona, Tarragona","no_ad",NA,FALSE
+"Castellón de la Plana, Castellón","no_ad",NA,FALSE
+"Santa Cruz de Tenerife, Santa Cruz de Tenerife","no_ad",NA,FALSE
+"Granollers, Barcelona","no_ad",NA,FALSE
+"Mataró, Barcelona","no_ad",NA,FALSE
+"Benalmádena, Málaga","no_ad",NA,FALSE
+"El Campello, Alicante","no_ad",NA,FALSE
+"León, León","no_ad",NA,FALSE
+"Alhaurín de la Torre, Málaga","no_ad",NA,FALSE
+"Almenara, Castellón","no_ad",NA,FALSE
+"Avilés, Asturias","no_ad",NA,FALSE
+"Calvià, Baleares","no_ad",NA,FALSE
+"Chiva, Valencia","no_ad",NA,FALSE
+"Godelleta, Valencia","no_ad",NA,FALSE
+"Haro, La Rioja","no_ad",NA,FALSE
+"Móstoles, Madrid","no_ad",NA,FALSE
+"Sant Josep de sa Talaia, Baleares","no_ad",NA,FALSE
+"Aljaraque, Huelva","no_ad",NA,FALSE
+"Arcos de la Frontera, Cádiz","no_ad",NA,FALSE
+"Buñol, Valencia","no_ad",NA,FALSE
+"Callosa de Segura, Alicante","no_ad",NA,FALSE
+"Carballo, A Coruña","no_ad",NA,FALSE
+"Castrillón, Asturias","no_ad",NA,FALSE
+"Conil de la Frontera, Cádiz","no_ad",NA,FALSE
+"Coria del Río, Sevilla","no_ad",NA,FALSE
+"Fraga, Huesca","no_ad",NA,FALSE
+"Gáldar, Las Palmas","no_ad",NA,FALSE
+"La Pobla de Montornès, Tarragona","no_ad",NA,FALSE
+"Lloret de Mar, Girona","no_ad",NA,FALSE
+"Mérida, Badajoz","no_ad",NA,FALSE
+"Mieres, Asturias","no_ad",NA,FALSE
+"Monforte de Lemos, Lugo","no_ad",NA,FALSE
+"O Carballiño, Ourense","no_ad",NA,FALSE
+"Pineda de Mar, Barcelona","no_ad",NA,FALSE
+"Polinyà, Barcelona","no_ad",NA,FALSE
+"Puerto de la Cruz, Santa Cruz de Tenerife","no_ad",NA,FALSE
+"Sant Feliu de Guíxols, Girona","no_ad",NA,FALSE
+"Solsona, Lleida","no_ad",NA,FALSE
+"Tacoronte, Santa Cruz de Tenerife","no_ad",NA,FALSE
+"Vilanova del Camí, Barcelona","no_ad",NA,FALSE
+"A Pobra do Brollón, Lugo","no_ad",NA,FALSE
+"Abegondo, A Coruña","no_ad",NA,FALSE
+"Albal, Valencia","no_ad",NA,FALSE
+"Alcóntar, Almería","no_ad",NA,FALSE
+"Almussafes, Valencia","no_ad",NA,FALSE
+"Antas de Ulla, Lugo","no_ad",NA,FALSE
+"Arrigorriaga, Vizcaya","no_ad",NA,FALSE
+"Artà, Baleares","no_ad",NA,FALSE
+"Arzúa, A Coruña","no_ad",NA,FALSE
+"Azpeitia, Guipúzcoa","no_ad",NA,FALSE
+"Becerreá, Lugo","no_ad",NA,FALSE
+"Bernedo, Álava","no_ad",NA,FALSE
+"Bolaños de Calatrava, Ciudad Real","no_ad",NA,FALSE
+"Burguillos, Sevilla","no_ad",NA,FALSE
+"Campo Lameiro, Pontevedra","no_ad",NA,FALSE
+"Carlet, Valencia","no_ad",NA,FALSE
+"Castellvell del Camp, Tarragona","no_ad",NA,FALSE
+"Consuegra, Toledo","no_ad",NA,FALSE
+"Cudillero, Asturias","no_ad",NA,FALSE
+"Daimiel, Ciudad Real","no_ad",NA,FALSE
+"El Escorial, Madrid","no_ad",NA,FALSE
+"Els Poblets, Alicante","no_ad",NA,FALSE
+"Firgas, Las Palmas","no_ad",NA,FALSE
+"Gernika-Lumo, Vizcaya","no_ad",NA,FALSE
+"Guixers, Lleida","no_ad",NA,FALSE
+"Hondarribia, Guipúzcoa","no_ad",NA,FALSE
+"Humanes de Madrid, Madrid","no_ad",NA,FALSE
+"Junta de Traslaloma, Burgos","no_ad",NA,FALSE
+"La Carlota, Córdoba","no_ad",NA,FALSE
+"La Peña, Salamanca","no_ad",NA,FALSE
+"Lasarte-Oria, Guipúzcoa","no_ad",NA,FALSE
+"Legazpi, Guipúzcoa","no_ad",NA,FALSE
+"Loiu, Vizcaya","no_ad",NA,FALSE
+"Los Molinos, Madrid","no_ad",NA,FALSE
+"Malpica de Bergantiños, A Coruña","no_ad",NA,FALSE
+"Maracena, Granada","no_ad",NA,FALSE
+"Masllorenç, Tarragona","no_ad",NA,FALSE
+"Méntrida, Toledo","no_ad",NA,FALSE
+"Montánchez, Cáceres","no_ad",NA,FALSE
+"Muxía, A Coruña","no_ad",NA,FALSE
+"Narón, A Coruña","no_ad",NA,FALSE
+"Olvera, Cádiz","no_ad",NA,FALSE
+"Osuna, Sevilla","no_ad",NA,FALSE
+"Pinos Puente, Granada","no_ad",NA,FALSE
+"Pozo Alcón, Jaén","no_ad",NA,FALSE
+"Pravia, Asturias","no_ad",NA,FALSE
+"Rafal, Alicante","no_ad",NA,FALSE
+"Sa Pobla, Baleares","no_ad",NA,FALSE
+"San Miguel de Salinas, Alicante","no_ad",NA,FALSE
+"Sant Feliu de Llobregat, Barcelona","no_ad",NA,FALSE
+"Sant Lluís, Baleares","no_ad",NA,FALSE
+"Sant Pere Pescador, Girona","no_ad",NA,FALSE
+"Santo Domingo de la Calzada, La Rioja","no_ad",NA,FALSE
+"Silla, Valencia","no_ad",NA,FALSE
+"Sollana, Valencia","no_ad",NA,FALSE
+"Teror, Las Palmas","no_ad",NA,FALSE
+"Torelló, Barcelona","no_ad",NA,FALSE
+"Torrijos, Toledo","no_ad",NA,FALSE
+"Vacarisses, Barcelona","no_ad",NA,FALSE
+"Valdés, Asturias","no_ad",NA,FALSE
+"Vilassar de Dalt, Barcelona","no_ad",NA,FALSE
+"Villanueva de la Serena, Badajoz","no_ad",NA,FALSE
+"Zafra, Badajoz","no_ad",NA,FALSE
+"Zalla, Vizcaya","no_ad",NA,FALSE
+"Zamudio, Vizcaya","no_ad",NA,FALSE
+"Zas, A Coruña","no_ad",NA,FALSE
+"Zumarraga, Guipúzcoa","no_ad",NA,FALSE

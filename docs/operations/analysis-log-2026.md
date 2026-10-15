@@ -54,7 +54,7 @@ pre-specified secondary and exploratory analyses are implemented in
 |---|---|---|
 | 14 Oct | post window closed; flight ended; closing exports verified | `VERIFIED.md`, creatives README |
 | 15 Oct | threshold rule declared; secondary-analysis code committed | this file, `04_results/` |
-| | delivery-by-location report for the full flight pulled | `data/google_ads/delivery_by_location_2026-08-17_to_2026-10-14.csv` |
-| | minimum-delivery subset list committed | `min_delivery_subset_2026.csv` |
+| 15 Oct 15:57 | delivery-by-location report for the full flight pulled (840 rows, 42 per campaign; totals reconcile with the day-level file) | `data/google_ads/delivery_by_location_2026-08-17_to_2026-10-14.csv` (local) |
+| 15 Oct | minimum-delivery subset fixed from it: 447 municipalities (217 framed, 230 neutral) with >= 5 installs; committed before any outcome file was opened | `min_delivery_subset_2026.csv` |
 | | outcome extraction (analysis of record) | (to be filled in) |
 | | primary analysis run | (to be filled in) |
