@@ -1,0 +1,9 @@
+Assignment: analysis/r/output/assignment_2026_final.csv 
+Units: 949 | blocks: 106 | arms: 420/420/109 
+
+=== 2026 outcomes: reports ===
+       estimate   vs control     p (RI)    p (HC3)            95% CI (RI)
+H1         0.03           1%     0.8948     0.8978      -0.33 to 0.39
+H2         1.20          79%     0.0003     0.0578       0.59 to 1.81
+  control means: neutral 2.37 | no-ad 1.51
+  units in fit: H1 840 | H2 949

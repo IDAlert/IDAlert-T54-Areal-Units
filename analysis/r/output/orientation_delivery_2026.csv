@@ -1,0 +1,11 @@
+"level","arm","orientation","impressions","clicks","installs","cost","cost_per_install","theme"
+"arm x orientation","neutral","neutral",1982753,53515,5567,1839.05,0.330348482126819,NA
+"arm x orientation","framed","prevention",1451742,39522,4414,1381.59,0.313001812415043,NA
+"arm x orientation","framed","promotion",367940,10242,936,333.89,0.356720085470085,NA
+"arm x orientation x theme","framed","prevention",440874,12382,1394,412.29,0.295760401721664,"Community Action"
+"arm x orientation x theme","framed","promotion",175265,4880,476,172.47,0.362331932773109,"Community Action"
+"arm x orientation x theme","neutral","neutral",1982753,53515,5567,1839.05,0.330348482126819,"neutral"
+"arm x orientation x theme","framed","prevention",459513,11656,1272,435.86,0.342657232704402,"Personal Experience"
+"arm x orientation x theme","framed","promotion",57304,1631,155,46.85,0.302258064516129,"Personal Experience"
+"arm x orientation x theme","framed","prevention",551355,15484,1748,533.44,0.305171624713959,"Scientific Contribution"
+"arm x orientation x theme","framed","promotion",135371,3731,305,114.57,0.375639344262295,"Scientific Contribution"

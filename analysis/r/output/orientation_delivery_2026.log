@@ -1,0 +1,42 @@
+=== Delivery by orientation (totals over the flight) ===
+     arm orientation impressions clicks installs cost cost_per_install
+ neutral     neutral     1982753  53515     5567 1839            0.330
+  framed  prevention     1451742  39522     4414 1382            0.313
+  framed   promotion      367940  10242      936  334            0.357
+ share_of_arm_impressions share_of_arm_installs
+                    1.000                 1.000
+                    0.798                 0.825
+                    0.202                 0.175
+
+=== Delivery by orientation x theme ===
+     arm orientation                   theme impressions clicks installs   cost
+  framed  prevention        Community Action      440874  12382     1394  412.3
+  framed   promotion        Community Action      175265   4880      476  172.5
+ neutral     neutral                 neutral     1982753  53515     5567 1839.0
+  framed  prevention     Personal Experience      459513  11656     1272  435.9
+  framed   promotion     Personal Experience       57304   1631      155   46.9
+  framed  prevention Scientific Contribution      551355  15484     1748  533.4
+  framed   promotion Scientific Contribution      135371   3731      305  114.6
+ cost_per_install
+            0.296
+            0.362
+            0.330
+            0.343
+            0.302
+            0.305
+            0.376
+
+=== Prevention share of impressions, by framed campaign (how consistently the optimiser split) ===
+         campaign share_impr installs cost_per_install
+ MA2026_framed_01      0.884     1256            0.182
+ MA2026_framed_02      0.902      749            0.315
+ MA2026_framed_03      0.650      494            0.378
+ MA2026_framed_04      0.669      436            0.383
+ MA2026_framed_05      0.889      360            0.402
+ MA2026_framed_06      0.818      201            0.391
+ MA2026_framed_07      0.883      299            0.384
+ MA2026_framed_08      0.895      257            0.372
+ MA2026_framed_09      0.529      116            0.424
+ MA2026_framed_10      0.893      246            0.328
+
+Written to analysis/r/output/orientation_delivery_2026.csv

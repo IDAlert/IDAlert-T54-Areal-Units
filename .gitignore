@@ -73,6 +73,10 @@ analysis/r/output/*
 !analysis/r/output/secondary_results_2026.csv
 !analysis/r/output/secondary_results_2026_delivery_by_arm.csv
 !analysis/r/output/orientation_delivery_2026.csv
+!analysis/r/output/primary_results_2026_tracks.log
+!analysis/r/output/primary_results_2026_reports.log
+!analysis/r/output/secondary_results_2026.log
+!analysis/r/output/orientation_delivery_2026.log
 !analysis/r/output/campaign_criteria_ids
 !analysis/r/output/campaign_criteria_ids/*
 

@@ -101,5 +101,13 @@ pre-specified secondary and exploratory analyses are implemented in
 | 15 Oct 15:57 | delivery-by-location report for the full flight pulled (840 rows, 42 per campaign; totals reconcile with the day-level file) | `data/google_ads/delivery_by_location_2026-08-17_to_2026-10-14.csv` (local) |
 | 15 Oct | minimum-delivery subset fixed from it: 447 municipalities (217 framed, 230 neutral) with >= 5 installs; committed before any outcome file was opened | `min_delivery_subset_2026.csv` |
 | 15 Oct | generator of the participant counts located in `mosquito_model_data_prep`; within-window modal rule found; erratum recorded (item 2a) | this file; prereg errata section |
-| | outcome extraction (analysis of record): cluster run of 16 Oct | (to be filled in) |
-| | primary analysis run | (to be filled in) |
+| 15 Oct 02:30 | nightly cluster run whose data reach 14 Oct: the analysis-of-record extraction (both 2026 windows complete; reports through 14 Oct). Files copied 15 Oct 18:02 | `data/raw/*_2026-10.csv`, `mosquito_alert_raw_reports.Rds` (local) |
+| 15 Oct 18:03 | reporter counts rebuilt; 2021–2025 rows identical to the deposit | `municipality_reporter_counts.csv` (local; v2 deposit) |
+| 15 Oct 18:06 | outcomes file built; checks passed (2021–2025 identical; ratio 1.000; pre-window 309 vs 304) | `outcomes_2026.csv`, `outcomes_2026_checks.txt` |
+| 15 Oct 18:08 | **primary analysis run**: H2 supported (p 0.003), H1 not supported (p 0.305) | `primary_results_2026_tracks.log` |
+| 15 Oct 18:12 | reports outcome: H2 p 0.0003 (HC3 0.058), H1 p 0.895 | `primary_results_2026_reports.log` |
+| 15 Oct 18:20 | secondary analyses (items 2, 4, 5, 7, 8) and orientation table (item 6) | `secondary_results_2026.*`, `orientation_delivery_2026.*` |
+| | item 1 (presence outcome) and item 3 (ratio): awaiting presence extract | |
+| ≥ 21 Oct | late-upload sensitivity check: same files from a later cluster run | |
+
+Results: `docs/results/results-2026.md`.

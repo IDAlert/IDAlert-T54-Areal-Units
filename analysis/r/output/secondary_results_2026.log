@@ -1,0 +1,29 @@
+
+=== 1. Presence-attributed outcome: not supplied, skipped ===
+
+=== 2. Core subset: 448 units with interior cell fraction >= 0.25 ===
+  H1   n= 404  est   0.384 (  +32% vs control)  p_RI 0.0540  p_HC3 0.1242  CI [-0.01, 0.78]
+  H2   n= 446  est   0.614 ( +169% vs control)  p_RI 0.0159  p_HC3 0.0069  CI [0.11, 1.12]  [2 singleton-block units dropped]
+
+=== 4. Equal-exposure estimate: H1 additionally adjusted for realized impressions (HC3 only) ===
+  H1   n= 840  est   0.141 (  +14% vs control)  p_RI    --    p_HC3 0.2370  CI [-0.09, 0.38]
+
+=== 5. Delivery by arm (advertising municipalities) ===
+  framed  impressions: mean 4332.6  median  1853  p10   32  p90  11094  zero  26  sd log(x>0) 1.94
+  framed  installs:    mean   12.7  median     5  p10    0  p90     31  zero  96  sd log(x>0) 1.25
+  framed  cost EUR:    total  1715.53  mean    4.1  median     2  p10    0  p90     10  zero  44  sd log(x>0) 1.66
+  neutral impressions: mean 4720.8  median  2098  p10   31  p90  10998  zero  26  sd log(x>0) 1.90
+  neutral installs:    mean   13.3  median     6  p10    0  p90     30  zero  90  sd log(x>0) 1.23
+  neutral cost EUR:    total  1839.06  mean    4.4  median     2  p10    0  p90     10  zero  42  sd log(x>0) 1.64
+
+=== 7. Minimum-delivery subset: 447 advertising units (rule fixed before outcomes; HC3 only, no RI) ===
+  H1   n= 442  est   0.114 (   +7% vs control)  p_RI    --    p_HC3 0.6518  CI [-0.38, 0.61]  [5 singleton-block units dropped]
+  (H2 on this subset compares delivered units with the no-ad arm, which has no delivery by definition;
+   reported for completeness, not as a test of H2)
+  H2   n= 555  est   0.777 ( +149% vs control)  p_RI    --    p_HC3 0.0000  CI [0.50, 1.05]  [1 singleton-block units dropped]
+
+=== 8. Activation subgroup: H2 among the 571 zero-baseline municipalities ===
+  H2   n= 571  est   0.366 ( +306% vs control)  p_RI 0.0171  p_HC3 0.0002  CI [0.09, 0.64]
+  H1   n= 504  est   0.147 (  +39% vs control)  p_RI 0.1168  p_HC3 0.1306  CI [-0.03, 0.33]
+
+Written to analysis/r/output/secondary_results_2026.csv 
