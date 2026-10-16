@@ -1,950 +1,950 @@
-"unit_name","post_participants","pre_participants","post_reporters","pre_reporters"
-"Sevilla, Sevilla",32,4,38,16
-"Zaragoza, Zaragoza",5,3,12,5
-"Alicante, Alicante",7,3,12,7
-"Bilbao, Vizcaya",10,6,40,14
-"Vitoria-Gasteiz, Álava",4,1,4,2
-"Benidorm, Alicante",2,2,5,2
-"Córdoba, Córdoba",7,1,14,5
-"Elche, Alicante",6,1,8,1
-"Sabadell, Barcelona",3,0,10,1
-"Almería, Almería",2,0,12,5
-"Gijón, Asturias",2,1,3,3
-"Torrevieja, Alicante",5,3,5,4
-"Barakaldo, Vizcaya",0,1,11,3
-"Blanes, Girona",5,7,8,8
-"Girona, Girona",5,0,5,5
-"Moguer, Huelva",18,3,10,5
-"Algemesí, Valencia",1,1,1,0
-"Getafe, Madrid",2,1,5,4
-"L'Hospitalet de Llobregat, Barcelona",3,0,10,2
-"Santiago de Compostela, A Coruña",5,1,4,6
-"Vilanova i la Geltrú, Barcelona",7,1,6,3
-"Alcalá de Henares, Madrid",3,1,5,5
-"Badajoz, Badajoz",7,4,7,1
-"Burgos, Burgos",2,0,6,2
-"Lleida, Lleida",1,1,4,3
-"Orihuela, Alicante",4,0,4,2
-"Parla, Madrid",2,0,4,2
-"Pontevedra, Pontevedra",4,0,6,4
-"Aspe, Alicante",0,0,0,0
-"Cáceres, Cáceres",1,2,1,0
-"El Vendrell, Tarragona",1,0,2,0
-"Las Palmas de Gran Canaria, Las Palmas",4,0,3,1
-"Leganés, Madrid",4,1,4,0
-"Llanes, Asturias",1,1,1,2
-"Molina de Segura, Murcia",3,1,2,0
-"Montcada i Reixac, Barcelona",2,0,3,0
-"Puerto Real, Cádiz",2,0,4,1
-"Sagunto, Valencia",1,0,4,2
-"Sant Quirze del Vallès, Barcelona",1,0,2,3
-"Santa Coloma de Gramenet, Barcelona",6,2,3,0
-"Torrejón de Ardoz, Madrid",1,0,2,0
-"Vélez-Málaga, Málaga",8,0,4,1
-"Algeciras, Cádiz",6,0,7,1
-"Aranjuez, Madrid",2,0,7,3
-"Arganda del Rey, Madrid",3,0,8,5
-"Banyoles, Girona",0,0,1,1
-"Bétera, Valencia",0,0,5,2
-"Cambrils, Tarragona",0,1,4,3
-"Cardedeu, Barcelona",0,0,0,0
-"Castell-Platja d'Aro, Girona",1,0,2,1
-"Ciutadella de Menorca, Baleares",3,0,3,0
-"Cuenca, Cuenca",2,0,1,1
-"Dénia, Alicante",1,0,4,2
-"El Masnou, Barcelona",0,0,1,0
-"El Prat de Llobregat, Barcelona",3,0,1,0
-"Es Mercadal, Baleares",0,0,1,0
-"Estepona, Málaga",0,0,3,0
-"Ferrol, A Coruña",0,1,4,1
-"Langreo, Asturias",1,0,0,0
-"Linares, Jaén",3,0,4,2
-"Llagostera, Girona",0,0,0,0
-"Llíria, Valencia",1,0,0,0
-"Mairena del Aljarafe, Sevilla",0,0,7,1
-"Manacor, Baleares",6,0,6,1
-"Motril, Granada",3,0,4,3
-"Olot, Girona",2,0,6,0
-"Ourense, Ourense",6,1,10,1
-"Paterna, Valencia",0,2,2,1
-"Pinto, Madrid",0,0,0,0
-"Ponferrada, León",3,0,0,0
-"Rubí, Barcelona",3,0,5,3
-"San Fernando, Cádiz",5,1,7,0
-"San Juan de Aznalfarache, Sevilla",0,0,4,0
-"San Roque, Cádiz",1,0,1,0
-"Segovia, Segovia",0,0,0,3
-"Telde, Las Palmas",0,0,2,0
-"Teruel, Teruel",1,0,3,1
-"Xàtiva, Valencia",0,1,0,0
-"Arona, Santa Cruz de Tenerife",1,0,0,1
-"Lugo, Lugo",4,1,7,2
-"Mahón, Baleares",1,0,4,0
-"Redondela, Pontevedra",3,2,28,7
-"Roquetas de Mar, Almería",3,1,6,1
-"Villaviciosa, Asturias",1,0,0,0
-"Almonte, Huelva",0,0,2,1
-"Alpedrete, Madrid",2,0,1,0
-"Alzira, Valencia",7,0,2,0
-"Andoain, Guipúzcoa",2,0,5,0
-"Arenys de Mar, Barcelona",1,0,0,0
-"Arroyomolinos, Madrid",1,0,2,1
-"Benavente, Zamora",0,0,0,1
-"Cabra, Córdoba",2,2,1,1
-"Calahorra, La Rioja",2,1,1,1
-"Camas, Sevilla",0,0,3,0
-"Cambados, Pontevedra",1,0,0,2
-"Cangas del Narcea, Asturias",0,0,0,0
-"Caravaca de la Cruz, Murcia",3,0,3,0
-"Carcaixent, Valencia",0,0,0,0
-"Cassà de la Selva, Girona",0,0,3,0
-"Castalla, Alicante",0,0,0,0
-"Castellbisbal, Barcelona",2,0,0,0
-"Colmenar Viejo, Madrid",3,0,3,0
-"Culleredo, A Coruña",1,1,1,1
-"Durango, Vizcaya",0,0,2,1
-"Errenteria, Guipúzcoa",0,0,3,2
-"Esplugues de Llobregat, Barcelona",1,0,1,1
-"Jaén, Jaén",3,0,10,0
-"La Zubia, Granada",2,0,1,0
-"Llinars del Vallès, Barcelona",0,0,1,0
-"Martorell, Barcelona",1,0,3,0
-"Mollerussa, Lleida",0,0,0,0
-"Muro, Baleares",0,0,1,2
-"Palafrugell, Girona",1,0,1,1
-"Ponteareas, Pontevedra",5,0,20,3
-"San Bartolomé de Tirajana, Las Palmas",4,0,5,0
-"Sanlúcar de Barrameda, Cádiz",4,0,3,0
-"Sant Just Desvern, Barcelona",2,0,2,0
-"Sant Pere de Ribes, Barcelona",2,0,4,0
-"Santa Cruz de Bezana, Cantabria",0,0,0,0
-"Sanxenxo, Pontevedra",1,1,5,2
-"Tàrrega, Lleida",0,0,0,0
-"Torrelavega, Cantabria",2,0,5,0
-"Tortosa, Tarragona",0,0,1,0
-"Totana, Murcia",0,0,1,0
-"Vilafranca del Penedès, Barcelona",3,0,5,1
-"Zamora, Zamora",1,0,4,0
-"Ceutí, Murcia",0,0,0,0
-"Ciempozuelos, Madrid",0,0,3,0
-"Collado Villalba, Madrid",4,0,2,0
-"Cunit, Tarragona",0,0,2,1
-"Écija, Sevilla",0,0,3,1
-"Eibar, Guipúzcoa",0,0,2,0
-"El Rosario, Santa Cruz de Tenerife",0,0,0,1
-"Elgoibar, Guipúzcoa",0,0,1,0
-"Es Migjorn Gran, Baleares",0,0,0,0
-"L'Alcora, Castellón",0,0,0,0
-"La Pobla de Vallbona, Valencia",0,0,0,0
-"La Roda, Albacete",1,0,2,0
-"La Vall d'Uixó, Castellón",1,0,2,0
-"Laredo, Cantabria",0,0,0,0
-"Los Llanos de Aridane, Santa Cruz de Tenerife",0,0,1,0
-"Madridejos, Toledo",0,0,0,0
-"Manlleu, Barcelona",2,0,0,0
-"Melide, A Coruña",1,0,1,0
-"Montmeló, Barcelona",0,0,0,1
-"Montornès del Vallès, Barcelona",1,0,1,1
-"Morón de la Frontera, Sevilla",2,0,1,1
-"Navalmoral de la Mata, Cáceres",1,0,1,0
-"Onda, Castellón",0,0,0,0
-"Peligros, Granada",0,0,1,0
-"Peñíscola, Castellón",0,0,0,0
-"Perafort, Tarragona",0,0,0,0
-"Priego de Córdoba, Córdoba",3,1,2,0
-"Ribeira, A Coruña",1,0,1,0
-"Riells i Viabrea, Girona",0,0,2,0
-"Rincón de la Victoria, Málaga",4,0,6,2
-"Ronda, Málaga",3,0,4,0
-"Salamanca, Salamanca",0,0,3,3
-"Sanlúcar la Mayor, Sevilla",1,0,2,2
-"Sant Boi de Llobregat, Barcelona",1,0,5,1
-"Sant Vicenç dels Horts, Barcelona",0,0,1,0
-"Santa Cruz de la Palma, Santa Cruz de Tenerife",0,0,0,0
-"Santa Margalida, Baleares",0,0,0,0
-"Sarria, Lugo",0,1,1,0
-"Vic, Barcelona",2,0,2,0
-"Vilagarcía de Arousa, Pontevedra",3,0,3,0
-"Villa del Río, Córdoba",0,0,0,0
-"Villalbilla, Madrid",0,0,4,0
-"A Estrada, Pontevedra",0,0,1,0
-"A Pobra do Caramiñal, A Coruña",1,1,0,0
-"A Veiga, Ourense",1,0,0,0
-"Adra, Almería",1,0,0,0
-"Aguadulce, Sevilla",0,0,0,0
-"Águilas, Murcia",3,0,4,0
-"Agullent, Valencia",0,0,0,0
-"Albinyana, Tarragona",0,0,0,0
-"Alburquerque, Badajoz",0,0,1,0
-"Alcalá del Río, Sevilla",1,0,2,0
-"Alcañiz, Teruel",1,0,0,0
-"Alcàsser, Valencia",0,0,0,0
-"Alcover, Tarragona",2,0,1,0
-"Alcúdia, Baleares",1,1,2,1
-"Alfaro, La Rioja",0,0,0,0
-"Alginet, Valencia",0,0,0,0
-"Alhama de Murcia, Murcia",0,0,0,0
-"Alhendín, Granada",0,0,0,1
-"Aliaga, Teruel",0,0,0,0
-"Aller, Asturias",1,0,1,0
-"Alpicat, Lleida",0,0,1,1
-"Altea, Alicante",2,0,2,2
-"Ames, A Coruña",0,1,1,0
-"Amposta, Tarragona",0,0,3,0
-"Aranda de Duero, Burgos",1,0,1,2
-"Atarfe, Granada",1,0,2,0
-"Binissalem, Baleares",0,0,2,0
-"Chipiona, Cádiz",1,0,4,2
-"Churriana de la Vega, Granada",0,0,0,0
-"Erandio, Vizcaya",17,1,10,1
-"Hernani, Guipúzcoa",0,1,2,0
-"La Garriga, Barcelona",1,0,3,0
-"Mojácar, Almería",1,0,1,1
-"Monzón, Huesca",5,1,4,1
-"Olivella, Barcelona",1,0,2,1
-"Padul, Granada",1,0,4,0
-"Sant Joan d'Alacant, Alicante",1,0,2,2
-"Son Servera, Baleares",1,0,1,0
-"Soto del Barco, Asturias",0,0,0,0
-"Tarifa, Cádiz",1,0,2,2
-"Tías, Las Palmas",1,0,0,0
-"Valls, Tarragona",5,0,3,0
-"Andújar, Jaén",3,0,4,0
-"Arahal, Sevilla",1,0,1,0
-"Arenas de Iguña, Cantabria",0,0,0,0
-"Arévalo, Ávila",0,0,0,0
-"Arnedo, La Rioja",1,0,2,0
-"Arrecife, Las Palmas",5,0,1,0
-"Artés, Barcelona",1,0,1,0
-"As Neves, Pontevedra",1,0,1,0
-"Avià, Barcelona",0,0,0,0
-"Azkoitia, Guipúzcoa",0,0,0,0
-"Baeza, Jaén",1,0,1,0
-"Balsa de Ves, Albacete",0,0,0,0
-"Banyalbufar, Baleares",0,0,0,0
-"Barbastro, Huesca",1,0,0,1
-"Barbate, Cádiz",0,0,1,1
-"Begues, Barcelona",1,0,0,0
-"Béjar, Salamanca",0,0,0,1
-"Benaguasil, Valencia",0,0,0,0
-"Benamaurel, Granada",0,0,0,0
-"Beniparrell, Valencia",0,0,0,0
-"Besalú, Girona",0,0,1,0
-"Bimenes, Asturias",0,0,0,0
-"Binéfar, Huesca",0,0,1,1
-"Boiro, A Coruña",1,0,3,0
-"Búger, Baleares",0,0,0,0
-"Buitrago del Lozoya, Madrid",0,0,0,0
-"Bullas, Murcia",0,0,0,0
-"Burela, Lugo",0,0,0,0
-"Cádiz, Cádiz",0,0,4,1
-"Calasparra, Murcia",0,0,0,0
-"Camarma de Esteruelas, Madrid",0,0,0,0
-"Campanet, Baleares",0,0,0,0
-"Campos, Baleares",0,0,2,0
-"Canals, Valencia",0,0,0,0
-"Caniles, Granada",0,0,0,0
-"Cantillana, Sevilla",1,0,1,0
-"Casariche, Sevilla",0,0,0,0
-"Casasimarro, Cuenca",1,0,0,0
-"Catral, Alicante",1,0,1,0
-"Cehegín, Murcia",0,0,0,0
-"Cercedilla, Madrid",0,0,0,0
-"Chandrexa de Queixa, Ourense",0,0,0,0
-"Chauchina, Granada",0,0,2,0
-"Cieza, Murcia",0,0,0,0
-"Ciudad Rodrigo, Salamanca",0,0,0,1
-"Comillas, Cantabria",0,0,0,0
-"Cortes y Graena, Granada",0,0,0,0
-"Coslada, Madrid",0,0,4,0
-"Costitx, Baleares",0,0,0,0
-"Cúllar, Granada",1,0,0,0
-"Cuntis, Pontevedra",1,0,1,0
-"Curtis, A Coruña",0,0,0,0
-"Derio, Vizcaya",0,0,3,2
-"Dúrcal, Granada",0,0,0,0
-"El Astillero, Cantabria",0,0,3,0
-"El Cuervo de Sevilla, Sevilla",1,0,1,0
-"El Viso del Alcor, Sevilla",0,0,0,0
-"El Viso, Córdoba",0,0,0,0
-"Escorca, Baleares",0,0,0,0
-"Esporles, Baleares",0,0,1,0
-"Estepa, Sevilla",0,0,0,0
-"Fene, A Coruña",0,0,1,1
-"Flix, Tarragona",0,0,0,0
-"Foios, Valencia",0,0,0,1
-"Folgoso do Courel, Lugo",0,0,0,0
-"Fornalutx, Baleares",0,0,0,0
-"Gelves, Sevilla",1,1,3,1
-"Gerena, Sevilla",1,1,0,0
-"Gójar, Granada",0,0,1,0
-"Gozón, Asturias",1,0,2,2
-"Griñón, Madrid",0,0,0,0
-"Guadarrama, Madrid",0,0,0,0
-"Gurb, Barcelona",0,0,0,0
-"Hellín, Albacete",2,0,3,0
-"Horcajo de Santiago, Cuenca",0,0,0,0
-"Huércal-Overa, Almería",1,0,2,0
-"Huéscar, Granada",0,0,0,0
-"Ibi, Alicante",1,0,2,1
-"Inca, Baleares",0,0,1,0
-"Íscar, Valladolid",0,0,0,0
-"L'Alcúdia, Valencia",0,0,0,0
-"L'Ametlla del Vallès, Barcelona",1,0,2,0
-"L'Olleria, Valencia",2,0,0,0
-"La Carolina, Jaén",0,0,1,0
-"La Línea de la Concepción, Cádiz",3,0,2,1
-"La Nou de Gaià, Tarragona",0,0,0,0
-"La Palma d'Ebre, Tarragona",0,0,0,0
-"La Palma del Condado, Huelva",0,1,0,0
-"La Pobla de Farnals, Valencia",0,0,2,0
-"La Pobla de Mafumet, Tarragona",0,0,0,0
-"La Unión, Murcia",0,0,0,0
-"Láncara, Lugo",0,0,1,0
-"Las Gabias, Granada",3,0,3,1
-"Las Peñas de Riglos, Huesca",0,0,0,0
-"Lena, Asturias",0,0,0,0
-"Les Borges del Camp, Tarragona",0,0,1,0
-"Lloret de Vistalegre, Baleares",0,0,0,0
-"Lloseta, Baleares",0,0,0,0
-"Loja, Granada",0,0,1,0
-"Lora del Río, Sevilla",0,0,0,0
-"Los Altos, Burgos",0,0,0,0
-"Lucena, Córdoba",3,0,5,1
-"Mairena del Alcor, Sevilla",0,0,0,0
-"Mancha Real, Jaén",2,0,0,0
-"Marchamalo, Guadalajara",0,0,0,0
-"Marchena, Sevilla",2,0,1,0
-"Maruri-Jatabe, Vizcaya",0,0,0,0
-"Masquefa, Barcelona",0,0,0,0
-"Matadepera, Barcelona",0,0,1,0
-"Mazaricos, A Coruña",0,0,0,0
-"Medina de Pomar, Burgos",0,0,0,0
-"Mengíbar, Jaén",0,0,0,0
-"Miño, A Coruña",1,0,3,0
-"Miraflores de la Sierra, Madrid",0,0,0,0
-"Mocejón, Toledo",0,0,0,0
-"Mont-ral, Tarragona",0,0,0,0
-"Mont-ras, Girona",0,0,0,0
-"Montbrió del Camp, Tarragona",0,0,0,0
-"Montferri, Tarragona",0,0,0,0
-"Montilla, Córdoba",0,0,1,0
-"Morcín, Asturias",0,0,0,0
-"Muras, Lugo",0,0,0,0
-"Nerja, Málaga",2,1,3,3
-"Níjar, Almería",2,0,5,0
-"Noia, A Coruña",1,0,0,0
-"Noja, Cantabria",0,0,1,1
-"Olivares, Sevilla",0,0,0,0
-"Olocau, Valencia",0,0,0,0
-"Ondara, Alicante",1,0,0,0
-"Ontinyent, Valencia",1,0,6,0
-"Ordes, A Coruña",0,0,0,0
-"Outeiro de Rei, Lugo",0,0,0,0
-"Paderne de Allariz, Ourense",0,0,0,0
-"Palma del Río, Córdoba",1,0,1,0
-"Peñarroya-Pueblonuevo, Córdoba",0,0,0,0
-"Pilas, Sevilla",2,0,2,0
-"Pinofranqueado, Cáceres",0,0,0,0
-"Pioz, Guadalajara",1,0,0,0
-"Plasencia, Cáceres",0,0,0,1
-"Pollença, Baleares",0,0,3,0
-"Posadas, Córdoba",1,0,0,0
-"Pozoblanco, Córdoba",0,0,0,0
-"Puertollano, Ciudad Real",1,0,2,0
-"Puigpunyent, Baleares",0,0,0,0
-"Quijorna, Madrid",0,0,0,0
-"Quiroga, Lugo",2,0,1,0
-"Quirós, Asturias",0,0,0,0
-"Ramirás, Ourense",0,0,0,0
-"Retortillo de Soria, Soria",0,0,0,0
-"Ribera d'Urgellet, Lleida",0,0,0,0
-"Riós, Ourense",0,0,0,0
-"Ripollet, Barcelona",0,0,1,0
-"Riudellots de la Selva, Girona",0,0,0,0
-"Salvaterra de Miño, Pontevedra",3,0,15,2
-"San Cibrao das Viñas, Ourense",1,0,0,0
-"San Fulgencio, Alicante",0,0,0,0
-"San Pascual, Ávila",0,0,0,0
-"San Sadurniño, A Coruña",0,0,1,0
-"Sant Andreu de la Barca, Barcelona",0,0,1,0
-"Sant Cebrià de Vallalta, Barcelona",3,0,2,0
-"Sant Joan Despí, Barcelona",0,0,0,0
-"Sant Martí de Tous, Barcelona",0,0,0,0
-"Sant Pol de Mar, Barcelona",0,0,0,1
-"Santa Coloma de Farners, Girona",1,0,2,1
-"Santa Comba, A Coruña",0,0,0,0
-"Santa Eulàlia de Ronçana, Barcelona",1,0,2,0
-"Santiponce, Sevilla",1,0,1,0
-"Santoña, Cantabria",1,0,0,0
-"Santpedor, Barcelona",0,0,0,0
-"Sayalonga, Málaga",0,0,0,0
-"Serón, Almería",0,0,0,0
-"Sestao, Vizcaya",0,0,3,0
-"Silleda, Pontevedra",0,0,1,0
-"Simancas, Valladolid",0,0,0,0
-"Sineu, Baleares",0,0,0,0
-"Sotalbo, Ávila",0,0,0,0
-"Súria, Barcelona",1,0,1,0
-"Taboada, Lugo",0,0,0,0
-"Tarancón, Cuenca",1,0,1,0
-"Teià, Barcelona",1,0,0,0
-"Tocina, Sevilla",1,0,2,0
-"Tolosa, Guipúzcoa",0,0,0,1
-"Tomelloso, Ciudad Real",1,0,3,0
-"Tordoia, A Coruña",0,0,0,0
-"Torre-Pacheco, Murcia",2,0,2,1
-"Torrejón de la Calzada, Madrid",0,0,0,0
-"Torrelodones, Madrid",0,0,1,0
-"Torres de la Alameda, Madrid",1,0,0,0
-"Tudela de Duero, Valladolid",0,0,0,0
-"Umbrete, Sevilla",0,0,1,1
-"Val do Dubra, A Coruña",1,0,1,0
-"Valdáliga, Cantabria",0,0,0,0
-"Valdepeñas, Ciudad Real",0,1,1,1
-"Valderredible, Cantabria",0,0,0,0
-"Valldemossa, Baleares",0,0,0,0
-"Valle de Mena, Burgos",0,0,0,0
-"Vallmoll, Tarragona",0,0,0,0
-"Vélez-Blanco, Almería",0,0,0,0
-"Verín, Ourense",1,0,1,0
-"Vilalba, Lugo",0,0,1,1
-"Vilallonga de Ter, Girona",0,0,0,0
-"Vilanova de Arousa, Pontevedra",0,0,1,0
-"Villamanta, Madrid",0,0,0,0
-"Villamayor, Salamanca",1,1,0,0
-"Villanueva de Gállego, Zaragoza",1,0,0,0
-"Villanueva de la Torre, Guadalajara",0,0,1,0
-"Villarrobledo, Albacete",0,0,0,0
-"Villarta-Quintana, La Rioja",0,0,0,0
-"Villayón, Asturias",1,0,0,0
-"Xove, Lugo",0,0,0,0
-"Vigo, Pontevedra",26,4,159,27
-"Málaga, Málaga",12,1,16,9
-"Murcia, Murcia",9,1,14,0
-"Terrassa, Barcelona",4,0,9,3
-"Badalona, Barcelona",6,1,6,0
-"Cartagena, Murcia",6,1,9,5
-"Palma de Mallorca, Baleares",10,4,16,3
-"Santander, Cantabria",6,1,11,2
-"A Coruña, A Coruña",4,1,10,4
-"Albacete, Albacete",3,3,6,8
-"Alcalá de Guadaíra, Sevilla",1,2,2,1
-"Oviedo, Asturias",5,4,3,5
-"Rivas-Vaciamadrid, Madrid",3,2,8,6
-"Reus, Tarragona",6,1,9,2
-"Sant Cugat del Vallès, Barcelona",1,0,5,4
-"Chiclana de la Frontera, Cádiz",4,0,11,4
-"Fuenlabrada, Madrid",4,1,1,0
-"Granada, Granada",7,2,12,3
-"Jerez de la Frontera, Cádiz",6,0,16,4
-"Las Rozas de Madrid, Madrid",3,1,3,2
-"Torrent, Valencia",0,0,2,0
-"Alboraya, Valencia",1,0,1,0
-"Cornellà de Llobregat, Barcelona",5,0,2,0
-"El Puerto de Santa María, Cádiz",4,0,7,3
-"Guadalajara, Guadalajara",4,0,1,1
-"Irun, Guipúzcoa",1,0,8,5
-"Logroño, La Rioja",4,1,6,2
-"Marbella, Málaga",4,0,12,2
-"Valladolid, Valladolid",7,1,5,2
-"Viladecans, Barcelona",5,0,7,1
-"Alcobendas, Madrid",1,0,5,2
-"Alcorcón, Madrid",3,0,1,1
-"Cerdanyola del Vallès, Barcelona",1,1,2,2
-"Cullera, Valencia",0,0,1,4
-"Espartinas, Sevilla",2,2,2,0
-"Gandia, Valencia",6,0,4,1
-"Oropesa del Mar, Castellón",0,0,1,4
-"San Sebastián de los Reyes, Madrid",4,2,7,5
-"Santa Pola, Alicante",0,0,1,3
-"Torremolinos, Málaga",5,2,9,2
-"Torroella de Montgrí, Girona",0,0,1,1
-"Utrera, Sevilla",0,1,1,2
-"Adeje, Santa Cruz de Tenerife",0,0,1,1
-"Almansa, Albacete",4,0,6,0
-"Almuñécar, Granada",3,1,3,2
-"Benissa, Alicante",2,0,1,1
-"Caldes de Montbui, Barcelona",1,0,3,1
-"Cartaya, Huelva",0,1,1,4
-"Catarroja, Valencia",0,0,1,0
-"Ceuta, Ceuta",5,0,11,0
-"Crevillent, Alicante",0,0,1,1
-"Don Benito, Badajoz",1,0,3,1
-"Dos Hermanas, Sevilla",7,2,9,4
-"Figueres, Girona",0,1,3,0
-"Getxo, Vizcaya",0,0,10,7
-"Granadilla de Abona, Santa Cruz de Tenerife",1,0,1,0
-"Huesca, Huesca",4,1,5,1
-"L'Eliana, Valencia",1,0,2,1
-"Lorca, Murcia",1,0,2,0
-"Malgrat de Mar, Barcelona",0,0,2,0
-"Manresa, Barcelona",3,0,2,1
-"Marratxí, Baleares",0,0,5,0
-"Miranda de Ebro, Burgos",0,0,1,1
-"Oliva, Valencia",1,1,1,1
-"Puerto del Rosario, Las Palmas",0,0,0,0
-"Rota, Cádiz",2,0,3,0
-"Sada, A Coruña",1,1,1,0
-"Salou, Tarragona",6,1,14,6
-"San Cristóbal de La Laguna, Santa Cruz de Tenerife",5,0,3,0
-"San Javier, Murcia",1,0,1,0
-"Siero, Asturias",3,0,1,1
-"Sueca, Valencia",2,0,1,1
-"Valdemoro, Madrid",4,0,11,4
-"Velilla de San Antonio, Madrid",0,0,2,1
-"Vera, Almería",0,0,6,1
-"Villaviciosa de Odón, Madrid",0,1,8,1
-"Vinaròs, Castellón",0,0,0,0
-"Basauri, Vizcaya",0,0,3,1
-"Boadilla del Monte, Madrid",3,3,25,8
-"Castelldefels, Barcelona",2,2,2,2
-"Cervelló, Barcelona",1,0,0,0
-"Galdakao, Vizcaya",1,2,3,1
-"Gavà, Barcelona",0,0,1,1
-"Mollet del Vallès, Barcelona",3,0,2,1
-"Alaior, Baleares",0,0,2,1
-"Alfafar, Valencia",2,0,0,1
-"Almoradí, Alicante",1,0,1,0
-"Antequera, Málaga",0,0,4,0
-"Ávila, Ávila",4,0,5,0
-"Azuqueca de Henares, Guadalajara",1,0,1,0
-"Balenyà, Barcelona",1,0,2,1
-"Barberà del Vallès, Barcelona",3,0,0,0
-"Benicarló, Castellón",6,1,2,1
-"Berga, Barcelona",1,0,1,2
-"Bunyola, Baleares",1,0,2,0
-"Burjassot, Valencia",3,0,1,1
-"Cabrera de Mar, Barcelona",1,0,0,0
-"Camargo, Cantabria",0,0,1,0
-"Canet d'En Berenguer, Valencia",0,0,2,0
-"Capdepera, Baleares",0,0,0,0
-"Carmona, Sevilla",2,0,1,1
-"Castellar del Vallès, Barcelona",2,0,1,1
-"Castro-Urdiales, Cantabria",0,0,9,6
-"Constantí, Tarragona",0,0,0,0
-"Creixell, Tarragona",1,1,1,0
-"El Ejido, Almería",4,0,7,0
-"Esparreguera, Barcelona",2,0,1,0
-"Fuengirola, Málaga",6,0,7,1
-"Illescas, Toledo",1,1,3,0
-"Los Barrios, Cádiz",1,0,2,2
-"Majadahonda, Madrid",0,0,13,6
-"Manises, Valencia",0,0,6,0
-"Novelda, Alicante",0,0,0,0
-"Petrer, Alicante",5,1,5,0
-"Pilar de la Horadada, Alicante",0,0,2,0
-"Portugalete, Vizcaya",0,0,8,0
-"Puçol, Valencia",0,0,1,1
-"Sant Llorenç d'Hortons, Barcelona",0,0,0,0
-"Sant Sadurní d'Anoia, Barcelona",1,0,2,0
-"Santanyí, Baleares",1,0,1,1
-"Soria, Soria",1,0,3,0
-"Talavera de la Reina, Toledo",2,0,5,0
-"Vallirana, Barcelona",0,0,2,1
-"Vila-seca, Tarragona",1,0,5,1
-"Villena, Alicante",0,0,1,0
-"Zarautz, Guipúzcoa",0,0,3,2
-"Celrà, Girona",0,0,2,1
-"Ciudad Real, Ciudad Real",0,0,3,1
-"Cocentaina, Alicante",3,0,1,0
-"Coín, Málaga",1,0,0,0
-"Colmenarejo, Madrid",0,1,0,0
-"Deltebre, Tarragona",0,0,2,0
-"Elda, Alicante",0,0,2,0
-"Felanitx, Baleares",0,1,1,0
-"Guardamar del Segura, Alicante",1,0,3,1
-"Jaca, Huesca",0,0,0,1
-"La Rinconada, Sevilla",0,0,3,0
-"Lebrija, Sevilla",0,0,0,0
-"Les Franqueses del Vallès, Barcelona",3,0,1,0
-"Llançà, Girona",0,0,1,0
-"Llucmajor, Baleares",1,0,2,1
-"Los Palacios y Villafranca, Sevilla",2,0,3,1
-"Manzanares el Real, Madrid",0,0,2,0
-"Manzanares, Ciudad Real",0,0,0,0
-"Molins de Rei, Barcelona",3,0,1,0
-"Moncada, Valencia",0,0,0,1
-"Mutxamel, Alicante",0,0,0,1
-"Navia, Asturias",1,0,0,0
-"O Grove, Pontevedra",0,0,0,1
-"O Porriño, Pontevedra",3,0,30,6
-"Oleiros, A Coruña",6,1,4,1
-"Picassent, Valencia",0,0,1,0
-"Pozuelo de Alarcón, Madrid",1,1,19,6
-"Premià de Dalt, Barcelona",0,0,2,0
-"Punta Umbría, Huelva",2,1,2,1
-"Ribadesella, Asturias",1,0,1,0
-"Riudoms, Tarragona",0,0,0,1
-"San Lorenzo de El Escorial, Madrid",0,0,2,0
-"San Martín de la Vega, Madrid",1,1,5,0
-"Sant Vicenç de Montalt, Barcelona",0,0,0,0
-"Santa Susanna, Barcelona",0,0,0,0
-"Sóller, Baleares",1,0,1,0
-"Toledo, Toledo",3,0,3,0
-"Tossa de Mar, Girona",1,1,1,1
-"Tres Cantos, Madrid",2,1,3,2
-"Utebo, Zaragoza",1,0,0,0
-"Villanueva del Pardillo, Madrid",0,0,1,1
-"Vinyols i els Arcs, Tarragona",0,0,0,0
-"A Fonsagrada, Lugo",0,0,0,0
-"A Lama, Pontevedra",0,0,1,0
-"A Laracha, A Coruña",0,0,0,0
-"Aguilar de la Frontera, Córdoba",0,0,2,1
-"Ajalvir, Madrid",0,0,0,0
-"Alaquàs, Valencia",0,0,1,0
-"Alaró, Baleares",0,0,0,0
-"Albalat dels Sorells, Valencia",0,0,0,0
-"Albatera, Alicante",0,0,1,1
-"Alcalá la Real, Jaén",0,0,0,1
-"Alcantarilla, Murcia",0,0,2,0
-"Alcázar de San Juan, Ciudad Real",2,1,2,0
-"Alcolea del Pinar, Guadalajara",0,0,0,0
-"Aldaia, Valencia",1,0,2,0
-"Algaida, Baleares",0,0,4,0
-"Algete, Madrid",0,0,0,0
-"Alhaurín el Grande, Málaga",0,0,0,1
-"Alió, Tarragona",0,0,0,0
-"Almagro, Ciudad Real",0,0,1,0
-"Almendralejo, Badajoz",0,0,0,0
-"Almonaster la Real, Huelva",0,0,0,0
-"Altafulla, Tarragona",1,0,3,1
-"Amorebieta-Etxano, Vizcaya",2,0,2,0
-"Amurrio, Álava",1,0,6,0
-"Andratx, Baleares",0,0,0,1
-"Anglès, Girona",0,0,0,0
-"Bormujos, Sevilla",3,1,4,0
-"Calella, Barcelona",0,0,3,1
-"Corbera de Llobregat, Barcelona",0,0,1,0
-"Cuarte de Huerva, Zaragoza",0,0,0,0
-"La Roca del Vallès, Barcelona",0,0,1,0
-"Lliçà de Vall, Barcelona",0,0,0,0
-"Los Alcázares, Murcia",1,0,3,0
-"Mejorada del Campo, Madrid",1,0,4,1
-"Palamós, Girona",1,0,2,1
-"Pinoso, Alicante",0,0,0,0
-"Requena, Valencia",0,0,1,0
-"Roses, Girona",1,1,2,0
-"Sant Antoni de Portmany, Baleares",4,0,1,2
-"Sant Joan de Labritja, Baleares",0,0,0,0
-"Sitges, Barcelona",1,0,3,1
-"Tui, Pontevedra",2,0,23,4
-"Arboleas, Almería",1,0,0,0
-"Archena, Murcia",0,0,0,0
-"Ariany, Baleares",0,0,0,0
-"Armilla, Granada",0,0,1,1
-"Arratzu, Vizcaya",0,0,0,0
-"Arroyo de la Encomienda, Valladolid",0,0,1,0
-"Arteixo, A Coruña",2,0,2,0
-"As Pontes de García Rodríguez, A Coruña",0,0,1,1
-"As Somozas, A Coruña",0,0,0,0
-"Astorga, León",0,0,0,0
-"Baena, Córdoba",0,0,1,0
-"Bailén, Jaén",1,0,3,0
-"Baiona, Pontevedra",0,0,0,1
-"Balaguer, Lleida",1,0,1,0
-"Bárcena de Cicero, Cantabria",0,0,0,1
-"Baza, Granada",0,0,1,0
-"Beasain, Guipúzcoa",0,0,0,0
-"Belmonte de Miranda, Asturias",0,0,1,0
-"Benalup-Casas Viejas, Cádiz",0,0,0,0
-"Bergara, Guipúzcoa",1,0,1,0
-"Bermeo, Vizcaya",0,0,3,0
-"Betanzos, A Coruña",0,0,1,0
-"Bollullos Par del Condado, Huelva",0,0,0,0
-"Bràfim, Tarragona",0,0,0,0
-"Brenes, Sevilla",0,0,0,1
-"Brunete, Madrid",0,0,1,1
-"Burguillos del Cerro, Badajoz",0,0,0,0
-"Busot, Alicante",0,0,0,0
-"Cabana de Bergantiños, A Coruña",0,0,0,0
-"Cabrils, Barcelona",0,0,0,0
-"Camaleño, Cantabria",0,0,0,0
-"Cambre, A Coruña",0,0,1,0
-"Campoo de Yuso, Cantabria",0,0,0,0
-"Canet de Mar, Barcelona",0,0,2,0
-"Cangas de Onís, Asturias",0,0,0,0
-"Canyelles, Barcelona",0,0,0,0
-"Carballedo, Lugo",0,0,0,0
-"Cartelle, Ourense",0,0,0,0
-"Castroverde, Lugo",0,0,0,0
-"Caudete, Albacete",0,0,0,0
-"Cazorla, Jaén",0,0,0,0
-"Cebanico, León",0,0,0,0
-"Chantada, Lugo",0,0,0,0
-"Colindres, Cantabria",0,0,0,0
-"Consell, Baleares",0,0,1,0
-"Constantina, Sevilla",1,0,0,0
-"Cortes de Baza, Granada",0,0,0,0
-"Cox, Alicante",0,0,1,0
-"Cubelles, Barcelona",0,0,0,2
-"Cuéllar, Segovia",0,0,0,0
-"Daimús, Valencia",0,0,0,0
-"Dolores, Alicante",0,0,1,0
-"Eivissa, Baleares",1,0,2,0
-"El Álamo, Madrid",0,0,0,0
-"El Catllar, Tarragona",0,0,0,1
-"El Franco, Asturias",0,0,1,0
-"El Milà, Tarragona",0,0,0,0
-"El Toro, Castellón",0,0,0,0
-"Es Castell, Baleares",1,0,1,0
-"Eskoriatza, Guipúzcoa",0,0,0,0
-"Estellencs, Baleares",0,0,0,0
-"Ferreries, Baleares",0,0,0,0
-"Fiscal, Huesca",0,0,0,0
-"Fisterra, A Coruña",0,0,1,0
-"Friol, Lugo",0,0,0,0
-"Fuente Vaqueros, Granada",2,0,0,0
-"Galapagar, Madrid",1,0,3,1
-"Gibraleón, Huelva",3,0,1,0
-"Gironella, Barcelona",0,0,0,0
-"Gor, Granada",0,0,0,0
-"Grado, Asturias",0,0,0,0
-"Gualchos, Granada",0,1,0,0
-"Guissona, Lleida",0,0,0,0
-"Herrera, Sevilla",0,0,0,0
-"Huelva, Huelva",0,0,0,0
-"Huétor Tájar, Granada",0,0,1,0
-"Icod de los Vinos, Santa Cruz de Tenerife",1,0,0,0
-"Igualada, Barcelona",0,0,2,0
-"Jódar, Jaén",0,0,0,0
-"Jumilla, Murcia",0,0,1,0
-"L'Aleixar, Tarragona",0,0,0,0
-"L'Escala, Girona",0,0,1,0
-"La Algaba, Sevilla",0,0,1,1
-"La Bañeza, León",0,0,0,0
-"La Matanza de Acentejo, Santa Cruz de Tenerife",0,0,0,0
-"La Orotava, Santa Cruz de Tenerife",0,0,0,0
-"La Pobla Llarga, Valencia",0,0,0,0
-"La Puebla de Cazalla, Sevilla",0,0,0,0
-"La Rambla, Córdoba",0,0,0,0
-"La Riba, Tarragona",0,0,0,0
-"La Selva del Camp, Tarragona",1,0,1,0
-"La Solana, Ciudad Real",0,0,0,0
-"Las Torres de Cotillas, Murcia",2,0,1,0
-"Laspaúles, Huesca",0,0,0,0
-"Leioa, Vizcaya",2,1,6,0
-"Lepe, Huelva",2,1,2,3
-"Lezo, Guipúzcoa",0,0,1,0
-"Llubí, Baleares",1,0,1,0
-"Los Corrales de Buelna, Cantabria",0,0,0,0
-"Los Montesinos, Alicante",0,0,0,0
-"Los Realejos, Santa Cruz de Tenerife",2,0,2,0
-"Macael, Almería",0,0,0,0
-"Mancor de la Vall, Baleares",0,0,0,0
-"Manilva, Málaga",1,0,4,0
-"Maria de la Salut, Baleares",0,0,0,0
-"Martos, Jaén",1,0,2,0
-"Massamagrell, Valencia",0,0,1,0
-"Massanassa, Valencia",0,0,1,0
-"Mazarrón, Murcia",3,0,3,1
-"Meco, Madrid",3,0,0,0
-"Medina del Campo, Valladolid",2,0,1,0
-"Meira, Lugo",0,0,0,0
-"Meis, Pontevedra",0,0,0,0
-"Miguelturra, Ciudad Real",0,0,0,0
-"Mislata, Valencia",0,0,1,0
-"Mogán, Las Palmas",3,0,3,0
-"Mollina, Málaga",0,0,1,0
-"Montblanc, Tarragona",0,0,1,0
-"Monterroso, Lugo",0,0,0,0
-"Montuïri, Baleares",0,0,2,0
-"Morata de Tajuña, Madrid",0,0,0,0
-"Náquera, Valencia",1,0,0,0
-"Navalcarnero, Madrid",2,0,3,0
-"Noreña, Asturias",0,0,2,0
-"O Saviñao, Lugo",0,0,0,0
-"Olesa de Montserrat, Barcelona",2,1,0,0
-"Ólvega, Soria",0,0,0,0
-"Oñati, Guipúzcoa",0,0,0,0
-"Ondarroa, Vizcaya",0,0,1,1
-"Orba, Alicante",0,0,1,0
-"Oroso, A Coruña",0,0,0,0
-"Paiporta, Valencia",0,0,0,1
-"Palazuelos de Eresma, Segovia",0,0,0,0
-"Palencia, Palencia",1,0,3,1
-"Palomares del Río, Sevilla",0,0,1,0
-"Pals, Girona",0,0,1,0
-"Paracuellos de Jarama, Madrid",0,0,0,0
-"Petra, Baleares",0,0,0,0
-"Pol, Lugo",0,0,0,0
-"Porreres, Baleares",0,0,0,0
-"Portomarín, Lugo",0,0,0,0
-"Potes, Cantabria",0,0,0,0
-"Puebla de Lillo, León",0,0,0,0
-"Puente Genil, Córdoba",2,0,2,0
-"Puigcerdà, Girona",1,0,2,0
-"Quesada, Jaén",1,0,1,0
-"Redován, Alicante",0,0,1,0
-"Reinosa, Cantabria",0,0,0,0
-"Renau, Tarragona",0,0,0,0
-"Ribadeo, Lugo",0,0,1,0
-"Rioja, Almería",0,0,0,0
-"Salas, Asturias",1,0,0,0
-"Salvador de Zapardiel, Valladolid",0,0,0,0
-"Samos, Lugo",0,0,0,0
-"San Bartolomé, Las Palmas",0,0,1,0
-"San Fernando de Henares, Madrid",5,0,3,1
-"San Isidro, Alicante",0,0,0,0
-"San Martín del Rey Aurelio, Asturias",1,0,1,1
-"Sandiás, Ourense",0,0,0,0
-"Sant Adrià de Besòs, Barcelona",0,0,2,3
-"Sant Joan, Baleares",1,0,1,0
-"Sant Llorenç des Cardassar, Baleares",0,0,3,0
-"Santa Bàrbara, Tarragona",1,0,0,1
-"Santa Eugènia, Baleares",0,0,0,0
-"Santa Maria de Palautordera, Barcelona",0,0,0,0
-"Santa Perpètua de Mogoda, Barcelona",1,0,2,0
-"Santiago del Teide, Santa Cruz de Tenerife",0,0,0,0
-"Santomera, Murcia",1,0,0,0
-"Segorbe, Castellón",0,0,0,0
-"Selva, Baleares",1,0,0,0
-"Sencelles, Baleares",0,0,0,0
-"Ses Salines, Baleares",0,0,1,0
-"Seseña, Toledo",0,0,2,0
-"Sevilla la Nueva, Madrid",0,0,0,0
-"Socuéllamos, Ciudad Real",0,0,1,0
-"Sotillo de la Adrada, Ávila",0,0,0,0
-"Soto del Real, Madrid",0,0,0,0
-"Tapia de Casariego, Asturias",0,0,0,0
-"Tembleque, Toledo",0,0,0,0
-"Teo, A Coruña",1,0,1,0
-"Tineo, Asturias",0,0,1,0
-"Tomares, Sevilla",0,0,4,2
-"Tona, Barcelona",0,0,1,0
-"Toro, Zamora",0,0,0,0
-"Torredonjimeno, Jaén",1,0,1,1
-"Torrejón del Rey, Guadalajara",0,0,0,0
-"Torrelaguna, Madrid",0,0,0,0
-"Turre, Almería",0,0,0,0
-"Úbeda, Jaén",3,1,0,1
-"Ubrique, Cádiz",0,0,1,2
-"Urduña-Orduña, Álava",0,0,0,0
-"Urnieta, Guipúzcoa",0,0,2,0
-"Valdeavero, Madrid",0,0,0,0
-"Valdemorillo, Madrid",0,0,2,0
-"Valencina de la Concepción, Sevilla",0,0,1,0
-"Vallehermoso, Santa Cruz de Tenerife",0,0,0,0
-"Vedra, A Coruña",0,0,0,0
-"Verea, Ourense",0,0,0,0
-"Vespella de Gaià, Tarragona",0,0,0,0
-"Vilabella, Tarragona",0,0,0,0
-"Vilamartín de Valdeorras, Ourense",0,0,0,0
-"Villabona, Guipúzcoa",0,0,1,0
-"Villafranca de los Barros, Badajoz",0,0,0,0
-"Villamantilla, Madrid",0,0,0,0
-"Villanueva de la Cañada, Madrid",3,0,6,0
-"Villanueva de Oscos, Asturias",0,0,0,0
-"Villarejo de Salvanés, Madrid",1,0,1,0
-"Villarrubia de los Ojos, Ciudad Real",2,1,0,0
-"Villaverde del Río, Sevilla",0,0,0,0
-"Yecla, Murcia",1,0,3,0
-"Donostia-San Sebastián, Guipúzcoa",7,2,26,18
-"Cangas, Pontevedra",4,3,51,19
-"Tarragona, Tarragona",3,2,6,2
-"Castellón de la Plana, Castellón",1,0,3,4
-"Santa Cruz de Tenerife, Santa Cruz de Tenerife",2,0,4,1
-"Granollers, Barcelona",0,0,3,1
-"Mataró, Barcelona",1,0,3,1
-"Benalmádena, Málaga",1,0,5,3
-"El Campello, Alicante",3,1,2,1
-"León, León",1,1,1,3
-"Alhaurín de la Torre, Málaga",2,0,3,1
-"Almenara, Castellón",1,0,0,0
-"Avilés, Asturias",2,0,4,0
-"Calvià, Baleares",0,0,1,1
-"Chiva, Valencia",0,0,0,1
-"Godelleta, Valencia",0,0,0,0
-"Haro, La Rioja",0,0,0,0
-"Móstoles, Madrid",2,0,4,3
-"Sant Josep de sa Talaia, Baleares",0,0,2,1
-"Aljaraque, Huelva",0,0,0,1
-"Arcos de la Frontera, Cádiz",1,0,1,0
-"Buñol, Valencia",0,0,0,0
-"Callosa de Segura, Alicante",1,0,0,0
-"Carballo, A Coruña",2,0,2,0
-"Castrillón, Asturias",0,0,0,1
-"Conil de la Frontera, Cádiz",3,0,3,0
-"Coria del Río, Sevilla",0,0,0,0
-"Fraga, Huesca",2,0,0,0
-"Gáldar, Las Palmas",0,0,0,0
-"La Pobla de Montornès, Tarragona",0,0,0,0
-"Lloret de Mar, Girona",1,0,0,1
-"Mérida, Badajoz",2,0,1,0
-"Mieres, Asturias",0,0,2,0
-"Monforte de Lemos, Lugo",2,0,3,2
-"O Carballiño, Ourense",0,0,1,0
-"Pineda de Mar, Barcelona",1,0,0,2
-"Polinyà, Barcelona",2,0,0,0
-"Puerto de la Cruz, Santa Cruz de Tenerife",2,0,3,1
-"Sant Feliu de Guíxols, Girona",0,0,1,0
-"Solsona, Lleida",0,0,0,0
-"Tacoronte, Santa Cruz de Tenerife",0,0,0,0
-"Vilanova del Camí, Barcelona",0,0,0,0
-"A Pobra do Brollón, Lugo",0,0,0,0
-"Abegondo, A Coruña",0,0,0,0
-"Albal, Valencia",0,0,1,0
-"Alcóntar, Almería",0,0,0,0
-"Almussafes, Valencia",0,0,0,1
-"Antas de Ulla, Lugo",0,0,0,0
-"Arrigorriaga, Vizcaya",2,0,0,0
-"Artà, Baleares",0,0,0,0
-"Arzúa, A Coruña",0,0,0,1
-"Azpeitia, Guipúzcoa",1,0,0,0
-"Becerreá, Lugo",0,0,0,0
-"Bernedo, Álava",0,0,0,0
-"Bolaños de Calatrava, Ciudad Real",0,0,0,0
-"Burguillos, Sevilla",0,0,0,0
-"Campo Lameiro, Pontevedra",0,0,0,0
-"Carlet, Valencia",0,0,1,0
-"Castellvell del Camp, Tarragona",0,0,0,0
-"Consuegra, Toledo",1,0,0,0
-"Cudillero, Asturias",0,0,0,0
-"Daimiel, Ciudad Real",0,0,0,0
-"El Escorial, Madrid",0,0,0,0
-"Els Poblets, Alicante",0,0,0,0
-"Firgas, Las Palmas",0,0,0,0
-"Gernika-Lumo, Vizcaya",0,0,2,1
-"Guixers, Lleida",0,0,0,0
-"Hondarribia, Guipúzcoa",0,1,4,3
-"Humanes de Madrid, Madrid",0,0,0,0
-"Junta de Traslaloma, Burgos",0,0,0,0
-"La Carlota, Córdoba",0,0,0,0
-"La Peña, Salamanca",0,0,0,0
-"Lasarte-Oria, Guipúzcoa",0,0,2,3
-"Legazpi, Guipúzcoa",0,0,0,1
-"Loiu, Vizcaya",1,1,3,1
-"Los Molinos, Madrid",0,0,0,0
-"Malpica de Bergantiños, A Coruña",0,1,0,0
-"Maracena, Granada",0,0,1,0
-"Masllorenç, Tarragona",0,0,0,0
-"Méntrida, Toledo",0,0,0,0
-"Montánchez, Cáceres",0,0,0,0
-"Muxía, A Coruña",0,0,0,0
-"Narón, A Coruña",1,0,0,0
-"Olvera, Cádiz",0,0,0,0
-"Osuna, Sevilla",0,0,0,0
-"Pinos Puente, Granada",0,0,0,0
-"Pozo Alcón, Jaén",0,0,0,0
-"Pravia, Asturias",0,0,1,0
-"Rafal, Alicante",0,0,0,0
-"Sa Pobla, Baleares",1,0,0,0
-"San Miguel de Salinas, Alicante",0,0,0,0
-"Sant Feliu de Llobregat, Barcelona",0,0,5,2
-"Sant Lluís, Baleares",0,0,0,1
-"Sant Pere Pescador, Girona",0,0,1,0
-"Santo Domingo de la Calzada, La Rioja",0,0,0,0
-"Silla, Valencia",0,0,0,1
-"Sollana, Valencia",0,0,0,0
-"Teror, Las Palmas",1,0,1,1
-"Torelló, Barcelona",0,0,2,0
-"Torrijos, Toledo",0,0,0,0
-"Vacarisses, Barcelona",0,0,0,0
-"Valdés, Asturias",0,1,0,0
-"Vilassar de Dalt, Barcelona",0,0,0,1
-"Villanueva de la Serena, Badajoz",0,0,1,0
-"Zafra, Badajoz",0,0,0,0
-"Zalla, Vizcaya",0,0,1,0
-"Zamudio, Vizcaya",0,0,3,1
-"Zas, A Coruña",0,0,0,0
-"Zumarraga, Guipúzcoa",0,0,1,0
+"unit_name","post_participants","pre_participants","post_participants_presence","pre_participants_presence","hist_participants_presence","post_reporters","pre_reporters"
+"Sevilla, Sevilla",32,4,51,9,14,38,16
+"Zaragoza, Zaragoza",5,3,12,8,7,12,5
+"Alicante, Alicante",7,3,11,5,10,12,7
+"Bilbao, Vizcaya",10,6,23,8,5,40,14
+"Vitoria-Gasteiz, Álava",4,1,8,3,5,4,2
+"Benidorm, Alicante",2,2,8,3,3,5,2
+"Córdoba, Córdoba",7,1,7,3,7,14,5
+"Elche, Alicante",6,1,10,3,5,8,1
+"Sabadell, Barcelona",3,0,9,1,6,10,1
+"Almería, Almería",2,0,3,0,4,12,5
+"Gijón, Asturias",2,1,3,1,7,3,3
+"Torrevieja, Alicante",5,3,5,4,6,5,4
+"Barakaldo, Vizcaya",0,1,1,1,4,11,3
+"Blanes, Girona",5,7,8,7,7,8,8
+"Girona, Girona",5,0,13,1,5,5,5
+"Moguer, Huelva",18,3,20,3,1,10,5
+"Algemesí, Valencia",1,1,2,1,1,1,0
+"Getafe, Madrid",2,1,4,2,3,5,4
+"L'Hospitalet de Llobregat, Barcelona",3,0,4,0,3,10,2
+"Santiago de Compostela, A Coruña",5,1,10,2,1,4,6
+"Vilanova i la Geltrú, Barcelona",7,1,10,2,4,6,3
+"Alcalá de Henares, Madrid",3,1,4,2,4,5,5
+"Badajoz, Badajoz",7,4,11,4,3,7,1
+"Burgos, Burgos",2,0,3,1,1,6,2
+"Lleida, Lleida",1,1,2,2,3,4,3
+"Orihuela, Alicante",4,0,8,0,3,4,2
+"Parla, Madrid",2,0,3,0,3,4,2
+"Pontevedra, Pontevedra",4,0,9,2,5,6,4
+"Aspe, Alicante",0,0,0,0,1,0,0
+"Cáceres, Cáceres",1,2,2,2,3,1,0
+"El Vendrell, Tarragona",1,0,2,0,3,2,0
+"Las Palmas de Gran Canaria, Las Palmas",4,0,6,0,4,3,1
+"Leganés, Madrid",4,1,5,1,3,4,0
+"Llanes, Asturias",1,1,1,1,2,1,2
+"Molina de Segura, Murcia",3,1,5,1,1,2,0
+"Montcada i Reixac, Barcelona",2,0,6,0,4,3,0
+"Puerto Real, Cádiz",2,0,6,0,1,4,1
+"Sagunto, Valencia",1,0,2,0,2,4,2
+"Sant Quirze del Vallès, Barcelona",1,0,2,0,2,2,3
+"Santa Coloma de Gramenet, Barcelona",6,2,13,4,3,3,0
+"Torrejón de Ardoz, Madrid",1,0,2,0,2,2,0
+"Vélez-Málaga, Málaga",8,0,11,0,3,4,1
+"Algeciras, Cádiz",6,0,6,0,2,7,1
+"Aranjuez, Madrid",2,0,3,0,0,7,3
+"Arganda del Rey, Madrid",3,0,3,0,1,8,5
+"Banyoles, Girona",0,0,0,0,1,1,1
+"Bétera, Valencia",0,0,1,0,1,5,2
+"Cambrils, Tarragona",0,1,0,1,2,4,3
+"Cardedeu, Barcelona",0,0,1,0,0,0,0
+"Castell-Platja d'Aro, Girona",1,0,3,1,2,2,1
+"Ciutadella de Menorca, Baleares",3,0,6,0,3,3,0
+"Cuenca, Cuenca",2,0,3,0,0,1,1
+"Dénia, Alicante",1,0,2,0,1,4,2
+"El Masnou, Barcelona",0,0,0,0,1,1,0
+"El Prat de Llobregat, Barcelona",3,0,5,0,6,1,0
+"Es Mercadal, Baleares",0,0,2,0,1,1,0
+"Estepona, Málaga",0,0,1,0,1,3,0
+"Ferrol, A Coruña",0,1,0,1,1,4,1
+"Langreo, Asturias",1,0,1,0,1,0,0
+"Linares, Jaén",3,0,4,0,0,4,2
+"Llagostera, Girona",0,0,1,0,0,0,0
+"Llíria, Valencia",1,0,2,0,0,0,0
+"Mairena del Aljarafe, Sevilla",0,0,1,0,3,7,1
+"Manacor, Baleares",6,0,7,0,2,6,1
+"Motril, Granada",3,0,5,2,0,4,3
+"Olot, Girona",2,0,4,0,1,6,0
+"Ourense, Ourense",6,1,8,2,0,10,1
+"Paterna, Valencia",0,2,1,2,2,2,1
+"Pinto, Madrid",0,0,3,0,1,0,0
+"Ponferrada, León",3,0,5,0,0,0,0
+"Rubí, Barcelona",3,0,3,0,3,5,3
+"San Fernando, Cádiz",5,1,7,1,1,7,0
+"San Juan de Aznalfarache, Sevilla",0,0,0,0,3,4,0
+"San Roque, Cádiz",1,0,1,0,1,1,0
+"Segovia, Segovia",0,0,1,0,0,0,3
+"Telde, Las Palmas",0,0,1,0,0,2,0
+"Teruel, Teruel",1,0,4,1,1,3,1
+"Xàtiva, Valencia",0,1,1,1,2,0,0
+"Arona, Santa Cruz de Tenerife",1,0,2,1,2,0,1
+"Lugo, Lugo",4,1,7,1,2,7,2
+"Mahón, Baleares",1,0,3,0,3,4,0
+"Redondela, Pontevedra",3,2,9,2,4,28,7
+"Roquetas de Mar, Almería",3,1,4,1,3,6,1
+"Villaviciosa, Asturias",1,0,1,0,3,0,0
+"Almonte, Huelva",0,0,1,0,1,2,1
+"Alpedrete, Madrid",2,0,2,0,0,1,0
+"Alzira, Valencia",7,0,7,0,1,2,0
+"Andoain, Guipúzcoa",2,0,2,0,0,5,0
+"Arenys de Mar, Barcelona",1,0,1,0,1,0,0
+"Arroyomolinos, Madrid",1,0,1,0,0,2,1
+"Benavente, Zamora",0,0,1,1,0,0,1
+"Cabra, Córdoba",2,2,2,2,0,1,1
+"Calahorra, La Rioja",2,1,2,1,0,1,1
+"Camas, Sevilla",0,0,0,0,2,3,0
+"Cambados, Pontevedra",1,0,1,0,0,0,2
+"Cangas del Narcea, Asturias",0,0,0,0,0,0,0
+"Caravaca de la Cruz, Murcia",3,0,3,0,1,3,0
+"Carcaixent, Valencia",0,0,1,0,1,0,0
+"Cassà de la Selva, Girona",0,0,1,0,1,3,0
+"Castalla, Alicante",0,0,0,0,0,0,0
+"Castellbisbal, Barcelona",2,0,8,1,1,0,0
+"Colmenar Viejo, Madrid",3,0,3,0,1,3,0
+"Culleredo, A Coruña",1,1,2,1,1,1,1
+"Durango, Vizcaya",0,0,0,0,1,2,1
+"Errenteria, Guipúzcoa",0,0,0,0,2,3,2
+"Esplugues de Llobregat, Barcelona",1,0,4,0,2,1,1
+"Jaén, Jaén",3,0,4,1,1,10,0
+"La Zubia, Granada",2,0,6,0,1,1,0
+"Llinars del Vallès, Barcelona",0,0,0,0,2,1,0
+"Martorell, Barcelona",1,0,1,0,2,3,0
+"Mollerussa, Lleida",0,0,0,0,1,0,0
+"Muro, Baleares",0,0,0,0,2,1,2
+"Palafrugell, Girona",1,0,1,0,2,1,1
+"Ponteareas, Pontevedra",5,0,10,0,1,20,3
+"San Bartolomé de Tirajana, Las Palmas",4,0,5,0,1,5,0
+"Sanlúcar de Barrameda, Cádiz",4,0,4,0,2,3,0
+"Sant Just Desvern, Barcelona",2,0,5,0,1,2,0
+"Sant Pere de Ribes, Barcelona",2,0,6,0,2,4,0
+"Santa Cruz de Bezana, Cantabria",0,0,0,1,1,0,0
+"Sanxenxo, Pontevedra",1,1,1,2,1,5,2
+"Tàrrega, Lleida",0,0,1,0,3,0,0
+"Torrelavega, Cantabria",2,0,3,0,1,5,0
+"Tortosa, Tarragona",0,0,0,0,2,1,0
+"Totana, Murcia",0,0,0,0,1,1,0
+"Vilafranca del Penedès, Barcelona",3,0,5,1,1,5,1
+"Zamora, Zamora",1,0,2,1,1,4,0
+"Ceutí, Murcia",0,0,0,0,0,0,0
+"Ciempozuelos, Madrid",0,0,0,0,0,3,0
+"Collado Villalba, Madrid",4,0,5,0,0,2,0
+"Cunit, Tarragona",0,0,1,1,1,2,1
+"Écija, Sevilla",0,0,1,1,0,3,1
+"Eibar, Guipúzcoa",0,0,0,0,0,2,0
+"El Rosario, Santa Cruz de Tenerife",0,0,1,0,0,0,1
+"Elgoibar, Guipúzcoa",0,0,1,0,0,1,0
+"Es Migjorn Gran, Baleares",0,0,0,0,0,0,0
+"L'Alcora, Castellón",0,0,0,0,0,0,0
+"La Pobla de Vallbona, Valencia",0,0,0,0,0,0,0
+"La Roda, Albacete",1,0,1,0,1,2,0
+"La Vall d'Uixó, Castellón",1,0,2,0,0,2,0
+"Laredo, Cantabria",0,0,0,1,0,0,0
+"Los Llanos de Aridane, Santa Cruz de Tenerife",0,0,0,0,1,1,0
+"Madridejos, Toledo",0,0,0,0,0,0,0
+"Manlleu, Barcelona",2,0,2,0,0,0,0
+"Melide, A Coruña",1,0,1,0,0,1,0
+"Montmeló, Barcelona",0,0,2,0,1,0,1
+"Montornès del Vallès, Barcelona",1,0,1,0,0,1,1
+"Morón de la Frontera, Sevilla",2,0,2,0,0,1,1
+"Navalmoral de la Mata, Cáceres",1,0,2,1,0,1,0
+"Onda, Castellón",0,0,1,0,0,0,0
+"Peligros, Granada",0,0,3,0,0,1,0
+"Peñíscola, Castellón",0,0,0,0,0,0,0
+"Perafort, Tarragona",0,0,0,0,0,0,0
+"Priego de Córdoba, Córdoba",3,1,3,1,0,2,0
+"Ribeira, A Coruña",1,0,2,2,0,1,0
+"Riells i Viabrea, Girona",0,0,0,0,0,2,0
+"Rincón de la Victoria, Málaga",4,0,4,0,0,6,2
+"Ronda, Málaga",3,0,3,0,0,4,0
+"Salamanca, Salamanca",0,0,1,0,0,3,3
+"Sanlúcar la Mayor, Sevilla",1,0,1,0,0,2,2
+"Sant Boi de Llobregat, Barcelona",1,0,2,0,1,5,1
+"Sant Vicenç dels Horts, Barcelona",0,0,1,0,1,1,0
+"Santa Cruz de la Palma, Santa Cruz de Tenerife",0,0,0,0,0,0,0
+"Santa Margalida, Baleares",0,0,0,0,1,0,0
+"Sarria, Lugo",0,1,0,1,0,1,0
+"Vic, Barcelona",2,0,5,0,0,2,0
+"Vilagarcía de Arousa, Pontevedra",3,0,3,0,0,3,0
+"Villa del Río, Córdoba",0,0,0,0,0,0,0
+"Villalbilla, Madrid",0,0,0,0,0,4,0
+"A Estrada, Pontevedra",0,0,0,0,0,1,0
+"A Pobra do Caramiñal, A Coruña",1,1,2,1,0,0,0
+"A Veiga, Ourense",1,0,1,0,0,0,0
+"Adra, Almería",1,0,1,0,0,0,0
+"Aguadulce, Sevilla",0,0,0,0,0,0,0
+"Águilas, Murcia",3,0,4,0,1,4,0
+"Agullent, Valencia",0,0,0,0,0,0,0
+"Albinyana, Tarragona",0,0,0,0,0,0,0
+"Alburquerque, Badajoz",0,0,0,0,0,1,0
+"Alcalá del Río, Sevilla",1,0,1,0,0,2,0
+"Alcañiz, Teruel",1,0,1,1,0,0,0
+"Alcàsser, Valencia",0,0,0,0,0,0,0
+"Alcover, Tarragona",2,0,2,0,0,1,0
+"Alcúdia, Baleares",1,1,1,1,2,2,1
+"Alfaro, La Rioja",0,0,0,0,0,0,0
+"Alginet, Valencia",0,0,0,0,0,0,0
+"Alhama de Murcia, Murcia",0,0,1,0,0,0,0
+"Alhendín, Granada",0,0,0,1,1,0,1
+"Aliaga, Teruel",0,0,0,0,0,0,0
+"Aller, Asturias",1,0,1,0,0,1,0
+"Alpicat, Lleida",0,0,0,0,0,1,1
+"Altea, Alicante",2,0,3,0,1,2,2
+"Ames, A Coruña",0,1,0,1,1,1,0
+"Amposta, Tarragona",0,0,1,0,0,3,0
+"Aranda de Duero, Burgos",1,0,1,0,1,1,2
+"Atarfe, Granada",1,0,2,2,1,2,0
+"Binissalem, Baleares",0,0,0,0,1,2,0
+"Chipiona, Cádiz",1,0,3,0,1,4,2
+"Churriana de la Vega, Granada",0,0,1,0,2,0,0
+"Erandio, Vizcaya",17,1,21,5,1,10,1
+"Hernani, Guipúzcoa",0,1,0,1,2,2,0
+"La Garriga, Barcelona",1,0,3,0,1,3,0
+"Mojácar, Almería",1,0,1,0,1,1,1
+"Monzón, Huesca",5,1,5,1,1,4,1
+"Olivella, Barcelona",1,0,2,0,1,2,1
+"Padul, Granada",1,0,1,0,1,4,0
+"Sant Joan d'Alacant, Alicante",1,0,1,0,1,2,2
+"Son Servera, Baleares",1,0,1,0,1,1,0
+"Soto del Barco, Asturias",0,0,0,1,1,0,0
+"Tarifa, Cádiz",1,0,2,2,1,2,2
+"Tías, Las Palmas",1,0,1,0,1,0,0
+"Valls, Tarragona",5,0,5,0,1,3,0
+"Andújar, Jaén",3,0,4,0,0,4,0
+"Arahal, Sevilla",1,0,4,0,0,1,0
+"Arenas de Iguña, Cantabria",0,0,1,0,0,0,0
+"Arévalo, Ávila",0,0,0,0,0,0,0
+"Arnedo, La Rioja",1,0,1,0,0,2,0
+"Arrecife, Las Palmas",5,0,6,0,0,1,0
+"Artés, Barcelona",1,0,3,0,0,1,0
+"As Neves, Pontevedra",1,0,2,0,0,1,0
+"Avià, Barcelona",0,0,0,0,0,0,0
+"Azkoitia, Guipúzcoa",0,0,0,0,0,0,0
+"Baeza, Jaén",1,0,1,0,0,1,0
+"Balsa de Ves, Albacete",0,0,0,0,0,0,0
+"Banyalbufar, Baleares",0,0,1,1,0,0,0
+"Barbastro, Huesca",1,0,2,1,1,0,1
+"Barbate, Cádiz",0,0,0,0,0,1,1
+"Begues, Barcelona",1,0,1,0,0,0,0
+"Béjar, Salamanca",0,0,1,0,0,0,1
+"Benaguasil, Valencia",0,0,0,0,0,0,0
+"Benamaurel, Granada",0,0,0,0,0,0,0
+"Beniparrell, Valencia",0,0,2,0,1,0,0
+"Besalú, Girona",0,0,0,0,0,1,0
+"Bimenes, Asturias",0,0,0,0,0,0,0
+"Binéfar, Huesca",0,0,0,0,0,1,1
+"Boiro, A Coruña",1,0,2,0,0,3,0
+"Búger, Baleares",0,0,0,0,0,0,0
+"Buitrago del Lozoya, Madrid",0,0,0,0,0,0,0
+"Bullas, Murcia",0,0,0,0,0,0,0
+"Burela, Lugo",0,0,0,0,0,0,0
+"Cádiz, Cádiz",0,0,0,0,0,4,1
+"Calasparra, Murcia",0,0,0,0,0,0,0
+"Camarma de Esteruelas, Madrid",0,0,0,0,0,0,0
+"Campanet, Baleares",0,0,0,0,0,0,0
+"Campos, Baleares",0,0,1,0,0,2,0
+"Canals, Valencia",0,0,0,0,0,0,0
+"Caniles, Granada",0,0,0,0,0,0,0
+"Cantillana, Sevilla",1,0,2,0,0,1,0
+"Casariche, Sevilla",0,0,0,0,0,0,0
+"Casasimarro, Cuenca",1,0,1,0,0,0,0
+"Catral, Alicante",1,0,2,1,0,1,0
+"Cehegín, Murcia",0,0,1,0,0,0,0
+"Cercedilla, Madrid",0,0,0,0,0,0,0
+"Chandrexa de Queixa, Ourense",0,0,0,0,0,0,0
+"Chauchina, Granada",0,0,0,0,0,2,0
+"Cieza, Murcia",0,0,1,0,0,0,0
+"Ciudad Rodrigo, Salamanca",0,0,0,0,0,0,1
+"Comillas, Cantabria",0,0,0,0,0,0,0
+"Cortes y Graena, Granada",0,0,0,0,0,0,0
+"Coslada, Madrid",0,0,2,0,1,4,0
+"Costitx, Baleares",0,0,0,0,0,0,0
+"Cúllar, Granada",1,0,1,0,0,0,0
+"Cuntis, Pontevedra",1,0,1,0,0,1,0
+"Curtis, A Coruña",0,0,1,1,0,0,0
+"Derio, Vizcaya",0,0,0,0,0,3,2
+"Dúrcal, Granada",0,0,0,0,0,0,0
+"El Astillero, Cantabria",0,0,0,0,0,3,0
+"El Cuervo de Sevilla, Sevilla",1,0,1,0,0,1,0
+"El Viso del Alcor, Sevilla",0,0,0,0,0,0,0
+"El Viso, Córdoba",0,0,0,0,0,0,0
+"Escorca, Baleares",0,0,0,0,0,0,0
+"Esporles, Baleares",0,0,1,1,0,1,0
+"Estepa, Sevilla",0,0,0,0,0,0,0
+"Fene, A Coruña",0,0,0,0,0,1,1
+"Flix, Tarragona",0,0,0,0,0,0,0
+"Foios, Valencia",0,0,1,0,0,0,1
+"Folgoso do Courel, Lugo",0,0,0,0,0,0,0
+"Fornalutx, Baleares",0,0,0,0,0,0,0
+"Gelves, Sevilla",1,1,1,1,0,3,1
+"Gerena, Sevilla",1,1,2,1,0,0,0
+"Gójar, Granada",0,0,1,0,0,1,0
+"Gozón, Asturias",1,0,1,0,1,2,2
+"Griñón, Madrid",0,0,0,0,0,0,0
+"Guadarrama, Madrid",0,0,0,0,0,0,0
+"Gurb, Barcelona",0,0,1,0,1,0,0
+"Hellín, Albacete",2,0,2,0,0,3,0
+"Horcajo de Santiago, Cuenca",0,0,0,0,0,0,0
+"Huércal-Overa, Almería",1,0,1,0,0,2,0
+"Huéscar, Granada",0,0,0,0,0,0,0
+"Ibi, Alicante",1,0,1,1,1,2,1
+"Inca, Baleares",0,0,1,0,1,1,0
+"Íscar, Valladolid",0,0,0,0,0,0,0
+"L'Alcúdia, Valencia",0,0,0,0,0,0,0
+"L'Ametlla del Vallès, Barcelona",1,0,1,0,0,2,0
+"L'Olleria, Valencia",2,0,2,0,0,0,0
+"La Carolina, Jaén",0,0,0,0,0,1,0
+"La Línea de la Concepción, Cádiz",3,0,3,1,0,2,1
+"La Nou de Gaià, Tarragona",0,0,0,1,0,0,0
+"La Palma d'Ebre, Tarragona",0,0,0,0,0,0,0
+"La Palma del Condado, Huelva",0,1,1,1,0,0,0
+"La Pobla de Farnals, Valencia",0,0,0,0,0,2,0
+"La Pobla de Mafumet, Tarragona",0,0,0,0,0,0,0
+"La Unión, Murcia",0,0,1,0,0,0,0
+"Láncara, Lugo",0,0,0,0,0,1,0
+"Las Gabias, Granada",3,0,3,1,0,3,1
+"Las Peñas de Riglos, Huesca",0,0,0,0,0,0,0
+"Lena, Asturias",0,0,0,0,0,0,0
+"Les Borges del Camp, Tarragona",0,0,0,0,0,1,0
+"Lloret de Vistalegre, Baleares",0,0,0,0,0,0,0
+"Lloseta, Baleares",0,0,0,0,0,0,0
+"Loja, Granada",0,0,1,1,0,1,0
+"Lora del Río, Sevilla",0,0,0,0,0,0,0
+"Los Altos, Burgos",0,0,0,0,0,0,0
+"Lucena, Córdoba",3,0,4,2,0,5,1
+"Mairena del Alcor, Sevilla",0,0,0,0,0,0,0
+"Mancha Real, Jaén",2,0,2,0,0,0,0
+"Marchamalo, Guadalajara",0,0,0,0,0,0,0
+"Marchena, Sevilla",2,0,4,0,0,1,0
+"Maruri-Jatabe, Vizcaya",0,0,1,0,0,0,0
+"Masquefa, Barcelona",0,0,0,0,0,0,0
+"Matadepera, Barcelona",0,0,0,0,0,1,0
+"Mazaricos, A Coruña",0,0,0,0,0,0,0
+"Medina de Pomar, Burgos",0,0,0,0,0,0,0
+"Mengíbar, Jaén",0,0,0,0,0,0,0
+"Miño, A Coruña",1,0,2,1,0,3,0
+"Miraflores de la Sierra, Madrid",0,0,0,0,0,0,0
+"Mocejón, Toledo",0,0,0,0,0,0,0
+"Mont-ral, Tarragona",0,0,0,0,0,0,0
+"Mont-ras, Girona",0,0,0,0,0,0,0
+"Montbrió del Camp, Tarragona",0,0,0,0,0,0,0
+"Montferri, Tarragona",0,0,0,0,0,0,0
+"Montilla, Córdoba",0,0,0,0,0,1,0
+"Morcín, Asturias",0,0,0,0,0,0,0
+"Muras, Lugo",0,0,0,0,0,0,0
+"Nerja, Málaga",2,1,4,1,1,3,3
+"Níjar, Almería",2,0,3,0,2,5,0
+"Noia, A Coruña",1,0,2,1,0,0,0
+"Noja, Cantabria",0,0,0,0,0,1,1
+"Olivares, Sevilla",0,0,0,0,0,0,0
+"Olocau, Valencia",0,0,0,0,0,0,0
+"Ondara, Alicante",1,0,1,0,0,0,0
+"Ontinyent, Valencia",1,0,2,0,0,6,0
+"Ordes, A Coruña",0,0,1,1,0,0,0
+"Outeiro de Rei, Lugo",0,0,0,0,0,0,0
+"Paderne de Allariz, Ourense",0,0,1,0,0,0,0
+"Palma del Río, Córdoba",1,0,1,0,0,1,0
+"Peñarroya-Pueblonuevo, Córdoba",0,0,0,0,0,0,0
+"Pilas, Sevilla",2,0,2,0,0,2,0
+"Pinofranqueado, Cáceres",0,0,0,0,0,0,0
+"Pioz, Guadalajara",1,0,1,0,0,0,0
+"Plasencia, Cáceres",0,0,0,0,1,0,1
+"Pollença, Baleares",0,0,1,0,1,3,0
+"Posadas, Córdoba",1,0,1,0,0,0,0
+"Pozoblanco, Córdoba",0,0,0,0,0,0,0
+"Puertollano, Ciudad Real",1,0,1,0,0,2,0
+"Puigpunyent, Baleares",0,0,0,0,0,0,0
+"Quijorna, Madrid",0,0,0,0,0,0,0
+"Quiroga, Lugo",2,0,2,0,0,1,0
+"Quirós, Asturias",0,0,1,0,0,0,0
+"Ramirás, Ourense",0,0,0,0,0,0,0
+"Retortillo de Soria, Soria",0,0,0,0,0,0,0
+"Ribera d'Urgellet, Lleida",0,0,0,0,0,0,0
+"Riós, Ourense",0,0,0,0,0,0,0
+"Ripollet, Barcelona",0,0,0,0,0,1,0
+"Riudellots de la Selva, Girona",0,0,0,0,0,0,0
+"Salvaterra de Miño, Pontevedra",3,0,4,0,1,15,2
+"San Cibrao das Viñas, Ourense",1,0,1,0,0,0,0
+"San Fulgencio, Alicante",0,0,0,0,0,0,0
+"San Pascual, Ávila",0,0,0,0,0,0,0
+"San Sadurniño, A Coruña",0,0,0,0,0,1,0
+"Sant Andreu de la Barca, Barcelona",0,0,0,0,0,1,0
+"Sant Cebrià de Vallalta, Barcelona",3,0,3,0,0,2,0
+"Sant Joan Despí, Barcelona",0,0,0,0,0,0,0
+"Sant Martí de Tous, Barcelona",0,0,0,0,0,0,0
+"Sant Pol de Mar, Barcelona",0,0,1,0,0,0,1
+"Santa Coloma de Farners, Girona",1,0,1,0,0,2,1
+"Santa Comba, A Coruña",0,0,0,0,0,0,0
+"Santa Eulàlia de Ronçana, Barcelona",1,0,1,0,0,2,0
+"Santiponce, Sevilla",1,0,1,0,0,1,0
+"Santoña, Cantabria",1,0,2,2,0,0,0
+"Santpedor, Barcelona",0,0,0,0,0,0,0
+"Sayalonga, Málaga",0,0,0,0,0,0,0
+"Serón, Almería",0,0,0,0,0,0,0
+"Sestao, Vizcaya",0,0,0,0,0,3,0
+"Silleda, Pontevedra",0,0,2,0,0,1,0
+"Simancas, Valladolid",0,0,0,0,0,0,0
+"Sineu, Baleares",0,0,0,0,0,0,0
+"Sotalbo, Ávila",0,0,0,0,0,0,0
+"Súria, Barcelona",1,0,1,0,0,1,0
+"Taboada, Lugo",0,0,0,0,0,0,0
+"Tarancón, Cuenca",1,0,1,0,0,1,0
+"Teià, Barcelona",1,0,1,0,1,0,0
+"Tocina, Sevilla",1,0,1,0,0,2,0
+"Tolosa, Guipúzcoa",0,0,0,0,1,0,1
+"Tomelloso, Ciudad Real",1,0,1,0,0,3,0
+"Tordoia, A Coruña",0,0,0,0,0,0,0
+"Torre-Pacheco, Murcia",2,0,2,0,0,2,1
+"Torrejón de la Calzada, Madrid",0,0,0,0,0,0,0
+"Torrelodones, Madrid",0,0,0,0,0,1,0
+"Torres de la Alameda, Madrid",1,0,1,0,0,0,0
+"Tudela de Duero, Valladolid",0,0,0,0,0,0,0
+"Umbrete, Sevilla",0,0,0,0,0,1,1
+"Val do Dubra, A Coruña",1,0,1,0,0,1,0
+"Valdáliga, Cantabria",0,0,0,0,0,0,0
+"Valdepeñas, Ciudad Real",0,1,0,1,0,1,1
+"Valderredible, Cantabria",0,0,0,0,0,0,0
+"Valldemossa, Baleares",0,0,0,0,0,0,0
+"Valle de Mena, Burgos",0,0,0,2,0,0,0
+"Vallmoll, Tarragona",0,0,0,0,0,0,0
+"Vélez-Blanco, Almería",0,0,0,0,0,0,0
+"Verín, Ourense",1,0,2,0,0,1,0
+"Vilalba, Lugo",0,0,0,0,0,1,1
+"Vilallonga de Ter, Girona",0,0,1,0,0,0,0
+"Vilanova de Arousa, Pontevedra",0,0,1,1,1,1,0
+"Villamanta, Madrid",0,0,0,0,0,0,0
+"Villamayor, Salamanca",1,1,2,1,0,0,0
+"Villanueva de Gállego, Zaragoza",1,0,3,0,0,0,0
+"Villanueva de la Torre, Guadalajara",0,0,1,0,0,1,0
+"Villarrobledo, Albacete",0,0,1,0,0,0,0
+"Villarta-Quintana, La Rioja",0,0,0,0,0,0,0
+"Villayón, Asturias",1,0,1,0,0,0,0
+"Xove, Lugo",0,0,0,0,0,0,0
+"Vigo, Pontevedra",26,4,37,7,14,159,27
+"Málaga, Málaga",12,1,15,2,18,16,9
+"Murcia, Murcia",9,1,14,1,6,14,0
+"Terrassa, Barcelona",4,0,7,0,13,9,3
+"Badalona, Barcelona",6,1,11,1,5,6,0
+"Cartagena, Murcia",6,1,7,1,5,9,5
+"Palma de Mallorca, Baleares",10,4,13,4,13,16,3
+"Santander, Cantabria",6,1,10,2,7,11,2
+"A Coruña, A Coruña",4,1,6,4,2,10,4
+"Albacete, Albacete",3,3,6,4,4,6,8
+"Alcalá de Guadaíra, Sevilla",1,2,7,4,3,2,1
+"Oviedo, Asturias",5,4,6,4,6,3,5
+"Rivas-Vaciamadrid, Madrid",3,2,4,3,7,8,6
+"Reus, Tarragona",6,1,9,1,4,9,2
+"Sant Cugat del Vallès, Barcelona",1,0,6,1,7,5,4
+"Chiclana de la Frontera, Cádiz",4,0,7,1,2,11,4
+"Fuenlabrada, Madrid",4,1,5,1,3,1,0
+"Granada, Granada",7,2,13,4,12,12,3
+"Jerez de la Frontera, Cádiz",6,0,6,0,2,16,4
+"Las Rozas de Madrid, Madrid",3,1,4,2,4,3,2
+"Torrent, Valencia",0,0,1,0,0,2,0
+"Alboraya, Valencia",1,0,7,0,1,1,0
+"Cornellà de Llobregat, Barcelona",5,0,10,0,6,2,0
+"El Puerto de Santa María, Cádiz",4,0,6,1,3,7,3
+"Guadalajara, Guadalajara",4,0,4,0,0,1,1
+"Irun, Guipúzcoa",1,0,1,0,4,8,5
+"Logroño, La Rioja",4,1,4,3,7,6,2
+"Marbella, Málaga",4,0,10,0,3,12,2
+"Valladolid, Valladolid",7,1,12,2,2,5,2
+"Viladecans, Barcelona",5,0,7,0,2,7,1
+"Alcobendas, Madrid",1,0,3,0,0,5,2
+"Alcorcón, Madrid",3,0,6,0,1,1,1
+"Cerdanyola del Vallès, Barcelona",1,1,3,1,6,2,2
+"Cullera, Valencia",0,0,0,0,1,1,4
+"Espartinas, Sevilla",2,2,2,2,1,2,0
+"Gandia, Valencia",6,0,7,0,2,4,1
+"Oropesa del Mar, Castellón",0,0,0,0,1,1,4
+"San Sebastián de los Reyes, Madrid",4,2,5,2,1,7,5
+"Santa Pola, Alicante",0,0,0,0,1,1,3
+"Torremolinos, Málaga",5,2,11,4,4,9,2
+"Torroella de Montgrí, Girona",0,0,1,0,2,1,1
+"Utrera, Sevilla",0,1,2,2,1,1,2
+"Adeje, Santa Cruz de Tenerife",0,0,1,1,2,1,1
+"Almansa, Albacete",4,0,4,0,1,6,0
+"Almuñécar, Granada",3,1,5,2,3,3,2
+"Benissa, Alicante",2,0,3,0,1,1,1
+"Caldes de Montbui, Barcelona",1,0,1,0,3,3,1
+"Cartaya, Huelva",0,1,1,1,0,1,4
+"Catarroja, Valencia",0,0,1,0,0,1,0
+"Ceuta, Ceuta",5,0,5,0,2,11,0
+"Crevillent, Alicante",0,0,0,0,0,1,1
+"Don Benito, Badajoz",1,0,1,0,1,3,1
+"Dos Hermanas, Sevilla",7,2,13,4,1,9,4
+"Figueres, Girona",0,1,0,2,2,3,0
+"Getxo, Vizcaya",0,0,0,0,1,10,7
+"Granadilla de Abona, Santa Cruz de Tenerife",1,0,2,1,1,1,0
+"Huesca, Huesca",4,1,7,3,0,5,1
+"L'Eliana, Valencia",1,0,1,0,0,2,1
+"Lorca, Murcia",1,0,3,0,1,2,0
+"Malgrat de Mar, Barcelona",0,0,1,1,1,2,0
+"Manresa, Barcelona",3,0,4,1,2,2,1
+"Marratxí, Baleares",0,0,2,1,3,5,0
+"Miranda de Ebro, Burgos",0,0,2,1,0,1,1
+"Oliva, Valencia",1,1,1,1,1,1,1
+"Puerto del Rosario, Las Palmas",0,0,2,0,0,0,0
+"Rota, Cádiz",2,0,3,0,1,3,0
+"Sada, A Coruña",1,1,3,1,0,1,0
+"Salou, Tarragona",6,1,7,2,2,14,6
+"San Cristóbal de La Laguna, Santa Cruz de Tenerife",5,0,9,0,5,3,0
+"San Javier, Murcia",1,0,1,0,1,1,0
+"Siero, Asturias",3,0,3,0,2,1,1
+"Sueca, Valencia",2,0,2,0,0,1,1
+"Valdemoro, Madrid",4,0,4,1,2,11,4
+"Velilla de San Antonio, Madrid",0,0,0,0,0,2,1
+"Vera, Almería",0,0,2,0,1,6,1
+"Villaviciosa de Odón, Madrid",0,1,0,2,1,8,1
+"Vinaròs, Castellón",0,0,1,0,1,0,0
+"Basauri, Vizcaya",0,0,0,0,3,3,1
+"Boadilla del Monte, Madrid",3,3,3,3,3,25,8
+"Castelldefels, Barcelona",2,2,3,3,3,2,2
+"Cervelló, Barcelona",1,0,2,0,2,0,0
+"Galdakao, Vizcaya",1,2,4,3,3,3,1
+"Gavà, Barcelona",0,0,1,1,3,1,1
+"Mollet del Vallès, Barcelona",3,0,3,0,3,2,1
+"Alaior, Baleares",0,0,1,0,1,2,1
+"Alfafar, Valencia",2,0,4,0,1,0,1
+"Almoradí, Alicante",1,0,1,1,1,1,0
+"Antequera, Málaga",0,0,0,1,1,4,0
+"Ávila, Ávila",4,0,5,0,1,5,0
+"Azuqueca de Henares, Guadalajara",1,0,1,0,1,1,0
+"Balenyà, Barcelona",1,0,1,0,1,2,1
+"Barberà del Vallès, Barcelona",3,0,5,0,1,0,0
+"Benicarló, Castellón",6,1,7,1,0,2,1
+"Berga, Barcelona",1,0,1,0,1,1,2
+"Bunyola, Baleares",1,0,2,1,1,2,0
+"Burjassot, Valencia",3,0,6,0,0,1,1
+"Cabrera de Mar, Barcelona",1,0,1,0,0,0,0
+"Camargo, Cantabria",0,0,1,1,1,1,0
+"Canet d'En Berenguer, Valencia",0,0,0,0,0,2,0
+"Capdepera, Baleares",0,0,0,0,0,0,0
+"Carmona, Sevilla",2,0,2,0,0,1,1
+"Castellar del Vallès, Barcelona",2,0,3,0,2,1,1
+"Castro-Urdiales, Cantabria",0,0,1,0,1,9,6
+"Constantí, Tarragona",0,0,4,1,1,0,0
+"Creixell, Tarragona",1,1,2,1,2,1,0
+"El Ejido, Almería",4,0,4,0,1,7,0
+"Esparreguera, Barcelona",2,0,3,0,1,1,0
+"Fuengirola, Málaga",6,0,8,1,2,7,1
+"Illescas, Toledo",1,1,1,1,1,3,0
+"Los Barrios, Cádiz",1,0,1,0,1,2,2
+"Majadahonda, Madrid",0,0,0,0,1,13,6
+"Manises, Valencia",0,0,0,1,1,6,0
+"Novelda, Alicante",0,0,0,0,3,0,0
+"Petrer, Alicante",5,1,6,1,1,5,0
+"Pilar de la Horadada, Alicante",0,0,1,0,1,2,0
+"Portugalete, Vizcaya",0,0,0,0,3,8,0
+"Puçol, Valencia",0,0,2,1,1,1,1
+"Sant Llorenç d'Hortons, Barcelona",0,0,0,0,1,0,0
+"Sant Sadurní d'Anoia, Barcelona",1,0,3,0,1,2,0
+"Santanyí, Baleares",1,0,1,0,1,1,1
+"Soria, Soria",1,0,1,0,1,3,0
+"Talavera de la Reina, Toledo",2,0,3,0,1,5,0
+"Vallirana, Barcelona",0,0,1,0,1,2,1
+"Vila-seca, Tarragona",1,0,1,1,1,5,1
+"Villena, Alicante",0,0,0,0,2,1,0
+"Zarautz, Guipúzcoa",0,0,1,0,1,3,2
+"Celrà, Girona",0,0,1,0,0,2,1
+"Ciudad Real, Ciudad Real",0,0,0,0,0,3,1
+"Cocentaina, Alicante",3,0,3,0,0,1,0
+"Coín, Málaga",1,0,2,0,0,0,0
+"Colmenarejo, Madrid",0,1,0,1,0,0,0
+"Deltebre, Tarragona",0,0,0,0,0,2,0
+"Elda, Alicante",0,0,0,0,0,2,0
+"Felanitx, Baleares",0,1,0,1,0,1,0
+"Guardamar del Segura, Alicante",1,0,1,0,0,3,1
+"Jaca, Huesca",0,0,1,1,0,0,1
+"La Rinconada, Sevilla",0,0,3,0,0,3,0
+"Lebrija, Sevilla",0,0,0,0,1,0,0
+"Les Franqueses del Vallès, Barcelona",3,0,5,0,1,1,0
+"Llançà, Girona",0,0,0,1,1,1,0
+"Llucmajor, Baleares",1,0,3,0,0,2,1
+"Los Palacios y Villafranca, Sevilla",2,0,2,0,0,3,1
+"Manzanares el Real, Madrid",0,0,0,0,0,2,0
+"Manzanares, Ciudad Real",0,0,1,0,1,0,0
+"Molins de Rei, Barcelona",3,0,4,0,1,1,0
+"Moncada, Valencia",0,0,0,0,1,0,1
+"Mutxamel, Alicante",0,0,1,0,1,0,1
+"Navia, Asturias",1,0,1,0,0,0,0
+"O Grove, Pontevedra",0,0,0,0,0,0,1
+"O Porriño, Pontevedra",3,0,9,1,1,30,6
+"Oleiros, A Coruña",6,1,8,3,0,4,1
+"Picassent, Valencia",0,0,1,0,0,1,0
+"Pozuelo de Alarcón, Madrid",1,1,1,2,0,19,6
+"Premià de Dalt, Barcelona",0,0,0,0,0,2,0
+"Punta Umbría, Huelva",2,1,4,1,0,2,1
+"Ribadesella, Asturias",1,0,1,0,0,1,0
+"Riudoms, Tarragona",0,0,0,0,0,0,1
+"San Lorenzo de El Escorial, Madrid",0,0,0,0,1,2,0
+"San Martín de la Vega, Madrid",1,1,2,1,0,5,0
+"Sant Vicenç de Montalt, Barcelona",0,0,0,0,0,0,0
+"Santa Susanna, Barcelona",0,0,0,0,0,0,0
+"Sóller, Baleares",1,0,3,0,0,1,0
+"Toledo, Toledo",3,0,5,2,1,3,0
+"Tossa de Mar, Girona",1,1,1,2,0,1,1
+"Tres Cantos, Madrid",2,1,2,1,1,3,2
+"Utebo, Zaragoza",1,0,4,1,0,0,0
+"Villanueva del Pardillo, Madrid",0,0,0,0,0,1,1
+"Vinyols i els Arcs, Tarragona",0,0,2,1,0,0,0
+"A Fonsagrada, Lugo",0,0,0,0,0,0,0
+"A Lama, Pontevedra",0,0,1,0,0,1,0
+"A Laracha, A Coruña",0,0,0,0,0,0,0
+"Aguilar de la Frontera, Córdoba",0,0,0,0,0,2,1
+"Ajalvir, Madrid",0,0,0,0,0,0,0
+"Alaquàs, Valencia",0,0,0,0,0,1,0
+"Alaró, Baleares",0,0,1,0,0,0,0
+"Albalat dels Sorells, Valencia",0,0,0,0,0,0,0
+"Albatera, Alicante",0,0,0,0,0,1,1
+"Alcalá la Real, Jaén",0,0,1,1,0,0,1
+"Alcantarilla, Murcia",0,0,2,0,0,2,0
+"Alcázar de San Juan, Ciudad Real",2,1,4,1,0,2,0
+"Alcolea del Pinar, Guadalajara",0,0,0,0,0,0,0
+"Aldaia, Valencia",1,0,1,0,0,2,0
+"Algaida, Baleares",0,0,0,0,1,4,0
+"Algete, Madrid",0,0,1,0,0,0,0
+"Alhaurín el Grande, Málaga",0,0,1,0,1,0,1
+"Alió, Tarragona",0,0,0,0,0,0,0
+"Almagro, Ciudad Real",0,0,0,0,0,1,0
+"Almendralejo, Badajoz",0,0,0,1,1,0,0
+"Almonaster la Real, Huelva",0,0,0,0,0,0,0
+"Altafulla, Tarragona",1,0,1,0,1,3,1
+"Amorebieta-Etxano, Vizcaya",2,0,3,0,1,2,0
+"Amurrio, Álava",1,0,1,0,0,6,0
+"Andratx, Baleares",0,0,0,0,1,0,1
+"Anglès, Girona",0,0,0,0,0,0,0
+"Bormujos, Sevilla",3,1,7,2,1,4,0
+"Calella, Barcelona",0,0,1,2,1,3,1
+"Corbera de Llobregat, Barcelona",0,0,0,0,2,1,0
+"Cuarte de Huerva, Zaragoza",0,0,0,0,1,0,0
+"La Roca del Vallès, Barcelona",0,0,0,0,1,1,0
+"Lliçà de Vall, Barcelona",0,0,0,0,1,0,0
+"Los Alcázares, Murcia",1,0,3,0,1,3,0
+"Mejorada del Campo, Madrid",1,0,2,1,1,4,1
+"Palamós, Girona",1,0,2,0,1,2,1
+"Pinoso, Alicante",0,0,0,0,1,0,0
+"Requena, Valencia",0,0,1,0,1,1,0
+"Roses, Girona",1,1,3,3,1,2,0
+"Sant Antoni de Portmany, Baleares",4,0,4,0,1,1,2
+"Sant Joan de Labritja, Baleares",0,0,0,0,1,0,0
+"Sitges, Barcelona",1,0,1,1,3,3,1
+"Tui, Pontevedra",2,0,4,0,1,23,4
+"Arboleas, Almería",1,0,1,0,0,0,0
+"Archena, Murcia",0,0,0,0,0,0,0
+"Ariany, Baleares",0,0,0,0,0,0,0
+"Armilla, Granada",0,0,0,0,0,1,1
+"Arratzu, Vizcaya",0,0,0,0,0,0,0
+"Arroyo de la Encomienda, Valladolid",0,0,0,1,0,1,0
+"Arteixo, A Coruña",2,0,4,1,0,2,0
+"As Pontes de García Rodríguez, A Coruña",0,0,0,0,0,1,1
+"As Somozas, A Coruña",0,0,0,0,0,0,0
+"Astorga, León",0,0,0,0,0,0,0
+"Baena, Córdoba",0,0,0,0,0,1,0
+"Bailén, Jaén",1,0,1,0,0,3,0
+"Baiona, Pontevedra",0,0,1,0,0,0,1
+"Balaguer, Lleida",1,0,1,0,0,1,0
+"Bárcena de Cicero, Cantabria",0,0,1,1,0,0,1
+"Baza, Granada",0,0,0,1,0,1,0
+"Beasain, Guipúzcoa",0,0,0,0,0,0,0
+"Belmonte de Miranda, Asturias",0,0,0,0,0,1,0
+"Benalup-Casas Viejas, Cádiz",0,0,0,0,0,0,0
+"Bergara, Guipúzcoa",1,0,1,0,0,1,0
+"Bermeo, Vizcaya",0,0,0,0,0,3,0
+"Betanzos, A Coruña",0,0,1,1,0,1,0
+"Bollullos Par del Condado, Huelva",0,0,0,0,0,0,0
+"Bràfim, Tarragona",0,0,0,0,0,0,0
+"Brenes, Sevilla",0,0,1,0,0,0,1
+"Brunete, Madrid",0,0,0,0,0,1,1
+"Burguillos del Cerro, Badajoz",0,0,0,0,0,0,0
+"Busot, Alicante",0,0,0,0,0,0,0
+"Cabana de Bergantiños, A Coruña",0,0,0,0,0,0,0
+"Cabrils, Barcelona",0,0,0,0,0,0,0
+"Camaleño, Cantabria",0,0,0,0,0,0,0
+"Cambre, A Coruña",0,0,0,0,0,1,0
+"Campoo de Yuso, Cantabria",0,0,0,0,0,0,0
+"Canet de Mar, Barcelona",0,0,0,0,0,2,0
+"Cangas de Onís, Asturias",0,0,1,0,0,0,0
+"Canyelles, Barcelona",0,0,0,0,0,0,0
+"Carballedo, Lugo",0,0,0,0,0,0,0
+"Cartelle, Ourense",0,0,0,0,0,0,0
+"Castroverde, Lugo",0,0,0,0,0,0,0
+"Caudete, Albacete",0,0,1,0,0,0,0
+"Cazorla, Jaén",0,0,0,0,1,0,0
+"Cebanico, León",0,0,0,0,0,0,0
+"Chantada, Lugo",0,0,0,0,0,0,0
+"Colindres, Cantabria",0,0,0,0,0,0,0
+"Consell, Baleares",0,0,0,0,0,1,0
+"Constantina, Sevilla",1,0,2,0,0,0,0
+"Cortes de Baza, Granada",0,0,0,0,0,0,0
+"Cox, Alicante",0,0,0,0,0,1,0
+"Cubelles, Barcelona",0,0,0,0,1,0,2
+"Cuéllar, Segovia",0,0,0,0,0,0,0
+"Daimús, Valencia",0,0,0,0,0,0,0
+"Dolores, Alicante",0,0,0,0,0,1,0
+"Eivissa, Baleares",1,0,2,0,0,2,0
+"El Álamo, Madrid",0,0,0,0,0,0,0
+"El Catllar, Tarragona",0,0,0,0,0,0,1
+"El Franco, Asturias",0,0,0,0,0,1,0
+"El Milà, Tarragona",0,0,0,0,0,0,0
+"El Toro, Castellón",0,0,0,0,0,0,0
+"Es Castell, Baleares",1,0,2,0,0,1,0
+"Eskoriatza, Guipúzcoa",0,0,0,0,0,0,0
+"Estellencs, Baleares",0,0,0,0,0,0,0
+"Ferreries, Baleares",0,0,0,0,0,0,0
+"Fiscal, Huesca",0,0,0,0,0,0,0
+"Fisterra, A Coruña",0,0,0,0,0,1,0
+"Friol, Lugo",0,0,0,0,0,0,0
+"Fuente Vaqueros, Granada",2,0,3,0,0,0,0
+"Galapagar, Madrid",1,0,1,0,0,3,1
+"Gibraleón, Huelva",3,0,3,0,0,1,0
+"Gironella, Barcelona",0,0,0,0,0,0,0
+"Gor, Granada",0,0,1,0,0,0,0
+"Grado, Asturias",0,0,0,0,0,0,0
+"Gualchos, Granada",0,1,0,1,0,0,0
+"Guissona, Lleida",0,0,0,0,1,0,0
+"Herrera, Sevilla",0,0,0,0,0,0,0
+"Huelva, Huelva",0,0,0,0,0,0,0
+"Huétor Tájar, Granada",0,0,0,0,0,1,0
+"Icod de los Vinos, Santa Cruz de Tenerife",1,0,1,0,0,0,0
+"Igualada, Barcelona",0,0,0,0,1,2,0
+"Jódar, Jaén",0,0,0,0,0,0,0
+"Jumilla, Murcia",0,0,0,0,0,1,0
+"L'Aleixar, Tarragona",0,0,0,0,0,0,0
+"L'Escala, Girona",0,0,0,0,0,1,0
+"La Algaba, Sevilla",0,0,1,0,0,1,1
+"La Bañeza, León",0,0,0,0,0,0,0
+"La Matanza de Acentejo, Santa Cruz de Tenerife",0,0,0,0,0,0,0
+"La Orotava, Santa Cruz de Tenerife",0,0,1,0,1,0,0
+"La Pobla Llarga, Valencia",0,0,0,0,0,0,0
+"La Puebla de Cazalla, Sevilla",0,0,0,0,0,0,0
+"La Rambla, Córdoba",0,0,0,0,0,0,0
+"La Riba, Tarragona",0,0,0,0,0,0,0
+"La Selva del Camp, Tarragona",1,0,1,0,0,1,0
+"La Solana, Ciudad Real",0,0,0,0,0,0,0
+"Las Torres de Cotillas, Murcia",2,0,2,0,1,1,0
+"Laspaúles, Huesca",0,0,0,0,0,0,0
+"Leioa, Vizcaya",2,1,3,3,1,6,0
+"Lepe, Huelva",2,1,2,2,1,2,3
+"Lezo, Guipúzcoa",0,0,0,0,1,1,0
+"Llubí, Baleares",1,0,1,0,0,1,0
+"Los Corrales de Buelna, Cantabria",0,0,0,1,1,0,0
+"Los Montesinos, Alicante",0,0,0,0,0,0,0
+"Los Realejos, Santa Cruz de Tenerife",2,0,4,0,0,2,0
+"Macael, Almería",0,0,0,0,0,0,0
+"Mancor de la Vall, Baleares",0,0,0,0,0,0,0
+"Manilva, Málaga",1,0,1,0,0,4,0
+"Maria de la Salut, Baleares",0,0,0,0,0,0,0
+"Martos, Jaén",1,0,1,0,0,2,0
+"Massamagrell, Valencia",0,0,0,0,0,1,0
+"Massanassa, Valencia",0,0,0,0,0,1,0
+"Mazarrón, Murcia",3,0,3,0,0,3,1
+"Meco, Madrid",3,0,3,0,0,0,0
+"Medina del Campo, Valladolid",2,0,5,0,0,1,0
+"Meira, Lugo",0,0,0,0,0,0,0
+"Meis, Pontevedra",0,0,0,0,0,0,0
+"Miguelturra, Ciudad Real",0,0,0,0,0,0,0
+"Mislata, Valencia",0,0,0,0,0,1,0
+"Mogán, Las Palmas",3,0,3,0,0,3,0
+"Mollina, Málaga",0,0,0,0,0,1,0
+"Montblanc, Tarragona",0,0,1,1,0,1,0
+"Monterroso, Lugo",0,0,0,0,0,0,0
+"Montuïri, Baleares",0,0,0,0,0,2,0
+"Morata de Tajuña, Madrid",0,0,0,0,0,0,0
+"Náquera, Valencia",1,0,1,0,0,0,0
+"Navalcarnero, Madrid",2,0,2,0,0,3,0
+"Noreña, Asturias",0,0,0,0,0,2,0
+"O Saviñao, Lugo",0,0,0,0,0,0,0
+"Olesa de Montserrat, Barcelona",2,1,2,1,0,0,0
+"Ólvega, Soria",0,0,0,0,0,0,0
+"Oñati, Guipúzcoa",0,0,0,0,0,0,0
+"Ondarroa, Vizcaya",0,0,0,0,0,1,1
+"Orba, Alicante",0,0,0,0,0,1,0
+"Oroso, A Coruña",0,0,0,0,0,0,0
+"Paiporta, Valencia",0,0,0,0,0,0,1
+"Palazuelos de Eresma, Segovia",0,0,0,0,0,0,0
+"Palencia, Palencia",1,0,4,0,1,3,1
+"Palomares del Río, Sevilla",0,0,0,0,0,1,0
+"Pals, Girona",0,0,0,0,0,1,0
+"Paracuellos de Jarama, Madrid",0,0,0,1,0,0,0
+"Petra, Baleares",0,0,0,0,0,0,0
+"Pol, Lugo",0,0,0,0,0,0,0
+"Porreres, Baleares",0,0,0,0,0,0,0
+"Portomarín, Lugo",0,0,0,0,0,0,0
+"Potes, Cantabria",0,0,0,0,0,0,0
+"Puebla de Lillo, León",0,0,0,0,0,0,0
+"Puente Genil, Córdoba",2,0,3,0,0,2,0
+"Puigcerdà, Girona",1,0,2,0,0,2,0
+"Quesada, Jaén",1,0,1,0,0,1,0
+"Redován, Alicante",0,0,0,0,0,1,0
+"Reinosa, Cantabria",0,0,0,0,0,0,0
+"Renau, Tarragona",0,0,0,0,0,0,0
+"Ribadeo, Lugo",0,0,0,0,0,1,0
+"Rioja, Almería",0,0,0,0,0,0,0
+"Salas, Asturias",1,0,1,0,0,0,0
+"Salvador de Zapardiel, Valladolid",0,0,0,0,0,0,0
+"Samos, Lugo",0,0,0,0,0,0,0
+"San Bartolomé, Las Palmas",0,0,3,0,0,1,0
+"San Fernando de Henares, Madrid",5,0,6,0,1,3,1
+"San Isidro, Alicante",0,0,0,0,0,0,0
+"San Martín del Rey Aurelio, Asturias",1,0,2,0,0,1,1
+"Sandiás, Ourense",0,0,0,0,0,0,0
+"Sant Adrià de Besòs, Barcelona",0,0,0,0,0,2,3
+"Sant Joan, Baleares",1,0,1,0,0,1,0
+"Sant Llorenç des Cardassar, Baleares",0,0,1,0,0,3,0
+"Santa Bàrbara, Tarragona",1,0,1,0,0,0,1
+"Santa Eugènia, Baleares",0,0,0,0,0,0,0
+"Santa Maria de Palautordera, Barcelona",0,0,2,0,1,0,0
+"Santa Perpètua de Mogoda, Barcelona",1,0,1,0,1,2,0
+"Santiago del Teide, Santa Cruz de Tenerife",0,0,0,1,0,0,0
+"Santomera, Murcia",1,0,2,0,0,0,0
+"Segorbe, Castellón",0,0,0,0,0,0,0
+"Selva, Baleares",1,0,1,0,0,0,0
+"Sencelles, Baleares",0,0,0,0,0,0,0
+"Ses Salines, Baleares",0,0,0,0,0,1,0
+"Seseña, Toledo",0,0,0,0,0,2,0
+"Sevilla la Nueva, Madrid",0,0,0,0,0,0,0
+"Socuéllamos, Ciudad Real",0,0,0,0,0,1,0
+"Sotillo de la Adrada, Ávila",0,0,0,0,0,0,0
+"Soto del Real, Madrid",0,0,1,0,0,0,0
+"Tapia de Casariego, Asturias",0,0,0,0,0,0,0
+"Tembleque, Toledo",0,0,0,0,0,0,0
+"Teo, A Coruña",1,0,2,0,0,1,0
+"Tineo, Asturias",0,0,1,0,0,1,0
+"Tomares, Sevilla",0,0,0,0,0,4,2
+"Tona, Barcelona",0,0,0,0,0,1,0
+"Toro, Zamora",0,0,0,0,0,0,0
+"Torredonjimeno, Jaén",1,0,1,0,0,1,1
+"Torrejón del Rey, Guadalajara",0,0,0,0,0,0,0
+"Torrelaguna, Madrid",0,0,0,0,0,0,0
+"Turre, Almería",0,0,0,0,0,0,0
+"Úbeda, Jaén",3,1,3,1,0,0,1
+"Ubrique, Cádiz",0,0,0,0,0,1,2
+"Urduña-Orduña, Álava",0,0,0,0,0,0,0
+"Urnieta, Guipúzcoa",0,0,0,0,1,2,0
+"Valdeavero, Madrid",0,0,0,0,0,0,0
+"Valdemorillo, Madrid",0,0,0,0,0,2,0
+"Valencina de la Concepción, Sevilla",0,0,2,0,0,1,0
+"Vallehermoso, Santa Cruz de Tenerife",0,0,1,0,0,0,0
+"Vedra, A Coruña",0,0,0,0,0,0,0
+"Verea, Ourense",0,0,0,0,0,0,0
+"Vespella de Gaià, Tarragona",0,0,1,0,0,0,0
+"Vilabella, Tarragona",0,0,0,0,0,0,0
+"Vilamartín de Valdeorras, Ourense",0,0,0,0,0,0,0
+"Villabona, Guipúzcoa",0,0,1,0,0,1,0
+"Villafranca de los Barros, Badajoz",0,0,0,0,0,0,0
+"Villamantilla, Madrid",0,0,0,0,0,0,0
+"Villanueva de la Cañada, Madrid",3,0,3,0,0,6,0
+"Villanueva de Oscos, Asturias",0,0,0,0,0,0,0
+"Villarejo de Salvanés, Madrid",1,0,1,0,0,1,0
+"Villarrubia de los Ojos, Ciudad Real",2,1,2,1,0,0,0
+"Villaverde del Río, Sevilla",0,0,0,0,0,0,0
+"Yecla, Murcia",1,0,1,0,0,3,0
+"Donostia-San Sebastián, Guipúzcoa",7,2,9,3,9,26,18
+"Cangas, Pontevedra",4,3,7,4,6,51,19
+"Tarragona, Tarragona",3,2,4,3,7,6,2
+"Castellón de la Plana, Castellón",1,0,2,0,7,3,4
+"Santa Cruz de Tenerife, Santa Cruz de Tenerife",2,0,3,0,4,4,1
+"Granollers, Barcelona",0,0,0,0,5,3,1
+"Mataró, Barcelona",1,0,2,0,3,3,1
+"Benalmádena, Málaga",1,0,4,0,2,5,3
+"El Campello, Alicante",3,1,3,2,2,2,1
+"León, León",1,1,2,1,1,1,3
+"Alhaurín de la Torre, Málaga",2,0,2,0,2,3,1
+"Almenara, Castellón",1,0,1,0,0,0,0
+"Avilés, Asturias",2,0,2,0,1,4,0
+"Calvià, Baleares",0,0,2,0,4,1,1
+"Chiva, Valencia",0,0,1,0,1,0,1
+"Godelleta, Valencia",0,0,0,0,0,0,0
+"Haro, La Rioja",0,0,1,1,2,0,0
+"Móstoles, Madrid",2,0,5,2,2,4,3
+"Sant Josep de sa Talaia, Baleares",0,0,0,0,1,2,1
+"Aljaraque, Huelva",0,0,0,0,0,0,1
+"Arcos de la Frontera, Cádiz",1,0,2,2,1,1,0
+"Buñol, Valencia",0,0,0,1,0,0,0
+"Callosa de Segura, Alicante",1,0,1,0,0,0,0
+"Carballo, A Coruña",2,0,3,1,0,2,0
+"Castrillón, Asturias",0,0,0,0,1,0,1
+"Conil de la Frontera, Cádiz",3,0,4,0,2,3,0
+"Coria del Río, Sevilla",0,0,0,0,0,0,0
+"Fraga, Huesca",2,0,2,0,2,0,0
+"Gáldar, Las Palmas",0,0,0,0,0,0,0
+"La Pobla de Montornès, Tarragona",0,0,1,1,0,0,0
+"Lloret de Mar, Girona",1,0,6,3,5,0,1
+"Mérida, Badajoz",2,0,2,0,2,1,0
+"Mieres, Asturias",0,0,0,0,0,2,0
+"Monforte de Lemos, Lugo",2,0,2,0,1,3,2
+"O Carballiño, Ourense",0,0,0,0,0,1,0
+"Pineda de Mar, Barcelona",1,0,2,1,1,0,2
+"Polinyà, Barcelona",2,0,4,0,0,0,0
+"Puerto de la Cruz, Santa Cruz de Tenerife",2,0,2,0,1,3,1
+"Sant Feliu de Guíxols, Girona",0,0,1,0,0,1,0
+"Solsona, Lleida",0,0,0,0,0,0,0
+"Tacoronte, Santa Cruz de Tenerife",0,0,3,0,1,0,0
+"Vilanova del Camí, Barcelona",0,0,0,0,0,0,0
+"A Pobra do Brollón, Lugo",0,0,0,0,0,0,0
+"Abegondo, A Coruña",0,0,0,1,0,0,0
+"Albal, Valencia",0,0,3,0,0,1,0
+"Alcóntar, Almería",0,0,0,0,0,0,0
+"Almussafes, Valencia",0,0,0,0,1,0,1
+"Antas de Ulla, Lugo",0,0,0,0,0,0,0
+"Arrigorriaga, Vizcaya",2,0,3,0,2,0,0
+"Artà, Baleares",0,0,0,0,0,0,0
+"Arzúa, A Coruña",0,0,0,0,0,0,1
+"Azpeitia, Guipúzcoa",1,0,1,0,0,0,0
+"Becerreá, Lugo",0,0,0,0,0,0,0
+"Bernedo, Álava",0,0,0,0,0,0,0
+"Bolaños de Calatrava, Ciudad Real",0,0,0,0,0,0,0
+"Burguillos, Sevilla",0,0,0,0,0,0,0
+"Campo Lameiro, Pontevedra",0,0,1,0,0,0,0
+"Carlet, Valencia",0,0,0,0,0,1,0
+"Castellvell del Camp, Tarragona",0,0,0,0,0,0,0
+"Consuegra, Toledo",1,0,2,1,0,0,0
+"Cudillero, Asturias",0,0,0,0,0,0,0
+"Daimiel, Ciudad Real",0,0,1,0,0,0,0
+"El Escorial, Madrid",0,0,0,1,0,0,0
+"Els Poblets, Alicante",0,0,1,0,0,0,0
+"Firgas, Las Palmas",0,0,1,0,0,0,0
+"Gernika-Lumo, Vizcaya",0,0,0,0,0,2,1
+"Guixers, Lleida",0,0,0,0,0,0,0
+"Hondarribia, Guipúzcoa",0,1,0,1,3,4,3
+"Humanes de Madrid, Madrid",0,0,0,0,0,0,0
+"Junta de Traslaloma, Burgos",0,0,0,0,0,0,0
+"La Carlota, Córdoba",0,0,0,1,0,0,0
+"La Peña, Salamanca",0,0,0,0,0,0,0
+"Lasarte-Oria, Guipúzcoa",0,0,0,0,1,2,3
+"Legazpi, Guipúzcoa",0,0,0,0,0,0,1
+"Loiu, Vizcaya",1,1,9,3,0,3,1
+"Los Molinos, Madrid",0,0,1,0,0,0,0
+"Malpica de Bergantiños, A Coruña",0,1,0,1,0,0,0
+"Maracena, Granada",0,0,0,0,1,1,0
+"Masllorenç, Tarragona",0,0,0,0,0,0,0
+"Méntrida, Toledo",0,0,0,0,0,0,0
+"Montánchez, Cáceres",0,0,0,0,0,0,0
+"Muxía, A Coruña",0,0,0,0,0,0,0
+"Narón, A Coruña",1,0,2,0,0,0,0
+"Olvera, Cádiz",0,0,0,0,0,0,0
+"Osuna, Sevilla",0,0,1,1,0,0,0
+"Pinos Puente, Granada",0,0,2,0,0,0,0
+"Pozo Alcón, Jaén",0,0,0,0,0,0,0
+"Pravia, Asturias",0,0,0,0,0,1,0
+"Rafal, Alicante",0,0,0,0,0,0,0
+"Sa Pobla, Baleares",1,0,2,0,0,0,0
+"San Miguel de Salinas, Alicante",0,0,0,0,0,0,0
+"Sant Feliu de Llobregat, Barcelona",0,0,1,0,1,5,2
+"Sant Lluís, Baleares",0,0,0,0,1,0,1
+"Sant Pere Pescador, Girona",0,0,0,1,0,1,0
+"Santo Domingo de la Calzada, La Rioja",0,0,0,0,0,0,0
+"Silla, Valencia",0,0,1,0,1,0,1
+"Sollana, Valencia",0,0,0,0,0,0,0
+"Teror, Las Palmas",1,0,1,0,0,1,1
+"Torelló, Barcelona",0,0,0,0,0,2,0
+"Torrijos, Toledo",0,0,0,0,0,0,0
+"Vacarisses, Barcelona",0,0,0,0,1,0,0
+"Valdés, Asturias",0,1,1,1,0,0,0
+"Vilassar de Dalt, Barcelona",0,0,0,0,0,0,1
+"Villanueva de la Serena, Badajoz",0,0,0,0,0,1,0
+"Zafra, Badajoz",0,0,0,0,0,0,0
+"Zalla, Vizcaya",0,0,0,1,0,1,0
+"Zamudio, Vizcaya",0,0,1,0,2,3,1
+"Zas, A Coruña",0,0,0,0,0,0,0
+"Zumarraga, Guipúzcoa",0,0,0,0,0,1,0

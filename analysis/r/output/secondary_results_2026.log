@@ -1,5 +1,8 @@
 
-=== 1. Presence-attributed outcome: not supplied, skipped ===
+=== 1. Presence-attributed outcome (tertiary) ===
+  (historical median: presence)
+  H1   n= 840  est   0.198 (  +11% vs control)  p_RI 0.1904  p_HC3 0.2193  CI [-0.10, 0.49]
+  H2   n= 949  est   0.651 (  +59% vs control)  p_RI 0.0031  p_HC3 0.0004  CI [0.23, 1.08]
 
 === 2. Core subset: 448 units with interior cell fraction >= 0.25 ===
   H1   n= 404  est   0.384 (  +32% vs control)  p_RI 0.0540  p_HC3 0.1242  CI [-0.01, 0.78]

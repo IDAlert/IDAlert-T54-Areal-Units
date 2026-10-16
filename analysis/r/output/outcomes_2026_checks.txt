@@ -1,8 +1,12 @@
-prepared: 2026-10-15 18:06
+prepared: 2026-10-16 11:52
 2021-2025 municipality counts vs deposited file: IDENTICAL
 2026 pre-window re-extraction: national total 309 (deposited August extract: 304); 7 municipalities changed
 modal attribution, 2026 before: municipality sum 309 / province sum 309 = 1.000
 modal attribution, 2026 after: municipality sum 1383 / province sum 1383 = 1.000
-no presence-attributed extract found; item 1 (presence outcome) and item 3 (ratio) skipped
-units: 949; columns: unit_name, post_participants, pre_participants, post_reporters, pre_reporters
+presence municipality sum / home province sum, 2026 before: municipality sum 696 / province sum 309 = 2.252
+presence municipality sum / home province sum, 2026 after: municipality sum 2637 / province sum 1383 = 1.907
+realized within-province multi-municipality ratio, 2026 before: 696 / 418 = 1.665 (2021-2025 reference 1.17-1.28)
+realized within-province multi-municipality ratio, 2026 after: 2637 / 1693 = 1.558 (2021-2025 reference 1.17-1.28)
+presence historical median (2021-2025) available for the presence-attributed analysis
+units: 949; columns: unit_name, post_participants, pre_participants, post_participants_presence, pre_participants_presence, hist_participants_presence, post_reporters, pre_reporters
 national 2026 totals (modal): pre 309, post 1383

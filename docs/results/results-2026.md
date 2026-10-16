@@ -94,6 +94,8 @@ orientation split.
 
 | item | analysis | hypothesis | estimate | vs control | p (RI) | p (HC3) | 95% CI | n |
 |---|---|---|---|---|---|---|---|---|
+| 1 | presence-attributed outcome (tertiary) | H1 | +0.20 | +11% | 0.190 | 0.219 | −0.10 to +0.49 | 840 |
+| 1 | presence-attributed outcome | H2 | +0.65 | +59% | **0.003** | <0.001 | +0.23 to +1.08 | 949 |
 | 2 | core subset (interior ≥ 0.25) | H1 | +0.38 | +32% | 0.054 | 0.124 | −0.01 to +0.78 | 404 |
 | 2 | core subset | H2 | +0.61 | +169% | 0.016 | 0.007 | +0.11 to +1.12 | 446 |
 | 4 | equal-exposure (impressions covariate; HC3) | H1 | +0.14 | +14% | — | 0.237 | −0.09 to +0.38 | 840 |
@@ -104,6 +106,27 @@ orientation split.
 Singleton-block units dropped before fitting, as the code specifies: 2 (core
 H2), 5 and 1 (item 7).
 
+The **presence-attributed outcome** (item 1) matters more than its tertiary
+status suggests, because of the erratum on modal attribution: it counts a
+participant in every municipality where they emitted sampling effort, so it
+does not depend on where their days concentrated, and it reproduces both
+conclusions — H2 supported, H1 null at the same +11%. (Its control levels are
+higher — no-ad 1.10, neutral 1.77 — because visitors are counted too.) The
+presence extract was produced from the cluster run of 16 October, one day
+later than the analysis-of-record modal extraction; the difference is at most
+one further day of late uploads.
+
+**Realized leakage (item 3).** The within-province multi-municipality ratio
+for 2026 — presence municipality sum over presence province sum — is 1.67 in
+the pre window and **1.56 in the post window**, against 1.17–1.28 in
+2021–2025. Participants in 2026 were recorded in markedly more municipalities
+than in the calibration years, so leakage of advertising-induced
+participation across municipality lines was heavier than the registered
+central case (lambda ≈ 0.15); the registered "heavy leakage" row (lambda =
+0.30, H1 power 0.77 at the planned dose) is the closer description. Leakage
+attenuates the arm contrast, so this reinforces, rather than qualifies, the
+registered reading of the null H1.
+
 The **activation result** is the clearest secondary finding: among
 municipalities with no recent Mosquito Alert activity at all, advertising
 created sampling-effort participation where there was none (no-ad level 0.12
@@ -112,9 +135,8 @@ analyses is positive, and the core-subset H1 is borderline (RI p = 0.054), but
 under the registered rule a secondary result cannot rescue a null primary;
 these are reported as suggestive and consistent in direction, nothing more.
 
-Pending: item 1 (presence-attributed outcome) and item 3 (realized
-multi-municipality ratio) await the presence extract; the declared late-upload
-sensitivity check uses the cluster run of 21 October or later.
+Pending: the declared late-upload sensitivity check, from the cluster run of
+21 October or later (modal, reports and presence from the same run).
 
 ## Caveats carried from the flight record
 

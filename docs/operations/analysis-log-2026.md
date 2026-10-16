@@ -92,6 +92,17 @@ pre-specified secondary and exploratory analyses are implemented in
 - `orientation_delivery_2026.R` — item 6 (prevention vs promotion
   delivery within the framed arm, descriptive).
 
+**4. Provenance of the extractions.** The data-prep pipeline commits its
+run logs automatically after each nightly cluster run
+(`Mosquito-Alert/mosquito_model_data_prep`, commits "log files from cluster
+run (automated)"). The `z1_participants_areal_units_weekly.out` log in each
+commit records the data range the run used:
+
+| run | commit | log line | role |
+|---|---|---|---|
+| 15 Oct 2026 (committed 05:45 +0200) | `84c6d3d89` | counts written for 2018-01-01 **to 2026-10-14** | analysis-of-record extraction (modal participants, province totals, reports) |
+| 16 Oct 2026 (committed 05:43 +0200) | `a8613978e` | counts written for 2018-01-01 **to 2026-10-15** | presence extract (`z1b`, run ~11:45 on 16 Oct against this run's tracks) |
+
 ## Sequence of events
 
 | date | step | artifact |
@@ -107,7 +118,8 @@ pre-specified secondary and exploratory analyses are implemented in
 | 15 Oct 18:08 | **primary analysis run**: H2 supported (p 0.003), H1 not supported (p 0.305) | `primary_results_2026_tracks.log` |
 | 15 Oct 18:12 | reports outcome: H2 p 0.0003 (HC3 0.058), H1 p 0.895 | `primary_results_2026_reports.log` |
 | 15 Oct 18:20 | secondary analyses (items 2, 4, 5, 7, 8) and orientation table (item 6) | `secondary_results_2026.*`, `orientation_delivery_2026.*` |
-| | item 1 (presence outcome) and item 3 (ratio): awaiting presence extract | |
+| 16 Oct ~11:45 | presence extract produced on the cluster by `z1b` from the 16 Oct run's tracks (one day later than the record extraction; noted); copied 11:49 | `data/raw/*_presence_2026-10.csv` (local) |
+| 16 Oct 12:05 | item 1 (presence outcome: H2 +59% p 0.003; H1 +11% p 0.19) and item 3 (within-province ratio 1.67 / 1.56 vs 1.17–1.28) added; all other items reproduce exactly | `outcomes_2026.csv` (presence columns added; record columns unchanged), `secondary_results_2026.*` |
 | ≥ 21 Oct | late-upload sensitivity check: same files from a later cluster run | |
 
 Results: `docs/results/results-2026.md`.
