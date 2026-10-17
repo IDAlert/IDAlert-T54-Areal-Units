@@ -77,6 +77,13 @@ analysis/r/output/*
 !analysis/r/output/primary_results_2026_reports.log
 !analysis/r/output/secondary_results_2026.log
 !analysis/r/output/orientation_delivery_2026.log
+!analysis/r/output/delivery_by_municipality_2026.csv
+!analysis/r/output/delivery_by_campaign_day_2026.csv
+# Article figures and LaTeX table fragments (analysis/r/05_figures/)
+!analysis/r/output/figures
+!analysis/r/output/figures/*
+!analysis/r/output/tables
+!analysis/r/output/tables/*
 !analysis/r/output/campaign_criteria_ids
 !analysis/r/output/campaign_criteria_ids/*
 

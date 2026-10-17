@@ -1,0 +1,950 @@
+"unit_name","province","block","arm","campaign","impressions","clicks","installs","cost"
+"Sevilla, Sevilla","Sevilla",1,"framed","framed_01",60597,2422,303,52.79
+"Zaragoza, Zaragoza","Zaragoza",1,"framed","framed_01",22720,835,104,19.47
+"Alicante, Alicante","Alicante",1,"framed","framed_01",16529,629,78,14.91
+"Bilbao, Vizcaya","Vizcaya",1,"framed","framed_01",25139,1062,141,21.52
+"Vitoria-Gasteiz, Álava","Álava",2,"framed","framed_01",11909,476,52,10.52
+"Benidorm, Alicante","Alicante",3,"framed","framed_01",4928,192,15,4.66
+"Córdoba, Córdoba","Córdoba",2,"framed","framed_01",13335,473,61,11.77
+"Elche, Alicante","Alicante",2,"framed","framed_01",9766,386,41,7.8
+"Sabadell, Barcelona","Barcelona",2,"framed","framed_01",5472,193,19,4.48
+"Almería, Almería","Almería",3,"framed","framed_01",8514,327,49,7.85
+"Gijón, Asturias","Asturias",3,"framed","framed_01",6309,249,24,5.04
+"Torrevieja, Alicante","Alicante",3,"framed","framed_01",6757,261,35,6.73
+"Barakaldo, Vizcaya","Vizcaya",4,"framed","framed_01",1765,67,7,1.93
+"Blanes, Girona","Girona",4,"framed","framed_01",1287,59,6,1.33
+"Girona, Girona","Girona",4,"framed","framed_01",3023,117,18,1.82
+"Moguer, Huelva","Huelva",4,"framed","framed_01",1105,38,6,0.83
+"Algemesí, Valencia","Valencia",5,"framed","framed_01",795,29,2,0.49
+"Getafe, Madrid","Madrid",5,"framed","framed_01",4169,144,13,2.9
+"L'Hospitalet de Llobregat, Barcelona","Barcelona",5,"framed","framed_01",4686,184,27,5.19
+"Santiago de Compostela, A Coruña","A Coruña",6,"framed","framed_01",2724,92,15,2.07
+"Vilanova i la Geltrú, Barcelona","Barcelona",5,"framed","framed_01",2575,97,12,2.1
+"Alcalá de Henares, Madrid","Madrid",6,"framed","framed_01",4103,149,15,3.41
+"Badajoz, Badajoz","Badajoz",6,"framed","framed_01",5387,192,25,5.2
+"Burgos, Burgos","Burgos",7,"framed","framed_01",4896,200,22,4.74
+"Lleida, Lleida","Lleida",6,"framed","framed_01",6707,242,32,5.97
+"Orihuela, Alicante","Alicante",7,"framed","framed_01",4124,141,18,3.36
+"Parla, Madrid","Madrid",7,"framed","framed_01",4740,153,15,3.87
+"Pontevedra, Pontevedra","Pontevedra",7,"framed","framed_01",2936,107,18,2.59
+"Aspe, Alicante","Alicante",9,"framed","framed_01",839,28,2,0.7
+"Cáceres, Cáceres","Cáceres",8,"framed","framed_01",4067,145,15,2.95
+"El Vendrell, Tarragona","Tarragona",9,"framed","framed_01",2152,68,8,1.78
+"Las Palmas de Gran Canaria, Las Palmas","Las Palmas",8,"framed","framed_01",23081,741,98,17.63
+"Leganés, Madrid","Madrid",9,"framed","framed_01",5145,181,25,4.49
+"Llanes, Asturias","Asturias",11,"framed","framed_01",467,26,2,0.42
+"Molina de Segura, Murcia","Murcia",10,"framed","framed_01",2407,81,16,2.49
+"Montcada i Reixac, Barcelona","Barcelona",8,"framed","framed_01",2628,105,16,2.66
+"Puerto Real, Cádiz","Cádiz",10,"framed","framed_01",1315,56,9,1.33
+"Sagunto, Valencia","Valencia",10,"framed","framed_01",29,0,0,0
+"Sant Quirze del Vallès, Barcelona","Barcelona",11,"framed","framed_01",216,6,1,0.22
+"Santa Coloma de Gramenet, Barcelona","Barcelona",9,"framed","framed_01",6,1,1,0.06
+"Torrejón de Ardoz, Madrid","Madrid",10,"framed","framed_01",3558,127,18,2.98
+"Vélez-Málaga, Málaga","Málaga",8,"framed","framed_01",3364,140,19,3.08
+"Algeciras, Cádiz","Cádiz",11,"framed","framed_02",20580,568,59,21.11
+"Aranjuez, Madrid","Madrid",16,"framed","framed_02",7745,200,32,7.95
+"Arganda del Rey, Madrid","Madrid",13,"framed","framed_02",7539,185,23,6.02
+"Banyoles, Girona","Girona",16,"framed","framed_02",2781,83,8,3.38
+"Bétera, Valencia","Valencia",17,"framed","framed_02",2403,62,3,2.15
+"Cambrils, Tarragona","Tarragona",12,"framed","framed_02",182,8,1,0.25
+"Cardedeu, Barcelona","Barcelona",17,"framed","framed_02",1377,37,3,1.57
+"Castell-Platja d'Aro, Girona","Girona",17,"framed","framed_02",2387,56,7,1.61
+"Ciutadella de Menorca, Baleares","Baleares",11,"framed","framed_02",2458,69,8,1.76
+"Cuenca, Cuenca","Cuenca",17,"framed","framed_02",7051,170,11,4.49
+"Dénia, Alicante","Alicante",13,"framed","framed_02",112,2,0,0.05
+"El Masnou, Barcelona","Barcelona",14,"framed","framed_02",775,14,1,0.52
+"El Prat de Llobregat, Barcelona","Barcelona",12,"framed","framed_02",33710,1193,110,35.68
+"Es Mercadal, Baleares","Baleares",14,"framed","framed_02",2207,63,5,2
+"Estepona, Málaga","Málaga",14,"framed","framed_02",87,4,1,0.12
+"Ferrol, A Coruña","A Coruña",14,"framed","framed_02",13686,338,41,10.66
+"Langreo, Asturias","Asturias",15,"framed","framed_02",4375,105,7,4.26
+"Linares, Jaén","Jaén",18,"framed","framed_02",8602,245,25,9.08
+"Llagostera, Girona","Girona",18,"framed","framed_02",947,39,6,1.23
+"Llíria, Valencia","Valencia",18,"framed","framed_02",4700,137,17,4.96
+"Mairena del Aljarafe, Sevilla","Sevilla",12,"framed","framed_02",4133,109,12,3.66
+"Manacor, Baleares","Baleares",12,"framed","framed_02",6316,164,26,7.92
+"Motril, Granada","Granada",18,"framed","framed_02",13974,378,44,14.8
+"Olot, Girona","Girona",15,"framed","framed_02",4228,136,18,4.93
+"Ourense, Ourense","Ourense",19,"framed","framed_02",14961,372,46,14.14
+"Paterna, Valencia","Valencia",15,"framed","framed_02",166,8,2,0.26
+"Pinto, Madrid","Madrid",19,"framed","framed_02",4549,115,9,4.06
+"Ponferrada, León","León",19,"framed","framed_02",6915,177,16,4.5
+"Rubí, Barcelona","Barcelona",13,"framed","framed_02",10030,272,16,8.17
+"San Fernando, Cádiz","Cádiz",15,"framed","framed_02",11570,295,40,10.68
+"San Juan de Aznalfarache, Sevilla","Sevilla",13,"framed","framed_02",1058,24,2,0.85
+"San Roque, Cádiz","Cádiz",16,"framed","framed_02",1497,33,4,0.88
+"Segovia, Segovia","Segovia",19,"framed","framed_02",8653,254,26,8.44
+"Telde, Las Palmas","Las Palmas",20,"framed","framed_02",14537,287,39,11.9
+"Teruel, Teruel","Teruel",20,"framed","framed_02",3917,98,9,3
+"Xàtiva, Valencia","Valencia",16,"framed","framed_02",39,0,0,0
+"Arona, Santa Cruz de Tenerife","Santa Cruz de Tenerife",21,"framed","framed_02",50,3,0,0.06
+"Lugo, Lugo","Lugo",21,"framed","framed_02",10938,255,31,8.37
+"Mahón, Baleares","Baleares",20,"framed","framed_02",3288,91,12,2.55
+"Redondela, Pontevedra","Pontevedra",20,"framed","framed_02",2477,87,9,2.42
+"Roquetas de Mar, Almería","Almería",21,"framed","framed_02",24062,673,88,28.13
+"Villaviciosa, Asturias","Asturias",21,"framed","framed_02",1594,44,6,1.99
+"Almonte, Huelva","Huelva",22,"framed","framed_03",112,6,0,0.62
+"Alpedrete, Madrid","Madrid",29,"framed","framed_03",2613,62,3,1.54
+"Alzira, Valencia","Valencia",29,"framed","framed_03",18169,493,62,20.3
+"Andoain, Guipúzcoa","Guipúzcoa",30,"framed","framed_03",6862,195,22,6.74
+"Arenys de Mar, Barcelona","Barcelona",30,"framed","framed_03",5681,158,16,5.68
+"Arroyomolinos, Madrid","Madrid",30,"framed","framed_03",6344,172,10,5.72
+"Benavente, Zamora","Zamora",30,"framed","framed_03",4812,132,8,4.31
+"Cabra, Córdoba","Córdoba",31,"framed","framed_03",4800,118,9,5.29
+"Calahorra, La Rioja","La Rioja",31,"framed","framed_03",25,3,1,0.19
+"Camas, Sevilla","Sevilla",23,"framed","framed_03",7366,182,20,5.9
+"Cambados, Pontevedra","Pontevedra",31,"framed","framed_03",1964,38,3,1.05
+"Cangas del Narcea, Asturias","Asturias",31,"framed","framed_03",1150,29,4,0.64
+"Caravaca de la Cruz, Murcia","Murcia",23,"framed","framed_03",6919,185,21,8.6
+"Carcaixent, Valencia","Valencia",23,"framed","framed_03",29,0,0,0
+"Cassà de la Selva, Girona","Girona",23,"framed","framed_03",1975,41,5,1.39
+"Castalla, Alicante","Alicante",32,"framed","framed_03",33,1,0,0.01
+"Castellbisbal, Barcelona","Barcelona",32,"framed","framed_03",2949,86,9,2.86
+"Colmenar Viejo, Madrid","Madrid",24,"framed","framed_03",9718,234,11,7.55
+"Culleredo, A Coruña","A Coruña",24,"framed","framed_03",1215,29,1,0.66
+"Durango, Vizcaya","Vizcaya",24,"framed","framed_03",3244,93,7,3.09
+"Errenteria, Guipúzcoa","Guipúzcoa",24,"framed","framed_03",4749,146,13,6.28
+"Esplugues de Llobregat, Barcelona","Barcelona",25,"framed","framed_03",32497,888,99,36
+"Jaén, Jaén","Jaén",25,"framed","framed_03",53433,1235,114,44.95
+"La Zubia, Granada","Granada",25,"framed","framed_03",7910,234,19,8.09
+"Llinars del Vallès, Barcelona","Barcelona",25,"framed","framed_03",3512,93,8,3.48
+"Martorell, Barcelona","Barcelona",26,"framed","framed_03",8794,217,22,8.31
+"Mollerussa, Lleida","Lleida",26,"framed","framed_03",853,24,4,1.36
+"Muro, Baleares","Baleares",26,"framed","framed_03",1694,44,7,1.72
+"Palafrugell, Girona","Girona",26,"framed","framed_03",6129,155,21,5.73
+"Ponteareas, Pontevedra","Pontevedra",27,"framed","framed_03",4478,128,17,5.25
+"San Bartolomé de Tirajana, Las Palmas","Las Palmas",27,"framed","framed_03",16011,332,40,14.92
+"Sanlúcar de Barrameda, Cádiz","Cádiz",22,"framed","framed_03",240,9,2,0.65
+"Sant Just Desvern, Barcelona","Barcelona",27,"framed","framed_03",1178,30,1,1.15
+"Sant Pere de Ribes, Barcelona","Barcelona",27,"framed","framed_03",6126,161,18,5.6
+"Santa Cruz de Bezana, Cantabria","Cantabria",28,"framed","framed_03",2239,52,5,1.71
+"Sanxenxo, Pontevedra","Pontevedra",28,"framed","framed_03",4979,125,11,3.36
+"Tàrrega, Lleida","Lleida",22,"framed","framed_03",32,1,0,0.02
+"Torrelavega, Cantabria","Cantabria",28,"framed","framed_03",11955,304,20,10.25
+"Tortosa, Tarragona","Tarragona",22,"framed","framed_03",9658,240,21,9.53
+"Totana, Murcia","Murcia",28,"framed","framed_03",113,4,1,0.12
+"Vilafranca del Penedès, Barcelona","Barcelona",29,"framed","framed_03",15684,459,45,15.83
+"Zamora, Zamora","Zamora",29,"framed","framed_03",13252,304,25,12.08
+"Ceutí, Murcia","Murcia",32,"framed","framed_04",2,0,0,0
+"Ciempozuelos, Madrid","Madrid",32,"framed","framed_04",8714,213,24,8.18
+"Collado Villalba, Madrid","Madrid",33,"framed","framed_04",17513,412,36,15.62
+"Cunit, Tarragona","Tarragona",33,"framed","framed_04",539,10,0,0.47
+"Écija, Sevilla","Sevilla",33,"framed","framed_04",1310,34,3,1.81
+"Eibar, Guipúzcoa","Guipúzcoa",33,"framed","framed_04",5398,121,21,5.14
+"El Rosario, Santa Cruz de Tenerife","Santa Cruz de Tenerife",34,"framed","framed_04",3031,67,11,2.89
+"Elgoibar, Guipúzcoa","Guipúzcoa",34,"framed","framed_04",3,0,0,0
+"Es Migjorn Gran, Baleares","Baleares",34,"framed","framed_04",229,14,0,0.46
+"L'Alcora, Castellón","Castellón",34,"framed","framed_04",2317,66,2,2.43
+"La Pobla de Vallbona, Valencia","Valencia",35,"framed","framed_04",37,2,0,0.09
+"La Roda, Albacete","Albacete",35,"framed","framed_04",3953,93,6,3.29
+"La Vall d'Uixó, Castellón","Castellón",35,"framed","framed_04",8397,192,23,7.31
+"Laredo, Cantabria","Cantabria",35,"framed","framed_04",776,22,2,0.79
+"Los Llanos de Aridane, Santa Cruz de Tenerife","Santa Cruz de Tenerife",36,"framed","framed_04",7135,138,11,5.52
+"Madridejos, Toledo","Toledo",36,"framed","framed_04",2689,57,5,2.65
+"Manlleu, Barcelona","Barcelona",36,"framed","framed_04",6163,156,18,6.4
+"Melide, A Coruña","A Coruña",36,"framed","framed_04",1619,33,4,0.9
+"Montmeló, Barcelona","Barcelona",37,"framed","framed_04",1002,20,1,1.08
+"Montornès del Vallès, Barcelona","Barcelona",37,"framed","framed_04",5572,139,16,6.26
+"Morón de la Frontera, Sevilla","Sevilla",37,"framed","framed_04",147,3,1,0.12
+"Navalmoral de la Mata, Cáceres","Cáceres",37,"framed","framed_04",89,0,0,0
+"Onda, Castellón","Castellón",38,"framed","framed_04",19,0,0,0
+"Peligros, Granada","Granada",38,"framed","framed_04",3610,86,7,3.45
+"Peñíscola, Castellón","Castellón",38,"framed","framed_04",5108,155,12,5.11
+"Perafort, Tarragona","Tarragona",38,"framed","framed_04",1987,57,6,2.28
+"Priego de Córdoba, Córdoba","Córdoba",39,"framed","framed_04",30,1,0,0
+"Ribeira, A Coruña","A Coruña",39,"framed","framed_04",5356,128,10,4.27
+"Riells i Viabrea, Girona","Girona",39,"framed","framed_04",2263,62,9,2.62
+"Rincón de la Victoria, Málaga","Málaga",39,"framed","framed_04",11501,279,34,8.77
+"Ronda, Málaga","Málaga",40,"framed","framed_04",10332,260,17,9.57
+"Salamanca, Salamanca","Salamanca",40,"framed","framed_04",66567,1660,129,58.25
+"Sanlúcar la Mayor, Sevilla","Sevilla",40,"framed","framed_04",39,1,0,0.02
+"Sant Boi de Llobregat, Barcelona","Barcelona",40,"framed","framed_04",21513,529,55,21.26
+"Sant Vicenç dels Horts, Barcelona","Barcelona",41,"framed","framed_04",9068,227,26,8.66
+"Santa Cruz de la Palma, Santa Cruz de Tenerife","Santa Cruz de Tenerife",41,"framed","framed_04",4841,85,12,4.75
+"Santa Margalida, Baleares","Baleares",41,"framed","framed_04",4593,115,6,3.63
+"Sarria, Lugo","Lugo",41,"framed","framed_04",3451,73,7,2.58
+"Vic, Barcelona","Barcelona",42,"framed","framed_04",14985,372,33,12.56
+"Vilagarcía de Arousa, Pontevedra","Pontevedra",42,"framed","framed_04",1160,44,7,1.86
+"Villa del Río, Córdoba","Córdoba",42,"framed","framed_04",4438,70,8,3.64
+"Villalbilla, Madrid","Madrid",42,"framed","framed_04",15990,401,38,14.99
+"A Estrada, Pontevedra","Pontevedra",48,"framed","framed_05",3845,107,6,4.32
+"A Pobra do Caramiñal, A Coruña","A Coruña",48,"framed","framed_05",4738,129,13,4.71
+"A Veiga, Ourense","Ourense",49,"framed","framed_05",69,1,0,0.01
+"Adra, Almería","Almería",49,"framed","framed_05",131,6,1,0.19
+"Aguadulce, Sevilla","Sevilla",49,"framed","framed_05",0,0,0,0
+"Águilas, Murcia","Murcia",43,"framed","framed_05",15336,373,26,14.41
+"Agullent, Valencia","Valencia",49,"framed","framed_05",0,0,0,0
+"Albinyana, Tarragona","Tarragona",50,"framed","framed_05",299,14,0,0.34
+"Alburquerque, Badajoz","Badajoz",50,"framed","framed_05",0,0,0,0
+"Alcalá del Río, Sevilla","Sevilla",50,"framed","framed_05",6893,169,10,6.67
+"Alcañiz, Teruel","Teruel",50,"framed","framed_05",51,3,0,0.04
+"Alcàsser, Valencia","Valencia",51,"framed","framed_05",4494,95,12,3.95
+"Alcover, Tarragona","Tarragona",51,"framed","framed_05",1998,51,5,2.28
+"Alcúdia, Baleares","Baleares",43,"framed","framed_05",7658,212,21,8.49
+"Alfaro, La Rioja","La Rioja",51,"framed","framed_05",0,0,0,0
+"Alginet, Valencia","Valencia",51,"framed","framed_05",107,6,0,0.15
+"Alhama de Murcia, Murcia","Murcia",52,"framed","framed_05",8862,184,22,9.61
+"Alhendín, Granada","Granada",52,"framed","framed_05",1444,54,3,1.64
+"Aliaga, Teruel","Teruel",52,"framed","framed_05",0,0,0,0
+"Aller, Asturias","Asturias",52,"framed","framed_05",1732,37,1,1.56
+"Alpicat, Lleida","Lleida",53,"framed","framed_05",733,19,1,0.7
+"Altea, Alicante","Alicante",43,"framed","framed_05",289,4,0,0.12
+"Ames, A Coruña","A Coruña",43,"framed","framed_05",7069,197,27,8.31
+"Amposta, Tarragona","Tarragona",53,"framed","framed_05",7958,225,31,10.65
+"Aranda de Duero, Burgos","Burgos",44,"framed","framed_05",10081,237,28,9.41
+"Atarfe, Granada","Granada",44,"framed","framed_05",192,14,0,0.39
+"Binissalem, Baleares","Baleares",44,"framed","framed_05",1697,44,5,2.04
+"Chipiona, Cádiz","Cádiz",44,"framed","framed_05",10314,279,38,12.43
+"Churriana de la Vega, Granada","Granada",45,"framed","framed_05",7357,176,20,7.02
+"Erandio, Vizcaya","Vizcaya",45,"framed","framed_05",3610,117,13,5.58
+"Hernani, Guipúzcoa","Guipúzcoa",45,"framed","framed_05",4560,127,17,4.7
+"La Garriga, Barcelona","Barcelona",45,"framed","framed_05",3712,110,11,4.29
+"Mojácar, Almería","Almería",46,"framed","framed_05",5721,141,10,5
+"Monzón, Huesca","Huesca",46,"framed","framed_05",93,7,1,0.41
+"Olivella, Barcelona","Barcelona",46,"framed","framed_05",1312,46,5,1.67
+"Padul, Granada","Granada",46,"framed","framed_05",3245,79,14,3.91
+"Sant Joan d'Alacant, Alicante","Alicante",47,"framed","framed_05",9211,236,19,10.3
+"Son Servera, Baleares","Baleares",47,"framed","framed_05",2065,60,9,2.28
+"Soto del Barco, Asturias","Asturias",47,"framed","framed_05",798,23,2,1.05
+"Tarifa, Cádiz","Cádiz",47,"framed","framed_05",6156,182,23,7.75
+"Tías, Las Palmas","Las Palmas",48,"framed","framed_05",1940,51,4,1.43
+"Valls, Tarragona","Tarragona",48,"framed","framed_05",7351,183,16,6.5
+"Andújar, Jaén","Jaén",53,"framed","framed_06",3365,83,11,3.35
+"Arahal, Sevilla","Sevilla",53,"framed","framed_06",39,1,0,0.08
+"Arenas de Iguña, Cantabria","Cantabria",54,"framed","framed_06",497,15,1,0.58
+"Arévalo, Ávila","Ávila",54,"framed","framed_06",1821,35,3,1.93
+"Arnedo, La Rioja","La Rioja",54,"framed","framed_06",20,0,0,0
+"Arrecife, Las Palmas","Las Palmas",54,"framed","framed_06",26835,612,61,26.51
+"Artés, Barcelona","Barcelona",55,"framed","framed_06",1460,47,7,1.74
+"As Neves, Pontevedra","Pontevedra",55,"framed","framed_06",493,9,1,0.2
+"Avià, Barcelona","Barcelona",55,"framed","framed_06",467,10,0,0.46
+"Azkoitia, Guipúzcoa","Guipúzcoa",55,"framed","framed_06",1848,49,5,1.89
+"Baeza, Jaén","Jaén",56,"framed","framed_06",69,0,0,0
+"Balsa de Ves, Albacete","Albacete",56,"framed","framed_06",0,0,0,0
+"Banyalbufar, Baleares","Baleares",56,"framed","framed_06",99,3,0,0.2
+"Barbastro, Huesca","Huesca",56,"framed","framed_06",9,0,0,0
+"Barbate, Cádiz","Cádiz",57,"framed","framed_06",151,4,0,0.23
+"Begues, Barcelona","Barcelona",57,"framed","framed_06",1850,55,8,1.71
+"Béjar, Salamanca","Salamanca",57,"framed","framed_06",931,25,4,1.01
+"Benaguasil, Valencia","Valencia",57,"framed","framed_06",42,0,0,0
+"Benamaurel, Granada","Granada",58,"framed","framed_06",611,13,0,0.54
+"Beniparrell, Valencia","Valencia",58,"framed","framed_06",17,0,0,0
+"Besalú, Girona","Girona",58,"framed","framed_06",276,6,1,0.26
+"Bimenes, Asturias","Asturias",58,"framed","framed_06",239,5,0,0.09
+"Binéfar, Huesca","Huesca",59,"framed","framed_06",2684,73,9,2.72
+"Boiro, A Coruña","A Coruña",59,"framed","framed_06",2849,85,15,3.15
+"Búger, Baleares","Baleares",59,"framed","framed_06",310,10,2,0.13
+"Buitrago del Lozoya, Madrid","Madrid",59,"framed","framed_06",515,10,1,0.3
+"Bullas, Murcia","Murcia",60,"framed","framed_06",41,3,0,0.16
+"Burela, Lugo","Lugo",60,"framed","framed_06",45,1,0,0.02
+"Cádiz, Cádiz","Cádiz",60,"framed","framed_06",44067,1158,108,41.78
+"Calasparra, Murcia","Murcia",60,"framed","framed_06",0,0,0,0
+"Camarma de Esteruelas, Madrid","Madrid",61,"framed","framed_06",2115,52,4,1.88
+"Campanet, Baleares","Baleares",61,"framed","framed_06",519,11,0,0.38
+"Campos, Baleares","Baleares",61,"framed","framed_06",2488,64,7,2.22
+"Canals, Valencia","Valencia",61,"framed","framed_06",0,0,0,0
+"Caniles, Granada","Granada",62,"framed","framed_06",728,15,2,0.75
+"Cantillana, Sevilla","Sevilla",62,"framed","framed_06",3231,94,8,3.98
+"Casariche, Sevilla","Sevilla",62,"framed","framed_06",0,0,0,0
+"Casasimarro, Cuenca","Cuenca",62,"framed","framed_06",0,0,0,0
+"Catral, Alicante","Alicante",63,"framed","framed_06",73,4,1,0.23
+"Cehegín, Murcia","Murcia",63,"framed","framed_06",46,0,0,0
+"Cercedilla, Madrid","Madrid",63,"framed","framed_06",1558,33,1,0.95
+"Chandrexa de Queixa, Ourense","Ourense",63,"framed","framed_06",0,0,0,0
+"Chauchina, Granada","Granada",64,"framed","framed_07",2506,59,9,2.17
+"Cieza, Murcia","Murcia",64,"framed","framed_07",368,16,4,0.81
+"Ciudad Rodrigo, Salamanca","Salamanca",64,"framed","framed_07",247,7,1,0.21
+"Comillas, Cantabria","Cantabria",64,"framed","framed_07",708,16,2,0.63
+"Cortes y Graena, Granada","Granada",65,"framed","framed_07",326,2,0,0.05
+"Coslada, Madrid","Madrid",65,"framed","framed_07",52112,1463,140,49.14
+"Costitx, Baleares","Baleares",65,"framed","framed_07",0,0,0,0
+"Cúllar, Granada","Granada",65,"framed","framed_07",1050,27,3,0.92
+"Cuntis, Pontevedra","Pontevedra",66,"framed","framed_07",1135,25,4,1.05
+"Curtis, A Coruña","A Coruña",66,"framed","framed_07",652,13,0,0.65
+"Derio, Vizcaya","Vizcaya",66,"framed","framed_07",173,9,1,0.73
+"Dúrcal, Granada","Granada",66,"framed","framed_07",0,0,0,0
+"El Astillero, Cantabria","Cantabria",67,"framed","framed_07",1645,41,4,1.82
+"El Cuervo de Sevilla, Sevilla","Sevilla",67,"framed","framed_07",0,0,0,0
+"El Viso del Alcor, Sevilla","Sevilla",67,"framed","framed_07",7431,151,19,5.25
+"El Viso, Córdoba","Córdoba",67,"framed","framed_07",874,19,1,1.07
+"Escorca, Baleares","Baleares",68,"framed","framed_07",33,1,0,0.05
+"Esporles, Baleares","Baleares",68,"framed","framed_07",400,11,1,0.27
+"Estepa, Sevilla","Sevilla",68,"framed","framed_07",106,10,2,0.57
+"Fene, A Coruña","A Coruña",68,"framed","framed_07",1691,43,6,1.9
+"Flix, Tarragona","Tarragona",69,"framed","framed_07",0,0,0,0
+"Foios, Valencia","Valencia",69,"framed","framed_07",1565,52,7,2.16
+"Folgoso do Courel, Lugo","Lugo",69,"framed","framed_07",45,3,0,0.07
+"Fornalutx, Baleares","Baleares",69,"framed","framed_07",58,1,0,0.01
+"Gelves, Sevilla","Sevilla",70,"framed","framed_07",2209,69,8,2.59
+"Gerena, Sevilla","Sevilla",70,"framed","framed_07",4120,108,12,3.3
+"Gójar, Granada","Granada",70,"framed","framed_07",2641,74,9,3.23
+"Gozón, Asturias","Asturias",70,"framed","framed_07",3635,98,7,4.2
+"Griñón, Madrid","Madrid",71,"framed","framed_07",2335,60,2,1.88
+"Guadarrama, Madrid","Madrid",71,"framed","framed_07",3955,95,4,3.26
+"Gurb, Barcelona","Barcelona",71,"framed","framed_07",831,24,2,1.24
+"Hellín, Albacete","Albacete",71,"framed","framed_07",13005,306,33,12.4
+"Horcajo de Santiago, Cuenca","Cuenca",72,"framed","framed_07",2113,40,2,1.68
+"Huércal-Overa, Almería","Almería",72,"framed","framed_07",8430,197,16,7.97
+"Huéscar, Granada","Granada",72,"framed","framed_07",4580,105,11,4.53
+"Ibi, Alicante","Alicante",72,"framed","framed_07",47,3,0,0.27
+"Inca, Baleares","Baleares",73,"framed","framed_07",9803,211,16,8.82
+"Íscar, Valladolid","Valladolid",73,"framed","framed_07",2496,46,4,1.72
+"L'Alcúdia, Valencia","Valencia",73,"framed","framed_07",63,3,0,0.11
+"L'Ametlla del Vallès, Barcelona","Barcelona",73,"framed","framed_07",3864,105,10,4.27
+"L'Olleria, Valencia","Valencia",74,"framed","framed_07",3624,84,12,3.83
+"La Carolina, Jaén","Jaén",74,"framed","framed_07",36,1,0,0.02
+"La Línea de la Concepción, Cádiz","Cádiz",74,"framed","framed_08",18298,427,60,21.23
+"La Nou de Gaià, Tarragona","Tarragona",74,"framed","framed_08",0,0,0,0
+"La Palma d'Ebre, Tarragona","Tarragona",75,"framed","framed_08",0,0,0,0
+"La Palma del Condado, Huelva","Huelva",75,"framed","framed_08",130,3,0,0.04
+"La Pobla de Farnals, Valencia","Valencia",75,"framed","framed_08",2333,68,10,1.95
+"La Pobla de Mafumet, Tarragona","Tarragona",75,"framed","framed_08",2616,62,6,2.44
+"La Unión, Murcia","Murcia",76,"framed","framed_08",1155,31,3,1.01
+"Láncara, Lugo","Lugo",76,"framed","framed_08",230,7,1,0.3
+"Las Gabias, Granada","Granada",76,"framed","framed_08",12404,315,35,11.95
+"Las Peñas de Riglos, Huesca","Huesca",76,"framed","framed_08",279,5,0,0.14
+"Lena, Asturias","Asturias",77,"framed","framed_08",1300,37,2,1.29
+"Les Borges del Camp, Tarragona","Tarragona",77,"framed","framed_08",577,11,3,0.45
+"Lloret de Vistalegre, Baleares","Baleares",77,"framed","framed_08",387,8,0,0.37
+"Lloseta, Baleares","Baleares",77,"framed","framed_08",1234,30,1,1.41
+"Loja, Granada","Granada",78,"framed","framed_08",0,0,0,0
+"Lora del Río, Sevilla","Sevilla",78,"framed","framed_08",11,0,0,0
+"Los Altos, Burgos","Burgos",78,"framed","framed_08",76,1,0,0.14
+"Lucena, Córdoba","Córdoba",78,"framed","framed_08",13637,311,35,11.73
+"Mairena del Alcor, Sevilla","Sevilla",79,"framed","framed_08",103,2,0,0.1
+"Mancha Real, Jaén","Jaén",79,"framed","framed_08",2,0,0,0
+"Marchamalo, Guadalajara","Guadalajara",79,"framed","framed_08",1117,27,1,0.73
+"Marchena, Sevilla","Sevilla",79,"framed","framed_08",14,1,0,0.01
+"Maruri-Jatabe, Vizcaya","Vizcaya",80,"framed","framed_08",174,7,1,0.36
+"Masquefa, Barcelona","Barcelona",80,"framed","framed_08",2,0,0,0
+"Matadepera, Barcelona","Barcelona",80,"framed","framed_08",694,10,0,0.37
+"Mazaricos, A Coruña","A Coruña",80,"framed","framed_08",794,19,5,0.84
+"Medina de Pomar, Burgos","Burgos",81,"framed","framed_08",2683,49,1,1.91
+"Mengíbar, Jaén","Jaén",81,"framed","framed_08",2783,61,5,2.9
+"Miño, A Coruña","A Coruña",81,"framed","framed_08",1573,31,3,1.49
+"Miraflores de la Sierra, Madrid","Madrid",81,"framed","framed_08",1472,42,4,1.55
+"Mocejón, Toledo","Toledo",82,"framed","framed_08",1956,57,4,2.4
+"Mont-ral, Tarragona","Tarragona",82,"framed","framed_08",0,0,0,0
+"Mont-ras, Girona","Girona",82,"framed","framed_08",32,2,0,0.06
+"Montbrió del Camp, Tarragona","Tarragona",82,"framed","framed_08",906,25,2,0.72
+"Montferri, Tarragona","Tarragona",83,"framed","framed_08",0,0,0,0
+"Montilla, Córdoba","Córdoba",83,"framed","framed_08",131,4,2,0.19
+"Morcín, Asturias","Asturias",83,"framed","framed_08",544,9,0,0.21
+"Muras, Lugo","Lugo",83,"framed","framed_08",137,4,0,0.08
+"Nerja, Málaga","Málaga",84,"framed","framed_08",16981,401,49,17.16
+"Níjar, Almería","Almería",84,"framed","framed_08",15068,325,40,14.41
+"Noia, A Coruña","A Coruña",84,"framed","framed_08",5430,128,12,4.11
+"Noja, Cantabria","Cantabria",84,"framed","framed_08",2257,63,6,2.13
+"Olivares, Sevilla","Sevilla",85,"framed","framed_09",2369,52,5,1.23
+"Olocau, Valencia","Valencia",85,"framed","framed_09",1193,39,3,1.53
+"Ondara, Alicante","Alicante",85,"framed","framed_09",3884,96,13,3.7
+"Ontinyent, Valencia","Valencia",85,"framed","framed_09",12385,318,31,10.47
+"Ordes, A Coruña","A Coruña",86,"framed","framed_09",5223,119,13,4.69
+"Outeiro de Rei, Lugo","Lugo",86,"framed","framed_09",1281,25,0,0.65
+"Paderne de Allariz, Ourense","Ourense",86,"framed","framed_09",303,9,2,0.64
+"Palma del Río, Córdoba","Córdoba",86,"framed","framed_09",36,0,0,0
+"Peñarroya-Pueblonuevo, Córdoba","Córdoba",87,"framed","framed_09",3264,54,1,2.22
+"Pilas, Sevilla","Sevilla",87,"framed","framed_09",1090,24,2,1.09
+"Pinofranqueado, Cáceres","Cáceres",87,"framed","framed_09",100,6,1,0.3
+"Pioz, Guadalajara","Guadalajara",87,"framed","framed_09",2905,72,12,3.02
+"Plasencia, Cáceres","Cáceres",88,"framed","framed_09",1681,48,6,2.34
+"Pollença, Baleares","Baleares",88,"framed","framed_09",4456,110,9,5.87
+"Posadas, Córdoba","Córdoba",88,"framed","framed_09",2560,49,7,2.98
+"Pozoblanco, Córdoba","Córdoba",88,"framed","framed_09",4488,105,14,4.82
+"Puertollano, Ciudad Real","Ciudad Real",89,"framed","framed_09",13052,250,18,10.09
+"Puigpunyent, Baleares","Baleares",89,"framed","framed_09",210,7,0,0.14
+"Quijorna, Madrid","Madrid",89,"framed","framed_09",833,17,2,0.26
+"Quiroga, Lugo","Lugo",89,"framed","framed_09",1521,40,3,2.07
+"Quirós, Asturias","Asturias",90,"framed","framed_09",196,8,1,0.28
+"Ramirás, Ourense","Ourense",90,"framed","framed_09",302,7,0,0.45
+"Retortillo de Soria, Soria","Soria",90,"framed","framed_09",0,0,0,0
+"Ribera d'Urgellet, Lleida","Lleida",90,"framed","framed_09",302,9,2,0.23
+"Riós, Ourense","Ourense",91,"framed","framed_09",237,6,1,0.52
+"Ripollet, Barcelona","Barcelona",91,"framed","framed_09",150,6,1,0.33
+"Riudellots de la Selva, Girona","Girona",91,"framed","framed_09",911,23,3,1.31
+"Salvaterra de Miño, Pontevedra","Pontevedra",91,"framed","framed_09",2483,71,10,2.56
+"San Cibrao das Viñas, Ourense","Ourense",92,"framed","framed_09",1681,50,3,1.91
+"San Fulgencio, Alicante","Alicante",92,"framed","framed_09",2925,72,3,2.82
+"San Pascual, Ávila","Ávila",92,"framed","framed_09",0,0,0,0
+"San Sadurniño, A Coruña","A Coruña",92,"framed","framed_09",353,15,2,0.61
+"Sant Andreu de la Barca, Barcelona","Barcelona",93,"framed","framed_09",6469,163,17,5.85
+"Sant Cebrià de Vallalta, Barcelona","Barcelona",93,"framed","framed_09",1022,23,4,0.69
+"Sant Joan Despí, Barcelona","Barcelona",93,"framed","framed_09",172,4,1,0.15
+"Sant Martí de Tous, Barcelona","Barcelona",93,"framed","framed_09",52,4,1,0.09
+"Sant Pol de Mar, Barcelona","Barcelona",94,"framed","framed_09",1310,38,5,1.79
+"Santa Coloma de Farners, Girona","Girona",94,"framed","framed_09",3698,71,6,2.73
+"Santa Comba, A Coruña","A Coruña",94,"framed","framed_09",1920,37,4,1.16
+"Santa Eulàlia de Ronçana, Barcelona","Barcelona",94,"framed","framed_09",3189,65,8,2.93
+"Santiponce, Sevilla","Sevilla",95,"framed","framed_09",2050,36,5,1.21
+"Santoña, Cantabria","Cantabria",95,"framed","framed_09",77,2,0,0.16
+"Santpedor, Barcelona","Barcelona",95,"framed","framed_10",1900,64,4,2.23
+"Sayalonga, Málaga","Málaga",95,"framed","framed_10",0,0,0,0
+"Serón, Almería","Almería",96,"framed","framed_10",509,17,1,0.64
+"Sestao, Vizcaya","Vizcaya",96,"framed","framed_10",11053,274,25,9.22
+"Silleda, Pontevedra","Pontevedra",96,"framed","framed_10",1358,38,5,1.17
+"Simancas, Valladolid","Valladolid",96,"framed","framed_10",1053,31,3,1.05
+"Sineu, Baleares","Baleares",97,"framed","framed_10",609,13,0,0.32
+"Sotalbo, Ávila","Ávila",97,"framed","framed_10",0,0,0,0
+"Súria, Barcelona","Barcelona",97,"framed","framed_10",1678,38,7,1.76
+"Taboada, Lugo","Lugo",97,"framed","framed_10",102,5,2,0.51
+"Tarancón, Cuenca","Cuenca",98,"framed","framed_10",6406,131,16,5.42
+"Teià, Barcelona","Barcelona",98,"framed","framed_10",1856,53,8,1.8
+"Tocina, Sevilla","Sevilla",98,"framed","framed_10",2950,65,9,2.14
+"Tolosa, Guipúzcoa","Guipúzcoa",98,"framed","framed_10",0,0,0,0
+"Tomelloso, Ciudad Real","Ciudad Real",99,"framed","framed_10",11458,232,28,8.88
+"Tordoia, A Coruña","A Coruña",99,"framed","framed_10",329,7,0,0.18
+"Torre-Pacheco, Murcia","Murcia",99,"framed","framed_10",14002,376,44,14.62
+"Torrejón de la Calzada, Madrid","Madrid",99,"framed","framed_10",2844,53,5,2.14
+"Torrelodones, Madrid","Madrid",100,"framed","framed_10",1815,46,4,2.85
+"Torres de la Alameda, Madrid","Madrid",100,"framed","framed_10",2493,68,7,2.26
+"Tudela de Duero, Valladolid","Valladolid",100,"framed","framed_10",2820,76,12,3.95
+"Umbrete, Sevilla","Sevilla",100,"framed","framed_10",3748,83,14,3.36
+"Val do Dubra, A Coruña","A Coruña",101,"framed","framed_10",516,9,1,0.56
+"Valdáliga, Cantabria","Cantabria",101,"framed","framed_10",629,24,3,0.82
+"Valdepeñas, Ciudad Real","Ciudad Real",101,"framed","framed_10",8487,177,20,6.73
+"Valderredible, Cantabria","Cantabria",101,"framed","framed_10",552,8,0,0.22
+"Valldemossa, Baleares","Baleares",102,"framed","framed_10",224,8,1,0.15
+"Valle de Mena, Burgos","Burgos",102,"framed","framed_10",1247,22,3,0.71
+"Vallmoll, Tarragona","Tarragona",102,"framed","framed_10",460,16,1,0.52
+"Vélez-Blanco, Almería","Almería",102,"framed","framed_10",1742,44,2,1.92
+"Verín, Ourense","Ourense",103,"framed","framed_10",2993,66,7,3.21
+"Vilalba, Lugo","Lugo",103,"framed","framed_10",1377,32,5,1.88
+"Vilallonga de Ter, Girona","Girona",103,"framed","framed_10",467,13,1,0.43
+"Vilanova de Arousa, Pontevedra","Pontevedra",103,"framed","framed_10",5006,134,10,3.53
+"Villamanta, Madrid","Madrid",104,"framed","framed_10",708,15,2,0.74
+"Villamayor, Salamanca","Salamanca",104,"framed","framed_10",161,3,0,0.04
+"Villanueva de Gállego, Zaragoza","Zaragoza",104,"framed","framed_10",1091,18,2,0.44
+"Villanueva de la Torre, Guadalajara","Guadalajara",104,"framed","framed_10",1012,20,5,1.29
+"Villarrobledo, Albacete","Albacete",105,"framed","framed_10",84,2,0,0.13
+"Villarta-Quintana, La Rioja","La Rioja",105,"framed","framed_10",0,0,0,0
+"Villayón, Asturias","Asturias",105,"framed","framed_10",40,2,0,0.05
+"Xove, Lugo","Lugo",105,"framed","framed_10",1698,55,6,2.1
+"Vigo, Pontevedra","Pontevedra",1,"neutral","neutral_01",33756,1408,220,29.6
+"Málaga, Málaga","Málaga",1,"neutral","neutral_01",46840,1676,193,36.02
+"Murcia, Murcia","Murcia",1,"neutral","neutral_01",19187,613,52,13.87
+"Terrassa, Barcelona","Barcelona",1,"neutral","neutral_01",10416,343,42,9.25
+"Badalona, Barcelona","Barcelona",2,"neutral","neutral_01",8807,307,29,7.9
+"Cartagena, Murcia","Murcia",2,"neutral","neutral_01",10204,355,41,9.19
+"Palma de Mallorca, Baleares","Baleares",2,"neutral","neutral_01",24593,831,100,19.22
+"Santander, Cantabria","Cantabria",2,"neutral","neutral_01",6962,260,32,6.77
+"A Coruña, A Coruña","A Coruña",3,"neutral","neutral_01",9211,348,35,7.56
+"Albacete, Albacete","Albacete",3,"neutral","neutral_01",13201,465,50,10.04
+"Alcalá de Guadaíra, Sevilla","Sevilla",4,"neutral","neutral_01",3146,106,9,2.03
+"Oviedo, Asturias","Asturias",3,"neutral","neutral_01",4872,142,20,3.69
+"Rivas-Vaciamadrid, Madrid","Madrid",3,"neutral","neutral_01",4756,159,14,3.67
+"Reus, Tarragona","Tarragona",4,"neutral","neutral_01",4958,169,18,4.74
+"Sant Cugat del Vallès, Barcelona","Barcelona",4,"neutral","neutral_01",1650,76,8,1.46
+"Chiclana de la Frontera, Cádiz","Cádiz",5,"neutral","neutral_01",4057,142,20,3.56
+"Fuenlabrada, Madrid","Madrid",5,"neutral","neutral_01",3483,147,20,3.08
+"Granada, Granada","Granada",4,"neutral","neutral_01",13825,476,62,10.83
+"Jerez de la Frontera, Cádiz","Cádiz",5,"neutral","neutral_01",11266,402,50,8.9
+"Las Rozas de Madrid, Madrid","Madrid",5,"neutral","neutral_01",1252,34,6,0.67
+"Torrent, Valencia","Valencia",6,"neutral","neutral_01",4031,155,15,3.9
+"Alboraya, Valencia","Valencia",7,"neutral","neutral_01",1,0,0,0
+"Cornellà de Llobregat, Barcelona","Barcelona",6,"neutral","neutral_01",3888,105,14,2.72
+"El Puerto de Santa María, Cádiz","Cádiz",7,"neutral","neutral_01",5856,185,21,4.05
+"Guadalajara, Guadalajara","Guadalajara",8,"neutral","neutral_01",4692,187,19,4.11
+"Irun, Guipúzcoa","Guipúzcoa",7,"neutral","neutral_01",1541,61,11,1.83
+"Logroño, La Rioja","La Rioja",6,"neutral","neutral_01",4031,131,24,3.2
+"Marbella, Málaga","Málaga",6,"neutral","neutral_01",9890,335,47,8.87
+"Valladolid, Valladolid","Valladolid",7,"neutral","neutral_01",22500,838,87,17.17
+"Viladecans, Barcelona","Barcelona",8,"neutral","neutral_01",2386,83,10,1.9
+"Alcobendas, Madrid","Madrid",10,"neutral","neutral_01",2506,86,11,1.97
+"Alcorcón, Madrid","Madrid",9,"neutral","neutral_01",3956,112,13,2.91
+"Cerdanyola del Vallès, Barcelona","Barcelona",8,"neutral","neutral_01",1634,64,7,1.66
+"Cullera, Valencia","Valencia",9,"neutral","neutral_01",16,0,0,0
+"Espartinas, Sevilla","Sevilla",9,"neutral","neutral_01",25,0,0,0
+"Gandia, Valencia","Valencia",9,"neutral","neutral_01",4407,160,22,4
+"Oropesa del Mar, Castellón","Castellón",11,"neutral","neutral_01",10,0,0,0
+"San Sebastián de los Reyes, Madrid","Madrid",11,"neutral","neutral_01",1377,58,5,1.02
+"Santa Pola, Alicante","Alicante",10,"neutral","neutral_01",138,5,1,0.26
+"Torremolinos, Málaga","Málaga",8,"neutral","neutral_01",2806,117,11,2.38
+"Torroella de Montgrí, Girona","Girona",10,"neutral","neutral_01",504,11,2,0.73
+"Utrera, Sevilla","Sevilla",10,"neutral","neutral_01",2426,85,9,1.92
+"Adeje, Santa Cruz de Tenerife","Santa Cruz de Tenerife",11,"neutral","neutral_02",49,0,0,0
+"Almansa, Albacete","Albacete",13,"neutral","neutral_02",3686,95,16,3.25
+"Almuñécar, Granada","Granada",12,"neutral","neutral_02",6368,157,12,4.96
+"Benissa, Alicante","Alicante",17,"neutral","neutral_02",1968,54,4,2.02
+"Caldes de Montbui, Barcelona","Barcelona",12,"neutral","neutral_02",1906,61,5,2.04
+"Cartaya, Huelva","Huelva",17,"neutral","neutral_02",139,8,2,0.18
+"Catarroja, Valencia","Valencia",17,"neutral","neutral_02",1477,37,4,1.4
+"Ceuta, Ceuta","Ceuta",12,"neutral","neutral_02",20204,438,46,17.18
+"Crevillent, Alicante","Alicante",17,"neutral","neutral_02",9413,255,26,10.96
+"Don Benito, Badajoz","Badajoz",13,"neutral","neutral_02",6145,163,17,6.12
+"Dos Hermanas, Sevilla","Sevilla",14,"neutral","neutral_02",16073,465,37,16.49
+"Figueres, Girona","Girona",14,"neutral","neutral_02",11697,287,39,10.73
+"Getxo, Vizcaya","Vizcaya",14,"neutral","neutral_02",4611,182,13,4.99
+"Granadilla de Abona, Santa Cruz de Tenerife","Santa Cruz de Tenerife",14,"neutral","neutral_02",11055,234,30,9.26
+"Huesca, Huesca","Huesca",18,"neutral","neutral_02",8442,220,26,8.23
+"L'Eliana, Valencia","Valencia",18,"neutral","neutral_02",3830,122,7,3.46
+"Lorca, Murcia","Murcia",15,"neutral","neutral_02",22564,523,41,18.33
+"Malgrat de Mar, Barcelona","Barcelona",18,"neutral","neutral_02",3960,98,7,2.94
+"Manresa, Barcelona","Barcelona",12,"neutral","neutral_02",14299,360,28,12.44
+"Marratxí, Baleares","Baleares",13,"neutral","neutral_02",2337,80,8,3.57
+"Miranda de Ebro, Burgos","Burgos",18,"neutral","neutral_02",6163,140,14,4.96
+"Oliva, Valencia","Valencia",15,"neutral","neutral_02",214,16,3,0.55
+"Puerto del Rosario, Las Palmas","Las Palmas",19,"neutral","neutral_02",5760,129,12,5.21
+"Rota, Cádiz","Cádiz",19,"neutral","neutral_02",6903,171,17,5.16
+"Sada, A Coruña","A Coruña",19,"neutral","neutral_02",1137,31,2,0.87
+"Salou, Tarragona","Tarragona",15,"neutral","neutral_02",11648,363,34,13.59
+"San Cristóbal de La Laguna, Santa Cruz de Tenerife","Santa Cruz de Tenerife",11,"neutral","neutral_02",24312,575,62,22.26
+"San Javier, Murcia","Murcia",15,"neutral","neutral_02",6837,170,11,5.23
+"Siero, Asturias","Asturias",13,"neutral","neutral_02",11072,285,35,12.03
+"Sueca, Valencia","Valencia",19,"neutral","neutral_02",6501,150,20,5.76
+"Valdemoro, Madrid","Madrid",16,"neutral","neutral_02",12681,348,27,10.74
+"Velilla de San Antonio, Madrid","Madrid",20,"neutral","neutral_02",1644,41,3,1.28
+"Vera, Almería","Almería",16,"neutral","neutral_02",36,1,0,0.02
+"Villaviciosa de Odón, Madrid","Madrid",16,"neutral","neutral_02",2431,66,7,2.32
+"Vinaròs, Castellón","Castellón",16,"neutral","neutral_02",5635,161,16,5.35
+"Basauri, Vizcaya","Vizcaya",20,"neutral","neutral_02",0,0,0,0
+"Boadilla del Monte, Madrid","Madrid",21,"neutral","neutral_02",3887,117,11,3.66
+"Castelldefels, Barcelona","Barcelona",20,"neutral","neutral_02",350,19,1,0.87
+"Cervelló, Barcelona","Barcelona",21,"neutral","neutral_02",899,28,2,0.77
+"Galdakao, Vizcaya","Vizcaya",21,"neutral","neutral_02",3247,108,9,3.74
+"Gavà, Barcelona","Barcelona",20,"neutral","neutral_02",5187,130,12,4.15
+"Mollet del Vallès, Barcelona","Barcelona",21,"neutral","neutral_02",8999,220,24,8.59
+"Alaior, Baleares","Baleares",22,"neutral","neutral_03",102,1,0,0.07
+"Alfafar, Valencia","Valencia",29,"neutral","neutral_03",83,4,0,0.17
+"Almoradí, Alicante","Alicante",22,"neutral","neutral_03",2095,52,3,1.79
+"Antequera, Málaga","Málaga",22,"neutral","neutral_03",17841,403,49,15.88
+"Ávila, Ávila","Ávila",30,"neutral","neutral_03",15459,380,43,15.07
+"Azuqueca de Henares, Guadalajara","Guadalajara",23,"neutral","neutral_03",12724,319,27,10.79
+"Balenyà, Barcelona","Barcelona",23,"neutral","neutral_03",1627,50,8,1.96
+"Barberà del Vallès, Barcelona","Barcelona",23,"neutral","neutral_03",14785,381,34,12.4
+"Benicarló, Castellón","Castellón",30,"neutral","neutral_03",8416,219,25,9.84
+"Berga, Barcelona","Barcelona",30,"neutral","neutral_03",8,0,0,0
+"Bunyola, Baleares","Baleares",30,"neutral","neutral_03",785,14,0,0.32
+"Burjassot, Valencia","Valencia",31,"neutral","neutral_03",10713,286,26,9.69
+"Cabrera de Mar, Barcelona","Barcelona",31,"neutral","neutral_03",1029,27,5,0.93
+"Camargo, Cantabria","Cantabria",31,"neutral","neutral_03",9065,238,22,7.9
+"Canet d'En Berenguer, Valencia","Valencia",31,"neutral","neutral_03",108,17,5,0.72
+"Capdepera, Baleares","Baleares",32,"neutral","neutral_03",2527,55,7,2.45
+"Carmona, Sevilla","Sevilla",32,"neutral","neutral_03",11526,223,23,8.36
+"Castellar del Vallès, Barcelona","Barcelona",23,"neutral","neutral_03",5667,159,20,5.84
+"Castro-Urdiales, Cantabria","Cantabria",24,"neutral","neutral_03",5417,168,21,6.47
+"Constantí, Tarragona","Tarragona",24,"neutral","neutral_03",449,12,0,0.21
+"Creixell, Tarragona","Tarragona",24,"neutral","neutral_03",1605,42,4,1.47
+"El Ejido, Almería","Almería",24,"neutral","neutral_03",28119,644,81,27.99
+"Esparreguera, Barcelona","Barcelona",25,"neutral","neutral_03",5181,149,7,4.81
+"Fuengirola, Málaga","Málaga",25,"neutral","neutral_03",29021,769,80,29.77
+"Illescas, Toledo","Toledo",25,"neutral","neutral_03",17982,387,30,14.26
+"Los Barrios, Cádiz","Cádiz",25,"neutral","neutral_03",115,4,2,0.2
+"Majadahonda, Madrid","Madrid",26,"neutral","neutral_03",8203,221,26,8.1
+"Manises, Valencia","Valencia",26,"neutral","neutral_03",7468,158,20,6.54
+"Novelda, Alicante","Alicante",26,"neutral","neutral_03",30,2,1,0.28
+"Petrer, Alicante","Alicante",26,"neutral","neutral_03",6237,174,18,6.99
+"Pilar de la Horadada, Alicante","Alicante",27,"neutral","neutral_03",10992,289,38,11.16
+"Portugalete, Vizcaya","Vizcaya",22,"neutral","neutral_03",6238,163,26,6.96
+"Puçol, Valencia","Valencia",27,"neutral","neutral_03",4266,129,14,4.54
+"Sant Llorenç d'Hortons, Barcelona","Barcelona",27,"neutral","neutral_03",522,12,1,0.33
+"Sant Sadurní d'Anoia, Barcelona","Barcelona",27,"neutral","neutral_03",2447,61,12,1.79
+"Santanyí, Baleares","Baleares",28,"neutral","neutral_03",2301,73,10,2.52
+"Soria, Soria","Soria",28,"neutral","neutral_03",8052,179,23,5.85
+"Talavera de la Reina, Toledo","Toledo",28,"neutral","neutral_03",25475,653,72,23.64
+"Vallirana, Barcelona","Barcelona",28,"neutral","neutral_03",3896,105,7,3.8
+"Vila-seca, Tarragona","Tarragona",29,"neutral","neutral_03",6789,193,19,5.9
+"Villena, Alicante","Alicante",29,"neutral","neutral_03",77,3,0,0.09
+"Zarautz, Guipúzcoa","Guipúzcoa",29,"neutral","neutral_03",4099,144,16,5.55
+"Celrà, Girona","Girona",32,"neutral","neutral_04",3238,103,10,2.91
+"Ciudad Real, Ciudad Real","Ciudad Real",32,"neutral","neutral_04",28026,678,56,23.48
+"Cocentaina, Alicante","Alicante",33,"neutral","neutral_04",9508,244,23,7.64
+"Coín, Málaga","Málaga",33,"neutral","neutral_04",98,7,1,0.27
+"Colmenarejo, Madrid","Madrid",33,"neutral","neutral_04",2516,53,0,1.39
+"Deltebre, Tarragona","Tarragona",33,"neutral","neutral_04",6293,156,4,4.93
+"Elda, Alicante","Alicante",34,"neutral","neutral_04",24445,588,31,20.29
+"Felanitx, Baleares","Baleares",34,"neutral","neutral_04",6353,149,10,7.08
+"Guardamar del Segura, Alicante","Alicante",34,"neutral","neutral_04",115,6,0,0.26
+"Jaca, Huesca","Huesca",34,"neutral","neutral_04",22,1,0,0.01
+"La Rinconada, Sevilla","Sevilla",35,"neutral","neutral_04",224,10,0,0.36
+"Lebrija, Sevilla","Sevilla",35,"neutral","neutral_04",282,12,3,0.49
+"Les Franqueses del Vallès, Barcelona","Barcelona",35,"neutral","neutral_04",6479,182,20,6.95
+"Llançà, Girona","Girona",35,"neutral","neutral_04",2098,65,7,2.23
+"Llucmajor, Baleares","Baleares",36,"neutral","neutral_04",16008,365,30,13.83
+"Los Palacios y Villafranca, Sevilla","Sevilla",36,"neutral","neutral_04",12933,288,27,10.16
+"Manzanares el Real, Madrid","Madrid",36,"neutral","neutral_04",2530,78,6,2.56
+"Manzanares, Ciudad Real","Ciudad Real",36,"neutral","neutral_04",7729,160,8,6.12
+"Molins de Rei, Barcelona","Barcelona",37,"neutral","neutral_04",832,26,3,0.9
+"Moncada, Valencia","Valencia",37,"neutral","neutral_04",210,10,1,0.56
+"Mutxamel, Alicante","Alicante",37,"neutral","neutral_04",2577,66,6,2.06
+"Navia, Asturias","Asturias",37,"neutral","neutral_04",2221,48,3,1.98
+"O Grove, Pontevedra","Pontevedra",38,"neutral","neutral_04",2349,74,4,1.78
+"O Porriño, Pontevedra","Pontevedra",38,"neutral","neutral_04",6559,165,19,5.64
+"Oleiros, A Coruña","A Coruña",38,"neutral","neutral_04",9612,245,25,8.53
+"Picassent, Valencia","Valencia",38,"neutral","neutral_04",257,5,2,0.27
+"Pozuelo de Alarcón, Madrid","Madrid",39,"neutral","neutral_04",43955,1191,128,43.04
+"Premià de Dalt, Barcelona","Barcelona",39,"neutral","neutral_04",7002,152,20,4.93
+"Punta Umbría, Huelva","Huelva",39,"neutral","neutral_04",425,20,1,0.93
+"Ribadesella, Asturias","Asturias",39,"neutral","neutral_04",1245,44,5,1.95
+"Riudoms, Tarragona","Tarragona",40,"neutral","neutral_04",1734,58,4,1.54
+"San Lorenzo de El Escorial, Madrid","Madrid",40,"neutral","neutral_04",4266,102,5,3.09
+"San Martín de la Vega, Madrid","Madrid",40,"neutral","neutral_04",7478,199,14,5.69
+"Sant Vicenç de Montalt, Barcelona","Barcelona",40,"neutral","neutral_04",2066,47,2,1.38
+"Santa Susanna, Barcelona","Barcelona",41,"neutral","neutral_04",2780,58,6,1.86
+"Sóller, Baleares","Baleares",41,"neutral","neutral_04",2499,46,8,2.18
+"Toledo, Toledo","Toledo",41,"neutral","neutral_04",73175,1985,156,59.75
+"Tossa de Mar, Girona","Girona",41,"neutral","neutral_04",2925,80,6,3.01
+"Tres Cantos, Madrid","Madrid",42,"neutral","neutral_04",5568,154,18,5.16
+"Utebo, Zaragoza","Zaragoza",42,"neutral","neutral_04",167,10,1,0.58
+"Villanueva del Pardillo, Madrid","Madrid",42,"neutral","neutral_04",3972,115,11,3.37
+"Vinyols i els Arcs, Tarragona","Tarragona",42,"neutral","neutral_04",602,17,2,0.62
+"A Fonsagrada, Lugo","Lugo",48,"neutral","neutral_05",312,8,1,0.34
+"A Lama, Pontevedra","Pontevedra",48,"neutral","neutral_05",228,10,2,0.82
+"A Laracha, A Coruña","A Coruña",48,"neutral","neutral_05",1982,61,5,2.42
+"Aguilar de la Frontera, Córdoba","Córdoba",49,"neutral","neutral_05",2649,59,5,2.8
+"Ajalvir, Madrid","Madrid",49,"neutral","neutral_05",48,5,1,0.1
+"Alaquàs, Valencia","Valencia",49,"neutral","neutral_05",6559,178,15,6.76
+"Alaró, Baleares","Baleares",49,"neutral","neutral_05",1084,17,4,0.54
+"Albalat dels Sorells, Valencia","Valencia",50,"neutral","neutral_05",243,8,1,0.49
+"Albatera, Alicante","Alicante",50,"neutral","neutral_05",111,8,1,0.29
+"Alcalá la Real, Jaén","Jaén",50,"neutral","neutral_05",107,2,0,0.07
+"Alcantarilla, Murcia","Murcia",50,"neutral","neutral_05",6405,155,15,6.13
+"Alcázar de San Juan, Ciudad Real","Ciudad Real",51,"neutral","neutral_05",7513,202,21,9.14
+"Alcolea del Pinar, Guadalajara","Guadalajara",51,"neutral","neutral_05",109,4,1,0.22
+"Aldaia, Valencia","Valencia",51,"neutral","neutral_05",10963,277,32,11.76
+"Algaida, Baleares","Baleares",43,"neutral","neutral_05",1233,47,10,2.01
+"Algete, Madrid","Madrid",51,"neutral","neutral_05",60,8,2,0.34
+"Alhaurín el Grande, Málaga","Málaga",52,"neutral","neutral_05",138,5,0,0.36
+"Alió, Tarragona","Tarragona",52,"neutral","neutral_05",22,0,0,0
+"Almagro, Ciudad Real","Ciudad Real",52,"neutral","neutral_05",3495,81,7,2.67
+"Almendralejo, Badajoz","Badajoz",43,"neutral","neutral_05",7422,162,17,5.83
+"Almonaster la Real, Huelva","Huelva",52,"neutral","neutral_05",2870,56,7,3.1
+"Altafulla, Tarragona","Tarragona",43,"neutral","neutral_05",1673,57,8,2.21
+"Amorebieta-Etxano, Vizcaya","Vizcaya",44,"neutral","neutral_05",4589,143,15,5.11
+"Amurrio, Álava","Álava",53,"neutral","neutral_05",181,9,1,0.54
+"Andratx, Baleares","Baleares",44,"neutral","neutral_05",2432,45,4,1.59
+"Anglès, Girona","Girona",53,"neutral","neutral_05",1592,43,1,1.74
+"Bormujos, Sevilla","Sevilla",44,"neutral","neutral_05",6819,202,18,7.58
+"Calella, Barcelona","Barcelona",44,"neutral","neutral_05",5978,169,15,6.29
+"Corbera de Llobregat, Barcelona","Barcelona",45,"neutral","neutral_05",3696,112,10,4.32
+"Cuarte de Huerva, Zaragoza","Zaragoza",45,"neutral","neutral_05",2098,58,8,2.36
+"La Roca del Vallès, Barcelona","Barcelona",45,"neutral","neutral_05",9924,291,24,10.27
+"Lliçà de Vall, Barcelona","Barcelona",45,"neutral","neutral_05",5007,165,17,7.07
+"Los Alcázares, Murcia","Murcia",46,"neutral","neutral_05",1567,61,8,2.26
+"Mejorada del Campo, Madrid","Madrid",46,"neutral","neutral_05",7113,157,18,5.82
+"Palamós, Girona","Girona",46,"neutral","neutral_05",5695,173,20,6.48
+"Pinoso, Alicante","Alicante",46,"neutral","neutral_05",1413,36,4,1.36
+"Requena, Valencia","Valencia",47,"neutral","neutral_05",37,1,0,0.09
+"Roses, Girona","Girona",47,"neutral","neutral_05",6774,179,22,7.38
+"Sant Antoni de Portmany, Baleares","Baleares",47,"neutral","neutral_05",7014,204,21,7.48
+"Sant Joan de Labritja, Baleares","Baleares",47,"neutral","neutral_05",1036,29,2,1.03
+"Sitges, Barcelona","Barcelona",43,"neutral","neutral_05",6246,156,19,5.65
+"Tui, Pontevedra","Pontevedra",48,"neutral","neutral_05",3190,124,15,3.92
+"Arboleas, Almería","Almería",53,"neutral","neutral_06",0,0,0,0
+"Archena, Murcia","Murcia",53,"neutral","neutral_06",130,5,0,0.05
+"Ariany, Baleares","Baleares",54,"neutral","neutral_06",225,2,0,0.05
+"Armilla, Granada","Granada",54,"neutral","neutral_06",7501,202,19,7.1
+"Arratzu, Vizcaya","Vizcaya",54,"neutral","neutral_06",0,0,0,0
+"Arroyo de la Encomienda, Valladolid","Valladolid",54,"neutral","neutral_06",5734,146,15,5.5
+"Arteixo, A Coruña","A Coruña",55,"neutral","neutral_06",6002,146,15,6.45
+"As Pontes de García Rodríguez, A Coruña","A Coruña",55,"neutral","neutral_06",1683,39,7,1.85
+"As Somozas, A Coruña","A Coruña",55,"neutral","neutral_06",80,4,0,0.05
+"Astorga, León","León",55,"neutral","neutral_06",811,23,2,0.76
+"Baena, Córdoba","Córdoba",56,"neutral","neutral_06",0,0,0,0
+"Bailén, Jaén","Jaén",56,"neutral","neutral_06",6020,131,18,4.72
+"Baiona, Pontevedra","Pontevedra",56,"neutral","neutral_06",2078,69,6,2.79
+"Balaguer, Lleida","Lleida",56,"neutral","neutral_06",5901,135,11,4.84
+"Bárcena de Cicero, Cantabria","Cantabria",57,"neutral","neutral_06",1398,36,7,1.56
+"Baza, Granada","Granada",57,"neutral","neutral_06",6090,157,14,5.84
+"Beasain, Guipúzcoa","Guipúzcoa",57,"neutral","neutral_06",40,3,0,0.06
+"Belmonte de Miranda, Asturias","Asturias",57,"neutral","neutral_06",58,2,0,0.02
+"Benalup-Casas Viejas, Cádiz","Cádiz",58,"neutral","neutral_06",1869,42,9,2.21
+"Bergara, Guipúzcoa","Guipúzcoa",58,"neutral","neutral_06",3353,87,13,4.3
+"Bermeo, Vizcaya","Vizcaya",58,"neutral","neutral_06",22,2,1,0.03
+"Betanzos, A Coruña","A Coruña",58,"neutral","neutral_06",7282,175,18,8.02
+"Bollullos Par del Condado, Huelva","Huelva",59,"neutral","neutral_06",34,0,0,0
+"Bràfim, Tarragona","Tarragona",59,"neutral","neutral_06",0,0,0,0
+"Brenes, Sevilla","Sevilla",59,"neutral","neutral_06",26,1,0,0.01
+"Brunete, Madrid","Madrid",59,"neutral","neutral_06",2885,68,8,3.41
+"Burguillos del Cerro, Badajoz","Badajoz",60,"neutral","neutral_06",700,14,0,0.56
+"Busot, Alicante","Alicante",60,"neutral","neutral_06",818,15,0,0.65
+"Cabana de Bergantiños, A Coruña","A Coruña",60,"neutral","neutral_06",1121,23,1,0.94
+"Cabrils, Barcelona","Barcelona",60,"neutral","neutral_06",1668,54,9,2.12
+"Camaleño, Cantabria","Cantabria",61,"neutral","neutral_06",240,4,0,0.08
+"Cambre, A Coruña","A Coruña",61,"neutral","neutral_06",1881,46,2,1.41
+"Campoo de Yuso, Cantabria","Cantabria",61,"neutral","neutral_06",170,6,0,0.21
+"Canet de Mar, Barcelona","Barcelona",61,"neutral","neutral_06",1546,33,5,1
+"Cangas de Onís, Asturias","Asturias",62,"neutral","neutral_06",4067,86,8,3.21
+"Canyelles, Barcelona","Barcelona",62,"neutral","neutral_06",1884,50,7,2.13
+"Carballedo, Lugo","Lugo",62,"neutral","neutral_06",101,3,1,0.13
+"Cartelle, Ourense","Ourense",62,"neutral","neutral_06",427,10,0,0.17
+"Castroverde, Lugo","Lugo",63,"neutral","neutral_06",114,0,0,0
+"Caudete, Albacete","Albacete",63,"neutral","neutral_06",2816,68,3,2.53
+"Cazorla, Jaén","Jaén",63,"neutral","neutral_06",0,0,0,0
+"Cebanico, León","León",63,"neutral","neutral_06",0,0,0,0
+"Chantada, Lugo","Lugo",64,"neutral","neutral_07",1301,27,1,1.03
+"Colindres, Cantabria","Cantabria",64,"neutral","neutral_07",83,4,0,0.19
+"Consell, Baleares","Baleares",64,"neutral","neutral_07",732,23,5,0.7
+"Constantina, Sevilla","Sevilla",64,"neutral","neutral_07",0,0,0,0
+"Cortes de Baza, Granada","Granada",65,"neutral","neutral_07",382,7,0,0.24
+"Cox, Alicante","Alicante",65,"neutral","neutral_07",1483,33,2,1.3
+"Cubelles, Barcelona","Barcelona",65,"neutral","neutral_07",10386,231,23,9.07
+"Cuéllar, Segovia","Segovia",65,"neutral","neutral_07",2611,54,3,1.53
+"Daimús, Valencia","Valencia",66,"neutral","neutral_07",2181,64,5,2.18
+"Dolores, Alicante","Alicante",66,"neutral","neutral_07",122,8,1,0.31
+"Eivissa, Baleares","Baleares",66,"neutral","neutral_07",8290,167,21,8.08
+"El Álamo, Madrid","Madrid",66,"neutral","neutral_07",3554,76,7,3.49
+"El Catllar, Tarragona","Tarragona",67,"neutral","neutral_07",613,14,0,0.37
+"El Franco, Asturias","Asturias",67,"neutral","neutral_07",527,22,2,0.85
+"El Milà, Tarragona","Tarragona",67,"neutral","neutral_07",0,0,0,0
+"El Toro, Castellón","Castellón",67,"neutral","neutral_07",0,0,0,0
+"Es Castell, Baleares","Baleares",68,"neutral","neutral_07",1441,33,3,1.02
+"Eskoriatza, Guipúzcoa","Guipúzcoa",68,"neutral","neutral_07",0,0,0,0
+"Estellencs, Baleares","Baleares",68,"neutral","neutral_07",62,0,0,0
+"Ferreries, Baleares","Baleares",68,"neutral","neutral_07",41,0,0,0
+"Fiscal, Huesca","Huesca",69,"neutral","neutral_07",143,4,1,0.23
+"Fisterra, A Coruña","A Coruña",69,"neutral","neutral_07",4284,107,16,3.89
+"Friol, Lugo","Lugo",69,"neutral","neutral_07",427,16,1,0.38
+"Fuente Vaqueros, Granada","Granada",69,"neutral","neutral_07",2613,70,11,2.9
+"Galapagar, Madrid","Madrid",70,"neutral","neutral_07",7733,202,20,6.54
+"Gibraleón, Huelva","Huelva",70,"neutral","neutral_07",29132,617,66,27.54
+"Gironella, Barcelona","Barcelona",70,"neutral","neutral_07",1378,38,3,1.7
+"Gor, Granada","Granada",70,"neutral","neutral_07",195,4,0,0.2
+"Grado, Asturias","Asturias",71,"neutral","neutral_07",2588,62,9,2.81
+"Gualchos, Granada","Granada",71,"neutral","neutral_07",1879,50,1,1.91
+"Guissona, Lleida","Lleida",71,"neutral","neutral_07",31,3,0,0.18
+"Herrera, Sevilla","Sevilla",71,"neutral","neutral_07",1958,42,2,1.81
+"Huelva, Huelva","Huelva",72,"neutral","neutral_07",36811,881,107,36.51
+"Huétor Tájar, Granada","Granada",72,"neutral","neutral_07",3909,96,7,3.71
+"Icod de los Vinos, Santa Cruz de Tenerife","Santa Cruz de Tenerife",72,"neutral","neutral_07",7490,155,16,6.49
+"Igualada, Barcelona","Barcelona",72,"neutral","neutral_07",19913,565,51,20.03
+"Jódar, Jaén","Jaén",73,"neutral","neutral_07",0,0,0,0
+"Jumilla, Murcia","Murcia",73,"neutral","neutral_07",211,14,2,0.69
+"L'Aleixar, Tarragona","Tarragona",73,"neutral","neutral_07",422,15,2,0.69
+"L'Escala, Girona","Girona",73,"neutral","neutral_07",4617,125,10,5.26
+"La Algaba, Sevilla","Sevilla",74,"neutral","neutral_07",81,2,0,0.03
+"La Bañeza, León","León",74,"neutral","neutral_07",3365,76,3,3.32
+"La Matanza de Acentejo, Santa Cruz de Tenerife","Santa Cruz de Tenerife",74,"neutral","neutral_08",2179,56,10,3.05
+"La Orotava, Santa Cruz de Tenerife","Santa Cruz de Tenerife",74,"neutral","neutral_08",13669,311,25,14.09
+"La Pobla Llarga, Valencia","Valencia",75,"neutral","neutral_08",1055,21,1,0.93
+"La Puebla de Cazalla, Sevilla","Sevilla",75,"neutral","neutral_08",1,0,0,0
+"La Rambla, Córdoba","Córdoba",75,"neutral","neutral_08",0,0,0,0
+"La Riba, Tarragona","Tarragona",75,"neutral","neutral_08",49,1,0,0.01
+"La Selva del Camp, Tarragona","Tarragona",76,"neutral","neutral_08",1898,38,7,1.81
+"La Solana, Ciudad Real","Ciudad Real",76,"neutral","neutral_08",28,0,0,0
+"Las Torres de Cotillas, Murcia","Murcia",76,"neutral","neutral_08",9782,205,18,6.86
+"Laspaúles, Huesca","Huesca",76,"neutral","neutral_08",56,2,0,0.03
+"Leioa, Vizcaya","Vizcaya",77,"neutral","neutral_08",9913,268,34,11.57
+"Lepe, Huelva","Huelva",77,"neutral","neutral_08",11591,255,22,10.62
+"Lezo, Guipúzcoa","Guipúzcoa",77,"neutral","neutral_08",1346,39,5,2.14
+"Llubí, Baleares","Baleares",77,"neutral","neutral_08",428,16,5,0.67
+"Los Corrales de Buelna, Cantabria","Cantabria",78,"neutral","neutral_08",0,0,0,0
+"Los Montesinos, Alicante","Alicante",78,"neutral","neutral_08",611,17,2,0.64
+"Los Realejos, Santa Cruz de Tenerife","Santa Cruz de Tenerife",78,"neutral","neutral_08",5993,122,16,5.52
+"Macael, Almería","Almería",78,"neutral","neutral_08",1849,37,1,1.08
+"Mancor de la Vall, Baleares","Baleares",79,"neutral","neutral_08",464,4,0,0.08
+"Manilva, Málaga","Málaga",79,"neutral","neutral_08",7681,205,23,8.28
+"Maria de la Salut, Baleares","Baleares",79,"neutral","neutral_08",436,14,1,0.39
+"Martos, Jaén","Jaén",79,"neutral","neutral_08",105,3,0,0.15
+"Massamagrell, Valencia","Valencia",80,"neutral","neutral_08",84,8,0,0.37
+"Massanassa, Valencia","Valencia",80,"neutral","neutral_08",262,14,5,0.9
+"Mazarrón, Murcia","Murcia",80,"neutral","neutral_08",17531,387,38,15.35
+"Meco, Madrid","Madrid",80,"neutral","neutral_08",4217,78,8,2.89
+"Medina del Campo, Valladolid","Valladolid",81,"neutral","neutral_08",6462,132,13,6.39
+"Meira, Lugo","Lugo",81,"neutral","neutral_08",468,14,0,0.55
+"Meis, Pontevedra","Pontevedra",81,"neutral","neutral_08",1428,32,3,0.96
+"Miguelturra, Ciudad Real","Ciudad Real",81,"neutral","neutral_08",27,1,0,0.01
+"Mislata, Valencia","Valencia",82,"neutral","neutral_08",0,0,0,0
+"Mogán, Las Palmas","Las Palmas",82,"neutral","neutral_08",6060,176,23,7.77
+"Mollina, Málaga","Málaga",82,"neutral","neutral_08",1118,19,6,2.09
+"Montblanc, Tarragona","Tarragona",82,"neutral","neutral_08",1878,46,2,1.51
+"Monterroso, Lugo","Lugo",83,"neutral","neutral_08",329,10,1,0.4
+"Montuïri, Baleares","Baleares",83,"neutral","neutral_08",564,11,2,0.35
+"Morata de Tajuña, Madrid","Madrid",83,"neutral","neutral_08",3683,83,8,3.38
+"Náquera, Valencia","Valencia",83,"neutral","neutral_08",3471,87,9,3.6
+"Navalcarnero, Madrid","Madrid",84,"neutral","neutral_08",10535,228,25,8.3
+"Noreña, Asturias","Asturias",84,"neutral","neutral_08",0,0,0,0
+"O Saviñao, Lugo","Lugo",84,"neutral","neutral_08",404,10,1,0.33
+"Olesa de Montserrat, Barcelona","Barcelona",84,"neutral","neutral_08",6752,164,16,6.63
+"Ólvega, Soria","Soria",85,"neutral","neutral_09",398,8,1,0.18
+"Oñati, Guipúzcoa","Guipúzcoa",85,"neutral","neutral_09",2637,78,8,2.82
+"Ondarroa, Vizcaya","Vizcaya",85,"neutral","neutral_09",0,0,0,0
+"Orba, Alicante","Alicante",85,"neutral","neutral_09",884,23,3,0.52
+"Oroso, A Coruña","A Coruña",86,"neutral","neutral_09",655,19,3,0.59
+"Paiporta, Valencia","Valencia",86,"neutral","neutral_09",5198,151,18,5.82
+"Palazuelos de Eresma, Segovia","Segovia",86,"neutral","neutral_09",314,11,1,0.41
+"Palencia, Palencia","Palencia",86,"neutral","neutral_09",23082,527,49,19.25
+"Palomares del Río, Sevilla","Sevilla",87,"neutral","neutral_09",5537,139,18,4.63
+"Pals, Girona","Girona",87,"neutral","neutral_09",1120,27,1,1
+"Paracuellos de Jarama, Madrid","Madrid",87,"neutral","neutral_09",4797,153,9,5.26
+"Petra, Baleares","Baleares",87,"neutral","neutral_09",577,17,2,0.8
+"Pol, Lugo","Lugo",88,"neutral","neutral_09",67,1,0,0.04
+"Porreres, Baleares","Baleares",88,"neutral","neutral_09",858,21,1,0.54
+"Portomarín, Lugo","Lugo",88,"neutral","neutral_09",278,8,2,0.23
+"Potes, Cantabria","Cantabria",88,"neutral","neutral_09",583,11,1,0.48
+"Puebla de Lillo, León","León",89,"neutral","neutral_09",77,0,0,0
+"Puente Genil, Córdoba","Córdoba",89,"neutral","neutral_09",7776,176,24,7.59
+"Puigcerdà, Girona","Girona",89,"neutral","neutral_09",2109,47,3,2.04
+"Quesada, Jaén","Jaén",89,"neutral","neutral_09",2433,43,2,1.31
+"Redován, Alicante","Alicante",90,"neutral","neutral_09",2041,58,4,2.3
+"Reinosa, Cantabria","Cantabria",90,"neutral","neutral_09",2002,54,8,2.42
+"Renau, Tarragona","Tarragona",90,"neutral","neutral_09",0,0,0,0
+"Ribadeo, Lugo","Lugo",90,"neutral","neutral_09",1688,34,6,1.18
+"Rioja, Almería","Almería",91,"neutral","neutral_09",0,0,0,0
+"Salas, Asturias","Asturias",91,"neutral","neutral_09",704,25,4,1.16
+"Salvador de Zapardiel, Valladolid","Valladolid",91,"neutral","neutral_09",0,0,0,0
+"Samos, Lugo","Lugo",91,"neutral","neutral_09",32,4,0,0.05
+"San Bartolomé, Las Palmas","Las Palmas",92,"neutral","neutral_09",2209,45,5,1.83
+"San Fernando de Henares, Madrid","Madrid",92,"neutral","neutral_09",632,24,3,1.11
+"San Isidro, Alicante","Alicante",92,"neutral","neutral_09",245,12,2,0.84
+"San Martín del Rey Aurelio, Asturias","Asturias",92,"neutral","neutral_09",5337,140,7,5.2
+"Sandiás, Ourense","Ourense",93,"neutral","neutral_09",172,4,1,0.15
+"Sant Adrià de Besòs, Barcelona","Barcelona",93,"neutral","neutral_09",83908,2302,239,90.11
+"Sant Joan, Baleares","Baleares",93,"neutral","neutral_09",319,3,0,0.12
+"Sant Llorenç des Cardassar, Baleares","Baleares",93,"neutral","neutral_09",4191,100,7,3.37
+"Santa Bàrbara, Tarragona","Tarragona",94,"neutral","neutral_09",0,0,0,0
+"Santa Eugènia, Baleares","Baleares",94,"neutral","neutral_09",248,14,0,0.32
+"Santa Maria de Palautordera, Barcelona","Barcelona",94,"neutral","neutral_09",4208,116,6,4.12
+"Santa Perpètua de Mogoda, Barcelona","Barcelona",94,"neutral","neutral_09",7857,223,33,7.83
+"Santiago del Teide, Santa Cruz de Tenerife","Santa Cruz de Tenerife",95,"neutral","neutral_09",2756,80,8,4.06
+"Santomera, Murcia","Murcia",95,"neutral","neutral_09",150,3,0,0.03
+"Segorbe, Castellón","Castellón",95,"neutral","neutral_10",15,1,0,0.02
+"Selva, Baleares","Baleares",95,"neutral","neutral_10",781,8,0,0.2
+"Sencelles, Baleares","Baleares",96,"neutral","neutral_10",811,18,1,0.7
+"Ses Salines, Baleares","Baleares",96,"neutral","neutral_10",1244,44,8,2.52
+"Seseña, Toledo","Toledo",96,"neutral","neutral_10",9746,211,7,6.95
+"Sevilla la Nueva, Madrid","Madrid",96,"neutral","neutral_10",2142,64,5,2.54
+"Socuéllamos, Ciudad Real","Ciudad Real",97,"neutral","neutral_10",3206,72,3,2.33
+"Sotillo de la Adrada, Ávila","Ávila",97,"neutral","neutral_10",1518,38,3,1.27
+"Soto del Real, Madrid","Madrid",97,"neutral","neutral_10",1393,30,2,1.14
+"Tapia de Casariego, Asturias","Asturias",97,"neutral","neutral_10",1585,63,7,2.49
+"Tembleque, Toledo","Toledo",98,"neutral","neutral_10",0,0,0,0
+"Teo, A Coruña","A Coruña",98,"neutral","neutral_10",2679,65,12,4.13
+"Tineo, Asturias","Asturias",98,"neutral","neutral_10",1131,25,3,0.96
+"Tomares, Sevilla","Sevilla",98,"neutral","neutral_10",19511,514,57,20.54
+"Tona, Barcelona","Barcelona",99,"neutral","neutral_10",1326,38,3,1.05
+"Toro, Zamora","Zamora",99,"neutral","neutral_10",1813,29,3,0.69
+"Torredonjimeno, Jaén","Jaén",99,"neutral","neutral_10",13,0,0,0
+"Torrejón del Rey, Guadalajara","Guadalajara",99,"neutral","neutral_10",2593,51,6,2.04
+"Torrelaguna, Madrid","Madrid",100,"neutral","neutral_10",0,0,0,0
+"Turre, Almería","Almería",100,"neutral","neutral_10",0,0,0,0
+"Úbeda, Jaén","Jaén",100,"neutral","neutral_10",192,6,0,0.23
+"Ubrique, Cádiz","Cádiz",100,"neutral","neutral_10",3433,89,12,3.97
+"Urduña-Orduña, Álava","Álava",101,"neutral","neutral_10",688,22,2,0.75
+"Urnieta, Guipúzcoa","Guipúzcoa",101,"neutral","neutral_10",0,0,0,0
+"Valdeavero, Madrid","Madrid",101,"neutral","neutral_10",793,21,2,0.82
+"Valdemorillo, Madrid","Madrid",101,"neutral","neutral_10",3833,69,5,2.52
+"Valencina de la Concepción, Sevilla","Sevilla",102,"neutral","neutral_10",3281,91,13,3.22
+"Vallehermoso, Santa Cruz de Tenerife","Santa Cruz de Tenerife",102,"neutral","neutral_10",1215,25,1,0.72
+"Vedra, A Coruña","A Coruña",102,"neutral","neutral_10",1155,27,2,1.12
+"Verea, Ourense","Ourense",102,"neutral","neutral_10",825,14,2,0.49
+"Vespella de Gaià, Tarragona","Tarragona",103,"neutral","neutral_10",243,7,0,0.38
+"Vilabella, Tarragona","Tarragona",103,"neutral","neutral_10",19,0,0,0
+"Vilamartín de Valdeorras, Ourense","Ourense",103,"neutral","neutral_10",193,5,0,0.29
+"Villabona, Guipúzcoa","Guipúzcoa",103,"neutral","neutral_10",209,10,0,0.41
+"Villafranca de los Barros, Badajoz","Badajoz",104,"neutral","neutral_10",2505,68,5,2.34
+"Villamantilla, Madrid","Madrid",104,"neutral","neutral_10",419,7,1,0.27
+"Villanueva de la Cañada, Madrid","Madrid",104,"neutral","neutral_10",3386,89,11,2.66
+"Villanueva de Oscos, Asturias","Asturias",104,"neutral","neutral_10",0,0,0,0
+"Villarejo de Salvanés, Madrid","Madrid",105,"neutral","neutral_10",2470,67,5,2.61
+"Villarrubia de los Ojos, Ciudad Real","Ciudad Real",105,"neutral","neutral_10",2518,46,3,1.62
+"Villaverde del Río, Sevilla","Sevilla",105,"neutral","neutral_10",2520,52,5,2.24
+"Yecla, Murcia","Murcia",105,"neutral","neutral_10",7729,187,21,7.27
+"Donostia-San Sebastián, Guipúzcoa","Guipúzcoa",1,"no_ad",NA,NA,NA,NA,NA
+"Cangas, Pontevedra","Pontevedra",2,"no_ad",NA,NA,NA,NA,NA
+"Tarragona, Tarragona","Tarragona",3,"no_ad",NA,NA,NA,NA,NA
+"Castellón de la Plana, Castellón","Castellón",4,"no_ad",NA,NA,NA,NA,NA
+"Santa Cruz de Tenerife, Santa Cruz de Tenerife","Santa Cruz de Tenerife",5,"no_ad",NA,NA,NA,NA,NA
+"Granollers, Barcelona","Barcelona",6,"no_ad",NA,NA,NA,NA,NA
+"Mataró, Barcelona","Barcelona",7,"no_ad",NA,NA,NA,NA,NA
+"Benalmádena, Málaga","Málaga",8,"no_ad",NA,NA,NA,NA,NA
+"El Campello, Alicante","Alicante",9,"no_ad",NA,NA,NA,NA,NA
+"León, León","León",10,"no_ad",NA,NA,NA,NA,NA
+"Alhaurín de la Torre, Málaga","Málaga",12,"no_ad",NA,NA,NA,NA,NA
+"Almenara, Castellón","Castellón",16,"no_ad",NA,NA,NA,NA,NA
+"Avilés, Asturias","Asturias",13,"no_ad",NA,NA,NA,NA,NA
+"Calvià, Baleares","Baleares",11,"no_ad",NA,NA,NA,NA,NA
+"Chiva, Valencia","Valencia",17,"no_ad",NA,NA,NA,NA,NA
+"Godelleta, Valencia","Valencia",18,"no_ad",NA,NA,NA,NA,NA
+"Haro, La Rioja","La Rioja",14,"no_ad",NA,NA,NA,NA,NA
+"Móstoles, Madrid","Madrid",15,"no_ad",NA,NA,NA,NA,NA
+"Sant Josep de sa Talaia, Baleares","Baleares",19,"no_ad",NA,NA,NA,NA,NA
+"Aljaraque, Huelva","Huelva",29,"no_ad",NA,NA,NA,NA,NA
+"Arcos de la Frontera, Cádiz","Cádiz",22,"no_ad",NA,NA,NA,NA,NA
+"Buñol, Valencia","Valencia",30,"no_ad",NA,NA,NA,NA,NA
+"Callosa de Segura, Alicante","Alicante",31,"no_ad",NA,NA,NA,NA,NA
+"Carballo, A Coruña","A Coruña",32,"no_ad",NA,NA,NA,NA,NA
+"Castrillón, Asturias","Asturias",23,"no_ad",NA,NA,NA,NA,NA
+"Conil de la Frontera, Cádiz","Cádiz",24,"no_ad",NA,NA,NA,NA,NA
+"Coria del Río, Sevilla","Sevilla",33,"no_ad",NA,NA,NA,NA,NA
+"Fraga, Huesca","Huesca",25,"no_ad",NA,NA,NA,NA,NA
+"Gáldar, Las Palmas","Las Palmas",34,"no_ad",NA,NA,NA,NA,NA
+"La Pobla de Montornès, Tarragona","Tarragona",35,"no_ad",NA,NA,NA,NA,NA
+"Lloret de Mar, Girona","Girona",20,"no_ad",NA,NA,NA,NA,NA
+"Mérida, Badajoz","Badajoz",21,"no_ad",NA,NA,NA,NA,NA
+"Mieres, Asturias","Asturias",36,"no_ad",NA,NA,NA,NA,NA
+"Monforte de Lemos, Lugo","Lugo",26,"no_ad",NA,NA,NA,NA,NA
+"O Carballiño, Ourense","Ourense",37,"no_ad",NA,NA,NA,NA,NA
+"Pineda de Mar, Barcelona","Barcelona",38,"no_ad",NA,NA,NA,NA,NA
+"Polinyà, Barcelona","Barcelona",39,"no_ad",NA,NA,NA,NA,NA
+"Puerto de la Cruz, Santa Cruz de Tenerife","Santa Cruz de Tenerife",27,"no_ad",NA,NA,NA,NA,NA
+"Sant Feliu de Guíxols, Girona","Girona",40,"no_ad",NA,NA,NA,NA,NA
+"Solsona, Lleida","Lleida",41,"no_ad",NA,NA,NA,NA,NA
+"Tacoronte, Santa Cruz de Tenerife","Santa Cruz de Tenerife",28,"no_ad",NA,NA,NA,NA,NA
+"Vilanova del Camí, Barcelona","Barcelona",42,"no_ad",NA,NA,NA,NA,NA
+"A Pobra do Brollón, Lugo","Lugo",48,"no_ad",NA,NA,NA,NA,NA
+"Abegondo, A Coruña","A Coruña",49,"no_ad",NA,NA,NA,NA,NA
+"Albal, Valencia","Valencia",50,"no_ad",NA,NA,NA,NA,NA
+"Alcóntar, Almería","Almería",51,"no_ad",NA,NA,NA,NA,NA
+"Almussafes, Valencia","Valencia",52,"no_ad",NA,NA,NA,NA,NA
+"Antas de Ulla, Lugo","Lugo",53,"no_ad",NA,NA,NA,NA,NA
+"Arrigorriaga, Vizcaya","Vizcaya",44,"no_ad",NA,NA,NA,NA,NA
+"Artà, Baleares","Baleares",54,"no_ad",NA,NA,NA,NA,NA
+"Arzúa, A Coruña","A Coruña",55,"no_ad",NA,NA,NA,NA,NA
+"Azpeitia, Guipúzcoa","Guipúzcoa",56,"no_ad",NA,NA,NA,NA,NA
+"Becerreá, Lugo","Lugo",57,"no_ad",NA,NA,NA,NA,NA
+"Bernedo, Álava","Álava",58,"no_ad",NA,NA,NA,NA,NA
+"Bolaños de Calatrava, Ciudad Real","Ciudad Real",59,"no_ad",NA,NA,NA,NA,NA
+"Burguillos, Sevilla","Sevilla",60,"no_ad",NA,NA,NA,NA,NA
+"Campo Lameiro, Pontevedra","Pontevedra",61,"no_ad",NA,NA,NA,NA,NA
+"Carlet, Valencia","Valencia",62,"no_ad",NA,NA,NA,NA,NA
+"Castellvell del Camp, Tarragona","Tarragona",63,"no_ad",NA,NA,NA,NA,NA
+"Consuegra, Toledo","Toledo",64,"no_ad",NA,NA,NA,NA,NA
+"Cudillero, Asturias","Asturias",65,"no_ad",NA,NA,NA,NA,NA
+"Daimiel, Ciudad Real","Ciudad Real",66,"no_ad",NA,NA,NA,NA,NA
+"El Escorial, Madrid","Madrid",67,"no_ad",NA,NA,NA,NA,NA
+"Els Poblets, Alicante","Alicante",68,"no_ad",NA,NA,NA,NA,NA
+"Firgas, Las Palmas","Las Palmas",69,"no_ad",NA,NA,NA,NA,NA
+"Gernika-Lumo, Vizcaya","Vizcaya",70,"no_ad",NA,NA,NA,NA,NA
+"Guixers, Lleida","Lleida",71,"no_ad",NA,NA,NA,NA,NA
+"Hondarribia, Guipúzcoa","Guipúzcoa",43,"no_ad",NA,NA,NA,NA,NA
+"Humanes de Madrid, Madrid","Madrid",72,"no_ad",NA,NA,NA,NA,NA
+"Junta de Traslaloma, Burgos","Burgos",73,"no_ad",NA,NA,NA,NA,NA
+"La Carlota, Córdoba","Córdoba",74,"no_ad",NA,NA,NA,NA,NA
+"La Peña, Salamanca","Salamanca",75,"no_ad",NA,NA,NA,NA,NA
+"Lasarte-Oria, Guipúzcoa","Guipúzcoa",45,"no_ad",NA,NA,NA,NA,NA
+"Legazpi, Guipúzcoa","Guipúzcoa",76,"no_ad",NA,NA,NA,NA,NA
+"Loiu, Vizcaya","Vizcaya",77,"no_ad",NA,NA,NA,NA,NA
+"Los Molinos, Madrid","Madrid",78,"no_ad",NA,NA,NA,NA,NA
+"Malpica de Bergantiños, A Coruña","A Coruña",79,"no_ad",NA,NA,NA,NA,NA
+"Maracena, Granada","Granada",46,"no_ad",NA,NA,NA,NA,NA
+"Masllorenç, Tarragona","Tarragona",80,"no_ad",NA,NA,NA,NA,NA
+"Méntrida, Toledo","Toledo",81,"no_ad",NA,NA,NA,NA,NA
+"Montánchez, Cáceres","Cáceres",82,"no_ad",NA,NA,NA,NA,NA
+"Muxía, A Coruña","A Coruña",83,"no_ad",NA,NA,NA,NA,NA
+"Narón, A Coruña","A Coruña",84,"no_ad",NA,NA,NA,NA,NA
+"Olvera, Cádiz","Cádiz",85,"no_ad",NA,NA,NA,NA,NA
+"Osuna, Sevilla","Sevilla",86,"no_ad",NA,NA,NA,NA,NA
+"Pinos Puente, Granada","Granada",87,"no_ad",NA,NA,NA,NA,NA
+"Pozo Alcón, Jaén","Jaén",88,"no_ad",NA,NA,NA,NA,NA
+"Pravia, Asturias","Asturias",89,"no_ad",NA,NA,NA,NA,NA
+"Rafal, Alicante","Alicante",90,"no_ad",NA,NA,NA,NA,NA
+"Sa Pobla, Baleares","Baleares",91,"no_ad",NA,NA,NA,NA,NA
+"San Miguel de Salinas, Alicante","Alicante",92,"no_ad",NA,NA,NA,NA,NA
+"Sant Feliu de Llobregat, Barcelona","Barcelona",47,"no_ad",NA,NA,NA,NA,NA
+"Sant Lluís, Baleares","Baleares",93,"no_ad",NA,NA,NA,NA,NA
+"Sant Pere Pescador, Girona","Girona",94,"no_ad",NA,NA,NA,NA,NA
+"Santo Domingo de la Calzada, La Rioja","La Rioja",95,"no_ad",NA,NA,NA,NA,NA
+"Silla, Valencia","Valencia",96,"no_ad",NA,NA,NA,NA,NA
+"Sollana, Valencia","Valencia",97,"no_ad",NA,NA,NA,NA,NA
+"Teror, Las Palmas","Las Palmas",98,"no_ad",NA,NA,NA,NA,NA
+"Torelló, Barcelona","Barcelona",99,"no_ad",NA,NA,NA,NA,NA
+"Torrijos, Toledo","Toledo",100,"no_ad",NA,NA,NA,NA,NA
+"Vacarisses, Barcelona","Barcelona",101,"no_ad",NA,NA,NA,NA,NA
+"Valdés, Asturias","Asturias",102,"no_ad",NA,NA,NA,NA,NA
+"Vilassar de Dalt, Barcelona","Barcelona",103,"no_ad",NA,NA,NA,NA,NA
+"Villanueva de la Serena, Badajoz","Badajoz",104,"no_ad",NA,NA,NA,NA,NA
+"Zafra, Badajoz","Badajoz",105,"no_ad",NA,NA,NA,NA,NA
+"Zalla, Vizcaya","Vizcaya",106,"no_ad",NA,NA,NA,NA,NA
+"Zamudio, Vizcaya","Vizcaya",106,"no_ad",NA,NA,NA,NA,NA
+"Zas, A Coruña","A Coruña",106,"no_ad",NA,NA,NA,NA,NA
+"Zumarraga, Guipúzcoa","Guipúzcoa",106,"no_ad",NA,NA,NA,NA,NA

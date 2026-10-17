@@ -94,6 +94,9 @@ fully documented.
 | `data/raw/google_ads_geotargets-2026-07-16.csv` | full path only, step 1 | Google, dated snapshot (see above) |
 | `data/raw/gadm/gadm41_ESP_4_pk.rds` | full path only, step 2 | `geodata::gadm()` (see above) |
 | `data/raw/mosquito_alert_raw_reports.Rds` | authors only — builds the reporter counts | not distributed |
+| `data/raw/participants_spain_{municipality,province}_aug_windows_2026-10.csv` | step 5: the October 2026 extracts with both 2026 windows complete (the deposited August files are never overwritten) | Zenodo v2 deposit (pending) |
+| `data/raw/participants_spain_{municipality,province}_aug_windows_presence_2026-10.csv` | step 5: presence-attributed counts for the tertiary outcome | Zenodo v2 deposit (pending) |
+| `data/google_ads/*.csv` | steps 5–6: Google Ads account exports (delivery by location, by campaign and day, by ad group) | authors only; condensed into the committed `delivery_by_*_2026.csv` and `orientation_delivery_2026.csv` |
 
 ### Outcome attribution
 
@@ -262,6 +265,41 @@ inference — labels permuted **within blocks**, the design's own randomization
 distribution — as the primary p-value, HC3 alongside, and confidence intervals
 by exact inversion of the permutation test under a constant additive shift.
 `--calibrate` verifies the committed code's Type I error end-to-end.
+
+The 2026 analysis of record (15–16 October 2026; declarations, sequence and
+extraction provenance in `docs/operations/analysis-log-2026.md`) ran these, in
+this order; the committed outputs under `analysis/r/output/` are the record:
+
+```bash
+Rscript analysis/r/04_results/fix_min_delivery_subset.R       # minimum-delivery subset, fixed before any outcome file was opened
+Rscript analysis/r/04_results/prepare_outcomes_2026.R         # outcomes_2026.csv (+ checks) from the October extracts
+Rscript analysis/r/03_randomization/analyse_assignment.R --outcomes=analysis/r/output/outcomes_2026.csv                    # primary_results_2026_tracks.log
+Rscript analysis/r/03_randomization/analyse_assignment.R --outcomes=analysis/r/output/outcomes_2026.csv --outcome=reports  # primary_results_2026_reports.log
+Rscript analysis/r/04_results/secondary_analyses_2026.R       # secondary_results_2026.csv
+Rscript analysis/r/04_results/orientation_delivery_2026.R     # orientation_delivery_2026.csv, from the ad-group export
+Rscript analysis/r/04_results/export_delivery_tables_2026.R   # delivery_by_municipality_2026.csv, delivery_by_campaign_day_2026.csv
+```
+
+The first two and the last two read local inputs (the October participant
+extracts and the Google Ads exports; see "Inputs at a glance"). Everything
+after `prepare_outcomes_2026.R` reads only committed files, so a fresh clone
+can re-run the primary and secondary analyses from `outcomes_2026.csv`
+directly.
+
+### 6. Figures and tables for the article
+
+```bash
+Rscript analysis/r/05_figures/make_figures_2026.R
+bash analysis/r/05_figures/sync_to_article.sh    # copies them into the manuscript repository
+```
+
+Reads only committed outputs of steps 3 and 5, the participant window counts
+and the GADM boundaries, and computes no inference: every estimate, p-value
+and interval in a figure or table is read from the files the analysis scripts
+wrote. Writes `analysis/r/output/figures/` (PDF, with a PNG preview of each)
+and `analysis/r/output/tables/` (booktabs fragments for `\input`). The table
+fragments are byte-identical across runs; the figures render identically (the
+PDF bytes themselves are not stable).
 
 ## Design summary
 

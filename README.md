@@ -79,6 +79,9 @@ advertising create participation where none exists?
 │   ├── 02_power/              power analyses (primary and reporting outcomes)
 │   ├── 03_randomization/      treatment assignment, pre-registered analysis,
 │   │                          and the campaign-verification script
+│   ├── 04_results/            2026 outcome preparation, secondary analyses
+│   │                          and the derived delivery tables
+│   ├── 05_figures/            article figures and LaTeX table fragments
 │   ├── archive/               earlier design explorations, superseded
 │   └── output/                generated files; the committed subset is the
 │                              public record of the experiment
